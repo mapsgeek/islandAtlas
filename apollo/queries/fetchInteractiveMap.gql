@@ -1,0 +1,6 @@
+query InteractiveMap ($id: String, $island: String){
+  map(where: {id: {_eq: $id},island: {_eq: $island}}) {
+    interactiveMapURL,
+    metaName
+  }
+}

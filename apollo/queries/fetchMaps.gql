@@ -1,0 +1,21 @@
+query maps ($theme:String, $island: String){
+  groups(order_by: {id: asc}, where: {mapsByGroupsId: {island: {_eq: $island}, theme: {_eq: $theme}}}) {
+    id
+    name
+    categorysByGroupsId(order_by: {id: asc}, where: {mapsByCategoryId: {island: {_eq: $island}}}) {
+      id
+      name
+      mapsByCategoryId(order_by: {id: asc},where: {island: {_eq: $island}}) {
+        title
+        fileName
+        decription
+        interactiveMapURL
+        id
+        theme
+        gisName
+        metaName
+        island
+      }
+    }
+  }
+}
