@@ -19,10 +19,10 @@
                 <nuxt-link :to="`${theme}/map/${map.fileName}`" class="ant-dropdown-link">
                   View Map
                 </nuxt-link>
-                <nuxt-link :to="`${theme}/interactive/${map.fileName}`" class="ant-dropdown-link">
+                <nuxt-link :to="`${theme}/interactive/${map.id}`" class="ant-dropdown-link">
                   View Layers
                 </nuxt-link>
-                <nuxt-link :to="`${theme}/metadata/${map.fileName}`" class="ant-dropdown-link">
+                <nuxt-link :to="`${theme}/metadata/${map.id}`" class="ant-dropdown-link">
                   View Metadata
                 </nuxt-link>
                 <a-dropdown placement="bottomCenter" :trigger="['hover']">

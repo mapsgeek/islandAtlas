@@ -1,11 +1,14 @@
 import AntdDayjsWebpackPlugin from 'antd-dayjs-webpack-plugin';
 
 export default {
-  mode: "universal",
-  // target: 'static',
+  // mode: "universal",
+  target: 'static',
+  router: {
+    base: '/test/'
+  },
   /*
-  ** Headers of the page
-  */
+** Headers of the page
+*/
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -43,6 +46,7 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
+  // buildDir: 'dist',
   buildModules: [
   ],
   /*

@@ -15,7 +15,7 @@ export default {
       query: InteractiveMap,
       prefetch: ({ route }) => ({ id: route.params.id }),
       variables() {
-        return { id: `2-${this.$route.params.id}`, island: "kosrae" }
+        return { id: `${this.$route.params.id}`, island: "kosrae" }
       }
     },
   },
