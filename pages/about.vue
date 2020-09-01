@@ -188,7 +188,55 @@
                       Theme menu
                     </p>
                   </div>
-                  <img style="margin-top: -110px;z-index: -1 !important;position: relative;" src="~assets/images/7-min.png" alt="">
+                  <img style="margin-top: -100px;z-index: -1 !important;position: relative;" src="~assets/images/7-min.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="~assets/images/intro-card8-image.png" alt="">
+                <h3>RESPONSIVE DESIGN</h3>
+                <p style="color:#d43e3e;font-weight:500">
+                  useful on any device in any size
+                </p>
+                <p>
+                  This atlas uses responsive web design. It can be utilized equally well on many different platforms. You can view it on large desktop monitors as well as portable devices, including notebook computers, tablets, and mobile phones. The atlas layout and functionality adjusts to your browser, operating system, and screen size and resolution.
+                </p>
+              </div>
+              <div class="card-back">
+                <div style="background:#d43e3e;padding:20px;color:white">
+                  <p>
+                    You can use this atlas in the office, at home, or on the go.
+                  </p>
+                </div>
+                <div class="back-content">
+                  <img style="" src="~assets/images/8-min.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="~assets/images/intro-card9-image.png" alt="">
+                <h3>UPDATABLE AND FRESH</h3>
+                <p style="color:#2f81ba;font-weight:500">
+                  CONTENT KEPT RELEVANT AND UP-TO-DATE
+                </p>
+                <p>
+                  The user interface of this atlas is deliberately kept nearly constant so that it can remain familiar and easily accessible. However, the content within is regularly updated. Users will always get the latest versions of the data. Like fruits growing and maturing on a tree, new data is included here as soon as it is available, “ripe,” and ready to use.
+                </p>
+              </div>
+              <div class="card-back">
+                <div style="background:#2f81ba;padding:20px;color:white">
+                  <p>
+                    The Digital Atlas of Micronesia is a continually maintained and growing resource.
+                  </p>
+                </div>
+                <div class="back-content">
+                  <img style="" src="~assets/images/backofcard9.png" alt="">
                 </div>
               </div>
             </div>
@@ -233,7 +281,7 @@ export default {
 }
 
 .card {
-  height: 600px;
+  height: 570px;
   width: 100%;
   box-shadow: 0px 3px 5px 1px #e6e6e6;
   perspective: 1000px;

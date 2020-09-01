@@ -31,3 +31,15 @@ export {
 export {
   default as CaretDownFill
 } from '@ant-design/icons/lib/fill/CaretDownFill'
+export {
+  default as FacebookFill
+} from '@ant-design/icons/lib/fill/FacebookFill'
+export {
+  default as YoutubeFill
+} from '@ant-design/icons/lib/fill/YoutubeFill'
+export {
+  default as IeCircleFill
+} from '@ant-design/icons/lib/fill/IeCircleFill'
+export {
+  default as PhoneFill
+} from '@ant-design/icons/lib/fill/PhoneFill'

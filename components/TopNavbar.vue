@@ -32,18 +32,18 @@
                   Gallery
                 </nuxt-link>
               </a-menu-item>
-              <a-menu-item>
+              <!-- <a-menu-item>
                 <nuxt-link to="interactive-map">
                   <img class="imgIcon" src="~assets/icons/sitemapblack.png">
                   Site Map
                 </nuxt-link>
-              </a-menu-item>
-              <a-menu-item>
+              </a-menu-item> -->
+              <!-- <a-menu-item>
                 <nuxt-link to="search">
                   <img class="imgIcon" src="~assets/icons/searchblack.png">
                   Search
                 </nuxt-link>
-              </a-menu-item>
+              </a-menu-item> -->
               <a-menu-item>
                 <nuxt-link to="about">
                   <img class="imgIcon" src="~assets/icons/aboutblack.png">
@@ -51,7 +51,7 @@
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
+                <nuxt-link to="contact">
                   <img class="imgIcon" src="~assets/icons/contactusblack.png">
                   Contact Us
                 </nuxt-link>
@@ -59,11 +59,11 @@
             </a-menu>
           </a-dropdown>
           <div class="fullLinks">
-            <nuxt-link to="/interactive-map">
+            <nuxt-link to="interactive-map">
               <img class="imgIcon" src="~assets/icons/interactivemapwhite.png">
               Interactive Map
             </nuxt-link>
-            <nuxt-link to="/data-repository">
+            <nuxt-link to="data-repository">
               <img class="imgIcon" src="~assets/icons/datarepositorywhite.png">
               Data Repository
             </nuxt-link>
@@ -71,19 +71,19 @@
               <img class="imgIcon" src="~assets/icons/gallerywhite.png">
               Gallery
             </nuxt-link>
-            <nuxt-link to="interactive-map">
+            <!-- <nuxt-link to="interactive-map">
               <img class="imgIcon" src="~assets/icons/sitemapwhite.png">
               Site Map
-            </nuxt-link>
-            <nuxt-link to="search">
+            </nuxt-link> -->
+            <!-- <nuxt-link to="search">
               <img class="imgIcon" src="~assets/icons/searchwhite.png">
               Search
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link to="about">
               <img class="imgIcon" src="~assets/icons/aboutwhite.png">
               About
             </nuxt-link>
-            <nuxt-link to="interactive-map">
+            <nuxt-link to="contact">
               <img class="imgIcon" src="~assets/icons/contactuswhite.png">
               Contact Us
             </nuxt-link>

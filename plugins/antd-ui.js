@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Button, Dropdown, Icon, Menu, Collapse, Row, Col, Tooltip, Skeleton, Tabs, Carousel, Table, Select } from 'ant-design-vue'
+import { Button, Dropdown, Icon, Menu, Collapse, Row, Col, Tooltip, Skeleton, Tabs, Carousel, Table, Select, Divider, Form, Input, Modal, List, Avatar } from 'ant-design-vue'
 
 Vue.use(Dropdown)
 Vue.use(Icon)
@@ -14,3 +14,9 @@ Vue.use(Tabs)
 Vue.use(Carousel)
 Vue.use(Table)
 Vue.use(Select)
+Vue.use(Divider)
+Vue.use(Form)
+Vue.use(Input)
+Vue.use(Modal)
+Vue.use(List)
+Vue.use(Avatar)
