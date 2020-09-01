@@ -1,0 +1,13 @@
+query table($island: String) {
+  vectors(where: {island: {_eq: $island}}, order_by: {id: asc}) {
+    id
+    name
+    general
+    geometry
+    filetype
+    file
+    Description
+    island
+    key
+  }
+}

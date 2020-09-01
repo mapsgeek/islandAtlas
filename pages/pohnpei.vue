@@ -12,6 +12,11 @@ export default {
   scrollToTop: true,
   components: {
     ThemesHeader
+  },
+  mounted() {
+    if (process.browser) {
+      localStorage.setItem("island", "Pohnpei")
+    }
   }
 }
 </script>

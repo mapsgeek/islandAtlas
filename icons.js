@@ -16,3 +16,18 @@ export {
 export {
   default as LinkOutline
 } from '@ant-design/icons/lib/outline/LinkOutline'
+export {
+  default as RightCircleOutline
+} from '@ant-design/icons/lib/outline/RightCircleOutline'
+export {
+  default as LeftCircleOutline
+} from '@ant-design/icons/lib/outline/LeftCircleOutline'
+export {
+  default as FilterFill
+} from '@ant-design/icons/lib/fill/FilterFill'
+export {
+  default as CaretUpFill
+} from '@ant-design/icons/lib/fill/CaretUpFill'
+export {
+  default as CaretDownFill
+} from '@ant-design/icons/lib/fill/CaretDownFill'

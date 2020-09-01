@@ -21,13 +21,13 @@
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
+                <nuxt-link to="data-repository">
                   <img class="imgIcon" src="~assets/icons/datarepositoryblack.png">
                   Data Repository
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
+                <nuxt-link to="gallery">
                   <img class="imgIcon" src="~assets/icons/galleryblack.png">
                   Gallery
                 </nuxt-link>
@@ -39,13 +39,13 @@
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
+                <nuxt-link to="search">
                   <img class="imgIcon" src="~assets/icons/searchblack.png">
                   Search
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
+                <nuxt-link to="about">
                   <img class="imgIcon" src="~assets/icons/aboutblack.png">
                   About
                 </nuxt-link>
@@ -63,11 +63,11 @@
               <img class="imgIcon" src="~assets/icons/interactivemapwhite.png">
               Interactive Map
             </nuxt-link>
-            <nuxt-link to="interactive-map">
+            <nuxt-link to="/data-repository">
               <img class="imgIcon" src="~assets/icons/datarepositorywhite.png">
               Data Repository
             </nuxt-link>
-            <nuxt-link to="interactive-map">
+            <nuxt-link to="gallery">
               <img class="imgIcon" src="~assets/icons/gallerywhite.png">
               Gallery
             </nuxt-link>
@@ -75,11 +75,11 @@
               <img class="imgIcon" src="~assets/icons/sitemapwhite.png">
               Site Map
             </nuxt-link>
-            <nuxt-link to="interactive-map">
+            <nuxt-link to="search">
               <img class="imgIcon" src="~assets/icons/searchwhite.png">
               Search
             </nuxt-link>
-            <nuxt-link to="interactive-map">
+            <nuxt-link to="about">
               <img class="imgIcon" src="~assets/icons/aboutwhite.png">
               About
             </nuxt-link>
@@ -103,7 +103,7 @@ export default {
 <style lang="less" scoped>
 .topNavbar {
   position: relative;
-  background: #4b5861;
+  background: #445058;
   color: white;
   display: flex;
   align-items: center;

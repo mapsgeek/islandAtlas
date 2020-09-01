@@ -1,7 +1,6 @@
 <template>
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc;">
-
       <div class="page">
         <h1>YAP MAIN ISLAND MAPS : {{theme}}</h1>
         <a-skeleton v-if="$apollo.queries.groups.loading" active />
@@ -15,7 +14,9 @@
 import maps from '~/apollo/queries/fetchMaps'
 import MapItem from '~/components/MapItem'
 
+
 export default {
+
   scrollToTop: true,
   components: {
     MapItem

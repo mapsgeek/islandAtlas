@@ -56,7 +56,9 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     // '@nuxtjs/pwa',
     '@nuxtjs/apollo',
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    '@nuxtjs/axios',
+    '@nuxtjs/lunr-module'
   ],
   // Give apollo module options
   apollo: {
@@ -86,6 +88,7 @@ export default {
   router: {
     linkExactActiveClass: 'exact-active-link'
   },
+
   /*
   ** Build configuration
   */
@@ -108,7 +111,7 @@ export default {
     plugins: [
       // global modules
       new AntdDayjsWebpackPlugin({
-        replaceMoment: true
+        // replaceMoment: true
       })
     ]
   }

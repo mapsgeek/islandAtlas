@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <ThemesHeader island='yap' />
-    <nuxt-child :key="$route.params.id" />
+    <nuxt-child :key="$route.params.theme" />
   </div>
 </template>
 
@@ -12,6 +12,11 @@ export default {
   scrollToTop: true,
   components: {
     ThemesHeader
+  },
+  mounted() {
+    if (process.browser) {
+      localStorage.setItem("island", "Yap")
+    }
   }
 }
 </script>

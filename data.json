@@ -2003,22 +2003,7 @@
       "id": "4-1-14",
       "groups_id": 7,
       "category_id": 16,
-      "title": "Hilltops",
-      "theme": "land",
-      "decription": "This map shows the locations of prominent peaks on the high islands in Chuuk Lagoon. This data layer was developed by Island Research & Education Initiative (iREi) (2020) by extracting a subset of the U.S. Geological Survey's Geographic Names Information System (GNIS). Note that the actual names contained in the dataset are copied exactly as they are in GNIS and are not necessarily correct or aligned with Chuukese orthography.",
-      "fileName": "1-14",
-      "gisName": "1-14",
-      "metaName": [
-        "1-14"
-      ],
-      "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=48a48aa64a094a448a5d0cc1a5603f3c",
-      "island": "chuuk"
-    },
-    {
-      "id": "4-1-15",
-      "groups_id": 7,
-      "category_id": 16,
-      "title": "Hilltops",
+      "title": "Prominent peaks",
       "theme": "land",
       "decription": "This map shows the locations of prominent peaks on the high islands in Chuuk Lagoon. This data layer was developed by Island Research & Education Initiative (iREi) (2020) by extracting a subset of the U.S. Geological Survey's Geographic Names Information System (GNIS). Note that the actual names contained in the dataset are copied exactly as they are in GNIS and are not necessarily correct or aligned with Chuukese orthography.",
       "fileName": "1-14",
@@ -3012,7 +2997,7 @@
       "category_id": 31,
       "title": "Gaging stations",
       "theme": "water",
-      "decription": "This map shows the locations of the U.S. Geological Survey gaging stations on Weno and Tonoas islands. The dataset was extracted by Island Research & Education Initiative (iREi) (2020) from Digital Line Graphs (DLGs). The DLGs were created by U.S. Geological Survey for the 1:25,000-scale topographic maps (1996-1997)."
+      "decription": "This map shows the locations of the U.S. Geological Survey gaging stations on Weno and Tonoas islands. The dataset was extracted by Island Research & Education Initiative (iREi) (2020) from Digital Line Graphs (DLGs). The DLGs were created by U.S. Geological Survey for the 1:25,000-scale topographic maps (1996-1997).",
       "fileName": "3-09",
       "gisName": "3-09",
       "metaName": [
@@ -3639,7 +3624,7 @@
       "island": "yap"
     },
     {
-      "id": "3-5-05",
+      "id": "4-5-05",
       "groups_id": 18,
       "category_id": 39,
       "title": "Capitals",
@@ -5243,9 +5228,6 @@
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=db51f063617746229545741eb73e5f5e",
       "island": "yap"
     },
-    /*
-:NOTE:check order from here
-     */
     {
       "id": "2-6-07",
       "groups_id": 22,
@@ -6177,7 +6159,7 @@
       "island": "yap"
     },
     {
-      "id": "3-6-25",
+      "id": "4-6-25",
       "groups_id": 28,
       "category_id": 62,
       "title": "Wastewater",

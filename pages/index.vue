@@ -16,6 +16,11 @@ export default {
     Header,
     IslandsCards,
     Footer
+  },
+  mounted() {
+    if (process.browser) {
+      localStorage.removeItem("island")
+    }
   }
 }
 </script>

@@ -1,3 +1,4 @@
+
 html {font-size: 100%;} /*16px*/
 .main {
   margin-top: 100px;
@@ -16,4 +17,3 @@ body {
 .page-enter, .page-leave-active {
   opacity: 0
 }
-#panelTop,.esriSimpleSliderTL { top:80px}#panelContent{top:150px}
