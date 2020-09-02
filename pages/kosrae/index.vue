@@ -9,14 +9,14 @@
       </div>
       <div class="intro">
         <div class="caption">
-          <span class="border">KOSRAE</span><br>
-          <span class="border">MAIN ISLAND</span>
+          <div class="border">KOSRAE</div><br>
+          <div class="border">MAIN ISLAND</div>
         </div>
       </div>
       <div class="land">
         <div class="caption">
-          <span class="border">LAND</span><br>
-          <span class="subtitle">From shoreline to the mountains</span>
+          <div class="border">LAND</div><br>
+          <div class="subtitle">From shoreline to the mountains</div>
           <br>
           <nuxt-link to="/kosrae/land">
             <a-button>
@@ -28,8 +28,8 @@
       </div>
       <div class="reefs">
         <div class="caption">
-          <span class="border">REEFS</span><br>
-          <span class="subtitle">From mist and rain to streams and estuaries</span>
+          <div class="border">REEFS</div><br>
+          <div class="subtitle">From mist and rain to streams and estuaries</div>
           <br>
           <nuxt-link to="/kosrae/reefs">
             <a-button>
@@ -41,8 +41,8 @@
       </div>
       <div class="water">
         <div class="caption">
-          <span class="border">WATER</span><br>
-          <span class="subtitle">From mist and rain to streams and estuaries</span>
+          <div class="border">WATER</div><br>
+          <div class="subtitle">From mist and rain to streams and estuaries</div>
           <br>
           <nuxt-link to="/kosrae/water">
             <a-button>
@@ -54,8 +54,8 @@
       </div>
       <div class="vegetation">
         <div class="caption">
-          <span class="border">VEGETATION</span><br>
-          <span class="subtitle">From mangrove swamps to cloud forest</span>
+          <div class="border">VEGETATION</div><br>
+          <div class="subtitle">From mangrove swamps to cloud forest</div>
           <br>
           <nuxt-link to="/kosrae/vegetation">
             <a-button>
@@ -67,8 +67,8 @@
       </div>
       <div class="population">
         <div class="caption">
-          <span class="border">POPULATION</span><br>
-          <span class="subtitle">From traditional villages to census indicators</span>
+          <div class="border">POPULATION</div><br>
+          <div class="subtitle">From traditional villages to census indicators</div>
           <br>
           <nuxt-link to="/kosrae/population">
             <a-button>
@@ -80,8 +80,8 @@
       </div>
       <div class="infrastructure">
         <div class="caption">
-          <span class="border">INFRASTRUCTURE</span><br>
-          <span class="subtitle"> From ancient trails to moden utilities</span>
+          <div class="border">INFRASTRUCTURE</div><br>
+          <div class="subtitle"> From ancient trails to moden utilities</div>
           <br>
           <nuxt-link to="/kosrae/infrastructure">
             <a-button>
@@ -93,8 +93,8 @@
       </div>
       <div class="conservation">
         <div class="caption">
-          <span class="border">CONSERVATION</span><br>
-          <span class="subtitle">From species to ecosystems</span>
+          <div class="border">CONSERVATION</div><br>
+          <div class="subtitle">From species to ecosystems</div>
           <br>
           <nuxt-link to="/kosrae/conservation">
             <a-button>
@@ -106,8 +106,8 @@
       </div>
       <div class="culture">
         <div class="caption">
-          <span class="border">CULTURE</span><br>
-          <span class="subtitle">From prehistoric ruins to contemporary life</span>
+          <div class="border">CULTURE</div><br>
+          <div class="subtitle">From prehistoric ruins to contemporary life</div>
           <br>
           <nuxt-link to="/kosrae/culture">
             <a-button>
@@ -236,9 +236,6 @@ export default {};
   border: none;
 }
 
-#heroSlider {
-  margin-top: -100px;
-}
 .ant-carousel >>> .slick-slide {
   position: relative;
   text-align: center;

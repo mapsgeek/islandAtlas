@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="group in maps" :key="group.id">
-      <h3>{{group.name}}</h3>
+      <h3 v-bind:class="`${theme}color`">{{group.name}}</h3>
       <a-collapse :bordered="false" v-for="category in group.categorysByGroupsId" :key="category.id" expand-icon-position="right">
         <template #expandIcon="props">
           <a-icon type="caret-right" :rotate="props.isActive ? 90 : 0" />
@@ -19,10 +19,11 @@
                 <nuxt-link :to="`${theme}/map/${map.fileName}`" class="ant-dropdown-link">
                   View Map
                 </nuxt-link>
-                <nuxt-link :to="`${theme}/interactive/${map.id}`" class="ant-dropdown-link">
+                <nuxt-link :to="`${theme}/interactive/${map.id}`" class="ant-dropdown-link" :disabled="map.interactiveMapURL===null">
                   View Layers
                 </nuxt-link>
-                <nuxt-link :to="`${theme}/metadata/${map.id}`" class="ant-dropdown-link">
+                <!-- :NOTE temporary -->
+                <nuxt-link :to="`${theme}/metadata/${map.id}`" class="ant-dropdown-link" :disabled="island !== 'pohnpei'">
                   View Metadata
                 </nuxt-link>
                 <a-dropdown placement="bottomCenter" :trigger="['hover']">
@@ -78,8 +79,10 @@
                     </div>
                   </div>
                 </a-dropdown>
-                <a-dropdown placement="bottomCenter" :trigger="['hover']">
-                  <a class="ant-dropdown-link">
+                <!-- :NOTE temporary -->
+
+                <a-dropdown placement="bottomCenter" :trigger="['hover']" :disabled="island !== 'pohnpei' || map.gisName ===null">
+                  <a class="ant-dropdown-link" :disabled="island !== 'pohnpei' || map.gisName ===null">
                     Download Data
                     <a-icon type="down" />
                   </a>
@@ -111,6 +114,7 @@
                     </div>
                   </div>
                 </a-dropdown>
+
                 <a-dropdown placement="bottomCenter" :trigger="['hover']">
                   <a class="ant-dropdown-link">
                     Download Overlay
@@ -163,14 +167,14 @@ export default {
     return {
       text: `A dog is a type of domesticated animal.Known for its loyalty and faithfulness,it can be found as a welcome guest in many households across the world.`,
       customStyle:
-        'border-radius: 4px;margin-bottom: 24px;border: 0;overflow: hidden;background:#f6f9fc',
+        'border-radius: 4px;margin-bottom: 8px;border: 0;overflow: hidden;background:#f6f9fc',
       url: 'https://islandatlas.org/assets/maps'
     };
   },
 }
 </script>
 
-<style lang="less" >
+<style lang="less" scoped >
 .previewMap img {
   width: 100%;
 }
@@ -190,6 +194,10 @@ export default {
     width: 140px;
     margin-top: 10px;
   }
+}
+
+h3 {
+  font-style: italic;
 }
 
 @media screen and (max-width: 650px) {

@@ -1,10 +1,9 @@
 <template>
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc;">
-
       <div class="page">
-        <h1>CHUUK MAIN ISLAND MAPS : {{theme}}</h1>
-        <a-skeleton v-if="$apollo.queries.groups.loading" active />
+        <h1>CHUUK MAIN ISLAND MAPS: <span v-bind:class="`${theme}color`">{{theme}}</span></h1>
+        <!-- <a-skeleton v-if="$apollo.queries.groups.loading" active /> -->
         <MapItem :maps=groups :island='"chuuk"' :theme="theme" />
       </div>
     </div>
@@ -42,20 +41,4 @@ export default {
 </script>
 
 <style lang="less">
-.page {
-  min-height: 100vh;
-  background-color: white;
-  padding: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 940px;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-@media screen and (max-width: 991px) {
-  .page {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
 </style>

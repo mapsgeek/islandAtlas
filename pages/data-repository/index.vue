@@ -3,7 +3,8 @@
     <div style="background-color:#f6f9fc;">
       <div class="page">
         <h1 style="text-align:center;margin-top:20px">Data repository</h1>
-        <p>Change island {{island}}</p>
+        <Strong>Change island</Strong>
+        <br>
         <a-select :defaultValue=island style="width: 120px" @change="handleChange">
           <a-select-option value="pohnpei">
             Pohnpei
@@ -11,16 +12,16 @@
           <a-select-option value="yap">
             yap
           </a-select-option>
-          <a-select-option value="chuuk">
+          <!-- <a-select-option value="chuuk">
             Chuuk
-          </a-select-option>
+          </a-select-option> -->
           <a-select-option value="kosrae">
             Kosrae
           </a-select-option>
         </a-select>
         <a-button type="primary" @click="downloadWithAxios" :disabled="!hasSelected">Download</a-button>
-        <a-skeleton v-if="$apollo.queries.vectors.loading" active />
-        <a-table :row-selection="{ selectedRows: selectedRows, onChange: onSelectChange }" :columns="columns" :data-source="vectors">
+        <!-- <a-skeleton v-if="$apollo.queries.vectors.loading" active /> -->
+        <a-table :row-selection="rowSelection" :columns="columns" :data-source="vectors">
           <p slot="expandedRowRender" slot-scope="record" style="margin: 0">
             {{record.Description}}
           </p>
@@ -41,7 +42,7 @@ const columns = [
     sortDirections: ['ascend'],
   },
   {
-    title: 'Item Name', dataIndex: 'name', key: 'name'
+    title: 'Item Name', dataIndex: 'name', key: 'name',
   },
   {
     title: 'General Theme', dataIndex: 'general', key: 'general',
@@ -136,7 +137,7 @@ export default {
   data: () => {
     return {
       // localStorage.getItem("island") ||
-      island: '',
+      island: localStorage.getItem("island") || '',
       columns,
       selectedRows: [],
     }
@@ -154,14 +155,27 @@ export default {
     hasSelected() {
       return this.selectedRows.length > 0;
     },
+    rowSelection() {
+      return {
+        onChange: (selectedRowKeys, selectedRows) => {
+          this.selectedRows = selectedRows;
+        },
+        getCheckboxProps: record => ({
+          props: {
+            disabled: record.file.includes('DO NOT SHARE'), // Column configuration not to be checked
+            name: record.file,
+          },
+        }),
+      };
+    }
   },
   methods: {
     handleChange(value) {
       this.island = value
     },
-    onSelectChange(selectedRowKeys, selectedRows) {
-      this.selectedRows = selectedRows;
-    },
+    // onSelectChange(selectedRowKeys, selectedRows) {
+    //   this.selectedRows = selectedRows;
+    // },
     downloadWithAxios() {
       this.selectedRows.forEach(url => {
         this.$axios({
@@ -199,9 +213,10 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .page {
   min-height: 100vh;
+  margin-top: 50px;
   background-color: white;
   padding: 50px;
   margin-left: auto;

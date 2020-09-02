@@ -3,7 +3,8 @@
     <div style="background-color:#f6f9fc;">
       <div class="page">
         <h1 style="text-align:center;margin-top:20px">Gallery</h1>
-        <p>Change island {{island}}</p>
+        <Strong>Change island</Strong>
+        <br>
         <a-select :defaultValue=island style="width: 120px" @change="handleChange">
           <a-select-option value="pohnpei">
             Pohnpei
@@ -41,7 +42,7 @@ export default {
     return {
       url: "https://islandatlas.org/assets/maps",
       // localStorage.getItem("island") ||
-      island: '',
+      island: localStorage.getItem("island") || 'pohnpei',
       options: {
         url: 'data-src',
         inline: false,
@@ -66,6 +67,7 @@ export default {
         this.island = "pohnpei"
       } else {
         this.island = localStorage.getItem("island")
+        console.log(this.island)
       }
     }
   },
@@ -92,11 +94,12 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .page {
   min-height: 100vh;
   background-color: white;
   padding: 50px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;

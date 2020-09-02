@@ -1,8 +1,6 @@
 <template>
-  <div style="background-color:#f6f9fc;">
-    <div v-if="map">
-      <iframe style="height:100vh;width:100%" scrolling="no" :src="map[0].interactiveMapURL" frameborder="0"></iframe>
-    </div>
+  <div v-if="map">
+    <iframe class="iframe" scrolling="no" :src="map[0].interactiveMapURL" frameborder="0" seamless></iframe>
   </div>
 </template>
 
@@ -22,5 +20,5 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 </style>

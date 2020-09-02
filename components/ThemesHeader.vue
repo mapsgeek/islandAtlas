@@ -15,19 +15,25 @@
               <img width="200px" src="~assets/imgs/normal-yap-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
-              <img width="200px" src="~assets/imgs/normal-chuuk.png" alt="">
+              <nuxt-link to='/chuuk'>
+                <img width="200px" src="~assets/imgs/normal-chuuk.png" alt="">
+              </nuxt-link>
             </a-menu-item>
             <a-menu-item>
               <img width="200px" src="~assets/imgs/normal-chuuk-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
-              <img width="200px" src="~assets/imgs/normal-pohnpei.png" alt="">
+              <nuxt-link to='/pohnpei'>
+                <img width="200px" src="~assets/imgs/normal-pohnpei.png" alt="">
+              </nuxt-link>
             </a-menu-item>
             <a-menu-item>
               <img width="200px" src="~assets/imgs/normal-pohnpei-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
-              <img width="200px" src="~assets/imgs/normal-kosrae.png" alt="">
+              <nuxt-link to='/kosrae'>
+                <img width="200px" src="~assets/imgs/normal-kosrae.png" alt="">
+              </nuxt-link>
             </a-menu-item>
           </a-menu>
         </a-dropdown>
@@ -198,8 +204,7 @@ export default {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
-  line-height: 30px;
+  padding: 9px 15px;
 }
 
 .topNavbar {
@@ -207,7 +212,7 @@ export default {
   background: #4b5861;
   color: white;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   height: 50px;
   a {
     color: white;
@@ -218,33 +223,6 @@ export default {
   }
 }
 
-.intro {
-  background: #959595;
-}
-.land {
-  background: #954c97;
-}
-.reefs {
-  background: #2ca2db;
-}
-.water {
-  background: #1dbbb0;
-}
-.vegetation {
-  background: #7fb842;
-}
-.population {
-  background: #fab317;
-}
-.infrastructure {
-  background: #ee5525;
-}
-.conservation {
-  background: #be2326;
-}
-.culture {
-  background: #901c21;
-}
 .nav > li {
   &:hover {
     &:nth-child(1) {

@@ -15,43 +15,43 @@
             </a>
             <a-menu slot="overlay">
               <a-menu-item>
-                <nuxt-link to="interactive-map">
+                <nuxt-link to="/interactive-map">
                   <img class="imgIcon" src="~assets/icons/interactivemapblack.png">
                   Interactive Map
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="data-repository">
+                <nuxt-link to="//data-repository">
                   <img class="imgIcon" src="~assets/icons/datarepositoryblack.png">
                   Data Repository
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="gallery">
+                <nuxt-link to="/gallery">
                   <img class="imgIcon" src="~assets/icons/galleryblack.png">
                   Gallery
                 </nuxt-link>
               </a-menu-item>
               <!-- <a-menu-item>
-                <nuxt-link to="interactive-map">
+                <nuxt-link to="/interactive-map">
                   <img class="imgIcon" src="~assets/icons/sitemapblack.png">
                   Site Map
                 </nuxt-link>
               </a-menu-item> -->
               <!-- <a-menu-item>
-                <nuxt-link to="search">
+                <nuxt-link to="/search">
                   <img class="imgIcon" src="~assets/icons/searchblack.png">
                   Search
                 </nuxt-link>
               </a-menu-item> -->
               <a-menu-item>
-                <nuxt-link to="about">
+                <nuxt-link to="/about">
                   <img class="imgIcon" src="~assets/icons/aboutblack.png">
                   About
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="contact">
+                <nuxt-link to="/contact">
                   <img class="imgIcon" src="~assets/icons/contactusblack.png">
                   Contact Us
                 </nuxt-link>
@@ -59,31 +59,31 @@
             </a-menu>
           </a-dropdown>
           <div class="fullLinks">
-            <nuxt-link to="interactive-map">
+            <nuxt-link to="/interactive-map">
               <img class="imgIcon" src="~assets/icons/interactivemapwhite.png">
               Interactive Map
             </nuxt-link>
-            <nuxt-link to="data-repository">
+            <nuxt-link to="/data-repository">
               <img class="imgIcon" src="~assets/icons/datarepositorywhite.png">
               Data Repository
             </nuxt-link>
-            <nuxt-link to="gallery">
+            <nuxt-link to="/gallery">
               <img class="imgIcon" src="~assets/icons/gallerywhite.png">
               Gallery
             </nuxt-link>
-            <!-- <nuxt-link to="interactive-map">
+            <!-- <nuxt-link to="/interactive-map">
               <img class="imgIcon" src="~assets/icons/sitemapwhite.png">
               Site Map
             </nuxt-link> -->
-            <!-- <nuxt-link to="search">
+            <!-- <nuxt-link to="/search">
               <img class="imgIcon" src="~assets/icons/searchwhite.png">
               Search
             </nuxt-link> -->
-            <nuxt-link to="about">
+            <nuxt-link to="/about">
               <img class="imgIcon" src="~assets/icons/aboutwhite.png">
               About
             </nuxt-link>
-            <nuxt-link to="contact">
+            <nuxt-link to="/contact">
               <img class="imgIcon" src="~assets/icons/contactuswhite.png">
               Contact Us
             </nuxt-link>
@@ -103,11 +103,11 @@ export default {
 <style lang="less" scoped>
 .topNavbar {
   position: relative;
-  background: #445058;
+  background: #4b5861;
   color: white;
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 55px;
   a {
     color: white;
     margin-right: 15px;
@@ -118,7 +118,7 @@ export default {
 }
 .imgIcon {
   width: 20px;
-  vertical-align: text-top;
+  vertical-align: text-bottom;
 }
 .dropNav {
   display: none;
@@ -137,7 +137,7 @@ export default {
   }
 }
 .logo {
-  width: 160px;
+  width: 180px;
   position: fixed;
   z-index: 1;
   & img {

@@ -15,14 +15,11 @@ export default {
   },
   mounted() {
     if (process.browser) {
-      localStorage.setItem("island", "Chuuk")
+      localStorage.setItem("island", "chuuk")
     }
   }
 }
 </script>
 
 <style lang="less" scoped>
-.main {
-  margin-top: 100px;
-}
 </style>

@@ -134,6 +134,7 @@ li {
 }
 .page {
   min-height: 100vh;
+  margin-top: 50px;
   background-color: white;
   padding: 50px;
   margin-left: auto;
