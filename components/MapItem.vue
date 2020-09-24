@@ -9,7 +9,7 @@
         <a-collapse-panel key="1" :header="category.name" :style="customStyle" :forceRender="true">
           <div class="map" v-for="map in category.mapsByCategoryId" :key="map.id">
             <div class="previewMap">
-              <img v-if="map.island==='kosrae'" :src="`${url}/${island}/${theme}/preview/thumbnails/${map.fileName}.png`" alt="thumbnail">
+              <img v-if="map.island !=='pohnpei'" :src="`${url}/${island}/${theme}/preview/thumbnails/${map.fileName}.png`" alt="thumbnail">
               <img v-if="map.island==='pohnpei'" :src="`${url}/${island}/${theme}/preview/thumbnails/${map.fileName}.jpg`" alt="thumbnail">
             </div>
             <div class="content">

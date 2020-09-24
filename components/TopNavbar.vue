@@ -1,5 +1,5 @@
 <template>
-  <div style="position:fixed;z-index:1;right:0;top:0;left:0">
+  <div class="NavbarContainer">
     <div style="display:flex;flex-direction:column">
       <div class="logo">
         <nuxt-link to='/'>
@@ -21,7 +21,7 @@
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="//data-repository">
+                <nuxt-link to="/data-repository">
                   <img class="imgIcon" src="~assets/icons/datarepositoryblack.png">
                   Data Repository
                 </nuxt-link>

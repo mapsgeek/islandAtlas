@@ -3,25 +3,28 @@
     <div style="background-color:#f6f9fc;">
       <div class="page">
         <h1 style="text-align:center;margin-top:20px">Data repository</h1>
-        <Strong>Change island</Strong>
-        <br>
-        <a-select :defaultValue=island style="width: 120px" @change="handleChange">
-          <a-select-option value="pohnpei">
-            Pohnpei
-          </a-select-option>
-          <a-select-option value="yap">
-            yap
-          </a-select-option>
-          <!-- <a-select-option value="chuuk">
-            Chuuk
+        <div style="text-align:center">
+          <Strong>Change island</Strong>
+          <br>
+          <a-select style="width: 120px;margin-bottom:40px;margin-top:10px" :defaultValue=island @change="handleChange">
+            <a-select-option value="pohnpei">
+              Pohnpei
+            </a-select-option>
+            <a-select-option value="yap">
+              Yap
+            </a-select-option>
+            <!-- <a-select-option value="chuuk">
+            Chuuk lagoon
           </a-select-option> -->
-          <a-select-option value="kosrae">
-            Kosrae
-          </a-select-option>
-        </a-select>
-        <a-button type="primary" @click="downloadWithAxios" :disabled="!hasSelected">Download</a-button>
+            <a-select-option value="kosrae">
+              Kosrae
+            </a-select-option>
+          </a-select>
+        </div>
+
+        <a-button style="margin-bottom:10px;" type="primary" @click="downloadWithAxios" :disabled="!hasSelected">Download</a-button>
         <!-- <a-skeleton v-if="$apollo.queries.vectors.loading" active /> -->
-        <a-table :row-selection="rowSelection" :columns="columns" :data-source="vectors">
+        <a-table id="table" :row-selection="rowSelection" :columns="columns" :data-source="vectors" :scroll="{ x: 800, y: 900 }">
           <p slot="expandedRowRender" slot-scope="record" style="margin: 0">
             {{record.Description}}
           </p>
@@ -226,6 +229,9 @@ export default {
 }
 
 @media screen and (max-width: 991px) {
+  #table {
+    overflow: auto;
+  }
   .page {
     padding-right: 20px;
     padding-left: 20px;

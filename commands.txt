@@ -1,0 +1,2 @@
+json2graphql https://atlas0.herokuapp.com -s Mr_ibrahim/Atlas -d ./vectors.json
+json2graphql https://atlas0.herokuapp.com -s Mr_ibrahim/Atlas -d ./data.json

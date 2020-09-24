@@ -1,0 +1,197 @@
+
+@media (max-width:1199px){
+	.container{ max-width:960px;}
+
+	.flag-card-box ul.card-list li .text-box{ bottom:20px;}
+	.flag-card-box ul.card-list li .text-box h3{ font-size:15px;}
+
+	.gallery-box { padding-left: 65px !important; padding-right: 65px !important;}
+	.slick-next{ right:-10px !important;}
+	.slick-prev{ left:-10px !important;}
+
+	.bnr-frame .innr-box h4{ font-size:22px;}
+
+	#object1 { left:10% !important; top: 140px !important;}
+	#object1 img{ width:120px;}
+	#object2 { left: 30% !important;}
+	#object2 .innr-link{ left:15px;}
+	#object2 img{ width:180px;}
+	#object3 { left: 50% !important;}
+	#object3 .innr-link { left: 120px; top: 50px;}
+	#object3 img{ width:190px;}
+	#object4 { left: 72% !important;}
+	#object4 .innr-link{ top:-30px;}
+	#object4 img { width: 100px;}
+	#object5 .innr-link { left:80px;}
+	#object5 { left: 14% !important; top: 370px !important;}
+	#object5 img { width: 150px;}
+	#object6 { left: 37% !important;}
+	#object6 .innr-link { left: 60px;}
+	#object6 img { width:55px;}
+	#object7 .innr-link { left: 130px; top: 40px;}
+	#object7 { left: 50% !important; top: 390px !important;}
+	#object7 img { width: 210px;}
+
+
+}
+
+
+
+
+
+@media (max-width:991px){
+	.container{ max-width:85%;}
+
+	.video-box { height: 260px;}
+	.video-box iframe{ height:350px !important;}
+
+	.flag-card-box ul.card-list li{ width:33.3%;}
+
+
+	.flag-card-frame{ padding-bottom:40px;}
+
+	.fea-frame{ padding-top:40px;}
+	.fea-box ul.fea-list li{ padding-top:70px;}
+	.gallery-box .slick-slide .text-box{ padding:0 20px;}
+
+	.exp-frame{ padding-bottom:40px;}
+
+	.gallery-box .slick-slide .text-box h2{ font-size:20px;}
+
+
+	#object1 { left:10% !important; top: 140px !important;}
+	#object1 img{ width:100px;}
+	#object2 { left: 32% !important;}
+	#object2 .innr-link{ left:5px; top:-10px;}
+	#object2 img{ width:130px;}
+	#object3 { left: 55% !important;}
+	#object3 .innr-link { left:90px; top: 30px;}
+	#object3 img{ width:140px;}
+	#object4 { left: 75% !important;}
+	#object4 .innr-link{ top:-30px; left:70px;}
+	#object4 img { width:70px;}
+	#object5 .innr-link { left:55px; top:-30px;}
+	#object5 { left: 12% !important; top: 370px !important;}
+	#object5 img { width: 120px;}
+	#object6 { left: 37% !important;}
+	#object6 .innr-link { left: 55px; top:-25px;}
+	#object6 img { width:48px;}
+	#object7 .innr-link { left: 110px; top: 25px;}
+	#object7 { left: 53% !important; top: 390px !important;}
+	#object7 img { width: 180px;}
+
+
+
+
+}
+
+
+
+@media (max-width:767px){
+	.container{ max-width:80%;}
+
+	/* body{ padding-top:110vh;} */
+	.hover-bnr-frame{ position:relative; height:1250px;}
+
+	.cont-box-01 .left-cont-box{ width:100%; text-align:center;}
+	.cont-box-01 .right-cont-box{ width:100%; text-align:center;}
+
+	.video-box { height: 200px;}
+
+	.flag-card-box ul.card-list li { width: 50%;}
+
+	.fea-box ul.fea-list li + li{ margin-top:40px;}
+	.fea-box ul.fea-list li .image-box{ width:100%; padding-left:0;}
+	.fea-box ul.fea-list li .text-box{ width:100%; padding-right:0; text-align:center;}
+	.fea-box ul.fea-list li:nth-child(even) .image-box{ padding-right:0;}
+	.fea-box ul.fea-list li:nth-child(even) .text-box{ padding-left:0;}
+
+	.fea-box ul.fea-list li .image-box span.img img { max-width: 270px; margin-bottom: 40px;}
+	.fea-box ul.fea-list li:nth-child(even) .image-box span.img img{ margin-bottom:10px;}
+	.fea-box ul.fea-list li .text-box h2{ text-align:center;}
+
+	footer .left-foot{ width:34%;}
+	footer .mid-foot{ width:16%;}
+	footer .right-foot{ width:50%;}
+
+	.bnr-frame .innr-box img { max-width: 100px;}
+	.bnr-frame .innr-box h1{ font-size:25px;}
+
+	.innr-link p { transform-origin:center; transform:translateX(16px);}
+
+
+	#object1 { left:10% !important; top: 140px !important;}
+	#object1 img{ width:130px;}
+	#object2 { left:60% !important; top: 140px !important;}
+	#object2 .innr-link{ left:-25px; top:-50px;}
+	#object2 img{ width:150px;}
+	#object3 { left:5% !important; top:310px !important;}
+	#object3 .innr-link { left:80px; top: 20px;}
+	#object3 img{ width:210px;}
+	#object4 { left: 65% !important; top:380px !important;}
+	#object4 .innr-link{ top: -45px; left: -20px;}
+	#object4 img { width:100px;}
+	#object5 .innr-link { left:55px; top:-30px;}
+	#object5 { left: 10% !important; top: 590px !important;}
+	#object5 img { width: 160px;}
+	#object6 { left:24% !important; top:840px !important;}
+	#object6 .innr-link { left: 55px; top:-25px;}
+	#object6 img { width:48px;}
+	#object7 .innr-link { left: 110px; top: 5px;}
+	#object7 { left:10% !important; top:1020px !important;}
+	#object7 img { width: 180px;}
+
+
+	#object1 .innr-link{ width:170px; left: -30px;}
+	#object2 .innr-link{ width:195px;}
+	#object3 .innr-link{ width:135px;}
+	#object4 .innr-link{ width:125px;}
+	#object5 .innr-link{ width:320px;}
+	#object6 .innr-link{ width:290px;}
+	#object7 .innr-link{ width:305px;}
+
+	.innr-link{ margin-left:0;}
+	.innr-link:before { height: 0;}
+	.innr-link .link-arrow { width: 12px; height: 12px; margin-top: -6px; margin-right: -6px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg);}
+
+
+}
+
+
+
+
+@media (max-width:576px){
+	.container{ max-width:100%;}
+
+	.part-box .part-list li{ width:100%;}
+	.part-box-02 .part-list li{ width:auto;}
+
+	footer{ padding-bottom:15px !important;}
+	footer .left-foot{ float:right; width:auto;}
+	footer .mid-foot{ float:left; width:auto;}
+	footer .right-foot{ float:left; width:100%; text-align:center; padding-top:25px;}
+	footer .right-foot ul.menu{ float:none; display:inline-block;}
+}
+
+
+
+@media (max-width:480px){
+	.flag-card-box ul.card-list li{ width:100%;}
+
+
+	.hover-bnr-frame{ height:1700px;}
+
+	#object1 { left: 50% !important; transform: translateX(-50%) !important;}
+	#object2 { left: 50% !important; transform: translateX(-50%) !important; top:340px !important;}
+	#object3 { left: 50% !important; transform: translateX(-50%) !important; top: 510px !important;}
+	#object4 { left: 50% !important; transform: translateX(-50%) !important; top: 770px !important;}
+	#object5 { left: 50% !important; transform: translateX(-50%) !important; top: 990px !important;}
+	#object6 { left: 50% !important; transform: translateX(-50%) !important; top: 1260px !important;}
+	#object7 { left: 50% !important; transform: translateX(-50%) !important; top: 1460px !important;}
+
+	#object5 .innr-link { left: -81px; top: -55px;}
+	#object6 .innr-link { left: -110px; top: -45px;}
+	#object7 .innr-link { left: -70px; top: -15px;}
+
+
+}

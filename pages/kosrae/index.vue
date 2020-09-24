@@ -1,6 +1,6 @@
 <template>
   <div id="heroSlider">
-    <a-carousel arrows autoplay effect="fade" :autoplay-speed="2000" :swipe=true>
+    <a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=1000 centerPadding lazyLoad :autoplaySpeed="5000" accessibility>
       <div slot="prevArrow" class="custom-slick-arrow" style="left: 10px;zIndex: 1">
         <a-icon type="left-circle" />
       </div>
@@ -9,14 +9,15 @@
       </div>
       <div class="intro">
         <div class="caption">
-          <div class="border">KOSRAE</div><br>
-          <div class="border">MAIN ISLAND</div>
+          <h1 class="border">KOSRAE
+          </h1><br>
         </div>
       </div>
       <div class="land">
         <div class="caption">
-          <div class="border">LAND</div><br>
-          <div class="subtitle">From shoreline to the mountains</div>
+          <h1 class="border">LAND
+          </h1><br>
+          <div class="subtitle">from the shoreline to the mountaintops</div>
           <br>
           <nuxt-link to="/kosrae/land">
             <a-button>
@@ -28,8 +29,9 @@
       </div>
       <div class="reefs">
         <div class="caption">
-          <div class="border">REEFS</div><br>
-          <div class="subtitle">From mist and rain to streams and estuaries</div>
+          <h1 class="border">REEFS
+          </h1><br>
+          <div class="subtitle"> from the lagoon to the ocean floor</div>
           <br>
           <nuxt-link to="/kosrae/reefs">
             <a-button>
@@ -41,8 +43,9 @@
       </div>
       <div class="water">
         <div class="caption">
-          <div class="border">WATER</div><br>
-          <div class="subtitle">From mist and rain to streams and estuaries</div>
+          <h1 class="border">WATER
+          </h1><br>
+          <div class="subtitle">from mist and rain to streams and estuaries</div>
           <br>
           <nuxt-link to="/kosrae/water">
             <a-button>
@@ -54,8 +57,9 @@
       </div>
       <div class="vegetation">
         <div class="caption">
-          <div class="border">VEGETATION</div><br>
-          <div class="subtitle">From mangrove swamps to cloud forest</div>
+          <h1 class="border">VEGETATION
+          </h1><br>
+          <div class="subtitle">from mangrove swamp to upland forest</div>
           <br>
           <nuxt-link to="/kosrae/vegetation">
             <a-button>
@@ -67,8 +71,9 @@
       </div>
       <div class="population">
         <div class="caption">
-          <div class="border">POPULATION</div><br>
-          <div class="subtitle">From traditional villages to census indicators</div>
+          <h1 class="border">POPULATION
+          </h1><br>
+          <div class="subtitle">from traditional villages to census indicators</div>
           <br>
           <nuxt-link to="/kosrae/population">
             <a-button>
@@ -80,8 +85,9 @@
       </div>
       <div class="infrastructure">
         <div class="caption">
-          <div class="border">INFRASTRUCTURE</div><br>
-          <div class="subtitle"> From ancient trails to moden utilities</div>
+          <h1 class="border">INFRASTRUCTURE
+          </h1><br>
+          <div class="subtitle"> from ancient trails to modern utilities </div>
           <br>
           <nuxt-link to="/kosrae/infrastructure">
             <a-button>
@@ -93,8 +99,9 @@
       </div>
       <div class="conservation">
         <div class="caption">
-          <div class="border">CONSERVATION</div><br>
-          <div class="subtitle">From species to ecosystems</div>
+          <h1 class="border">CONSERVATION
+          </h1><br>
+          <div class="subtitle">from species to ecosystems</div>
           <br>
           <nuxt-link to="/kosrae/conservation">
             <a-button>
@@ -106,8 +113,9 @@
       </div>
       <div class="culture">
         <div class="caption">
-          <div class="border">CULTURE</div><br>
-          <div class="subtitle">From prehistoric ruins to contemporary life</div>
+          <h1 class="border">CULTURE
+          </h1><br>
+          <div class="subtitle">from prehistoric ruins to contemporary life</div>
           <br>
           <nuxt-link to="/kosrae/culture">
             <a-button>
@@ -121,20 +129,39 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      speed: 5000,
+      paused: false
+    }
+  },
+  methods: {
+    pause() {
+      this.paused = true
+      console.log(this.paused)
+    },
+    reset() {
+      this.paused = false
+      console.log(this.paused)
+    }
+  }
+};
 </script>
 <style  scoped>
 .intro {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-INTRO1.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-INTRO1.jpg");
   background-position: center center;
   background-size: cover;
 }
 .land {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-LAND1.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-LAND1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -147,7 +174,8 @@ export default {};
 .reefs {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-REEFS1.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-REEFS1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -160,7 +188,8 @@ export default {};
 .water {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-WATER2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-WATER2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -173,7 +202,8 @@ export default {};
 .vegetation {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-VEGETATION1.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-VEGETATION1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -186,7 +216,8 @@ export default {};
 .population {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-POPULATION1.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-POPULATION1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -199,7 +230,8 @@ export default {};
 .infrastructure {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-INFRASTRUCTURE1.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-INFRASTRUCTURE1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -212,7 +244,8 @@ export default {};
 .conservation {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-CONSERVATION2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-CONSERVATION2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -225,7 +258,8 @@ export default {};
 .culture {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/kosrae/Kosrae-CULTURE2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/kosrae/Kosrae-CULTURE2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -239,25 +273,12 @@ export default {};
 .ant-carousel >>> .slick-slide {
   position: relative;
   text-align: center;
-  height: 100vh;
+  margin-top: 98px;
+  height: 90vh;
   background: #364d79;
   overflow: hidden;
 }
-.caption {
-  position: absolute;
-  left: 0;
-  top: 35%;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  z-index: 1;
-  text-shadow: 1px 6px 10px rgb(0 0 0);
-  font-size: 3rem;
-}
-.subtitle {
-  font-size: 1.8rem;
-  font-style: italic;
-}
+
 .ant-carousel >>> .custom-slick-arrow {
   width: 25px;
   height: 25px;

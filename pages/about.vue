@@ -1,7 +1,7 @@
 <template>
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc;">
-      <div class="page">
+      <div class="w-container">
         <h1 style="text-align:center;margin-top:20px">About</h1>
         <p>
           The Digital Atlas of Micronesia is the foremost source of maps and geospatial information for the Federated States of Micronesia. People searching for any sort of geospatial information can come to this web-based Atlas to identify, visualize, query, analyze, and acquire datasets relevant to their interests. At the core of the Atlas are web-enabled GIS and searchable database that allow users to view and manipulate hundreds of layers of geospatial information. In addition to serving as a data repository, the Atlas is also an informational tool and incorporates hundreds of pre-made maps, charts, and datasets related to the natural and human environment of Micronesian islands. Outlined below are some of the key features of this most comprehensive geospatial data source available for the Federated States of Micronesia. Flip the cards for additional information.
@@ -257,37 +257,71 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.page {
-  min-height: 100vh;
+.w-container {
+  // min-height: 100vh;
   margin-top: 50px;
-  background-color: white;
+  // background-color: white;
   padding: 50px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 60%;
+  max-width: 1200px;
+  background-color: white;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
-@media screen and (max-width: 991px) {
-  .page {
-    max-width: 90%;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
+// @media screen and (max-width: 991px) {
+//   .page {
+//     margin-left: auto;
+//     margin-right: auto;
+//     max-width: 940px;
+//   }
+// }
 
 .cardsContainer {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 60px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  border-radius: 10px;
 }
 
 .card {
-  height: 570px;
-  width: 100%;
-  box-shadow: 0px 3px 5px 1px #e6e6e6;
+  display: block;
+  height: 550px;
+  margin: 20px;
+  /* padding: 20px; */
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.13);
+  text-align: center;
   perspective: 1000px;
   & p {
     text-align: start;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cardsContainer {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-container {
+    padding: 10px;
+  }
+  .cardsContainer {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  .w-container {
+    padding: 10px;
+  }
+  .cardsContainer {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 

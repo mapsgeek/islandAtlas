@@ -1,6 +1,6 @@
 <template>
   <div id="heroSlider">
-    <a-carousel arrows autoplay effect="fade" :autoplay-speed="2000" :swipe=true>
+    <a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=1000 centerPadding lazyLoad :autoplaySpeed="5000" accessibility>
       <div slot="prevArrow" class="custom-slick-arrow" style="left: 10px;zIndex: 1">
         <a-icon type="left-circle" />
       </div>
@@ -9,15 +9,13 @@
       </div>
       <div class="intro">
         <div class="caption">
-          <div class="border">POHNPEI</div><br>
-          <div class="border">MAIN ISLAND
-          </div>
+          <h1 class="border">POHNPEI</h1>
         </div>
       </div>
       <div class="land">
         <div class="caption">
-          <div class="border">LAND</div><br>
-          <div class="subtitle">From shoreline to the mountains
+          <h1 class="border">LAND</h1><br>
+          <div class="subtitle">from the shoreline to the mountaintops
           </div>
           <br>
           <nuxt-link to="/pohnpei/land">
@@ -30,8 +28,8 @@
       </div>
       <div class="reefs">
         <div class="caption">
-          <div class="border">REEFS</div><br>
-          <div class="subtitle">From mist and rain to streams and estuaries
+          <h1 class="border">REEFS</h1><br>
+          <div class="subtitle">from the lagoon to the ocean floor
           </div>
           <br>
           <nuxt-link to="/pohnpei/reefs">
@@ -44,8 +42,8 @@
       </div>
       <div class="water">
         <div class="caption">
-          <div class="border">WATER</div><br>
-          <div class="subtitle">From mist and rain to streams and estuaries
+          <h1 class="border">WATER</h1><br>
+          <div class="subtitle">from mist and rain to streams and estuaries
           </div>
           <br>
           <nuxt-link to="/pohnpei/water">
@@ -58,8 +56,8 @@
       </div>
       <div class="vegetation">
         <div class="caption">
-          <div class="border">VEGETATION</div><br>
-          <div class="subtitle">From mangrove swamps to cloud forest
+          <h1 class="border">VEGETATION</h1><br>
+          <div class="subtitle">from mangrove swamp to upland forest
           </div>
           <br>
           <nuxt-link to="/pohnpei/vegetation">
@@ -72,8 +70,8 @@
       </div>
       <div class="population">
         <div class="caption">
-          <div class="border">POPULATION</div><br>
-          <div class="subtitle">From traditional villages to census indicators
+          <h1 class="border">POPULATION</h1><br>
+          <div class="subtitle">from traditional villages to census indicators
           </div>
           <br>
           <nuxt-link to="/pohnpei/population">
@@ -86,8 +84,8 @@
       </div>
       <div class="infrastructure">
         <div class="caption">
-          <div class="border">INFRASTRUCTURE</div><br>
-          <div class="subtitle"> From ancient trails to moden utilities
+          <h1 class="border">INFRASTRUCTURE</h1><br>
+          <div class="subtitle"> from ancient trails to modern utilities
           </div>
           <br>
           <nuxt-link to="/pohnpei/infrastructure">
@@ -100,8 +98,8 @@
       </div>
       <div class="conservation">
         <div class="caption">
-          <div class="border">CONSERVATION</div><br>
-          <div class="subtitle">From species to ecosystems
+          <h1 class="border">CONSERVATION</h1><br>
+          <div class="subtitle">from species to ecosystems
           </div>
           <br>
           <nuxt-link to="/pohnpei/conservation">
@@ -114,8 +112,8 @@
       </div>
       <div class="culture">
         <div class="caption">
-          <div class="border">CULTURE</div><br>
-          <div class="subtitle">From prehistoric ruins to contemporary life
+          <h1 class="border">CULTURE</h1><br>
+          <div class="subtitle">from prehistoric ruins to contemporary life
           </div>
           <br>
           <nuxt-link to="/pohnpei/culture">
@@ -136,14 +134,16 @@ export default {};
 .intro {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-INTRO2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-INTRO2.jpg");
   background-position: center center;
   background-size: cover;
 }
 .land {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-LAND2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-LAND2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -156,7 +156,8 @@ export default {};
 .reefs {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-REEFS2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-REEFS2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -169,7 +170,8 @@ export default {};
 .water {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-WATER2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-WATER2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -182,7 +184,8 @@ export default {};
 .vegetation {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-VEGETATION1.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-VEGETATION1.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -195,7 +198,8 @@ export default {};
 .population {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-POPULATION2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-POPULATION2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -208,7 +212,8 @@ export default {};
 .infrastructure {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-INFRASTRUCTURE2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-INFRASTRUCTURE2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -221,7 +226,8 @@ export default {};
 .conservation {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-CONSERVATION2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-CONSERVATION2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -234,7 +240,8 @@ export default {};
 .culture {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-CULTURE2.jpg");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%), rgb(0 0 0 / 28%)),
+    url("https://islandatlas.org/assets/images/pohnpei/Pohnpei-CULTURE2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -248,25 +255,12 @@ export default {};
 .ant-carousel >>> .slick-slide {
   position: relative;
   text-align: center;
-  height: 100vh;
+  margin-top: 98px;
+  height: 90vh;
   background: #364d79;
   overflow: hidden;
 }
-.caption {
-  position: absolute;
-  left: 0;
-  top: 35%;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  z-index: 1;
-  text-shadow: 1px 6px 10px rgb(0 0 0);
-  font-size: 3rem;
-}
-.subtitle {
-  font-size: 1.8rem;
-  font-style: italic;
-}
+
 .ant-carousel >>> .custom-slick-arrow {
   width: 25px;
   height: 25px;

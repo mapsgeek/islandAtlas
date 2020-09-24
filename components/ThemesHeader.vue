@@ -15,7 +15,7 @@
               <img width="200px" src="~assets/imgs/normal-yap-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
-              <nuxt-link to='/chuuk'>
+              <nuxt-link to='/chuuk' disabled>
                 <img width="200px" src="~assets/imgs/normal-chuuk.png" alt="">
               </nuxt-link>
             </a-menu-item>
@@ -41,51 +41,49 @@
       <div class="topNavbar">
         <div style="justify-content:center;display:flex;flex-grow:1">
           <a-dropdown class="dropNav" placement="bottomRight">
-            <a class="ant-dropdown-link" style="margin-right:15px;">
+            <a class="ant-dropdown-link" style="margin-right:15px;margin-bottom: 15px;">
               Menu
               <a-icon type="down" />
             </a>
             <a-menu slot="overlay">
               <a-menu-item>
-                <nuxt-link to="interactive-map">
-                  <img class="imgIcon" src="~assets/icons/interactivemapblack.png">
-                  Interactive Map
+                <nuxt-link active-class="land" :to='"/"+this.island+"/land"'>
+                  Land
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
-                  <img class="imgIcon" src="~assets/icons/datarepositoryblack.png">
-                  Data Repository
+                <nuxt-link active-class="reefs" :to='"/"+this.island+"/reefs"'>
+                  Reefs
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
-                  <img class="imgIcon" src="~assets/icons/galleryblack.png">
-                  Gallery
+                <nuxt-link active-class="water" :to='"/"+this.island+"/water"'>
+                  Water
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
-                  <img class="imgIcon" src="~assets/icons/sitemapblack.png">
-                  Site Map
+                <nuxt-link active-class="vegetation" :to='"/"+this.island+"/vegetation"'>
+                  Vegetation
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
-                  <img class="imgIcon" src="~assets/icons/searchblack.png">
-                  Search
+                <nuxt-link active-class="population" :to='"/"+this.island+"/population"'>
+                  Population
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
-                  <img class="imgIcon" src="~assets/icons/aboutblack.png">
-                  About
+                <nuxt-link active-class="infrastructure" :to='"/"+this.island+"/infrastructure"'>
+                  Infrastructure
                 </nuxt-link>
               </a-menu-item>
               <a-menu-item>
-                <nuxt-link to="interactive-map">
-                  <img class="imgIcon" src="~assets/icons/contactusblack.png">
-                  Contact Us
+                <nuxt-link active-class="conservation" :to='"/"+this.island+"/conservation"'>
+                  Conservation
+                </nuxt-link>
+              </a-menu-item>
+              <a-menu-item>
+                <nuxt-link active-class="culture" :to='"/"+this.island+"/culture"'>
+                  Culture
                 </nuxt-link>
               </a-menu-item>
             </a-menu>
@@ -154,7 +152,7 @@ export default {
 
   },
   mounted() {
-    console.log(this.$route)
+    // console.log(this.$route)
   },
   data() {
     return {

@@ -1,10 +1,11 @@
 import AntdDayjsWebpackPlugin from 'antd-dayjs-webpack-plugin';
+import webpack from 'webpack'
 
 export default {
   // mode: "universal",
   target: 'static',
   router: {
-    base: '/test/'
+    base: '/beta/'
   },
   /*
 ** Headers of the page
@@ -37,11 +38,22 @@ export default {
       lang: "css"
     }
   ],
+  script: [
+    // { src: 'https://code.jquery.com/jquery-3.5.1.min.js' }
+  ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
+    {
+      src: '@/plugins/parallax',
+      mode: 'client'
+    },
+    {
+      src: '@/plugins/slick.min',
+      mode: 'client'
+    },
   ],
   /*
   ** Nuxt.js dev-modules
@@ -54,11 +66,11 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    // '@nuxtjs/pwa',
+    '@nuxtjs/pwa',
     '@nuxtjs/apollo',
     'nuxt-webfontloader',
-    '@nuxtjs/axios',
-    '@nuxtjs/lunr-module'
+    'vue-scrollto/nuxt'
+    // '@nuxtjs/axios',
   ],
   // Give apollo module options
   apollo: {
@@ -76,7 +88,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ['Roboto:400,500,700'] //Loads Lato font with weights 400 and 700
+      families: ['Open Sans:400'] //Loads Lato font with weights 400 and 700
     }
   },
   /*
@@ -112,7 +124,12 @@ export default {
       // global modules
       new AntdDayjsWebpackPlugin({
         // replaceMoment: true
-      })
+      }),
+      new webpack.ProvidePlugin({
+        jQuery: 'jquery',
+        $: 'jquery',
+        'window.jQuery': 'jquery',
+      }),
     ]
   }
 }

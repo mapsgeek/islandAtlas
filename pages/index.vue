@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <IslandsCards />
-    <Footer />
+    <!-- <IslandsCards /> -->
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -12,6 +12,7 @@ import IslandsCards from '~/components/IslandsCards.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
+  scrollToTop: true,
   components: {
     Header,
     IslandsCards,

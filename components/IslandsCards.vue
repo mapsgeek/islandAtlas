@@ -13,11 +13,18 @@
           </nuxt-link>
         </a-button>
         <br>
-        <a-button type="link">
-          <nuxt-link to="/yap-outter" class="button">Neighboring Islands
-            <a-icon type="link" />
-          </nuxt-link>
-        </a-button>
+        <a-tooltip>
+          <template slot="title">
+            Comming soon
+          </template>
+          <a-button type="link">
+            <span></span>
+            <nuxt-link to="/yap-outter" class="button" disabled>
+              Neighboring Islands
+              <a-icon type="link" />
+            </nuxt-link>
+          </a-button>
+        </a-tooltip>
         <div class="flag">
           <img src="~assets/imgs/Flag_of_Yap.svg" alt="">
         </div>
@@ -27,17 +34,31 @@
           <img src="~assets/imgs/chuukCard.jpg" alt="">
         </div>
         <h1>Chuuk State</h1>
-        <a-button type="link">
-          <nuxt-link to="/chuuk" class="button">Chuuk Lagoon
-            <a-icon type="link" />
-          </nuxt-link>
-        </a-button>
+        <a-tooltip>
+          <template slot="title">
+            Comming soon
+          </template>
+          <a-button type="link">
+            <span></span>
+            <nuxt-link to="/chuuk" class="button" disabled>
+              Chuuk Lagoon
+              <a-icon type="link" />
+            </nuxt-link>
+          </a-button>
+        </a-tooltip>
         <br>
-        <a-button type="link">
-          <nuxt-link to="/chuuk-outter" class="button">Outer Islands
-            <a-icon type="link" />
-          </nuxt-link>
-        </a-button>
+        <a-tooltip>
+          <template slot="title">
+            Comming soon
+          </template>
+          <a-button type="link">
+            <span></span>
+            <nuxt-link to="/chuuk-outter" class="button" disabled>
+              Outer Islands
+              <a-icon type="link" />
+            </nuxt-link>
+          </a-button>
+        </a-tooltip>
         <div class="flag">
           <img src="~assets/imgs/flag_of_Chuuk.svg" alt="">
         </div>
@@ -53,11 +74,18 @@
           </nuxt-link>
         </a-button>
         <br>
-        <a-button type="link">
-          <nuxt-link to="/pohnpei-outter" class="button">Outer Islands
-            <a-icon type="link" />
-          </nuxt-link>
-        </a-button>
+        <a-tooltip>
+          <template slot="title">
+            Comming soon
+          </template>
+          <a-button type="link">
+            <span></span>
+            <nuxt-link to="/pohnpei-outter" class="button" disabled>
+              Outer Islands
+              <a-icon type="link" />
+            </nuxt-link>
+          </a-button>
+        </a-tooltip>
         <div class="flag">
           <img src="~assets/imgs/flag_of_Pohnpei.svg" alt="">
         </div>
@@ -73,11 +101,18 @@
           </nuxt-link>
         </a-button>
         <br>
-        <a-button type="link">
-          <nuxt-link to="/kosrae-outter" class="button">Neighbouring Islands
-            <a-icon type="link" />
-          </nuxt-link>
-        </a-button>
+        <a-tooltip>
+          <template slot="title">
+            Comming soon
+          </template>
+          <a-button type="link">
+            <span></span>
+            <nuxt-link to="/kosrae-outter" class="button" disabled>
+              Neighbouring Islands
+              <a-icon type="link" />
+            </nuxt-link>
+          </a-button>
+        </a-tooltip>
         <div class="flag">
           <img src="~assets/imgs/Flag_of_Kosrae.svg" alt="">
         </div>

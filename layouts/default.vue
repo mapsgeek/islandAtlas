@@ -12,5 +12,12 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
+.NavbarContainer {
+  position: fixed;
+  z-index: 500;
+  right: 0;
+  top: 0;
+  left: 0;
+}
 </style>
