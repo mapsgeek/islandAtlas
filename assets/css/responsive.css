@@ -40,7 +40,7 @@
 
 
 @media (max-width:991px){
-	.container{ max-width:85%;}
+	.container{ max-width:920px;}
 
 	.video-box { height: 260px;}
 	.video-box iframe{ height:350px !important;}
@@ -88,9 +88,9 @@
 
 
 @media (max-width:767px){
-	.container{ max-width:80%;}
+	.container{ max-width:540px;}
 
-	/* body{ padding-top:110vh;} */
+	body{ padding-top:110vh;}
 	.hover-bnr-frame{ position:relative; height:1250px;}
 
 	.cont-box-01 .left-cont-box{ width:100%; text-align:center;}

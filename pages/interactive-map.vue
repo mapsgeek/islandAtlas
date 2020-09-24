@@ -2,10 +2,10 @@
   <div style="text-align:center">
     <a-tabs default-active-key="1" size="small">
       <a-tab-pane key="1" tab="Pohnpei">
-        <iframe class="iframe" src="https://pohepei-maps.maps.arcgis.com/apps/webappviewer/index.html?id=be4cbf47e2454cd4bb3914bc1f6272ea" frameborder="0" seamless="seamless"></iframe>
+        <iframe class="iframe" src="https://islandatlas.org/assets/maps/pohnpei/PohnpeiMain/" frameborder="0" seamless="seamless"></iframe>
       </a-tab-pane>
       <a-tab-pane key="2" tab="Kosrae" force-render>
-        <iframe class="iframe" src="https://islandatlas.org/assets/maps/kosrae/Kosraepmain/" frameborder="0" seamless="seamless"></iframe>
+        <iframe class="iframe" src="https://islandatlas.org/assets/maps/kosrae/kosraemain/" frameborder="0" seamless="seamless"></iframe>
       </a-tab-pane>
       <a-tab-pane key="3" tab="Yap">
         <iframe class="iframe" src="https://islandatlas.org/assets/maps/yap/Yapmain/" frameborder="0" seamless="seamless"></iframe>

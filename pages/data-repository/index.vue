@@ -2,7 +2,7 @@
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc;">
       <div class="page">
-        <h1 style="text-align:center;margin-top:20px">Data repository</h1>
+        <h1 style="text-align:center;margin-bottom:20px">Data repository</h1>
         <div style="text-align:center">
           <Strong>Change island</Strong>
           <br>
@@ -24,7 +24,7 @@
 
         <a-button style="margin-bottom:10px;" type="primary" @click="downloadWithAxios" :disabled="!hasSelected">Download</a-button>
         <!-- <a-skeleton v-if="$apollo.queries.vectors.loading" active /> -->
-        <a-table id="table" :row-selection="rowSelection" :columns="columns" :data-source="vectors" :scroll="{ x: 800, y: 900 }">
+        <a-table id="table" :row-selection="rowSelection" :columns="columns" :data-source="vectors">
           <p slot="expandedRowRender" slot-scope="record" style="margin: 0">
             {{record.Description}}
           </p>

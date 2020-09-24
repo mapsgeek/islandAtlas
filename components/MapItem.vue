@@ -23,7 +23,7 @@
                   View Layers
                 </nuxt-link>
                 <!-- :NOTE temporary -->
-                <nuxt-link :to="`${theme}/metadata/${map.id}`" class="ant-dropdown-link" :disabled="island !== 'pohnpei'">
+                <nuxt-link :to="`${theme}/metadata/${map.id}`" class="ant-dropdown-link">
                   View Metadata
                 </nuxt-link>
                 <a-dropdown placement="bottomCenter" :trigger="['hover']">
@@ -67,7 +67,15 @@
                         </a>
                       </span>
                       <span>
-                        <a :href="`${url}/${island}/${theme}/${map.fileName}-svg.zip`" download ghost>
+                        <a :href="`${url}/${island}/${theme}/${map.fileName}.svg.zip`" download ghost v-if="map.island!=='pohnpei'">
+                          <a-tooltip placement="bottom">
+                            <template slot="title">
+                              Vector format download
+                            </template>
+                            <img src="~assets/imgs/svg.png" alt="svg">
+                          </a-tooltip>
+                        </a>
+                        <a :href="`${url}/${island}/${theme}/${map.fileName}-svg.zip`" download ghost v-if="map.island==='pohnpei'">
                           <a-tooltip placement="bottom">
                             <template slot="title">
                               Vector format download
@@ -81,8 +89,8 @@
                 </a-dropdown>
                 <!-- :NOTE temporary -->
 
-                <a-dropdown placement="bottomCenter" :trigger="['hover']" :disabled="island !== 'pohnpei' || map.gisName ===null">
-                  <a class="ant-dropdown-link" :disabled="island !== 'pohnpei' || map.gisName ===null">
+                <a-dropdown placement="bottomCenter" :trigger="['hover']" :disabled="map.gisName ===null">
+                  <a class="ant-dropdown-link" :disabled="map.gisName ===null">
                     Download Data
                     <a-icon type="down" />
                   </a>
@@ -126,7 +134,15 @@
                     </p>
                     <div>
                       <span>
-                        <a :href="`${url}/${island}/${theme}/${map.fileName}.tif`" download>
+                        <a :href="`${url}/${island}/${theme}/${map.fileName}.tif`" download v-if="map.island==='pohnpei'">
+                          <a-tooltip placement="bottom">
+                            <template slot="title">
+                              Full Map GeoTIFF
+                            </template>
+                            <img src="~assets/imgs/tiff1.png" alt="tiff">
+                          </a-tooltip>
+                        </a>
+                        <a :href="`${url}/${island}/${theme}/${map.fileName}.tiff`" download v-if="map.island!=='pohnpei'">
                           <a-tooltip placement="bottom">
                             <template slot="title">
                               Full Map GeoTIFF
@@ -136,7 +152,15 @@
                         </a>
                       </span>
                       <span>
-                        <a :href="`${url}/${island}/${theme}/layer/${map.fileName}.tif`" download>
+                        <a :href="`${url}/${island}/${theme}/layer/${map.fileName}.tif`" download v-if="map.island==='pohnpei'">
+                          <a-tooltip placement="bottom">
+                            <template slot="title">
+                              Island-only GeoTIFF
+                            </template>
+                            <img src="~assets/imgs/tiff2.png" alt="png">
+                          </a-tooltip>
+                        </a>
+                        <a :href="`${url}/${island}/${theme}/layer/${map.fileName}.tiff`" download v-if="map.island!=='pohnpei'">
                           <a-tooltip placement="bottom">
                             <template slot="title">
                               Island-only GeoTIFF

@@ -1,6 +1,6 @@
 <template>
   <div id="heroSlider">
-    <a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=1000 centerPadding lazyLoad :autoplaySpeed="5000" accessibility>
+    <a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=1000 centerPadding lazyLoad :autoplaySpeed="3000" accessibility>
       <div slot="prevArrow" class="custom-slick-arrow" style="left: 10px;zIndex: 1">
         <a-icon type="left-circle" />
       </div>

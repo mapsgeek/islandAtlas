@@ -15,7 +15,7 @@
               <img width="200px" src="~assets/imgs/normal-yap-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
-              <nuxt-link to='/chuuk' disabled>
+              <nuxt-link to='/chuuk'>
                 <img width="200px" src="~assets/imgs/normal-chuuk.png" alt="">
               </nuxt-link>
             </a-menu-item>

@@ -2,7 +2,7 @@
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc;">
       <div class="w-container">
-        <h1 style="text-align:center;margin-top:20px">About</h1>
+        <h1 style="text-align:center;margin-bottom:20px">About</h1>
         <p>
           The Digital Atlas of Micronesia is the foremost source of maps and geospatial information for the Federated States of Micronesia. People searching for any sort of geospatial information can come to this web-based Atlas to identify, visualize, query, analyze, and acquire datasets relevant to their interests. At the core of the Atlas are web-enabled GIS and searchable database that allow users to view and manipulate hundreds of layers of geospatial information. In addition to serving as a data repository, the Atlas is also an informational tool and incorporates hundreds of pre-made maps, charts, and datasets related to the natural and human environment of Micronesian islands. Outlined below are some of the key features of this most comprehensive geospatial data source available for the Federated States of Micronesia. Flip the cards for additional information.
         </p>

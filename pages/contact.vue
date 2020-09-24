@@ -2,7 +2,7 @@
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc;">
       <div class="page">
-        <h1 style="text-align:center;margin-top:20px">Contact Us</h1>
+        <h1 style="text-align:center;margin-bottom:20px">Contact Us</h1>
         <a-row class="formConainer">
           <a-col :span="10">
             <div>

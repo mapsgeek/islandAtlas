@@ -2,7 +2,7 @@
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc;">
       <div class="page">
-        <h1>POHNPEI MAIN ISLAND MAPS: <span v-bind:class="`${theme}color`">{{theme}}</span></h1>
+        <h1 style="text-align:center">POHNPEI MAIN ISLAND MAPS <br> <span v-bind:class="`${theme}color`">{{theme}}</span></h1>
         <!-- <a-skeleton v-if="$apollo.queries.groups.loading" active /> -->
         <MapItem :maps=groups :island='"pohnpei"' :theme="theme" />
       </div>

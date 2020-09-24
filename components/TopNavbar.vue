@@ -71,10 +71,10 @@
               <img class="imgIcon" src="~assets/icons/gallerywhite.png">
               Gallery
             </nuxt-link>
-            <!-- <nuxt-link to="/interactive-map">
+            <nuxt-link to="/sitemap">
               <img class="imgIcon" src="~assets/icons/sitemapwhite.png">
               Site Map
-            </nuxt-link> -->
+            </nuxt-link>
             <!-- <nuxt-link to="/search">
               <img class="imgIcon" src="~assets/icons/searchwhite.png">
               Search

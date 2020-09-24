@@ -2,7 +2,7 @@
   <transition appear-active-class="animated fadeInUp" appear>
     <div style="background-color:#f6f9fc; text-align:center">
       <div class="page">
-        <h1 style="text-align:center;margin-top:20px">Gallery</h1>
+        <h1 style="text-align:center;margin-bottom:20px">Gallery</h1>
         <Strong>Change island</Strong>
         <br>
         <a-select :defaultValue=island style="width: 120px;margin-bottom:40px;margin-top:10px" @change="handleChange">
