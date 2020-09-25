@@ -830,7 +830,7 @@
       "gisName": "1-01",
       "metaName": [
         "1-01a",
-        "0-01b"
+        "1-01b"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=f7039ce4c4214f06b3e057af3752e187",
       "island": "pohnpei"
@@ -871,13 +871,27 @@
       "id": "4-1-01",
       "groups_id": 2,
       "category_id": 3,
+      "title": "Shoreline",
+      "theme": "land",
+      "decription": "This map shows the shoreline and the land area of all islands in Chuuk Lagoon and on the barrier reef. It actually contains two datasets: the shoreline itself  were created by Island Research & Education Initiative (iREi) (2020). The shoreline was manually digitized based on Worldview-2 satellite imagery from Digital Globe (2014 and 2018-2019 for selected urban areas) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) while the reef areas were generally based on the Digital Line Graphs (DGLs) by U.S. Geological Survey (USGS) but shifted and adjusted to follow current imagery better.",
+      "fileName": "1-01a",
+      "gisName": "1-01",
+      "metaName": [
+        "1-01a"
+      ],
+      "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=5e369a41beb047ae94153fb2896e7028",
+      "island": "chuuk"
+    },
+    {
+      "id": "4-1-01b",
+      "groups_id": 2,
+      "category_id": 3,
       "title": "Shoreline and base layer",
       "theme": "land",
       "decription": "This map shows the shoreline and the land area of all islands in Chuuk Lagoon and on the barrier reef. It actually contains two datasets: the shoreline itself and Chuuk base layer. Both were created by Island Research & Education Initiative (iREi) (2020). The shoreline was manually digitized based on Worldview-2 satellite imagery from Digital Globe (2014 and 2018-2019 for selected urban areas) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) while the reef areas were generally based on the Digital Line Graphs (DGLs) by U.S. Geological Survey (USGS) but shifted and adjusted to follow current imagery better. The base layer distinguishes high islands from low islands, lagoon reefs from lagoon bottom, and barrier reef flats from deeper and permanently submerged parts of the barrier reef.",
-      "fileName": "1-01",
+      "fileName": "1-01b",
       "gisName": "1-01",
       "metaName": [
-        "1-01a",
         "0-01b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=5e369a41beb047ae94153fb2896e7028",
@@ -2165,16 +2179,16 @@
       "island": "yap"
     },
     {
-      "id": "4-2-02",
+      "id": "4-2-02a",
       "groups_id": 8,
       "category_id": 19,
       "title": "Reef geomorphology",
       "theme": "reefs",
       "decription": "This map classifies the reefs of Chuuk Lagoon by their geomorphology. The dataset used here is the same as the one used for the reef zonation map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
-      "fileName": "2-02",
-      "gisName": "2-02_and_2-09",
+      "fileName": "2-02a",
+      "gisName": "2-02a",
       "metaName": [
-        "2-02"
+        "2-02a"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=680b765c65164c59a8a0fb39b610f956",
       "island": "chuuk"
@@ -2195,16 +2209,16 @@
       "island": "pohnpei"
     },
     {
-      "id": "4-2-09",
+      "id": "4-2-02b",
       "groups_id": 8,
       "category_id": 20,
-      "title": "Reef zonation",
+      "title": "Reef habitat types",
       "theme": "reefs",
       "decription": "This map classifies the reefs of Chuuk Lagoon by zone. Reef zones describe the locations and ecological conditions of different parts of the reef with respect to the reef system as a whole. The dataset used here is the same as the one used for the reef geomorphology map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
-      "fileName": "2-09",
-      "gisName": "2-02_and_2-09",
+      "fileName": "2-02b",
+      "gisName": "2-02",
       "metaName": [
-        "2-09"
+        "2-02b"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=0b0efd3e9cfb4a2b9f0b5ff497d079ad",
       "island": "chuuk"
@@ -6543,16 +6557,16 @@
       "island": "yap"
     },
     {
-      "id": "4-7-02",
+      "id": "4-7-03",
       "groups_id": 31,
       "category_id": 68,
       "title": "Areas of biodiversity significance",
       "theme": "conservation",
       "decription": "This map shows the Areas of Biological Significance (ABS) in Chuuk Lagoon. The dataset was created by The Nature Conservancy. A subset to show only Chuuk was created by the Island Research & Education Initiative (iREi) (2020). The polygons in the data are intended to capture those areas that represent the wide range of biodiversity features in the marine and terrestrial areas of FSM. They capture expert knowledge from the FSM Blueprint project. They are used to guide conservation planning and projects in FSM, and ultimately to help establish conservation areas.",
-      "fileName": "7-02",
-      "gisName": "7-02",
+      "fileName": "7-03",
+      "gisName": "7-03",
       "metaName": [
-        "7-02"
+        "7-03"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=4112f8429f0143dd93411eeef940fa2a",
       "island": "chuuk"

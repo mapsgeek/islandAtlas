@@ -530,6 +530,39 @@ export default {
 
 </script>
 <style scoped lang='less'>
+@media (max-width: 1199px) {
+  .slick-next {
+    right: -10px !important;
+  }
+  .slick-prev {
+    left: -10px !important;
+  }
+}
+@media (max-width: 1199px) {
+  .slick-next {
+    right: -5px !important;
+  }
+  .slick-prev {
+    left: -5px !important;
+  }
+}
+@media (max-width: 991px) {
+  .slick-next {
+    right: -10px !important;
+  }
+  .slick-prev {
+    left: -10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .slick-next {
+    right: -10px !important;
+  }
+  .slick-prev {
+    left: -10px !important;
+  }
+}
+
 .exp-frame {
   float: left;
   width: 100%;

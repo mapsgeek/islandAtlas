@@ -1,0 +1,764 @@
+{
+  "vectors": [
+    {
+      "id": "3-1-01",
+      "name": "Shoreline",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the shoreline and the land area of Yap and smaller islands in Yap's lagoon and on the barrier reef. It actually contains two datasets: the shoreline itself and Yap base layer. Both were created by Island Research & Education Initiative (iREi) based on Digital Line Graphs (DLGs) from U.S. Geological Survey 1:25,000-scale topographic maps. The shoreline and base layer were shifted and adjusted to follow current imagery better. In urban areas, the shoreline was updated using Worldview-3 satellite imagery from Digital Globe (2016) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/land/1-01.zip"
+    },
+    {
+      "id": "3-1-02 to 1-03",
+      "name": "10-m elevation contours",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "This map represents the topography of Yap. It shows elevation contour lines at 10-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1969 and the shoreline dataset representing the zero contour line.",
+      "file": "/land/1-02_to_1-03.zip"
+    },
+    {
+      "id": "3-1-04 to 1-05",
+      "name": "50-m elevation contours",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "This map represents the topography of Yap. It shows elevation contour lines at 50-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) y U.S. Geological Survey based on topography compiled in 1969 and the shoreline dataset representing the zero contour line. ",
+      "file": "/land/1-04_to_1-05.zip"
+    },
+    {
+      "id": "3-1-16 to 1-18",
+      "name": "Basic soil types",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the basic soil types of Yap. The source of this layer is the Gridded Soil Survey Geographic (gSSURGO) Database for Federated States of Micronesia (2016) created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The original dataset was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1983) as part of the soil survey of the Islands of Yap, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). The data layer was created by Island Research & Education Initiative (iREi) (2019) by extracting and formatting a subset of the Gridded Soil Survey Geographic (gSSURGO) Database for Federated States of Micronesia (2019) created by USDA-NRCS.",
+      "file": "/land/1-16_to_1-18.zip"
+    },
+    {
+      "id": "3-1-19",
+      "name": "general land use",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The basic soil types of yap. The original dataset was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1983) as part of the soil survey of the Islands of yap, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). The data layer was created by Island Research & Education Initiative (iREi) (2019) by extracting and formatting a subset of the Gridded Soil Survey Geographic (gSSURGO) Database for Federated States of Micronesia (2019) created by USDA-NRCS.",
+      "file": "/land/1-19.zip"
+    },
+    {
+      "id": "3-1-20",
+      "name": "general geology",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the general geology of Yap. The data layer was created by Island Research & Education Initiative (iREi) (2019) by scanning, georeferencing, and digitizing a paper map with data by C.G. Johnson, geologist, Military Geology Branch, US Geological Survey; prepared for the Intelligence Division, Office of the Engineer, Hq. US Army Japan; based on field investigations by C.G. Johnson in 1947-1948; compiled in 1956 from Caroline Islands 1:25,000, Series W856, Sheets 1850 III NW, 1850 IV NE, 1850 IV SE and 1850 IV SW; original mapping by photogrammetric (multiplex) methods 1954.",
+      "file": "/land/1-20.zip"
+    },
+    {
+      "id": "3-1-21",
+      "name": "general physiography",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The general physiography of yap. The data layer was created by Island Research & Education Initiative (iREi) (2019) using a combination of 10-meter resolution Digital Elevation Model (DEM) (USGS, 1967) and the simple soil map of yap (NRCS, 1981), and applying them to the base layer (iREi, 2019).",
+      "file": "/land/1-21.zip"
+    },
+    {
+      "id": "3-1-14",
+      "name": "Hilltops",
+      "general": "Land",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of prominent peaks on Yap. This data layer was developed by Island Research & Education Initiative (iREi) (2019) by slightly modifying data from U.S. Geological Survey's Geographic Names Information System (GNIS). The place names shown on this map are copied from the two sources above and are not authoritative. They require thorough verification and correction of spellings to conform with Yapese orthography.",
+      "file": "/land/1-14.zip"
+    },
+    {
+      "id": "3-2-01",
+      "name": "Extent of coral reefs",
+      "general": "Reefs",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the extent of coral reefs around Yap. The data layer shown here is a subset of Yap base layer derived by Island Research & Education Initiative (iREi) (2019) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001). The shoreline was partially updated and the coral reef features were slightly shifted and partially modified based on Worldview-3 satellite imagery from Digital Globe (2016) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/reefs/2-01.zip"
+    },
+    {
+      "id": "3-2-02 and 2-09",
+      "name": "Reef geomorphology",
+      "general": "Reefs",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "This map represents the topography of Pohnpei. It shows elevation contour lines at 10-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) and the University of Guam (UOG) (2017) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975 and the shoreline dataset representing the zero contour line.",
+      "file": "/reefs/2-02_and_2-09.zip"
+    },
+    {
+      "id": "3-2-02 and 2-09",
+      "name": "Reef habitat types",
+      "general": "Reefs",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "This map classifies the reefs around Yap by their geomorphology. The dataset used here is the same as the one used for the reef zonation map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
+      "file": "/reefs/2-02_and_2-09.zip"
+    },
+    {
+      "id": "3-2-03",
+      "name": "Reef passes",
+      "general": "Reefs",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of principal passes in the barrier reef around Yap. This data layer was derived by Island Research & Education Initiative (iREi) (2019) by slightly modifying data from U.S. Geological Survey 1:25,000-scale topographic maps (1996). The place names shown on this map are copied from the source require thorough verification and correction of spellings to conform with Yapese orthography.",
+      "file": "/reefs/2-03.zip"
+    },
+    {
+      "id": "3-2-05 to 2-08",
+      "name": "Recreation",
+      "general": "Reefs",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of popular surf breaks around yap. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019) from information provided by yap Island Resource Management Authority (KIRMA).",
+      "file": "/reefs/2-05_to_2-08.zip"
+    },
+    {
+      "id": "3-3-02",
+      "name": "Streams and rivers [USGS version]",
+      "general": "Water",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "the rivers and streams on Yap as represented on the U.S. Geological Survey (USGS) 1:25,000-scale topographic maps (1996). The dataset was extracted from the Digital Line Graphs (DLGs) from USGS and names from the Geographic Names Information System (GNIS) by Island Research & Education Initiative (iREi) (2019) and slightly modified to match the (partially) updated shoreline.",
+      "file": "/water/3-02.zip"
+    },
+    {
+      "id": "3-3-03",
+      "name": "Stream outflow points",
+      "general": "Water",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the natural outflow locations on Yap, defined as points where streams and rivers discharge into the lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2019) by identifying the points where streams and rivers from 1:25,000-scale U.S. Geological Survey topographic maps (1996) intersect with the most recent shoreline of Yap..",
+      "file": "/water/3-03.zip"
+    },
+    {
+      "id": "3-3-04",
+      "name": "Flow paths",
+      "general": "Water",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "the theoretical drainage pattern on Yap. The flow paths were delineated by Island Research & Education Initiative (iREi) (2019). This was done by Maria Kottermair (iREi) through hydrological modeling using a 10-meter Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1969. Note that in very flat low-lying areas the data may indicate straight lines that are an artifact of the modeling process and do not reflect reality.",
+      "file": "/water/3-04.zip"
+    },
+    {
+      "id": "3-3-06",
+      "name": "Principal watersheds",
+      "general": "Water",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the principal watersheds (drainage basins) on Yap. The dataset was created by Island Research & Education Initiative (iREi) (2019). Basin boundaries were delineated by Maria Kottermair (iREi) through hydrological modeling using a 10-meter Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1969. Note that basin boundaries shown are modeled and, as such, reflect the DEM and not necessarily actual situation on the ground. The watershed boundaries may differ from actual management units, especially as smaller basins were sometimes merged to a ‘principal’ watershed to avoid too many small remnant basins.",
+      "file": "/water/3-06.zip"
+    },
+    {
+      "id": "3-3-07",
+      "name": "Sub-watersheds",
+      "general": "Water",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "Yap's principal watersheds (drainage basins) and their sub-watersheds. The dataset was created by Island Research & Education Initiative (iREi) (2019). All boundaries were delineated by Maria Kottermair (iREi) through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1969. Note that apparently unnatural boundaries such as series of straight, parallel lines are artifacts of modeling and do not reflect reality.",
+      "file": "/water/3-07.zip"
+    },
+    {
+      "id": "3-3-09",
+      "name": "Gaging stations",
+      "general": "Water",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of the U.S. Geological Survey gaging stations on Yap. The dataset was extracted by Island Research & Education Initiative (iREi) (2019) from Digital Line Graphs (DLGs). The DLGs were created by U.S. Geological Survey for the 1:25,000-scale topographic maps (1996).",
+      "file": "/water/3-09.zip"
+    },
+    {
+      "id": "3-3-10",
+      "name": "Weather stations",
+      "general": "Water",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the location of the active weather observation sites on Yap. The data layer was created by Island Research & Education Initiative (iREi) (2019) using location information obtained from the National Weather Service office in Guam.",
+      "file": "/water/3-10.zip"
+    },
+    {
+      "id": "3-4-01",
+      "name": "Vegetation (1975)",
+      "general": "Vegetation",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the vegetation of Yap in 1975. It was derived by Landcare research from 1975 Vegetation Survey Maps of Yap. The original hardcopy map was created as part of the following publication: MacLean, C.D., Cole, T.G., Whitesell, C.D., Falanruw, M.V., and Ambacher, A.H. (1986). Vegetation Survey of Yap, Federated States of Micronesia. U.S. Department of Agriculture (USDA), Resource Bulletin PSW-18. It was also included in Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Yap 1995, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was shifted modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "3-4-04",
+      "name": "Vegetation (2005)",
+      "general": "Vegetation",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the vegetation of Yap in 2005. The dataset was developed from 2005 QuickBird satellite imagery by Digital Globe through land cover classification carried out by U.S. Forest Service (2007). The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "3-4-05",
+      "name": "Wetlands",
+      "general": "Vegetation",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the wetlands of Yap, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2005 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery.",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "3-4-06",
+      "name": "Upland forests",
+      "general": "Vegetation",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the extent of upland forest on Yap, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2005 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery.",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "3-4-07",
+      "name": "Agroforests",
+      "general": "Vegetation",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the extent of agroforest on Yap, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2005 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery.",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "3-5-01",
+      "name": "Municipalities [areas]",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the approximate extent of the ten municipalities of Yap. The GIS file was created by Island Research & Education Initiative (2020) by georeferencing and digitizing the map printed in Sunn, Low, Tom and Hara, Inc. (1971) Feasibility studies for the installation of communal water facilities in the populated areas of Tomil, Gagil and Kanifay, Honolulu, Hawaii, 24 p., and slightly modifying it based on village locations shown in the USGS topographic map and village municipal affiliations listed in the Yapese-English dictionary. Note that the sources used are not authoritative and the boundaries shown are highly approximate and in no way definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+      "file": "/population/5-01.zip"
+    },
+    {
+      "id": "3-5-02",
+      "name": "Municipalities [lines]",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "inexact lines separating the ten municipalities of Yap. The GIS file was created by Island Research & Education Initiative (2020) by georeferencing and digitizing the map printed in Sunn, Low, Tom and Hara, Inc. (1971) Feasibility studies for the installation of communal water facilities in the populated areas of Tomil, Gagil and Kanifay, Honolulu, Hawaii, 24 p., and slightly modifying it based on village locations shown in the USGS topographic map and village municipal affiliations listed in the Yapese-English dictionary. Note that the sources used are not authoritative and the boundaries shown are highly approximate and in no way definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+      "file": "/population/5-02.zip"
+    },
+    {
+      "id": "3-5-05",
+      "name": "Capitals",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of Colonia, the state capital of Yap State, and the three highest ranking villages in the context of traditional authority. The three villages are Ngolog, Teab, and Gachpar. They are of equal rank and are collectively known as Dalip Pi Nguchol. The data layer was created by Island Research & Education Initiative (iREi) (2019).",
+      "file": "/population/5-05.zip"
+    },
+    {
+      "id": "3-5-07",
+      "name": "Place names",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of all named geographic features on Kosrae that are contained within the Geographic Names Information System (GNIS). The GNIS is the official database that contains all standard toponyms in the U.S. and its territories and associated states. It was developed by the U.S. Geological Survey (USGS) in cooperation with the U.S. Board on Geographic Names (BGN) in order to standardize place names. Island Research & Education Initiative (iREi) (2019) transferred this information to GIS format and shifted to match the most recent base layer and 2015-2018 WorldView-2 satellite imagery. Note that the actual names contained in the dataset are copied exactly as they are in GNIS and are not necessarily correct or aligned with Kosraean orthography.",
+      "file": "/population/5-07.zip"
+    },
+    {
+      "id": "3-5-08",
+      "name": "Population by age and sex",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the number of residents of Pohnpei by municipality, and also provides information on sex and age distribution in the form of population pyramids for each municipality. The attribute tables in the actual dataset also contain information on median age and average annual population growth rate. This geospatial dataset was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-08.zip"
+    },
+    {
+      "id": "3-5-09",
+      "name": "Population density and growth",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the population density of Yap by municipality, and also provides information on population growth in Yap from 1920 until 2010. The map was created using the same data layer as the map that shows population by age and sex. This geospatial dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-09.zip"
+    },
+    {
+      "id": "3-5-10",
+      "name": "Birthplace",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of residents born outside of Yap by municipality. The attribute tables in the actual dataset contain very detailed information on specific places of birth and citizenship status. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-10.zip"
+    },
+    {
+      "id": "3-5-11",
+      "name": "Ethnicity",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of ethnically Kosraean residents by municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual dataset contain more detailed information on the full range of specific ethnic identities involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2000) and the FSM census of population and housing (2010).",
+      "file": "/population/5-11.zip"
+    },
+    {
+      "id": "3-5-12",
+      "name": "Religion",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the religious affiliation of Yapese residents aged 15 and above by municipality. The attribute tables in the actual dataset contain more detailed information on specific churches involved (or absence of religious belief) and on marital status. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-12.zip"
+    },
+    {
+      "id": "3-5-13",
+      "name": "Literacy and language",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the literacy rate of Yapese residents aged 5 and above by municipality, and also provides information on the first language spoken. The attribute tables in the actual dataset contain more detailed information on literacy levels in specific languages spoken as the first or second language for persons aged 5, as well as the specific languages predominantly spoken in households for persons aged 3 and above. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-13.zip"
+    },
+    {
+      "id": "3-5-14",
+      "name": "School enrollment",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of Yapese residents aged 3 and above enrolled in schools by municipality, and also provides information on the number of students attending different types of schools. The attribute tables in the actual dataset contain more detailed information, including separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-14.zip"
+    },
+    {
+      "id": "3-5-15",
+      "name": "Educational attainment",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of Yapese residents aged 25 and above who graduated high school and also provides information on the highest level of education attained by municipality. The attribute tables in the actual dataset contain information at a higher resolution (breakdown by individual grade levels) and separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-15.zip"
+    },
+    {
+      "id": "3-5-16",
+      "name": "Disabilities",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of Yapese residents with disabilities by municipality. The attribute tables in the actual dataset contain more detailed information on specific disabilities (seeing, hearing, walking, remembering, etc.), number of disabilities, disability levels, and separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-16.zip"
+    },
+    {
+      "id": "3-5-17",
+      "name": "Labor force",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of Yapese residents aged 15 and above who are in labor force per municipality, and also provides information on what portions of the labor force are formally employed, employed in home production, or unemployed. The attribute tables in the actual dataset contain more detailed information, including separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-17.zip"
+    },
+    {
+      "id": "3-5-18",
+      "name": "Home production",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of Yapese residents aged 15 and above who are engaged in home production per municipality, and also provides information on what portions of home production are intended for own consumption, sale, or both. The attribute tables in the actual dataset also contain information on formal employment, including types of jobs, general areas of employment, and the type of employer. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-18.zip"
+    },
+    {
+      "id": "3-5-19",
+      "name": "Household type",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the average number of persons per household in each municipality on Yap, and also provides information on the percentage of family members vs. non-family members within the households. The attribute tables in the actual dataset contain more detailed information on types of relationships between household members, number of persons living in group quarters (school dormitories, correctional facilities, etc.), and average number of persons per family. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-19.zip"
+    },
+    {
+      "id": "3-5-20",
+      "name": "Housing tenure",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the ownership status of households (owned free and clear of loan vs. owned with loan or rented) and land (owned vs. leased) in each municipality on Yap. The attribute tables in the actual dataset contain more detailed information on specific ownership types involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-20.zip"
+    },
+    {
+      "id": "3-5-21",
+      "name": "Housing structure",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the average number of rooms per household and the building materials used to make house roofs and walls in each municipality on Yap. The attribute tables in the actual dataset also contain information on specific building types, floor construction materials, age of buildings, and the number of persons per household and per room. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-21.zip"
+    },
+    {
+      "id": "3-5-22",
+      "name": "Principal sources of water for drinking and washing",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of households in each municipality on Yap that have access to piped water, and also provides information on specific sources used to obtain fresh water for drinking and washing. The attribute tables in the actual dataset also contain information on toilet types and sewage disposal types in households. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-22.zip"
+    },
+    {
+      "id": "3-5-23",
+      "name": "Principal sources of energy for cooking and lighting",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of households in each municipality on Yap that have complete kitchen facilities, and also provides information on energy sources for lighting and cooking. The attribute tables in the actual dataset contain more detailed information on specific types of energy sources. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-23.zip"
+    },
+    {
+      "id": "3-5-24",
+      "name": "Households with selected appliances",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of households in each municipality on Yap that possess a sink and/or a refrigerator. The attribute tables in the actual dataset contain more detailed information on specific numbers of sinks and refrigerators, as well as other amenities including air conditioning units, generators, DVD/VCR players, and television sets with and without cable TV connection. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-24.zip"
+    },
+    {
+      "id": "3-5-25",
+      "name": "Households with vehicles",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of households in each municipality on Yap that have at least one car, and also provides information on the total number of households with cars, boats with engine, and canoes and boats without engine. The attribute tables in the actual dataset also contain information about other vehicles (trucks, buses, motorbikes) and detailed information on specific numbers of each vehicle type per household. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-25.zip"
+    },
+    {
+      "id": "3-5-26",
+      "name": "Households with telephones",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of households in each municipality on Yap that have at least one telephone land line, and also provides information on the relative availability of cell phones. The attribute tables in the actual dataset also contain detailed information on the number of fixed and cellular phones, as well as radios and computers per household. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-26.zip"
+    },
+    {
+      "id": "3-5-27",
+      "name": "Internet usage",
+      "general": "Population",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the percentage of households in each municipality on Yap that have a functioning Internet connection, and also provides information on the relative number of people who access the Internet. The attribute tables in the actual dataset contain more detailed information on the frequency of Internet use. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-27.zip"
+    },
+    {
+      "id": "3-6-01",
+      "name": "Roads",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "the road network on Yap. It includes major roads as well as smaller paved and unpaved roads. The dataset was created by Maria Kottermair (iREi) (2019) based on 2016 WorldView-3 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The attribute information (name and type of road) is based on visual interpretation of imagery and has not been verified in the field.",
+      "file": "/infrastructure/6-01.zip"
+    },
+    {
+      "id": "3-6-02",
+      "name": "Bridges and causeways",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "major bridges and causeways on Yap. The dataset was created by Island Research & Education Initiative (iREi) (2019) based on 2016 WorldView-3 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/infrastructure/6-02.zip"
+    },
+    {
+      "id": "3-6-04",
+      "name": "Port and airport locations",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of the international port and airport on Yap. The dataset was created by Island Research & Education Initiative (iREi) (2019) based on 2016 WorldView-3 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/infrastructure/6-04.zip"
+    },
+    {
+      "id": "3-6-05",
+      "name": "Port and airport zones",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the international port and airport zones on Yap. The dataset was created by Island Research & Education Initiative (iREi) (2019) based on 2016 WorldView-3 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The dataset also includes the outline of the runway. The boundaries are not authoritative.",
+      "file": "/infrastructure/6-05.zip"
+    },
+    {
+      "id": "3-6-06",
+      "name": "Locations of houses and other buildings",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "Tthe locations of all houses, buildings, and other human-made structures. The dataset was created by Island Research & Education Initiative (iREi) (2019) by converting building footprints of houses and other buildings to point features. The buildings footprints were based on 2016 WorldView-3 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/infrastructure/6-06.zip"
+    },
+    {
+      "id": "3-6-07",
+      "name": "Footprints of houses and other buildings",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the footprints of all houses, buildings, and other human-made structures. The dataset is a combination from Open Street Map data (2019) and data created by Island Research & Education Initiative (iREi) (2019). More than half the building footprints were manually digitized by iREi based on 2016 WorldView-3 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). Footprints extracted from OSM data may be based on older imagery and explain a ‘shift’ that might be seen in some areas.",
+      "file": "/infrastructure/6-07.zip"
+    },
+    {
+      "id": "3-6-09",
+      "name": "Major businesses",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of businesses on Yap. The data layer was created by Island Research & Education Initiative (iREi) (2019) based on various sources including Open Street Map and Google Maps, as well as local informants, namely Joshua Libyan Tun and Larry Raigetal, who corrected and added information specifically for this Digital Atlas.",
+      "file": "/infrastructure/6-09.zip"
+    },
+    {
+      "id": "3-6-10",
+      "name": "Hospitals and clinics",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of the hospital and community health centers on Yap. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019), using KML files created by by the Wa'ab Community Health Center/ Yap Department of Health Services (2019).",
+      "file": "/infrastructure/6-10.zip"
+    },
+    {
+      "id": "3-6-11",
+      "name": "Schools",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of schools and colleges on Yap. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2020) from KML files created by Joshua Libyan Tun specifically for this Digital Atlas.",
+      "file": "/infrastructure/6-11.zip"
+    },
+    {
+      "id": "3-6-12",
+      "name": "Places of worship",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of churches on Yap. The data layer was created by Island Research & Education Initiative (iREi) (2019) based on various sources including Pacific Disaster Center (PDC) (2013), as well as local informants, namely Joshua Libyan Tun and Larry Raigetal, who corrected and added information specifically for this Digital Atlas.",
+      "file": "/infrastructure/6-12.zip"
+    },
+    {
+      "id": "3-6-13",
+      "name": "Fire stations",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the location of the fire station on Yap. The original data layer was created by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-13.zip"
+    },
+    {
+      "id": "3-6-14",
+      "name": "Police stations",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of the police stations on Yap. The original data layer was created by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-14.zip"
+    },
+    {
+      "id": "3-6-16",
+      "name": "Power plants",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the location of the power plant on Yap. The original data layer was created by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-16.zip"
+    },
+    {
+      "id": "3-6-17",
+      "name": "Fuel farms",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of fuel tanks on Yap. The original data layer was created by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-17.zip"
+    },
+    {
+      "id": "3-6-20",
+      "name": "Water lines",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "the location of water supply lines on Yap. The dataset was created by Yap State Public Service Corporation. It excludes water supply lines owned and operated by any of the other three water utilities companies in Yap (Southern Yap Water Authority, Gagil-Tamil Water Authority, Maap Water Authority).",
+      "file": "/infrastructure/6-20_(DO NOT SHARE).zip"
+    },
+    {
+      "id": "3-6-21",
+      "name": "Water tanks",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of storage tanks for fresh water on Yap. The original data layer was created by Island Research & Education Initiative (iREi) (2019) by building on the original layer developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. Features were corrected and updated with new information from KML files created by Joshua Libyan Tun specifically for this Digital Atlas.",
+      "file": "/infrastructure/6-21.zip"
+    },
+    {
+      "id": "3-6-22",
+      "name": "Water treatment facilities",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the location of water treatment facility on Yap. The original data layer was created by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-22.zip"
+    },
+    {
+      "id": "3-6-23",
+      "name": "Wells and springs",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of groundwater wells and springs on yap. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were updated using feedback from yap Island Resource Management Authority (KIRMA).",
+      "file": "/infrastructure/6-23.zip"
+    },
+    {
+      "id": "3-6-24",
+      "name": "Sewer lines",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "the sewer lines on Yap. The original dataset was created by Yap State Government and processed by the Pacific Disaster Center (PDC) ) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas.",
+      "file": "/infrastructure/6-24_(DO NOT SHARE).zip"
+    },
+    {
+      "id": "3-6-25",
+      "name": "Wastewater",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the location of infrastructure related to wastewater treatment and discharge on Yap. The original dataset was created by Yap State Government and processed by the Pacific Disaster Center (PDC) ) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-25.zip"
+    },
+    {
+      "id": "3-6-26",
+      "name": "Communication infrastructure",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the communication infrastructure on Yap. The features shown include communication towers, wifi access points, and cell sites. The data layer was created by Island Research & Education Initiative (iREi) (2019) by combining data developed by the Pacific Disaster Center (PDC) (2013), as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program, and from KML files created by Joshua Libyan Tun specifically for this Digital Atlas.",
+      "file": "/infrastructure/6-26.zip"
+    },
+    {
+      "id": "3-6-27",
+      "name": "Waste disposal",
+      "general": "Infrastructure",
+      "island": "yap",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the location of the landfill on Yap. The dataset was created by Island Research & Education Initiative (iREi) (2019) based on 2016 WorldView-3 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/infrastructure/6-27.zip"
+    },
+    {
+      "id": "3-6-28",
+      "name": "Burial grounds",
+      "general": "Infrastructure",
+      "island": "pohnpei",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "the locations of burial grounds and gravesites on Yap. The dataset was created by Island Research & Education Initiative (iREi) (2019) from separate layers digitized by the Queens University of Charlotte (2002-2004) based on 1983 topographic maps by the U.S. Geological Survey. The information contained is neither highly accurate nor complete and is subject to verification, updating, and appending as opportunities permit.",
+      "file": "/infrastructure/6-28.zip"
+    },
+    {
+      "id": "3-7-01",
+      "name": "Protected areas",
+      "general": "Conservation",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the designated protected areas on and around Yap. The dataset was created by The Nature Conservancy. A subset to show only Yap was created by the Island Research & Education Initiative (iREi) (2019).",
+      "file": "/conservation/7-01.zip"
+    },
+    {
+      "id": "3-7-03",
+      "name": "Areas of biodiversity significance",
+      "general": "Conservation",
+      "island": "yap",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the Areas of Biological Significance (ABS) on Yap. The dataset was created by The Nature Conservancy. A subset to show only Yap was created by the Island Research & Education Initiative (iREi) (2019). The polygons in the data are intended to capture those areas that represent the wide range of biodiversity features in the marine and terrestrial areas of FSM. They capture expert knowledge from the FSM Blueprint project. They are used to guide conservation planning and projects in FSM, and ultimately to help establish conservation areas.",
+      "file": "/conservation/7-03.zip"
+    },
+    {
+      "id": "3-8-01",
+      "name": "Cultural landmarks",
+      "general": "Culture",
+      "island": "yap",
+      "geometry": "Various",
+      "filetype": "Esri Shapefile",
+      "Description": "some of the significant cultural landmarks on Yap, specifically traditional buildings (p'eebaay, faeluw, or others), dancing grounds, and fish weirs. The map and the data behind it utilize information provided by Yap traditional owners and knowledge holders. The dataset was created by the Island Research & Education Initiative (iREi) (2019) by combining various data layers created by the Queens University of Charlotte and the Yap Historic Preservation Office based on field work conducted in 2002 and 2003 as well as on on-screen digitizing of 1983 USGS topographic maps. The fish weir dataset was created by the Island Research & Education Initiative (iREi) (2019) based on tabular data provided by Dr. William F. Jeffery, who led the project with funding from US National Park Service, US Department of the Interior. The information contained within is not complete and is subject to updating and appending as opportunities permit.",
+      "file": "/culture/8-01.zip"
+    },
+    {
+      "id": "3-8-05",
+      "name": "Colonial period sites",
+      "general": "Culture",
+      "island": "yap",
+      "geometry": "Various",
+      "filetype": "Esri Shapefile",
+      "Description": "some of the key historic sites from World War II and Japanese period of Yap's history. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using KML files created by Joshua Libyan Tun specifically for this Digital Atlas.",
+      "file": "/culture/8-05.zip"
+    }
+  ]
+}

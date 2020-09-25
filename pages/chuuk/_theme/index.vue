@@ -33,10 +33,6 @@ export default {
       }
     },
   },
-  head: {
-    title: 'vectors of Blog'
-  },
-
 }
 </script>
 

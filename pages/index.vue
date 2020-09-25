@@ -20,7 +20,7 @@ export default {
   },
   mounted() {
     if (process.browser) {
-      localStorage.removeItem("island")
+      // localStorage.removeItem("island")
     }
   }
 }

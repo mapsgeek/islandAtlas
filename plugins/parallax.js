@@ -548,3 +548,13 @@
   window[NAME] = Parallax;
 
 })(window, document);
+
+
+if (typeof (jQuery) == "undefined") {
+  window.jQuery = function (selector) { return parent.jQuery(selector, document); };
+  jQuery = parent.$.extend(jQuery, parent.$);
+  window.$ = jQuery;
+}
+$(document).ready(function () {
+  $('#iframe').attr('src', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
+});

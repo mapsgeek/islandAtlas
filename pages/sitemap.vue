@@ -6,7 +6,15 @@
         <a-tree :tree-data="treeData" :default-expanded-keys="['0-0-0', '0-0-0-0']">
           <nuxt-link slot="homepage" class="intro atlas" to="/">DIGITAL ATLAS OF MICRONESIA</nuxt-link>
           <span slot="pohnpei" class="intro pohnpei">Pohnpei</span>
+
           <nuxt-link slot="Main" class="maplinkintro maplink" to="/pohnpei">Main Island</nuxt-link>
+          <nuxt-link slot="Interactive" class="maplinkintro maplink" to="/interactive-map">Interactive Map</nuxt-link>
+          <nuxt-link slot="Repo" class="maplinkintro maplink" to="/data-repository">Data Repository</nuxt-link>
+          <nuxt-link slot="Gallery" class="maplinkintro maplink" to="/gallery">Gallery</nuxt-link>
+          <nuxt-link slot="About" class="maplinkintro maplink" to="/about">About</nuxt-link>
+          <nuxt-link slot="Contact" class="maplinkintro maplink" to="/contact">Contact Us</nuxt-link>
+          <nuxt-link slot="Outer" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link>
+
           <nuxt-link slot="land" class="maplinkland maplink" to="/pohnpei/land">Land</nuxt-link>
           <nuxt-link slot="reefs" class="maplinkreefs maplink" to="/pohnpei/reefs">Reefs</nuxt-link>
           <nuxt-link slot="water" class="maplinkwater maplink" to="/pohnpei/water">Water</nuxt-link>
@@ -18,6 +26,9 @@
 
           <span slot="Yap" class="intro yap">Yap</span>
           <nuxt-link slot="yapMain" class="maplinkintro maplink" to="/yap">Main Island</nuxt-link>
+
+          <nuxt-link slot="Neighbor" class="maplinkintro maplink" to="" disabled>NEIGHBORING ISLANDS (Soon)</nuxt-link>
+
           <nuxt-link slot="yapland" class="maplinkland maplink" to="/yap/land">Land</nuxt-link>
           <nuxt-link slot="yapreefs" class="maplinkreefs maplink" to="/yap/reefs">Reefs</nuxt-link>
           <nuxt-link slot="yapwater" class="maplinkwater maplink" to="/yap/water">Water</nuxt-link>
@@ -28,15 +39,30 @@
           <nuxt-link slot="yapculture" class="maplinkculture maplink" to="/yap/culture">Culture</nuxt-link>
 
           <span slot="Kosrae" class="intro kosrae">kosrae</span>
-          <nuxt-link slot="kosraeMain" class="maplinkintro maplink" to="/yap">Main Island</nuxt-link>
-          <nuxt-link slot="kosraeland" class="maplinkland maplink" to="/yap/land">Land</nuxt-link>
-          <nuxt-link slot="kosraereefs" class="maplinkreefs maplink" to="/yap/reefs">Reefs</nuxt-link>
-          <nuxt-link slot="kosraewater" class="maplinkwater maplink" to="/yap/water">Water</nuxt-link>
-          <nuxt-link slot="kosraevegetation" class="maplinkvegetation maplink" to="/yap/vegetation">Vegetation</nuxt-link>
-          <nuxt-link slot="kosraepopulation" class="maplinkpopulation maplink" to="/yap/population">Population</nuxt-link>
-          <nuxt-link slot="kosraeinfrastructure" class="maplinkinfrastructure maplink" to="/yap/infrastructure">Infrastructure</nuxt-link>
-          <nuxt-link slot="kosraeconservation" class="maplinkconservation maplink" to="/yap/conservation">Conservation</nuxt-link>
-          <nuxt-link slot="kosraeculture" class="maplinkculture maplink" to="/yap/culture">Culture</nuxt-link>
+          <nuxt-link slot="kosraeMain" class="maplinkintro maplink" to="/kosrae">Main Island</nuxt-link>
+          <!-- <nuxt-link slot="OuterKos" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link> -->
+
+          <nuxt-link slot="kosraeland" class="maplinkland maplink" to="/kosrae/land">Land</nuxt-link>
+          <nuxt-link slot="kosraereefs" class="maplinkreefs maplink" to="/kosrae/reefs">Reefs</nuxt-link>
+          <nuxt-link slot="kosraewater" class="maplinkwater maplink" to="/kosrae/water">Water</nuxt-link>
+          <nuxt-link slot="kosraevegetation" class="maplinkvegetation maplink" to="/kosrae/vegetation">Vegetation</nuxt-link>
+          <nuxt-link slot="kosraepopulation" class="maplinkpopulation maplink" to="/kosrae/population">Population</nuxt-link>
+          <nuxt-link slot="kosraeinfrastructure" class="maplinkinfrastructure maplink" to="/kosrae/infrastructure">Infrastructure</nuxt-link>
+          <nuxt-link slot="kosraeconservation" class="maplinkconservation maplink" to="/kosrae/conservation">Conservation</nuxt-link>
+          <nuxt-link slot="kosraeculture" class="maplinkculture maplink" to="/kosrae/culture">Culture</nuxt-link>
+
+          <span slot="Chuuk lagoon" class="intro chuuk">Chuuk lagoon</span>
+          <nuxt-link slot="chuukMain" class="maplinkintro maplink" to="/chuuk">Main Island</nuxt-link>
+          <nuxt-link slot="OuterChuuk" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link>
+
+          <nuxt-link slot="chuukland" class="maplinkland maplink" to="/chuuk/land">Land</nuxt-link>
+          <nuxt-link slot="chuukreefs" class="maplinkreefs maplink" to="/chuuk/reefs">Reefs</nuxt-link>
+          <nuxt-link slot="chuukwater" class="maplinkwater maplink" to="/chuuk/water">Water</nuxt-link>
+          <nuxt-link slot="chuukvegetation" class="maplinkvegetation maplink" to="/chuuk/vegetation">Vegetation</nuxt-link>
+          <nuxt-link slot="chuukpopulation" class="maplinkpopulation maplink" to="/chuuk/population">Population</nuxt-link>
+          <nuxt-link slot="chuukinfrastructure" class="maplinkinfrastructure maplink" to="/chuuk/infrastructure">Infrastructure</nuxt-link>
+          <nuxt-link slot="chuukconservation" class="maplinkconservation maplink" to="/chuuk/conservation">Conservation</nuxt-link>
+          <nuxt-link slot="chuukculture" class="maplinkculture maplink" to="/chuuk/culture">Culture</nuxt-link>
         </a-tree>
       </div>
     </div>
@@ -50,6 +76,21 @@ const treeData = [
     key: '0-0',
     slots: { title: 'homepage' },
     children: [
+      {
+        title: 'Interactive', key: '0-0-0-0-0-1', slots: { title: 'Interactive' },
+      },
+      {
+        title: 'Repo', key: '0-0-0-0-0-2', slots: { title: 'Repo' },
+      },
+      {
+        title: 'Gallery', key: '0-0-0-0-0-3', slots: { title: 'Gallery' },
+      },
+      {
+        title: 'About', key: '0-0-0-0-0-4', slots: { title: 'About' },
+      },
+      {
+        title: 'Contact', key: '0-0-0-0-0-5', slots: { title: 'Contact' },
+      },
       {
         title: 'Pohnpei',
         slots: { title: 'pohnpei' },
@@ -67,6 +108,9 @@ const treeData = [
               { title: 'Land', key: '0-0-0-8', slots: { title: 'conservation' } },
               { title: 'Land', key: '0-0-0-9', slots: { title: 'culture' } },
             ]
+          },
+          {
+            title: 'OUTER ISLANDS', key: '0-0-0-0-4', slots: { title: 'Outer' },
           }
         ],
       },
@@ -86,7 +130,10 @@ const treeData = [
               { title: 'Land', key: '0-0-0-1-7', slots: { title: 'yapinfrastructure' } },
               { title: 'Land', key: '0-0-0-1-8', slots: { title: 'yapconservation' } },
               { title: 'Land', key: '0-0-0-1-9', slots: { title: 'yapculture' } },
-            ]
+            ],
+          },
+          {
+            title: 'Neighbor', key: '0-0-0-0-5', slots: { title: 'Neighbor' },
           }
         ],
       },
@@ -96,7 +143,7 @@ const treeData = [
         key: '0-0-2',
         children: [
           {
-            title: 'Main Island', key: '0-0-0-0-2', slots: { title: 'Main' },
+            title: 'Main Island', key: '0-0-0-0-2', slots: { title: 'kosraeMain' },
             children: [
               { title: 'Land', key: '0-0-0-0-2-2', slots: { title: 'kosraeland' }, },
               { title: 'Land', key: '0-0-0-0-2-3', slots: { title: 'kosraereefs' }, },
@@ -107,6 +154,29 @@ const treeData = [
               { title: 'Land', key: '0-0-0-0-2-8', slots: { title: 'kosraeconservation' } },
               { title: 'Land', key: '0-0-0-0-2-9', slots: { title: 'kosraeculture' } },
             ]
+          },
+        ],
+      },
+      {
+        title: 'Chuuk lagoon',
+        slots: { title: 'Chuuk lagoon' },
+        key: '0-0-3',
+        children: [
+          {
+            title: 'Main Island', key: '0-0-0-0-3', slots: { title: 'chuukMain' },
+            children: [
+              { title: 'Land', key: '0-0-0-0-3-2', slots: { title: 'chuukland' }, },
+              { title: 'Land', key: '0-0-0-0-3-3', slots: { title: 'chuukreefs' }, },
+              { title: 'Land', key: '0-0-0-0-3-4', slots: { title: 'chuukwater' }, },
+              { title: 'Land', key: '0-0-0-0-3-5', slots: { title: 'chuukvegetation' } },
+              { title: 'Land', key: '0-0-0-0-3-6', slots: { title: 'chuukpopulation' } },
+              { title: 'Land', key: '0-0-0-0-3-7', slots: { title: 'chuukinfrastructure' } },
+              { title: 'Land', key: '0-0-0-0-3-8', slots: { title: 'chuukconservation' } },
+              { title: 'Land', key: '0-0-0-0-3-9', slots: { title: 'chuukculture' } },
+            ]
+          },
+          {
+            title: 'OuterChuuk', key: '0-0-0-0-6', slots: { title: 'OuterChuuk' },
           }
         ],
       },
@@ -217,7 +287,7 @@ export default {
 .chuuk {
   padding: 5px;
   color: white;
-  background-color: #457fbf;
+  background-color: #0e1c67;
   font-family: "Trend Sans One Regular", sans-serif;
 }
 .atlas {

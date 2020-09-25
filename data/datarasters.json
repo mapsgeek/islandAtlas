@@ -1,0 +1,72 @@
+[
+
+    {
+        "ids": "1-06 to 1-08",
+        "names": "Elevation (Ranges & Intervals)",
+        "generals":"Land",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. The DEM was classified into elevation intervals and colored based on elevation in meters above sea level.",
+        "file":"../assets/img/atlas-maps/land/download/1-06_to_1-08.zip"
+    },
+    {
+        "ids": "1-09",
+        "names": "Shaded relief (Hillshade)",
+        "generals":"Land",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"The relief of terrain on Pohnpei. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. The data set was derived using the so-called hillshade function that creates an illusion of viewing terrain in 3D.",
+        "file":"../assets/img/atlas-maps/land/download/1-09.zip"
+    },{
+        "ids": "1-11",
+        "names": "Slope aspect",
+        "generals":"Land",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"The slope aspect of the terrain on Pohnpei. Slope aspect is the compass direction in which a particular slope faces. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-11.zip"
+    },
+    {
+        "ids": "1-12",
+        "names": "Slope (degrees)",
+        "generals":"Land",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"The steepness of slope on Pohnpei. The steepness here is expressed in degrees and illustrated by means of a color gradient. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-12.zip"
+    },
+    {
+        "ids": "1-13",
+        "names": "Slope (percent rise)",
+        "generals":"Land",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"The steepness of slope on Pohnpei. The steepness here is expressed in terms of percent rise and illustrated by means of a grayscale gradient. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975..",
+        "file":"../assets/img/atlas-maps/land/download/1-13.zip"
+    },
+    {
+        "ids": "1-22",
+        "names": "USGS topographic map (2001)",
+        "generals":"Land",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"This is a topographic map of Pohnpei. It is made from a raster document actually comprised of four separate topographic maps, 1:25,000 scale, published by the U.S. Geological Survey (2001). The maps were scanned and georeferenced to create what is commonly referred to as Digital Raster Graphics (DRGs). In the map shown here, portions of the DRG that fall outside the barrier reef of Pohnpei are omitted.",
+        "file":"../assets/img/atlas-maps/land/download/1-22.zip"
+    },{
+        "ids": "2-04",
+        "names": "Bathymetry",
+        "generals":"Reefs",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"Bathymetry (depth to seafloor) around Pohnpei. The data set was extracted from the 2014 General Bathymetric Chart of the Oceans (GEBCO). Known as the GEBCO_2014 TIFF, this is a continuous terrain model for ocean and land with a spatial resolution of 30 arc seconds. It is an updated version of the GEBCO_08 TIFF that was first published in January 2009.",
+        "file":"../assets/img/atlas-maps/reefs/download/2-04.zip"
+    },{
+        "ids": "3-05",
+        "names": "Flow accumulation",
+        "generals":"Water",
+        "islands": "Pohnpei",
+        "filetypes":"TIFF",
+        "Description":"Flow accumulation on Pohnpei. Flow accumulation describes the amount of water in streams. The higher the value, the more water a particular location receives from areas uphill. The data set was created by Island Research & Education Initiative (iREi) (2017). This was done through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. Note that in very flat low-lying areas the data may indicate straight lines that are an artifact of the modeling process and do not reflect reality.",
+        "file":"../assets/img/atlas-maps/water/download/3-05.zip"
+    }
+]

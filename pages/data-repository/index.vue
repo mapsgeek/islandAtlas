@@ -4,19 +4,19 @@
       <div class="page">
         <h1 style="text-align:center;margin-bottom:20px">Data repository</h1>
         <div style="text-align:center">
-          <Strong>Change island</Strong>
-          <br>
-          <a-select style="width: 120px;margin-bottom:40px;margin-top:10px" :defaultValue=island @change="handleChange">
-            <a-select-option value="pohnpei">
+          <!-- <Strong>Change island</Strong> -->
+          <!-- <br> -->
+          <a-select style="width: 140px;margin-bottom:40px;margin-top:10px;text-align:center;" :defaultValue=island placeholder="Select island" @change="handleChange">
+            <a-select-option value="Pohnpei">
               Pohnpei
             </a-select-option>
-            <a-select-option value="yap">
+            <a-select-option value="Yap">
               Yap
             </a-select-option>
             <!-- <a-select-option value="chuuk">
             Chuuk lagoon
           </a-select-option> -->
-            <a-select-option value="kosrae">
+            <a-select-option value="Kosrae">
               Kosrae
             </a-select-option>
           </a-select>
@@ -136,23 +136,22 @@ const columns = [
 
 export default {
   scrollToTop: true,
-
   data: () => {
     return {
       // localStorage.getItem("island") ||
-      island: localStorage.getItem("island") || '',
+      island: localStorage.getItem("island") || 'Select island',
       columns,
       selectedRows: [],
     }
   },
   mounted() {
-    if (process.browser) {
-      if (localStorage.getItem("island") === null) {
-        this.island = "pohnpei"
-      } else {
-        this.island = localStorage.getItem("island")
-      }
-    }
+    // if (process.client) {
+    //   if (localStorage.getItem("island") === null) {
+    //     this.island = "Pohnpei"
+    //   } else {
+    this.island = localStorage.getItem("island")
+    //   }
+    // }
   },
   computed: {
     hasSelected() {

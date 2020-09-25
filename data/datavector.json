@@ -1,0 +1,1004 @@
+{
+    "pohnpeiVectors": [
+        {
+            "id": "1-01",
+            "name": "Shoreline",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "Shoreline and the land area of Pohnpei and smaller islands in Pohnpei's lagoon and on the barrier reef. It actually contains two data sets: the shoreline itself and Pohnpei base layer. Both were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001). The shoreline was slightly shifted and partly updated around Kolonia and its vicinity based on Worldview-3 satellite imagery from Digital Globe (2016).",
+            "file": "/land/download/1-01.zip"
+        },
+        {
+            "id": "1-02 to 1-03",
+            "name": "10-m elevation contours",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": " Elevation contour lines at 10-meter intervals. Depicted in grayscale, the contour lines were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+            "file": "/land/download/1-02_to_1-03.zip"
+        },
+        {
+            "id": "1-04 to 1-05",
+            "name": "50-m elevation contours",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "Elevation contour lines at 50-meter intervals. Depicted in grayscale, the contour lines were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+            "file": "/land/download/1-04_to_1-05.zip"
+        },
+        {
+            "id": "1-15",
+            "name": "Benchmarks",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "Benchmarks established on Pohnpei and the location of the continuously operating reference station (CORS). These data come from National Oceanic and Atmospheric Administration (NOAA) - National Geodetic Survey (NGS) (2011 and 2012).",
+            "file": "/land/download/1-15.zip"
+        },
+        {
+            "id": "1-16 to 1-18",
+            "name": "Basic soil types",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "Basic soil types of Pohnpei. The original data set was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1982) as part of The soil survey of the Island of Ponape, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). In addition to soil names and classification, the data set contains information on terrain, erosion hazard, flooding hazard, and soil suitability for specific crops.",
+            "file": "/land/download/1-16_to_1-18.zip"
+        },
+        {
+            "id": "1-19",
+            "name": "General land use",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "Land use zones of Pohnpei. The original data layer was created by the Pohnpei State Government. It was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match the most recent shoreline. This layer is not authoritative and may require substantial verification and revision by Pohnpei State Government.",
+            "file": "/land/download/1-19.zip"
+        },
+        {
+            "id": "1-20",
+            "name": "General geology",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "General geology of Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a paper map prepared by the U.S. Geological Survey (1944) for the Chief of Engineers, U.S. Army as part of the Strategic Engineering Study No. 109 titled Ponape including Pakin and Ant Islands (Carolines) Terrain Intelligence. The map was found in the library collection at the national campus of the College of Micronesia (COM). It should be noted that this map is very general and erroneously identifies areas in Sokehs and Nett as being composed of raised reef rock.",
+            "file": "/land/download/1-20.zip"
+        },
+        {
+            "id": "1-24",
+            "name": "Detailed geology",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "This map shows the detailed geology of Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a paper map found in Spengler, S. R., Spencer, K. J., Mahoney, J. J., and Goles, G. G. (1994), Geology and Geochemical Evolution of Lavas on the Island of Pohnpei.",
+            "file": "/land/download/1-24.zip"
+        },
+        {
+            "id": "1-21",
+            "name": "General physiography",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The general physiography of Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a highly general paper map prepared by the U.S. Geological Survey (1944) for the Chief of Engineers, U.S. Army as part of the Strategic Engineering Study No. 109 titled Ponape including Pakin and Ant Islands (Carolines) Terrain Intelligence. The map was found in the library collection at the national campus of the College of Micronesia (COM).",
+            "file": "/land/download/1-21.zip"
+        },
+        {
+            "id": "1-14",
+            "name": "Prominent peaks",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "Locations of prominent peaks on Pohnpei. This data layer was developed by Island Research & Education Initiative (iREi) (2017) by merging and slightly modifying data from U.S. Geological Survey's Geographic Names Information System (GNIS) and KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013). The place names shown on this map are copied from the two sources above and are not authoritative. They require thorough verification and correction of spellings to conform with Pohnpeian orthography.",
+            "file": "/land/download/1-14.zip"
+        },
+        {
+            "id": "1-23",
+            "name": "Prominent caves",
+            "general": "Land",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "Locations of prominent caves on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013). It should be noted that Pohnpei has no karst terrain whatsoever, so caves found on the island are all in volcanic bedrock.",
+            "file": "/land/download/1-23.zip"
+        },
+        {
+            "id": "2-01",
+            "name": "Reef location",
+            "general": "Reefs",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The extent of coral reefs around Pohnpei. The data layer shown here is a subset of Pohnpei base layer derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001). The shoreline was slightly shifted and partly updated around Kolonia and its vicinity based on Worldview-3 satellite imagery from Digital Globe (2016).",
+            "file": "/reefs/download/2-01.zip"
+        },
+        {
+            "id": "2-02 and 2-09",
+            "name": "Reef geomorphology",
+            "general": "Reefs",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "This dataset contains classification of the reefs around Pohnpei by their geomorphology. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005).",
+            "file": "/reefs/download/2-02_and_2-09.zip"
+        },
+        {
+            "id": "2-10",
+            "name": "Seagrass areas",
+            "general": "Reefs",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The extent and basic types of seagrass areas around Pohnpei. The data set classifies seagrass areas by one of the three main species (Cymodocea rotundata, Thalassia hemprichii, and Enhalus acaroides) and the level of coverage (describes as continuous, aggregated, and isolated). The data source is McKenzie, L.J. and Rasheed, M.J. (2006), Seagrasses: Pohnpei Island and And Atoll Marine Assessment, Technical report of survey conducted 26 October – 3 November 2005, Seagrass‐Watch HQ, DPI&F, Cairns, 60pp.",
+            "file": "/reefs/download/2-10.zip"
+        },
+        {
+            "id": "2-03",
+            "name": "Passes in the barrier reef",
+            "general": "Reefs",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of principal passes in the barrier reef around Pohnpei. This data layer was developed by Island Research & Education Initiative (iREi) (2017) by merging and slightly modifying data from U.S. Geological Survey 1:25,000-scale topographic maps (2001), KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013), and identifying and including one one additional reef pass. The place names shown on this map are copied from the sources above and are not authoritative. They require thorough verification and correction of spellings to conform with Pohnpeian orthography.",
+            "file": "/reefs/download/2-03.zip"
+        },
+        {
+            "id": "2-05 to 2-08",
+            "name": "Recreation",
+            "general": "Reefs",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of popular sites for swimming, surf breaks, snorkeling spots, dive sites and dive pathees around Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+            "file": "/reefs/download/2-05_to_2-08.zip"
+        },
+        {
+            "id": "3-01",
+            "name": "Streams and rivers [iREi version]",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Various",
+            "filetype": "Esri Shapefile",
+            "Description": "The streams and rivers on Pohnpei. The data set was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using line and polygon KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013) and modifying them to fit the most recent base layer. Note that these data show wide areas of rivers as polygons.",
+            "file": "/water/download/3-01.zip"
+        },
+        {
+            "id": "3-02",
+            "name": "Streams and rivers [USGS version]",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The rivers and streams on Pohnpei as represented on the U.S. Geological Survey (USGS) 1:25,000-scale topographic maps (2001). The data set was extracted from the Digital Line Graphs (DLGs) from USGS and names from the Geographic Names Information System (GNIS) by Island Research & Education Initiative (iREi) (2017) and slightly modified to match the (partially) updated shoreline.",
+            "file": "/water/download/3-02.zip"
+        },
+        {
+            "id": "3-03",
+            "name": "Natural outflow points",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The natural outflow locations on Pohnpei, defined as points where streams and rivers discharge into the lagoon. The data set was created by Island Research & Education Initiative (iREi) (2017) by identifying the points where streams and rivers from 1:25,000-scale U.S. Geological Survey topographic maps (2001) intersect with the most recent shoreline of Pohnpei.",
+            "file": "/water/download/3-03.zip"
+        },
+        {
+            "id": "3-08",
+            "name": "Waterfalls",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of the most significant waterfalls on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+            "file": "/water/download/3-08.zip"
+        },
+        {
+            "id": "3-04",
+            "name": "Flow paths",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The theoretical drainage pattern on Pohnpei. The flow paths were delineated by Island Research & Education Initiative (iREi) (2017). This was done through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. Note that in very flat low-lying areas the data may indicate straight lines that are an artifact of the modeling process and do not reflect reality.",
+            "file": "/water/download/3-04.zip"
+        },
+        {
+            "id": "3-06",
+            "name": "Principal watersheds",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The principal watersheds (drainage basins) on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017). Basin boundaries were delineated through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. Note that basin boundaries shown are modeled and, as such, reflect the DEM and not necessarily actual situation on the ground.",
+            "file": "/water/download/3-06.zip"
+        },
+        {
+            "id": "3-07",
+            "name": "Sub-watersheds",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "Pohnpei's principal watersheds (drainage basins) and their sub-watersheds. The data set was created by Island Research & Education Initiative (iREi) (2017). All boundaries were delineated through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. Note that apparently unnatural boundaries such as series of straight, parallel lines are artifacts of modeling and do not reflect reality.",
+            "file": "/water/download/3-07.zip"
+        },
+        {
+            "id": "3-12",
+            "name": "General water resources",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The general distribution of freshwater resources on Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a very general paper map prepared by the U.S. Geological Survey (1944) for the Chief of Engineers, U.S. Army as part of the Strategic Engineering Study No. 109 titled Ponape including Pakin and Ant Islands (Carolines) Terrain Intelligence. The map was found in the library collection at the national campus of the College of Micronesia (COM).",
+            "file": "/water/download/3-12.zip"
+        },
+        {
+            "id": "3-09",
+            "name": "Gaging stations",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of the U.S. Geological Survey gaging stations on Pohnpei. The data set was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs). The DLGs were created by U.S. Geological Survey for the 1:25,000-scale topographic maps (2001).",
+            "file": "/water/download/3-09.zip"
+        },
+        {
+            "id": "3-10",
+            "name": "Weather stations",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of the active weather observation sites on Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) using location information obtained from the National Weather Service office in Guam.",
+            "file": "/water/download/3-10.zip"
+        },
+        {
+            "id": "3-11",
+            "name": "Precipitation",
+            "general": "Water",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The average annual rainfall in inches on Pohnpei. The original data were derived from weather records from 1971-2000 by Chris Daly and Mike Halbleib of the PRISM Group at Oregon State University (2006) and the U.S. National Park Service (2006). It was later converted to vector format by the Natural Resources Conservation Service (NRCS).",
+            "file": "/water/download/3-11.zip"
+        },
+        {
+            "id": "4-01",
+            "name": "Vegetation (1975)",
+            "general": "Vegetation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The vegetation of Pohnpei in 1975. It was derived by Landcare research from 1975 Vegetation Survey Maps of Pohnpei. The original hardcopy map was created as part of the following publication: MacLean, C.D., Cole, T.G., Whitesell, C.D., Falanruw, M.V., and Ambacher, A.H. (1986). Vegetation Survey of Pohnpei, Federated States of Micronesia. U.S. Department of Agriculture (USDA), Resource Bulletin PSW-18. It was also included in Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 1995, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match 2016 WorldView-3 satellite imagery.",
+            "file": "/vegetation/download/4-01.zip"
+        },
+        {
+            "id": "4-02",
+            "name": "Vegetation (1995)",
+            "general": "Vegetation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The vegetation of Pohnpei in 1995. It was developed from 1:15,000 color stereo aerial photographs obtained in October 1995 by L. Cairns (Department of Survey and Land Information, New Zealand), interpreted by stereoscope by P. Newsome and M. Page, and validated by field inspection. It was also included in Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 1995, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match 2016 WorldView-3 satellite imagery.",
+            "file": "/vegetation/download/4-02.zip"
+        },
+        {
+            "id": "4-03",
+            "name": "Vegetation (2002)",
+            "general": "Vegetation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The vegetation of Pohnpei in 2002. The data set was provided courtesy of The Nature Conservancy. The data set was developed from color stereoscope interpretation of 1:15,000 aerial photographs obtained in May 2002 by L. Cairns, carried out by stereoscope by P. Newsome and M. Page, and validated by two weeks' field inspection. It was included in Newsome, P. F., M. J. Page, and H. A. Heke, (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match 2016 WorldView-3 satellite imagery.",
+            "file": "/vegetation/download/4-03.zip"
+        },
+        {
+            "id": "4-04",
+            "name": "Vegetation (2005)",
+            "general": "Vegetation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The vegetation of Pohnpei in 2005. The data set was developed from 2005 QuickBird satellite imagery by Digital Globe through land cover classification carried out by U.S. Forest Service (2007). The dataset was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match 2016 WorldView-3 satellite imagery.",
+            "file": "/vegetation/download/4-04_to_4-07.zip"
+        },
+        {
+            "id": "4-05",
+            "name": "Wetlands",
+            "general": "Vegetation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The wetlands of Pohnpei. The information on mangroves was extracted from Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand [based on 2002 aerial photographs]. The information on marshes was extracted from data by L. Cairns, 1995, Department of Survey and Land Information, New Zealand, interpreted by P. Newsome and M. Page, Landcare Research, New Zealand [based on 1995 aerial photographs].",
+            "file": "/vegetation/download/4-04_to_4-07.zip"
+        },
+        {
+            "id": "4-06",
+            "name": "Upland forests",
+            "general": "Vegetation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "upland forest on Pohnpei. This type of forest is known in Pohnpeian language as nanwel. The information on mangroves was extracted from Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand [based on 2002 aerial photographs].",
+            "file": "/vegetation/download/4-04_to_4-07.zip"
+        },
+        {
+            "id": "4-07",
+            "name": "Agroforests",
+            "general": "Vegetation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "upland forest on Pohnpei. This type of forest is known in Pohnpeian language as nanwel. The information on mangroves was extracted from Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand [based on 2002 aerial photographs].",
+            "file": "/vegetation/download/4-04_to_4-07.zip"
+        },
+        {
+            "id": "5-01",
+            "name": "Municipalities [areas]",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The six municipalities of Pohnpei. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The data were modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. At the same time, iREi added the municipality of Kolonia, which was defined as the sum of Kolonia Town parcels recorded by Public Lands and digitized by Department of Land and Natural Resources ca. 2005. Those parcels were merged into one polygon and cut from Nett Municipality, of which Kolonia was a part of until 1965. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+            "file": "/population/download/5-01.zip"
+        },
+        {
+            "id": "5-02",
+            "name": "Municipalities [lines]",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The lines separating the six municipalities of Pohnpei. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). It was modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. At the same time, iREi added the municipality of Kolonia, which was defined as the sum of Kolonia Town parcels recorded by Public Lands and digitized by Department of Land and Natural Resources ca. 2005. Those parcels were merged into one polygon and cut from Nett Municipality, of which Kolonia was a part of until 1965. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+            "file": "/population/download/5-02.zip"
+        },
+        {
+            "id": "5-03",
+            "name": "Wehi [areas]",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The five wehi of Pohnpei. Wehi are Pohnpei's traditional kingdoms. Wehi correspond to modern municipalities. The only exception is Kolonia, which is not a wehi but became a municipality in 1965 when it was separated from Nett. The original data layer, so-called Digital Line Graphs (DLSs), was created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). It was modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+            "file": "/population/download/5-03.zip"
+        },
+        {
+            "id": "5-04",
+            "name": "Wehi [lines]",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The  lines separating the five wehi of Pohnpei. Wehi are Pohnpei's traditional kingdoms. Wehi correspond to modern municipalities. The only exception is Kolonia, which is not a wehi but became a municipality in 1965 when it was separated from Nett. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). It was modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+            "file": "/population/download/5-04.zip"
+        },
+        {
+            "id": "5-05",
+            "name": "Capitals",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The  locations of Palikir, the national capital of the Federated States of Micronesia, and Kolonia, the state capital of Pohnpei State. The data layer was created by Island Research & Education Initiative (iREi) (2017).",
+            "file": "/population/download/5-05.zip"
+        },
+        {
+            "id": "5-06",
+            "name": "Kolonia land parcels",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The land parcels of Kolonia town. This geospatial data set was created by Department of Land and Natural Resources (ca. 2005) by digitizing parcels recorded by Public Lands.",
+            "file": "/population/download/5-06.zip"
+        },
+        {
+            "id": "5-07",
+            "name": "Place names",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of all named geographic features on Pohnpei that are contained within the Geographic Names Information System (GNIS). The GNIS is the official database that contains all standard toponyms in the U.S. and its territories and associated states. It was developed by the U.S. Geological Survey (USGS) in cooperation with the U.S. Board on Geographic Names (BGN) in order to standardize place names. Island Research & Education Initiative (iREi) (2017) transferred this information to GIS format and shifted to match the most recent base layer and 2016 WorldView-3 satellite imagery. Note that the actual names contained in the data set are copied exactly as they are in GNIS and are not necessarily correct or aligned with Pohnpeian orthography.",
+            "file": "/population/download/5-07.zip"
+        },
+        {
+            "id": "5-08",
+            "name": "Population by age and sex",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The number of residents of Pohnpei by municipality, and also provides information on sex and age distribution in the form of population pyramids for each municipality. The attribute tables in the actual data set also contain information on median age and average annual population growth rate. This geospatial data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-08.zip"
+        },
+        {
+            "id": "5-09",
+            "name": "Population density and growth",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The population density of Pohnpei by municipality, and also provides information on population growth in Pohnpei from 1920 until 2010. The map was created using the same data layer as the map that shows population by age and sex. This geospatial data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-09.zip"
+        },
+        {
+            "id": "5-10",
+            "name": "Birthplace",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of residents born outside of Pohnpei by municipality. The attribute tables in the actual data set contain very detailed information on specific places of birth and citizenship status. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-10.zip"
+        },
+        {
+            "id": "5-11",
+            "name": "Ethnicity",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of ethnically Pohnpeian residents by municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual data set contain more detailed information on the full range of specific ethnic identities involved. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-11.zip"
+        },
+        {
+            "id": "5-12",
+            "name": "Religion",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The religious affiliation of Pohnpeian residents aged 15 and above by municipality. The attribute tables in the actual data set contain more detailed information on specific churches involved (or absence of religious belief) and on marital status. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-12.zip"
+        },
+        {
+            "id": "5-13",
+            "name": "Literacy and language",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The literacy rate of Pohnpeian residents aged 5 and above by municipality, and also provides information on the first language spoken. The attribute tables in the actual data set contain more detailed information on literacy levels in specific languages spoken as the first or second language for persons aged 5, as well as the specific languages predominantly spoken in households for persons aged 3 and above. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-13.zip"
+        },
+        {
+            "id": "5-14",
+            "name": "School enrollment",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of Pohnpeian residents aged 3 and above enrolled in schools by municipality, and also provides information on the number of students attending different types of schools. The attribute tables in the actual data set contain more detailed information, including separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-14.zip"
+        },
+        {
+            "id": "5-15",
+            "name": "Educational attainment",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of Pohnpeian residents aged 25 and above who graduated high school and also provides information on the highest level of education attained by municipality. The attribute tables in the actual data set contain information at a higher resolution (breakdown by individual grade levels) and separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-15.zip"
+        },
+        {
+            "id": "5-16",
+            "name": "Disabilities",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of Pohnpeian residents with disabilities by municipality. The attribute tables in the actual data set contain more detailed information on specific disabilities (seeing, hearing, walking, remembering, etc.), number of disabilities, disability levels, and separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-16.zip"
+        },
+        {
+            "id": "5-17",
+            "name": "Labor force",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of Pohnpeian residents aged 15 and above who are in labor force per municipality, and also provides information on what portions of the labor force are formally employed, employed in home production, or unemployed. The attribute tables in the actual data set contain more detailed information, including separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-17.zip"
+        },
+        {
+            "id": "5-18",
+            "name": "Home production",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of Pohnpeian residents aged 15 and above who are engaged in home production per municipality, and also provides information on what portions of home production are intended for own consumption, sale, or both. The attribute tables in the actual data set also contain information on formal employment, including types of jobs, general areas of employment, and the type of employer. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-18.zip"
+        },
+        {
+            "id": "5-19",
+            "name": "Household type",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The average number of persons per household in each municipality on Pohnpei, and also provides information on the percentage of family members vs. non-family members within the households. The attribute tables in the actual data set contain more detailed information on types of relationships between household members, number of persons living in group quarters (school dormitories, correctional facilities, etc.), and average number of persons per family. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-19.zip"
+        },
+        {
+            "id": "5-20",
+            "name": "Housing tenure",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The ownership status of households (owned free and clear of loan vs. owned with loan or rented) and land (owned vs. leased) in each municipality on Pohnpei. The attribute tables in the actual data set contain more detailed information on specific ownership types involved. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-20.zip"
+        },
+        {
+            "id": "5-21",
+            "name": "Housing structure",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The average number of rooms per household and the building materials used to make house roofs and walls in each municipality on Pohnpei. The attribute tables in the actual data set also contain information on specific building types, floor construction materials, age of buildings, and the number of persons per household and per room. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-21.zip"
+        },
+        {
+            "id": "5-22",
+            "name": "Principal sources of water for drinking and washing",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of households in each municipality on Pohnpei that have access to piped water, and also provides information on specific sources used to obtain fresh water for drinking and washing. The attribute tables in the actual data set also contain information on toilet types and sewage disposal types in households. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-22.zip"
+        },
+        {
+            "id": "5-23",
+            "name": "Principal sources of energy for cooking and lighting",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of households in each municipality on Pohnpei that have complete kitchen facilities, and also provides information on energy sources for lighting and cooking. The attribute tables in the actual data set contain more detailed information on specific types of energy sources. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-23.zip"
+        },
+        {
+            "id": "5-24",
+            "name": "Households with selected appliances",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of households in each municipality on Pohnpei that possess a sink and/or a refrigerator. The attribute tables in the actual data set contain more detailed information on specific numbers of sinks and refrigerators, as well as other amenities including air conditioning units, generators, DVD/VCR players, and television sets with and without cable TV connection. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-24.zip"
+        },
+        {
+            "id": "5-25",
+            "name": "Households with vehicles",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of households in each municipality on Pohnpei that have at least one car, and also provides information on the total number of households with cars, boats with engine, and canoes and boats without engine. The attribute tables in the actual data set also contain information about other vehicles (trucks, buses, motorbikes) and detailed information on specific numbers of each vehicle type per household. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-25.zip"
+        },
+        {
+            "id": "5-26",
+            "name": "Households with telephones",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of households in each municipality on Pohnpei that have at least one telephone land line, and also provides information on the relative availability of cell phones. The attribute tables in the actual data set also contain detailed information on the number of fixed and cellular phones, as well as radios and computers per household. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-26.zip"
+        },
+        {
+            "id": "5-27",
+            "name": "Internet usage",
+            "general": "Population",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The percentage of households in each municipality on Pohnpei that have a functioning Internet connection, and also provides information on the relative number of people who access the Internet. The attribute tables in the actual data set contain more detailed information on the frequency of Internet use. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+            "file": "/population/download/5-27.zip"
+        },
+        {
+            "id": "6-01",
+            "name": "Roads",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The road network on Pohnpei. It includes major roads as well as smaller paved and unpaved roads. The data set was originally created by U.S. Geological Survey (USGS) (2001) for Digital Line Graphs (DLGs) used to show information on 1:25,000-scale topographic maps. It has been modified to reflect changes and add street names of selected roads throughout the years and using various sources including Kolonia Town Government, U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS), and Pohnpei State Government - Department of Land and Natural Resources (2013). A major update was performed by Island Research & Education Initiative (iREi) (2017) to reflect changes based on 2016 WorldView-3 satellite imagery by Digital Globe. The attribute information (name and type of road) has not been updated recently.",
+            "file": "/infrastructure/download/6-01.zip"
+        },
+        {
+            "id": "6-02",
+            "name": "Bridges and causeways",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "Major bridges and causeways on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017), based on 2016 WorldView-3 satellite imagery by Digital Globe.",
+            "file": "/infrastructure/download/6-02.zip"
+        },
+        {
+            "id": "6-03",
+            "name": "Hiking trails",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "Hiking trails on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013) and Digital Line Graphs (DLGs) created by U.S. Geological Survey for 1:25,000-scale topographic maps (2001).",
+            "file": "/infrastructure/download/6-03.zip"
+        },
+        {
+            "id": "6-04",
+            "name": "Port and airport locations",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "This map shows the locations of the international port and airport on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017), based on 2016 WorldView-3 satellite imagery by Digital Globe.",
+            "file": "/infrastructure/download/6-04.zip"
+        },
+        {
+            "id": "6-05",
+            "name": "Port and airport zones",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The international port and airport zones on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017) by extracting polygons from zoning information provided by Pohnpei State Government and verifying them based on 2016 WorldView-3 satellite imagery by Digital Globe. The dataset also includes the outline of the runway. The boundaries are not authoritative.",
+            "file": "/infrastructure/download/6-05.zip"
+        },
+        {
+            "id": "6-06",
+            "name": "Locations of houses and other buildings",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The footprints of key government offices (state, national, foreign) and other major buildings. The data set was created by Island Research & Education Initiative (iREi) (2017), based on field verification and 2016 WorldView-3 satellite imagery by Digital Globe.",
+            "file": "/infrastructure/download/6-06.zip"
+        },
+        {
+            "id": "6-09",
+            "name": "Major businesses",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of businesses on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+            "file": "/infrastructure/download/6-09.zip"
+        },
+        {
+            "id": "6-07",
+            "name": "Major buildings in Kolonia and Palikir",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The footprints of key government offices (state, national, foreign) and other major buildings. The data set was created by Island Research & Education Initiative (iREi) (2017), based on field verification and 2016 WorldView-3 satellite imagery by Digital Globe.",
+            "file": "/infrastructure/download/6-07.zip"
+        },
+        {
+            "id": "6-08",
+            "name": "Government offices",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "Office locations of key government entities (state, national, foreign). The data set was created by Island Research & Education Initiative (iREi) (2017), based on field verification and 2016 WorldView-3 satellite imagery by Digital Globe.",
+            "file": "/infrastructure/download/6-08.zip"
+        },
+        {
+            "id": "6-10",
+            "name": "Hospitals and clinics",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of hospitals, clinics, and dispensaries on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014) and further improved (with additional points added) by Island Research & Education Initiative (iREi) (2017).",
+            "file": "/infrastructure/download/6-10.zip"
+        },
+        {
+            "id": "6-11",
+            "name": "Schools",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of schools and colleges on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the '' Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia ''project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014) and further improved (with additional points added) by Island Research & Education Initiative (iREi) (2017).",
+            "file": "/infrastructure/download/6-11.zip"
+        },
+        {
+            "id": "6-12",
+            "name": "Churches",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of churches on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+            "file": "/infrastructure/download/6-12.zip"
+        },
+        {
+            "id": "6-13",
+            "name": "Fire stations",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of fire stations on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-13.zip"
+        },
+        {
+            "id": "6-14",
+            "name": "Police stations",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The  locations of police stations on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014) and further improved (with additional points added) by Island Research & Education Initiative (iREi) (2017).",
+            "file": "/infrastructure/download/6-14.zip"
+        },
+        {
+            "id": "6-15",
+            "name": "Power lines",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of power lines on Pohnpei. The data set was created by Pohnpei Utilities Corporation (PUC).",
+            "file": "/infrastructure/download/6-15_(DO NOT SHARE).zip"
+        },
+        {
+            "id": "6-16",
+            "name": "Power plants",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of power plants on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-16.zip"
+        },
+        {
+            "id": "6-17",
+            "name": "Fuel storage",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of fuel tanks on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-17.zip"
+        },
+        {
+            "id": "6-18",
+            "name": "Water intake structures",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "Several water intake structures on Pohnpei. The original data are from Pohnpei State Government. Island Research & Education Initiative (iREi) shifted the features to coincide with the closest nearby river. This data set requires verification as accuracy and completeness levels are not known and attribute information is not available.",
+            "file": "/infrastructure/download/6-18.zip"
+        },
+        {
+            "id": "6-19",
+            "name": "Water reservoir",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of a surface-water storage reservoir on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-19.zip"
+        },
+        {
+            "id": "6-20",
+            "name": "Water lines",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The location of water supply lines on Pohnpei. The data set was created by Pohnpei Utilities Corporation (2017).",
+            "file": "/infrastructure/download/6-20_(DO NOT SHARE).zip"
+        },
+        {
+            "id": "6-21",
+            "name": "Water tanks",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of storage tanks for fresh water on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-21.zip"
+        },
+        {
+            "id": "6-22",
+            "name": "Water treatment",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of drinking water treatment facilities on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-22.zip"
+        },
+        {
+            "id": "6-23",
+            "name": "Wells",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of groundwater wells on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-23.zip"
+        },
+        {
+            "id": "6-24",
+            "name": "Sewer lines",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Line",
+            "filetype": "Esri Shapefile",
+            "Description": "The sewer lines on Pohnpei. The data set was created by Pohnpei State Government (2013).",
+            "file": "/infrastructure/download/6-24_(DO NOT SHARE).zip"
+        },
+        {
+            "id": "6-25",
+            "name": "Wastewater",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The location of wastewater treatment plant and related infrastructure on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+            "file": "/infrastructure/download/6-25.zip"
+        },
+        {
+            "id": "6-26",
+            "name": "Communication infrastructure",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The communication infrastructure on Pohnpei. The features shown include communication towers, wifi access points, and cell sites. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The dataset was updated by Pacific Disaster Center (PDC) (2014) and Island Research & Education Initiative (2017) based on information provided by FSM Telecommunications Corporation.",
+            "file": "/infrastructure/download/6-26.zip"
+        },
+        {
+            "id": "6-27",
+            "name": "Waste disposal",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The location of the landfill on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017), based on 2016 WorldView-3 satellite imagery by Digital Globe.",
+            "file": "/infrastructure/download/6-27.zip"
+        },
+        {
+            "id": "6-28",
+            "name": "Cemeteries",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The locations of cemeteries on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+            "file": "/infrastructure/download/6-28.zip"
+        },
+        {
+            "id": "6-29",
+            "name": "Quarries",
+            "general": "Infrastructure",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The location of a quarry on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+            "file": "/infrastructure/download/6-29.zip"
+        },
+        {
+            "id": "7-01",
+            "name": "Designated protected areas",
+            "general": "Conservation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The designated protected areas on and around Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017) by merging information obtained from Pohnpei State Government, The Nature Conservancy, and KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013). This GIS coverage may not be complete. Additional marine protected areas are referenced in legislation (e.g., http://www.fm/PohnpeiLeg/pending/PM_RD.doc) but may not have been delineated or formally implemented. Among sanctuaries that may exist in Pohnpei but are not yet included in these geospatial data are Sokehs Trochus Sanctuaries and Kepidau en Dauahk (Dawahk Pass) Marine Sanctuary.",
+            "file": "/conservation/download/7-01.zip"
+        },
+        {
+            "id": "7-02",
+            "name": "Proposed protected areas",
+            "general": "Conservation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The proposed protected areas on Pohnpei. The data set was created by The Nature Conservancy based on the results of the workshop convened in 2014 by The Nature Conservancy (TNC), Conservation Society of Pohnpei (CSP), and Pohnpei State Governor’s Office to discuss the design of Pohnpei’s Protected Areas Network (PAN).",
+            "file": "/conservation/download/7-02.zip"
+        },
+        {
+            "id": "7-03",
+            "name": "Areas of biodiversity significance",
+            "general": "Conservation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The Areas of Biological Significance (ABS) on Pohnpei. The data set was created by The Nature Conservancy. A subset to show only Pohnpei was created by the Island Research & Education Initiative (iREi). The polygons in the data are intended to capture those areas that represent the wide range of biodiversity features in the marine and terrestrial areas of FSM. They capture expert knowledge from the FSM Blueprint project. They are used to guide conservation planning and projects in FSM, and ultimately to help establish conservation areas.",
+            "file": "/conservation/download/7-03.zip"
+        },
+        {
+            "id": "7-04",
+            "name": "Species-level conservation targets",
+            "general": "Conservation",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The species-level conservation targets on Pohnpei. The geospatial data were created by The Nature Conservancy based on the results of the workshop convened in 2014 by The Nature Conservancy (TNC), Conservation Society of Pohnpei (CSP), and Pohnpei State Governor’s Office to discuss the design of Pohnpei’s Protected Areas Network (PAN). The original data set could not be located by TNC so a new one was created by Island Research & Education Initiative (iREi) (2017) by digitizing a hard copy map from the original workshop report.",
+            "file": "/conservation/download/7-04.zip"
+        },
+        {
+            "id": "8-01",
+            "name": "Cultural landmarks",
+            "general": "Culture",
+            "island": "Pohnpei",
+            "geometry": "Various",
+            "filetype": "Esri Shapefile",
+            "Description": "Some of the most significant cultural landmarks on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+            "file": "/culture/download/8-01.zip"
+        },
+        {
+            "id": "8-02",
+            "name": "Prominent prehistoric sites",
+            "general": "Culture",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "Some of the prominent prehistoric sites on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+            "file": "/culture/download/8-02.zip"
+        },
+        {
+            "id": "8-03",
+            "name": "Nan Madol islets and buildings",
+            "general": "Culture",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The islets and buildings at Pohnpei's premier prehistoric site, the ancient Saudeleur capital at Nan Madol. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+            "file": "/culture/download/8-03.zip"
+        },
+        {
+            "id": "8-04",
+            "name": "Ancient subdivisions [Saudeleur times]",
+            "general": "Culture",
+            "island": "Pohnpei",
+            "geometry": "Polygon",
+            "filetype": "Esri Shapefile",
+            "Description": "The ancient subdivisions of Pohnpei, as they existed at the time of Saudeleur dynasty. The boundaries are highly approximate and were digitized by Island Research & Education Initiative (iREi) (2017) from David L. Hanlon (1988), Upon a Stone Altar, University of Hawaii Press. Place name spellings are from Thomas Panholzer and Rufino Mauricio (2003), Place Names of Pohnpei Island, Bess Press.",
+            "file": "/culture/download/8-04.zip"
+        },
+        {
+            "id": "8-05",
+            "name": "Colonial period sites",
+            "general": "Culture",
+            "island": "Pohnpei",
+            "geometry": "Various",
+            "filetype": "Esri Shapefile",
+            "Description": "Some of the key historic sites and remains from the Spanish, German, and Japanese periods of Pohnpei's history. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+            "file": "/culture/download/8-05.zip"
+        },
+        {
+            "id": "8-06",
+            "name": "Statues and monuments",
+            "general": "Culture",
+            "island": "Pohnpei",
+            "geometry": "Point",
+            "filetype": "Esri Shapefile",
+            "Description": "The statues and monuments on Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017), from original KML files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013) appended by field verification.",
+            "file": "/culture/download/8-06.zip"
+        }
+    ]
+}

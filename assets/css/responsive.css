@@ -6,8 +6,8 @@
 	.flag-card-box ul.card-list li .text-box h3{ font-size:15px;}
 
 	.gallery-box { padding-left: 65px !important; padding-right: 65px !important;}
-	.slick-next{ right:-10px !important;}
-	.slick-prev{ left:-10px !important;}
+	/* .slick-next{ right:-10px !important;}
+	.slick-prev{ left:-10px !important;} */
 
 	.bnr-frame .innr-box h4{ font-size:22px;}
 
@@ -90,7 +90,7 @@
 @media (max-width:767px){
 	.container{ max-width:540px;}
 
-	body{ padding-top:110vh;}
+	/* body{ padding-top:110vh;} */
 	.hover-bnr-frame{ position:relative; height:1250px;}
 
 	.cont-box-01 .left-cont-box{ width:100%; text-align:center;}

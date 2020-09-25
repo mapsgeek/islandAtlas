@@ -20,7 +20,12 @@
           </a-select-option>
         </a-select>
         <viewer :images="map" :options="options" style="text-align: center;">
-          <img class="image" loading="lazy" v-for="src in map" :src="`${url}/pohnpei/${src.theme}/preview/thumbnails/${src.id}.jpg`" :key="src.id" :data-src="`${url}/pohnpei/${src.theme}/preview/${src.id}.jpg`" :title="src.title">
+          <div v-if="island!=='pohnpei'">
+            <img class="image" loading="lazy" v-for="src in map" :src="`${url}/${island}/${src.theme}/preview/thumbnails/${src.fileName}.png`" :key="src.id" :data-src="`${url}/${island}/${src.theme}/preview/${src.fileName}.png`" :title="src.title">
+          </div>
+          <div v-else>
+            <img class="image" loading="lazy" v-for="src in map" :src="`${url}/${island}/${src.theme}/preview/thumbnails/${src.fileName}.jpg`" :key="src.id" :data-src="`${url}/${island}/${src.theme}/preview/${src.fileName}.jpg`" :title="src.title">
+          </div>
         </viewer>
       </div>
     </div>
@@ -62,7 +67,7 @@ export default {
     }
   },
   mounted() {
-    if (process.browser) {
+    if (process.client) {
       if (localStorage.getItem("island") === null) {
         this.island = "pohnpei"
       } else {

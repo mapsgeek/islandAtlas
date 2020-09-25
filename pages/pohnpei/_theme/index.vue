@@ -32,11 +32,7 @@ export default {
         return { theme: this.$route.params.theme, island: "pohnpei" }
       }
     },
-  },
-  head: {
-    title: 'vectors of Blog'
-  },
-
+  }
 }
 </script>
 

@@ -1,6 +1,7 @@
 query gallery($island: String) {
   map(where: {island: {_eq: $island}}, order_by: {id: asc}) {
     id
+    fileName
     title
     theme
   }

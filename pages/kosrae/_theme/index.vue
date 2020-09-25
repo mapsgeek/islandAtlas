@@ -32,11 +32,7 @@ export default {
         return { theme: this.$route.params.theme, island: "kosrae" }
       }
     },
-  },
-  head: {
-    title: 'vectors of Blog'
-  },
-
+  }
 }
 </script>
 

@@ -1,0 +1,779 @@
+  {
+    "id": "2-B1-01",
+    "name": "Shoreline",
+    "General": "Land",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "decription": "The shoreline and the land area of Kosrae island, Lelu island, and smaller islands on the surrounding reef and in mangrove swamps. It actually contains two datasets: the shoreline itself and Kosrae base layer. Both were created by Island Research & Education Initiative (iREi) based on Digital Line Graphs (DLGs) from U.S. Geological Survey 1:25,000-scale topographic maps. The shoreline and base layer were shifted and adjusted to follow current imagery better. In urban areas, the shoreline was updated using Worldview-2 satellite imagery from Digital Globe (2015-18) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+    "file": "/land/1-01.zip"
+  },
+  {
+    "id": "2-B1-02 to 1-03",
+    "name": "10-m elevation contours",
+    "General": "Land",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The topography of Kosrae. It shows elevation contour lines at 10-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967 and the shoreline dataset representing the zero contour line.",
+    "file": "/land/1-02_to_1-03.zip"
+  },
+  {
+    "id": "2-B1-04 to 1-05",
+    "name": "50-m elevation contours",
+    "General": "Land",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The topography of Kosrae. It shows elevation contour lines at 50-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967 and the shoreline dataset representing the zero contour line.",
+    "file": "/land/1-04_to_1-05.zip"
+  },
+  {
+    "id": "2-B1-16 to 1-18",
+    "name": "Basic soil types",
+    "General": "Land",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The basic soil types of Kosrae. The original dataset was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1983) as part of the soil survey of the Islands of Kosrae, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). The data layer was created by Island Research & Education Initiative (iREi) (2019) by extracting and formatting a subset of the Gridded Soil Survey Geographic (gSSURGO) Database for Federated States of Micronesia (2019) created by USDA-NRCS.",
+    "file": "/land/1-16_to_1-18.zip"
+  },
+  {
+    "id": "2-B1-19",
+    "name": "General land use",
+    "General": "Land",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "The basic soil types of Kosrae. The original dataset was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1983) as part of the soil survey of the Islands of Kosrae, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). The data layer was created by Island Research & Education Initiative (iREi) (2019) by extracting and formatting a subset of the Gridded Soil Survey Geographic (gSSURGO) Database for Federated States of Micronesia (2019) created by USDA-NRCS.",
+    "file": "/land/1-19.zip"
+  },
+  {
+    "id": "2-B1-21",
+    "name": "General physiography",
+    "General": "Land",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The general physiography of Kosrae. The data layer was created by Island Research & Education Initiative (iREi) (2019) using a combination of 10-meter resolution Digital Elevation Model (DEM) (USGS, 1967) and the simple soil map of Kosrae (NRCS, 1981), and applying them to the base layer (iREi, 2019).",
+    "file": "/land/1-21.zip"
+  },
+  {
+    "id": "2-B1-14",
+    "name": "Prominent peaks",
+    "General": "Land",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of prominent peaks on Kosrae. This data layer was developed by Island Research & Education Initiative (iREi) (2019) by merging and slightly modifying data from U.S. Geological Survey's Geographic Names Information System (GNIS) and shapefiles provided by Kosrae Island Resource Management Authority (KIRMA). The place names shown on this map are copied from the two sources above and are not authoritative. They require thorough verification and correction of spellings to conform with Kosraean orthography.",
+    "file": "/land/1-14.zip"
+  },
+  {
+    "id": "2-B2-01",
+    "name": "Reef location",
+    "General": "Reefs",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The extent of coral reefs around Kosrae. The data layer shown here is a subset of Kosrae base layer derived by Island Research & Education Initiative (iREi) (2019) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001). The shoreline was partially updated and the coral reef features were slightly shifted and partially modified based on Worldview-2 satellite imagery from Digital Globe (2015-2018) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+    "file": "/reefs/2-01.zip"
+  },
+  {
+    "id": "2-B2-02 and 2-09",
+    "name": "Reef geomorphology",
+    "General": "Reefs",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "This map classifies the reefs around Kosrae by their geomorphology. The dataset used here was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
+    "file": "/reefs/2-02_and_2-09.zip"
+  },
+  {
+    "id": "2-B2-03",
+    "name": "Passes in the barrier reef",
+    "General": "Reefs",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "TThe locations of principal passes in the barrier reef around Kosrae. This data layer was derived by Island Research & Education Initiative (iREi) (2019) by slightly modifying data from U.S. Geological Survey 1:25,000-scale topographic maps (2001). The place names shown on this map are copied from the source require thorough verification and correction of spellings to conform with Kosraean orthography.",
+    "file": "/reefs/2-03.zip"
+  },
+  {
+    "id": "2-B2-05 to 2-08",
+    "name": "Recreation",
+    "General": "Reefs",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of popular surf breaks around Kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019) from information provided by Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/reefs/2-05_to_2-08.zip"
+  },
+  {
+    "id": "2-B2-11",
+    "name": "Recreation",
+    "General": "Reefs",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of mooring buoys around Kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019) from information provided by Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/reefs/2-11.zip"
+  },
+  {
+    "id": "2-B3-02",
+    "name": "Streams and rivers [USGS version]",
+    "General": "Water",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The rivers and streams on Kosrae as represented on the U.S. Geological Survey (USGS) 1:25,000-scale topographic maps (2001). The dataset was extracted from the Digital Line Graphs (DLGs) from USGS and names from the Geographic Names Information System (GNIS) by Island Research & Education Initiative (iREi) (2019) and slightly modified to match the updated shoreline.",
+    "file": "/water/3-02.zip"
+  },
+  {
+    "id": "2-B3-03",
+    "name": "Natural outflow points",
+    "General": "Water",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The natural outflow locations on Kosrae, defined as points where streams and rivers discharge into the lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2019) by identifying the points where streams and rivers from 1:25,000-scale U.S. Geological Survey topographic maps (2001) intersect with the most recent shoreline of Kosrae.",
+    "file": "/water/3-03.zip"
+  },
+  {
+    "id": "2-B3-04",
+    "name": "Flow paths",
+    "General": "Water",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The theoretical drainage pattern on Kosrae. The flow paths were delineated by Island Research & Education Initiative (iREi) (2019). This was done by Maria Kottermair (iREi) through hydrological modeling using a 10-meter Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967. Note that in very flat low-lying areas the data may indicate straight lines that are an artifact of the modeling process and do not reflect reality.",
+    "file": "/water/3-04.zip"
+  },
+  {
+    "id": "2-B3-06",
+    "name": "Principal watersheds",
+    "General": "Water",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The principal watersheds (drainage basins) on Kosrae. The dataset was created by Island Research & Education Initiative (iREi) (2019). Basin boundaries were delineated by Maria Kottermair (iREi) through hydrological modeling using a 10-meter Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967. Note that basin boundaries shown are modeled and, as such, reflect the DEM and not necessarily actual situation on the ground. The watershed boundaries may differ from actual management units, especially as smaller basins were sometimes merged to a ‘principal’ watershed to avoid too many small remnant basins..",
+    "file": "/water/3-06.zip"
+  },
+  {
+    "id": "2-B3-07",
+    "name": "Sub-watersheds",
+    "General": "Water",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "This map shows Kosrae's principal watersheds (drainage basins) and their sub-watersheds. The dataset was created by Island Research & Education Initiative (iREi) (2019). All boundaries were delineated by Maria Kottermair (iREi) through hydrological modeling using a 10-meter Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967. Note that apparently unnatural boundaries such as series of straight, parallel lines are artifacts of modeling and do not reflect reality.",
+    "file": "/water/3-07.zip"
+  },
+  {
+    "id": "2-B3-10",
+    "name": "Weather stations",
+    "General": "Water",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The location of the active weather observation sites on Kosrae. The data layer was created by Island Research & Education Initiative (iREi) (2019) using location information obtained from the National Weather Service office in Guam.",
+    "file": "/water/3-10.zip"
+  },
+  {
+    "id": "2-B3-11",
+    "name": "Precipitation",
+    "General": "Water",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The average annual rainfall in inches on Kosrae. The original data were derived from weather records from 1971-2000 by Chris Daly and Mike Halbleib of the PRISM Group at Oregon State University (2006) and the U.S. National Park Service (2006). Data were converted to GIS by Island Research & Education Initiative (iREi) (2019).",
+    "file": "/water/3-11.zip"
+  },
+  {
+    "id": "2-B4-01",
+    "name": "Vegetation (2004-2007)",
+    "General": "Vegetation",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The vegetation of Kosrae between 2004 and 2007. The dataset was developed from 2004-2007 QuickBird satellite imagery by Digital Globe through land cover classification carried out by U.S. Forest Service (2007). The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2015-2018 WorldView-2 satellite imagery provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+    "file": "/vegetation/4-01.zip"
+  },
+  {
+    "id": "2-B4-05",
+    "name": "Wetlands",
+    "General": "Vegetation",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The wetlands of Kosrae, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2004-2007 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2015-2018 WorldView-2 satellite imagery.",
+    "file": "/vegetation/4-04_to_4-07.zip"
+  },
+  {
+    "id": "2-B4-06",
+    "name": "Upland forests",
+    "General": "Vegetation",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The extent of upland forest on Kosrae, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2004-2007 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2015-2018 WorldView-2 satellite imagery.",
+    "file": "/vegetation/4-04_to_4-07.zip"
+  },
+  {
+    "id": "2-B4-07",
+    "name": "Agroforests",
+    "General": "Vegetation",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The extent of agroforest on Kosrae, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2004-2007 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2015-2018 WorldView-2 satellite imagery.",
+    "file": "/vegetation/4-04_to_4-07.zip"
+  },
+  {
+    "id": "2-B5-01",
+    "name": "Municipalities [areas]",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The four municipalities of Kosrae. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The data were modified by Island Research & Education Initiative (iREi) (2019) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+    "file": "/population/5-01.zip"
+  },
+  {
+    "id": "2-B5-02",
+    "name": "Municipalities [lines]",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The four municipalities of Kosrae. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The data were modified by Island Research & Education Initiative (iREi) (2019) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+    "file": "/population/5-02.zip"
+  },
+  {
+    "id": "2-B5-03",
+    "name": "Municipalities pre-1980s [areas]",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The four municipalities of Kosrae plus the fifth municipality, Walung, before it was merged with Tafunsak in the 1980s. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The data were modified by Island Research & Education Initiative (iREi) (2019) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+    "file": "/population/5-03.zip"
+  },
+  {
+    "id": "2-B5-04",
+    "name": "Municipalities pre-1980s [lines]",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The lines separating the four municipalities of Kosrae plus the fifth municipality, Walung, before it was merged with Tafunsak in the 1980s. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The data were modified by Island Research & Education Initiative (iREi) (2019) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+    "file": "/population/5-04.zip"
+  },
+  {
+    "id": "2-B5-05",
+    "name": "Capitals",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of Tofol, the state capital of the Kosrae State, and Lelu, the island's main traditional center and historic capital. The data layer was created by Island Research & Education Initiative (iREi) (2019).",
+    "file": "/population/5-05.zip"
+  },
+  {
+    "id": "2-B5-07",
+    "name": "Place names",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of all named geographic features on Kosrae that are contained within the Geographic Names Information System (GNIS). The GNIS is the official database that contains all standard toponyms in the U.S. and its territories and associated states. It was developed by the U.S. Geological Survey (USGS) in cooperation with the U.S. Board on Geographic Names (BGN) in order to standardize place names. Island Research & Education Initiative (iREi) (2019) transferred this information to GIS format and shifted to match the most recent base layer and 2015-2018 WorldView-2 satellite imagery. Note that the actual names contained in the dataset are copied exactly as they are in GNIS and are not necessarily correct or aligned with Kosraean orthography.",
+    "file": "/population/5-07.zip"
+  },
+  {
+    "id": "2-B5-08",
+    "name": "Population by age and sex",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The number of residents of Kosrae by municipality, and also provides information on sex and age distribution in the form of population pyramids for each municipality. The attribute tables in the actual dataset also contain information on median age and average annual population growth rate. This geospatial dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-08.zip"
+  },
+  {
+    "id": "2-B5-09",
+    "name": "Population density and growth",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The population density of Kosrae by municipality, and also provides information on population growth in Kosrae from 1920 until 2010. The map was created using the same data layer as the map that shows population by age and sex. This geospatial dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-09.zip"
+  },
+  {
+    "id": "2-B5-10",
+    "name": "Birthplace",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of residents born outside of Kosrae by municipality. The attribute tables in the actual dataset contain very detailed information on specific places of birth and citizenship status. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-10.zip"
+  },
+  {
+    "id": "2-B5-11",
+    "name": "Ethnicity",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of ethnically Kosraean residents by municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual dataset contain more detailed information on the full range of specific ethnic identities involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2000) and the FSM census of population and housing (2010).",
+    "file": "/population/5-11.zip"
+  },
+  {
+    "id": "2-B5-12",
+    "name": "Religion",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The religious affiliation of Kosraean residents aged 15 and above by municipality. The attribute tables in the actual dataset contain more detailed information on specific churches involved (or absence of religious belief) and on marital status. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-12.zip"
+  },
+  {
+    "id": "2-B5-13",
+    "name": "Literacy and language",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The literacy rate of Kosraean residents aged 5 and above by municipality, and also provides information on the first language spoken. The attribute tables in the actual dataset contain more detailed information on literacy levels in specific languages spoken as the first or second language for persons aged 5, as well as the specific languages predominantly spoken in households for persons aged 3 and above. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-13.zip"
+  },
+  {
+    "id": "2-B5-14",
+    "name": "School enrollment",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of Kosraean residents aged 3 and above enrolled in schools by municipality, and also provides information on the number of students attending different types of schools. The attribute tables in the actual dataset contain more detailed information, including separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-14.zip"
+  },
+  {
+    "id": "2-B5-15",
+    "name": "Educational attainment",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of Kosraean residents aged 25 and above who graduated high school and also provides information on the highest level of education attained by municipality. The attribute tables in the actual dataset contain information at a higher resolution (breakdown by individual grade levels) and separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-15.zip"
+  },
+  {
+    "id": "2-B5-16",
+    "name": "Disabilities",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of kosraean residents with disabilities by municipality. The attribute tables in the actual data set contain more detailed information on specific disabilities (seeing, hearing, walking, remembering, etc.), number of disabilities, disability levels, and separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-16.zip"
+  },
+  {
+    "id": "2-B5-17",
+    "name": "Labor force",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of Kosraean residents aged 15 and above who are in labor force per municipality, and also provides information on what portions of the labor force are formally employed, employed in home production, or unemployed. The attribute tables in the actual dataset contain more detailed information, including separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-17.zip"
+  },
+  {
+    "id": "2-B5-18",
+    "name": "Home production",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of Kosraean residents aged 15 and above who are engaged in home production per municipality, and also provides information on what portions of home production are intended for own consumption, sale, or both. The attribute tables in the actual dataset also contain information on formal employment, including types of jobs, general areas of employment, and the type of employer. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-18.zip"
+  },
+  {
+    "id": "2-B5-19",
+    "name": "Household type",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The average number of persons per household in each municipality on Kosrae, and also provides information on the percentage of family members vs. non-family members within the households. The attribute tables in the actual dataset contain more detailed information on types of relationships between household members, number of persons living in group quarters (school dormitories, correctional facilities, etc.), and average number of persons per family. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-19.zip"
+  },
+  {
+    "id": "2-B5-20",
+    "name": "Housing tenure",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The ownership status of households (owned free and clear of loan vs. owned with loan or rented) and land (owned vs. leased) in each municipality on Kosrae. The attribute tables in the actual dataset contain more detailed information on specific ownership types involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-20.zip"
+  },
+  {
+    "id": "2-B5-21",
+    "name": "Housing structure",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The average number of rooms per household and the building materials used to make house roofs and walls in each municipality on Kosrae. The attribute tables in the actual dataset also contain information on specific building types, floor construction materials, age of buildings, and the number of persons per household and per room. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-21.zip"
+  },
+  {
+    "id": "2-B5-22",
+    "name": "Principal sources of water for drinking and washing",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of households in each municipality on Kosrae that have access to piped water, and also provides information on specific sources used to obtain fresh water for drinking and washing. The attribute tables in the actual dataset also contain information on toilet types and sewage disposal types in households. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-22.zip"
+  },
+  {
+    "id": "2-B5-23",
+    "name": "Principal sources of energy for cooking and lighting",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of households in each municipality on Kosrae that have complete kitchen facilities, and also provides information on energy sources for lighting and cooking. The attribute tables in the actual dataset contain more detailed information on specific types of energy sources. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-23.zip"
+  },
+  {
+    "id": "2-B5-24",
+    "name": "Households with selected appliances",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of households in each municipality on Kosrae that possess a sink and/or a refrigerator. The attribute tables in the actual dataset contain more detailed information on specific numbers of sinks and refrigerators, as well as other amenities including air conditioning units, generators, DVD/VCR players, and television sets with and without cable TV connection. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-24.zip"
+  },
+  {
+    "id": "2-B5-25",
+    "name": "Households with vehicles",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of households in each municipality on Kosrae that have at least one car, and also provides information on the total number of households with cars, boats with engine, and canoes and boats without engine. The attribute tables in the actual dataset also contain information about other vehicles (trucks, buses, motorbikes) and detailed information on specific numbers of each vehicle type per household. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-25.zip"
+  },
+  {
+    "id": "2-B5-26",
+    "name": "Households with telephones",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of households in each municipality on Kosrae that have at least one telephone land line, and also provides information on the relative availability of cell phones. The attribute tables in the actual dataset also contain detailed information on the number of fixed and cellular phones, as well as radios and computers per household. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-26.zip"
+  },
+  {
+    "id": "2-B5-27",
+    "name": "Internet usage",
+    "General": "Population",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The percentage of households in each municipality on Kosrae that have a functioning Internet connection, and also provides information on the relative number of people who access the Internet. The attribute tables in the actual dataset contain more detailed information on the frequency of Internet use. The dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
+    "file": "/population/5-27.zip"
+  },
+  {
+    "id": "2-B6-01",
+    "name": "Roads",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The road network on Kosrae. It includes major roads as well as smaller paved and unpaved roads. The data layer was created by Island Research & Education Initiative (iREi) (2019) based on a dataset by KIRMA and major adjustments made by John Paul Batarao (2019) to match 2018 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+    "file": "/infrastructure/6-01.zip"
+  },
+  {
+    "id": "2-B6-02",
+    "name": "Bridges and causeways",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "This map shows major bridges and causeways on Kosrae. The dataset was created by Island Research & Education Initiative (iREi) (2019), based on 2015-2018 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+    "file": "/infrastructure/6-02.zip"
+  },
+  {
+    "id": "2-B6-03",
+    "name": "Recreational sites",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Line",
+    "filetype": "Google earth (KMZ)",
+    "Description": "This map shows recreational sites on Kosrae: prominent hiking locations, playfields, picnic sites, and others. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019), using KML files created specifically for this Digital Atlas by Joyminda Palokoa George (2019), as well as latitude-longitude coordinates provided by Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/infrastructure/6-03.zip"
+  },
+  {
+    "id": "2-B6-04",
+    "name": "Port and airport locations",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of dock, marina, port, and airport facilities on Kosrae. The dataset was created by Island Research & Education Initiative (iREi) (2019), based on 2015-2018 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) and from KML files created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-04.zip"
+  },
+  {
+    "id": "2-B6-05",
+    "name": "Port and airport zones",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The international port and airport zones on Kosrae. The dataset was created by Island Research & Education Initiative (iREi) (2019) based on 2015-2018 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The dataset also includes the outline of the runway. The boundaries are not authoritative.",
+    "file": "/infrastructure/6-05.zip"
+  },
+  {
+    "id": "2-B6-06",
+    "name": "Locations of houses and other buildings",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of all houses, buildings, and other human-made structures. The dataset was created by Island Research & Education Initiative (iREi) (2019) by converting building footprints of houses and other buildings to point features. The buildings footprints were based on 2015-2018 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+    "file": "/infrastructure/6-06.zip"
+  },
+  {
+    "id": "2-B6-07",
+    "name": "Footprints of houses and other buildings",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The footprints of all houses, buildings, and other human-made structures. The shapefile was created by Island Research & Education Initiative (iREi) (2019) by manually digitizing polygons from 2015-2018 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+    "file": "/infrastructure/6-07.zip"
+  },
+  {
+    "id": "2-B6-09",
+    "name": "Major businesses",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of businesses on Kosrae. The data layer was created by Island Research & Education Initiative (iREi) (2019) from KML files created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-09.zip"
+  },
+  {
+    "id": "2-B6-08",
+    "name": "Government offices",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of key government offices (national, state, municipal, and Lelu town), as well as non-governmental organizations in Kosrae. The data layer was created by Island Research & Education Initiative (iREi) (2019) from KML files created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-08.zip"
+  },
+  {
+    "id": "2-B6-10",
+    "name": "Hospitals and clinics",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of the hospital and community health centers on Kosrae. The data layer was created by Island Research & Education Initiative (iREi) (2019) based on information from Pacific Disaster Center (PDC) (2013) and KML files created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-10.zip"
+  },
+  {
+    "id": "2-B6-11",
+    "name": "Schools",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of schools and colleges on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The dataset was updated based on KML files created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-11.zip"
+  },
+  {
+    "id": "2-B6-12",
+    "name": "Places of worship",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of churches and one mosque on Kosrae. The data layer was created by Island Research & Education Initiative (iREi) (2019) from KML files created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-12.zip"
+  },
+  {
+    "id": "2-B6-13",
+    "name": "Fire stations",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The location of the fire station on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The dataset was updated based on KML file created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-13.zip"
+  },
+  {
+    "id": "2-B6-14",
+    "name": "Police stations",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of the police stations on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The dataset was updated based on KML files created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-14.zip"
+  },
+  {
+    "id": "2-B6-16",
+    "name": "Power plants",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The location of the power plant on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The dataset was updated based on using KML file created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-16.zip"
+  },
+  {
+    "id": "2-B6-17",
+    "name": "Fuel farms",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of fuel tanks on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+    "file": "/infrastructure/6-17.zip"
+  },
+  {
+    "id": "2-B6-19",
+    "name": "Dams",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of dams built to create small surface-water storage reservoirs on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were updated using feedback from Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/infrastructure/6-19.zip"
+  },
+  {
+    "id": "2-B6-21",
+    "name": "Water tanks",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of storage tanks for fresh water on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were updated using feedback from Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/infrastructure/6-21.zip"
+  },
+  {
+    "id": "2-B6-22",
+    "name": "Water treatment facilities",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of drinking water treatment facilities on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were updated using feedback from Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/infrastructure/6-22.zip"
+  },
+  {
+    "id": "2-B6-23",
+    "name": "Wells and springs",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The locations of groundwater wells and springs on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were updated using feedback from Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/infrastructure/6-23.zip"
+  },
+  {
+    "id": "2-B6-25",
+    "name": "Wastewater",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The location of wastewater treatment plant and related infrastructure on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) (2013) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were updated using feedback from Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/infrastructure/6-25.zip"
+  },
+  {
+    "id": "2-B6-26",
+    "name": "Communication infrastructure",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The communication infrastructure on Kosrae. The features shown include communication towers, wifi access points, and cell sites. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The dataset was updated by Pacific Disaster Center (PDC) (2013) and Island Research & Education Initiative (2017) based on information provided by FSM Telecommunications Corporation, and by Island Research & Education Initiative (2019) using KML files created specifically for this Atlas by Joyminda Palokoa George (2019).",
+    "file": "/infrastructure/6-26.zip"
+  },
+  {
+    "id": "2-B6-27",
+    "name": "Waste disposal",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The location of the landfills on Kosrae. The original data were developed by the Pacific Disaster Center (PDC) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were updated using feedback from Kosrae Island Resource Management Authority (KIRMA), which distinguished between the formal landfill and the closed sites.",
+    "file": "/infrastructure/6-27.zip"
+  },
+  {
+    "id": "2-B6-29",
+    "name": "Quarries",
+    "General": "Infrastructure",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The location of the principal quarry on Kosrae. Smaller quarries exist and are not shown. The data layer was created by Island Research & Education Initiative (iREi) (2019) from KML file created by Joyminda Palokoa George (2019) specifically for this Digital Atlas.",
+    "file": "/infrastructure/6-29.zip"
+  },
+  {
+    "id": "2-B7-01",
+    "name": "Protected areas",
+    "General": "Conservation",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The designated protected areas on and around Kosrae. The dataset was created by the Island Research & Education Initiative (iREi) (2019) by merging information obtained from The Nature Conservancy and Kosrae Island Resource Management Authority (KIRMA). This GIS coverage may not be complete. Additional marine protected areas are referenced in legislation (e.g., http://www.fm/KosraeLeg/pending/PM_RD.doc) but may not have been delineated or formally implemented.",
+    "file": "/conservation/7-01.zip"
+  },
+  {
+    "id": "2-B7-03",
+    "name": "Areas of biodiversity significance",
+    "General": "Conservation",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The Areas of Biological Significance (ABS) on Kosrae. The dataset was created by The Nature Conservancy. A subset to show only Kosrae was created by the Island Research & Education Initiative (iREi) (2019). The polygons in the data are intended to capture those areas that represent the wide range of biodiversity features in the marine and terrestrial areas of FSM. They capture expert knowledge from the FSM Blueprint project. They are used to guide conservation planning and projects in FSM, and ultimately to help establish conservation areas.",
+    "file": "/conservation/7-03.zip"
+  },
+  {
+    "id": "2-B8-01",
+    "name": "Cultural landmarks",
+    "General": "Culture",
+    "island": "kosrae",
+    "Geometry": "Various",
+    "filetype": "Google earth (KMZ)",
+    "Description": "This map shows some of the most significant cultural landmarks on Kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019), using Excel spreadsheet information provided by Kosrae Island Resource Management Authority (KIRMA).",
+    "file": "/culture/8-01.zip"
+  },
+  {
+    "id": "2-B8-02",
+    "name": "Prominent prehistoric sites",
+    "General": "Culture",
+    "island": "kosrae",
+    "Geometry": "Point",
+    "filetype": "Google earth (KMZ)",
+    "Description": "Some of the prominent prehistoric sites on kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KML files created by Alex Zuccarelli for kosrae Eco-Adventure Map Guide Series (2013).",
+    "file": "/culture/8-02.zip"
+  },
+  {
+    "id": "2-B8-03",
+    "name": "Lelu ruins",
+    "General": "Culture",
+    "island": "kosrae",
+    "Geometry": "Polygon",
+    "filetype": "Google earth (KMZ)",
+    "Description": "The islets and buildings at Kosrae's premier prehistoric site, the ancient Saudeleur capital at Nan Madol. The data layer was created by Island Research & Education Initiative (iREi) (2019) by georeferencing and digitizing archaeological map [figure 8] from Cordy, R. 1993. The Lelu Stone Ruins (Kosrae, Micronesia): 1987-81 Historical and Archaeological Research. Honolulu: Social Science Research Institute, University of Hawai’i at Manoa.",
+    "file": "/culture/8-03.zip"
+  }

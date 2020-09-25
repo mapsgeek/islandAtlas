@@ -1,0 +1,1145 @@
+[
+
+    {
+        "idss": "1-01",
+        "namess": "Shoreline",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Shoreline and the land area of Pohnpei and smaller islandsss in Pohnpei's lagoon and on the barrier reef. It actually contains two data sets: the shoreline itself and Pohnpei base layer. Both were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001). The shoreline was slightly shifted and partly updated around Kolonia and its vicinity based on Worldview-3 satellite imagery from Digital Globe (2016).",
+        "file":"../assets/img/atlas-maps/land/download/1-01.kmz"
+    },
+    {
+        "idss": "1-02",
+        "namess": "10-m elevation contours",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":" Elevation contour lines at 10-meter intervals. Depicted in grayscale, the contour lines were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-02.kmz"
+    },
+    {
+        "idss": "1-03",
+        "namess": "10-m elevation contours [color]",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":" Elevation contour lines at 10-meter intervals. The contour lines are depicted in a range of colors corresponding to elevations from the shoreline to 780 m above sea level. They were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-03.kmz"
+    },
+    {
+        "idss": "1-04",
+        "namess": "50-m elevation contours",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Elevation contour lines at 50-meter intervals. Depicted in grayscale, the contour lines were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-04_to_1-05.kmz"
+    },
+    {
+        "idss": "1-05",
+        "namess": "50-m elevation contours [color]",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Elevation contour lines at 50-meter intervals. The contour lines are depicted in a range of colors corresponding to elevations from the shoreline to 780 m above sea level. They were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-04_to_1-05.kmz"
+    },
+    {
+        "idss": "1-06",
+        "namess": "Elevation intervals",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The elevation of terrain on Pohnpei. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. The DEM was classified into elevation intervals and colored based on elevation in meters above sea level.",
+        "file":"../assets/img/atlas-maps/land/download/1-06.kmz"
+    },
+    {
+        "idss": "1-07",
+        "namess": "Elevation range [color]",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The elevation of terrain on Pohnpei. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. The DEM is depicted as a range of colors based on elevation in meters above sea level.",
+        "file":"../assets/img/atlas-maps/land/download/1-07.kmz"
+    },
+    {
+        "idss": "1-08",
+        "namess": "Elevation range [grayscale]",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The elevation of terrain on Pohnpei. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. The DEM is depicted as shades of gray based on elevation in meters above sea level.",
+        "file":"../assets/img/atlas-maps/land/download/1-08.kmz"
+    },
+    {
+        "idss": "1-09",
+        "namess": "Shaded relief (Hillshade)",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The relief of terrain on Pohnpei. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. The data set was derived using the so-called hillshade function that creates an illusion of viewing terrain in 3D.",
+        "file":"../assets/img/atlas-maps/land/download/1-09.kmz"
+    },
+    {
+        "idss": "1-10",
+        "namess": "Shaded relief and elevation",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The elevation and relief of terrain on Pohnpei. It consists of two separate data sets, both of which were derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. The two data sets are a DEM classified into elevation intervals and colored and a hillshade layer that creates an illusion of viewing terrain in 3D. Combined, they produce hypsometric-tinted shaded relief seen on the map and give illusion of viewing terrain in 3D while also providing elevation information.",
+        "file":"../assets/img/atlas-maps/land/download/1-10.kmz"
+    },
+    {
+        "idss": "1-11",
+        "namess": "Slope aspect",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The slope aspect of the terrain on Pohnpei. Slope aspect is the compass direction in which a particular slope faces. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-11.kmz"
+    },
+    {
+        "idss": "1-12",
+        "namess": "Slope (degrees)",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The steepness of slope on Pohnpei. The steepness here is expressed in degrees and illustrated by means of a color gradient. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-12.kmz"
+    },
+    {
+        "idss": "1-13",
+        "namess": "Slope (percent rise)",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The steepness of slope on Pohnpei. The steepness here is expressed in terms of percent rise and illustrated by means of a grayscale gradient. The data set was derived from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
+        "file":"../assets/img/atlas-maps/land/download/1-13.kmz"
+    },
+    {
+        "idss": "1-14",
+        "namess": "Prominent peaks",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Locations of prominent peaks on Pohnpei. This data layer was developed by Island Research & Education Initiative (iREi) (2017) by merging and slightly modifying data from U.S. Geological Survey's Geographic Names Information System (GNIS) and KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013). The place names shown on this map are copied from the two sources above and are not authoritative. They require thorough verification and correction of spellings to conform with Pohnpeian orthography.",
+        "file":"../assets/img/atlas-maps/land/download/1-14.kmz"
+    },
+    {
+        "idss": "1-15",
+        "namess": "Benchmarks",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Benchmarks established on Pohnpei and the location of the continuously operating reference station (CORS). These data come from National Oceanic and Atmospheric Administration (NOAA) - National Geodetic Survey (NGS) (2011 and 2012).",
+        "file":"../assets/img/atlas-maps/land/download/1-15.kmz"
+    },
+    {
+        "idss": "1-16",
+        "namess": "Basic soil types",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Basic soil types of Pohnpei. The original data set was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1982) as part of The soil survey of the Island of Ponape, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). In addition to soil namesss and classification.",
+        "file":"../assets/img/atlas-maps/land/download/1-16.kmz"
+    },
+    {
+        "idss": "1-17",
+        "namess": "Erosion hazard",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Levels of erosion hazard in different areas of Pohnpei. The data were created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) and set are included in the same data set as the one used for the Basic soil types map. Erosion hazard in different areas is estimated based on the local soil type, terrain slope, and other parameters.",
+        "file":"../assets/img/atlas-maps/land/download/1-17.kmz"
+    },
+    {
+        "idss": "1-18",
+        "namess": "Flooding hazard",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Levels of erosion hazard in different areas of Pohnpei. The data were created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) and set are included in the same data set as the one used for the basic soil types map. Flooding hazard in different areas is estimated based on the local soil type, drainage, and other parameters.",
+        "file":"../assets/img/atlas-maps/land/download/1-18.kmz"
+    },
+    {
+        "idss": "1-19",
+        "namess": "General land use",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Land use zones of Pohnpei. The original data layer was created by the Pohnpei State Government. It was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match the most recent shoreline. This layer is not authoritative and may require substantial verification and revision by Pohnpei State Government.",
+        "file":"../assets/img/atlas-maps/land/download/1-19.kmz"
+    },
+    {
+        "idss": "1-20",
+        "namess": "General geology",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"General geology of Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a paper map prepared by the U.S. Geological Survey (1944) for the Chief of Engineers, U.S. Army as part of the Strategic Engineering Study No. 109 titled Ponape including Pakin and Ant Islands (Carolines) Terrain Intelligence. The map was found in the library collection at the national campus of the College of Micronesia (COM). It should be noted that this map is very generalss and erroneously idssentifies areas in Sokehs and Nett as being composed of raised reef rock.",
+        "file":"../assets/img/atlas-maps/land/download/1-20.kmz"
+    },
+    {
+        "idss": "1-21",
+        "namess": "General physiography",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The general physiography of Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a highly general paper map prepared by the U.S. Geological Survey (1944) for the Chief of Engineers, U.S. Army as part of the Strategic Engineering Study No. 109 titled Ponape including Pakin and Ant Islands (Carolines) Terrain Intelligence. The map was found in the library collection at the national campus of the College of Micronesia (COM).",
+        "file":"../assets/img/atlas-maps/land/download/1-21.kmz"
+    },
+    {
+        "idss": "1-22",
+        "namess": "USGS topographic map (2001)",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"This is a topographic map of Pohnpei. It is made from a raster document actually comprised of four separate topographic maps, 1:25,000 scale, published by the U.S. Geological Survey (2001). The maps were scanned and georeferenced to create what is commonly referred to as Digital Raster Graphics (DRGs). In the map shown here, portions of the DRG that fall outside the barrier reef of Pohnpei are omitted.",
+        "file":"../assets/img/atlas-maps/land/download/1-22.kmz"
+    },
+    {
+        "idss":"1-23",
+        "namess": "Prominent caves",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Locations of prominent caves on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013). It should be noted that Pohnpei has no karst terrain whatsoever, so caves found on the islandss are all in volcanic bedrock.",
+        "file":"../assets/img/atlas-maps/land/download/1-23.kmz"
+    },
+    {
+        "idss":"1-24",
+        "namess": "Detailed geology",
+        "generalss":"Land",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"This map shows the detailed geology of Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a paper map found in Spengler, S. R., Spencer, K. J., Mahoney, J. J., and Goles, G. G. (1994), Geology and Geochemical Evolution of Lavas on the Island of Pohnpei.",
+        "file":"../assets/img/atlas-maps/land/download/1-24.kmz"
+    },
+    {
+        "idss": "2-01",
+        "namess": "Reef location",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The extent of coral reefs around Pohnpei. The data layer shown here is a subset of Pohnpei base layer derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001). The shoreline was slightly shifted and partly updated around Kolonia and its vicinity based on Worldview-3 satellite imagery from Digital Globe (2016).",
+        "file":"../assets/img/atlas-maps/reefs/download/2-01.kmz"
+    },
+    {
+        "idss":"2-02",
+        "namess": "Reef geomorphology",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"This dataset contains classification of the reefs around Pohnpei by their geomorphology. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Floridssa (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005).",
+        "file":"../assets/img/atlas-maps/reefs/download/2-02.kmz"
+    },
+    {
+        "idss": "2-03",
+        "namess": "Passes in the barrier reef",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of principal passes in the barrier reef around Pohnpei. This data layer was developed by Island Research & Education Initiative (iREi) (2017) by merging and slightly modifying data from U.S. Geological Survey 1:25,000-scale topographic maps (2001), KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013), and idssentifying and including one one additional reef pass. The place namesss shown on this map are copied from the sources above and are not authoritative. They require thorough verification and correction of spellings to conform with Pohnpeian orthography.",
+        "file":"../assets/img/atlas-maps/reefs/download/2-03.kmz"
+    },
+    {
+        "idss": "2-04",
+        "namess": "Bathymetry",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Raster",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The bathymetry (depth to seafloor) around Pohnpei. The data set was extracted from the 2014 General Bathymetric Chart of the Oceans (GEBCO). Known as the GEBCO_2014 Grid, this is a continuous terrain model for ocean and land with a spatial resolution of 30 arc seconds. It is an updated version of the GEBCO_08 Grid that was first published in January 2009.",
+        "file":"../assets/img/atlas-maps/reefs/download/2-04.kmz"
+    },
+    {
+        "idss": "2-05",
+        "namess": "Popular surf breaks",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of popular surf breaks around Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+        "file":"../assets/img/atlas-maps/reefs/download/2-05.kmz"
+    },
+    {
+        "idss": "2-06",
+        "namess": "Popular dive sites",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of popular dive sites and dive paths around Pohnpei. The two data layers were formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+        "file":"../assets/img/atlas-maps/reefs/download/2-06.kmz"
+    },
+    {
+        "idss": "2-07",
+        "namess": "Popular snorkeling spots",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of popular snorkeling spots around Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013).",
+        "file":"../assets/img/atlas-maps/reefs/download/2-07.kmz"
+    },
+    {
+        "idss": "2-08",
+        "namess": "Popular swimming spots",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of popular swimming spots around Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guide Series (2013). Note that only saltwater spots are included on this map. Popular swimming spots along Pohnpei's many rivers are not shown.",
+        "file":"../assets/img/atlas-maps/reefs/download/2-08.kmz"
+    },
+    {
+        "idss": "2-09",
+        "namess": "Reef zonation",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Reef zones describe the locations and ecological conditions of different parts of the reef with respect to the reef system as a whole. The data set used here is the same as the one used for the reef geomorphology map.It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005).",
+        "file":"../assets/img/atlas-maps/reefs/download/2-09.kmz"
+    },
+    {
+        "idss": "2-10",
+        "namess": "Seagrass areas",
+        "generalss":"Reefs",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The extent and basic types of seagrass areas around Pohnpei. The data set classifies seagrass areas by one of the three main species (Cymodocea rotundata, Thalassia hemprichii, and Enhalus acaroidsses) and the level of coverage (describes as continuous, aggregated, and isolated). The data source is McKenzie, L.J. and Rasheed, M.J. (2006), Seagrasses: Pohnpei Island and And Atoll Marine Assessment, Technical report of survey conducted 26 October – 3 November 2005, Seagrass‐Watch HQ, DPI&F, Cairns, 60pp.",
+        "file":"../assets/img/atlas-maps/reefs/download/2-10.kmz"
+    },
+    {
+        "idss": "3-01",
+        "namess": "Streams and rivers [iREi version]",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Various",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The streams and rivers on Pohnpei. The data set was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using line and polygon KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013) and modifying them to fit the most recent base layer. Note that these data show widsse areas of rivers as polygons.",
+        "file":"../assets/img/atlas-maps/water/download/3-01.kmz"
+    },
+    {
+        "idss": "3-02",
+        "namess": "Streams and rivers [USGS version]",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The rivers and streams on Pohnpei as represented on the U.S. Geological Survey (USGS) 1:25,000-scale topographic maps (2001). The data set was extracted from the Digital Line Graphs (DLGs) from USGS and namesss from the Geographic Names Information System (GNIS) by Island Research & Education Initiative (iREi) (2017) and slightly modified to match the (partially) updated shoreline.",
+        "file":"../assets/img/atlas-maps/water/download/3-02.kmz"
+    },
+    {
+        "idss": "3-03",
+        "namess": "Natural outflow points",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The natural outflow locations on Pohnpei, defined as points where streams and rivers discharge into the lagoon. The data set was created by Island Research & Education Initiative (iREi) (2017) by idssentifying the points where streams and rivers from 1:25,000-scale U.S. Geological Survey topographic maps (2001) intersect with the most recent shoreline of Pohnpei.",
+        "file":"../assets/img/atlas-maps/water/download/3-03.kmz"
+    },
+    {
+        "idss": "3-08",
+        "namess": "Waterfalls",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of the most significant waterfalls on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013).",
+        "file":"../assets/img/atlas-maps/water/download/3-08.kmz"
+    },
+    {
+        "idss": "3-04",
+        "namess": "Flow paths",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The theoretical drainage pattern on Pohnpei. The flow paths were delineated by Island Research & Education Initiative (iREi) (2017). This was done through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. Note that in very flat low-lying areas the data may indicate straight lines that are an artifact of the modeling process and do not reflect reality.",
+        "file":"../assets/img/atlas-maps/water/download/3-04.kmz"
+    },
+
+    {
+        "idss": "3-06",
+        "namess": "Principal watersheds",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The principal watersheds (drainage basins) on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017). Basin boundaries were delineated through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. Note that basin boundaries shown are modeled and, as such, reflect the DEM and not necessarily actual situation on the ground.",
+        "file":"../assets/img/atlas-maps/water/download/3-06.kmz"
+    },
+    {
+        "idss": "3-07",
+        "namess": "Sub-watersheds",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Pohnpei's principal watersheds (drainage basins) and their sub-watersheds. The data set was created by Island Research & Education Initiative (iREi) (2017). All boundaries were delineated through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975. Note that apparently unnatural boundaries such as series of straight, parallel lines are artifacts of modeling and do not reflect reality.",
+        "file":"../assets/img/atlas-maps/water/download/3-07.kmz"
+    },
+    {
+        "idss": "3-12",
+        "namess": "General water resources",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The generalss distribution of freshwater resources on Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a very generalss paper map prepared by the U.S. Geological Survey (1944) for the Chief of Engineers, U.S. Army as part of the Strategic Engineering Study No. 109 titled Ponape including Pakin and Ant Islands (Carolines) Terrain Intelligence. The map was found in the library collection at the national campus of the College of Micronesia (COM).",
+        "file":"../assets/img/atlas-maps/water/download/3-12.kmz"
+    },
+    {
+        "idss":"3-09",
+        "namess": "Gaging stations",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of the U.S. Geological Survey gaging stations on Pohnpei. The data set was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs). The DLGs were created by U.S. Geological Survey for the 1:25,000-scale topographic maps (2001).",
+        "file":"../assets/img/atlas-maps/water/download/3-09.kmz"
+    },
+    {
+        "idss": "3-10",
+        "namess": "Weather stations",
+        "generalss":"Water",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of the active weather observation sites on Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) using location information obtained from the National Weather Service office in Guam.",
+        "file":"../assets/img/atlas-maps/water/download/3-10.kmz"
+    },
+    {
+        "idss": "4-01",
+        "namess": "Vegetation (1975)",
+        "generalss":"Vegetation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The vegetation of Pohnpei in 1975. It was derived by Landcare research from 1975 Vegetation Survey Maps of Pohnpei. The original hardcopy map was created as part of the following publication: MacLean, C.D., Cole, T.G., Whitesell, C.D., Falanruw, M.V., and Ambacher, A.H. (1986). Vegetation Survey of Pohnpei, Federated States of Micronesia. U.S. Department of Agriculture (USDA), Resource Bulletin PSW-18. It was also included in Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 1995, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match 2016 WorldView-3 satellite imagery.",
+        "file":"../assets/img/atlas-maps/vegetation/download/4-01.kmz"
+    },
+    {
+        "idss": "4-02",
+        "namess": "Vegetation (1995)",
+        "generalss":"Vegetation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The vegetation of Pohnpei in 1995. It was developed from 1:15,000 color stereo aerial photographs obtained in October 1995 by L. Cairns (Department of Survey and Land Information, New Zealand), interpreted by stereoscope by P. Newsome and M. Page, and validssated by field inspection. It was also included in Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 1995, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match 2016 WorldView-3 satellite imagery.",
+        "file":"../assets/img/atlas-maps/vegetation/download/4-02.kmz"
+    },
+    {
+        "idss": "4-03",
+        "namess": "Vegetation (2002)",
+        "generalss":"Vegetation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The vegetation of Pohnpei in 2002. The data set was providssed courtesy of The Nature Conservancy. The data set was developed from color stereoscope interpretation of 1:15,000 aerial photographs obtained in May 2002 by L. Cairns, carried out by stereoscope by P. Newsome and M. Page, and validssated by two weeks' field inspection. It was included in Newsome, P. F., M. J. Page, and H. A. Heke, (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2017) to better match 2016 WorldView-3 satellite imagery.",
+        "file":"../assets/img/atlas-maps/vegetation/download/4-03.kmz"
+    },
+
+    {
+        "idss": "4-05",
+        "namess": "Wetlands",
+        "generalss":"Vegetation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The wetlands of Pohnpei. The information on mangroves was extracted from Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand [based on 2002 aerial photographs]. The information on marshes was extracted from data by L. Cairns, 1995, Department of Survey and Land Information, New Zealand, interpreted by P. Newsome and M. Page, Landcare Research, New Zealand [based on 1995 aerial photographs].",
+        "file":"../assets/img/atlas-maps/vegetation/download/4-05.kmz"
+    },
+    {
+        "idss": "5-01",
+        "namess": "Municipalities [areas]",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The six municipalities of Pohnpei. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The data were modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. At the same time, iREi added the municipality of Kolonia, which was defined as the sum of Kolonia Town parcels recorded by Public Lands and digitized by Department of Land and Natural Resources ca. 2005. Those parcels were merged into one polygon and cut from Nett Municipality, of which Kolonia was a part of until 1965. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+        "file":"../assets/img/atlas-maps/population/download/5-01.kmz"
+    },
+    {
+        "idss": "5-02",
+        "namess": "Municipalities [lines]",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The lines separating the six municipalities of Pohnpei. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). It was modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. At the same time, iREi added the municipality of Kolonia, which was defined as the sum of Kolonia Town parcels recorded by Public Lands and digitized by Department of Land and Natural Resources ca. 2005. Those parcels were merged into one polygon and cut from Nett Municipality, of which Kolonia was a part of until 1965. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+        "file":"../assets/img/atlas-maps/population/download/5-02.kmz"
+    },
+    {
+        "idss": "5-03",
+        "namess": "Wehi [areas]",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The five wehi of Pohnpei. Wehi are Pohnpei's traditional kingdoms. Wehi correspond to modern municipalities. The only exception is Kolonia, which is not a wehi but became a municipality in 1965 when it was separated from Nett. The original data layer, so-called Digital Line Graphs (DLSs), was created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). It was modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+        "file":"../assets/img/atlas-maps/population/download/5-03.kmz"
+    },
+    {
+        "idss": "5-04",
+        "namess": "Wehi [lines]",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The  lines separating the five wehi of Pohnpei. Wehi are Pohnpei's traditional kingdoms. Wehi correspond to modern municipalities. The only exception is Kolonia, which is not a wehi but became a municipality in 1965 when it was separated from Nett. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). It was modified by Island Research & Education Initiative (iREi) (2017) to fit the most recent base layer. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+        "file":"../assets/img/atlas-maps/population/download/5-04.kmz"
+    },
+    {
+        "idss": "5-05",
+        "namess": "Capitals",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The  locations of Palikir, the national capital of the Federated States of Micronesia, and Kolonia, the state capital of Pohnpei State. The data layer was created by Island Research & Education Initiative (iREi) (2017).",
+        "file":"../assets/img/atlas-maps/population/download/5-05.kmz"
+    },
+    {
+        "idss": "5-06",
+        "namess": "Kolonia land parcels",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The land parcels of Kolonia town. This geospatial data set was created by Department of Land and Natural Resources (ca. 2005) by digitizing parcels recorded by Public Lands.",
+        "file":"../assets/img/atlas-maps/population/download/5-06.kmz"
+    },
+    {
+        "idss": "5-07",
+        "namess": "Place namesss",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of all namessd geographic features on Pohnpei that are contained within the Geographic Names Information System (GNIS). The GNIS is the official database that contains all standard toponyms in the U.S. and its territories and associated states. It was developed by the U.S. Geological Survey (USGS) in cooperation with the U.S. Board on Geographic Names (BGN) in order to standardize place namesss. Island Research & Education Initiative (iREi) (2017) transferred this information to GIS format and shifted to match the most recent base layer and 2016 WorldView-3 satellite imagery. Note that the actual namesss contained in the data set are copied exactly as they are in GNIS and are not necessarily correct or aligned with Pohnpeian orthography.",
+        "file":"../assets/img/atlas-maps/population/download/5-07.kmz"
+    },
+    {
+        "idss": "5-08",
+        "namess": "Population by age and sex",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The number of residssents of Pohnpei by municipality, and also providsses information on sex and age distribution in the form of population pyramidsss for each municipality. The attribute tables in the actual data set also contain information on median age and average annual population growth rate. This geospatial data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-08.kmz"
+    },
+    {
+        "idss": "5-09",
+        "namess": "Population density and growth",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The population density of Pohnpei by municipality, and also providsses information on population growth in Pohnpei from 1920 until 2010. The map was created using the same data layer as the map that shows population by age and sex. This geospatial data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-09.kmz"
+    },
+    {
+        "idss": "5-10",
+        "namess": "Birthplace",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of residssents born outsidsse of Pohnpei by municipality. The attribute tables in the actual data set contain very detailed information on specific places of birth and citizenship status. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-10.kmz"
+    },
+    {
+        "idss": "5-11",
+        "namess": "Ethnicity",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of ethnically Pohnpeian residssents by municipality, and also providsses information on the relative proportion of people idssentifying with one vs. more than one ethnicity. The attribute tables in the actual data set contain more detailed information on the full range of specific ethnic idssentities involved. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-11.kmz"
+    },
+    {
+        "idss": "5-12",
+        "namess": "Religion",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The religious affiliation of Pohnpeian residssents aged 15 and above by municipality. The attribute tables in the actual data set contain more detailed information on specific churches involved (or absence of religious belief) and on marital status. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-12.kmz"
+    },
+    {
+        "idss": "5-13",
+        "namess": "Literacy and language",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The literacy rate of Pohnpeian residssents aged 5 and above by municipality, and also providsses information on the first language spoken. The attribute tables in the actual data set contain more detailed information on literacy levels in specific languages spoken as the first or second language for persons aged 5, as well as the specific languages predominantly spoken in households for persons aged 3 and above. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-13.kmz"
+    },
+    {
+        "idss": "5-14",
+        "namess": "School enrollment",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of Pohnpeian residssents aged 3 and above enrolled in schools by municipality, and also providsses information on the number of students attending different types of schools. The attribute tables in the actual data set contain more detailed information, including separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-14.kmz"
+    },
+    {
+        "idss": "5-15",
+        "namess": "Educational attainment",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of Pohnpeian residssents aged 25 and above who graduated high school and also providsses information on the highest level of education attained by municipality. The attribute tables in the actual data set contain information at a higher resolution (breakdown by individssual grade levels) and separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-15.kmz"
+    },
+    {
+        "idss": "5-16",
+        "namess": "Disabilities",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of Pohnpeian residssents with disabilities by municipality. The attribute tables in the actual data set contain more detailed information on specific disabilities (seeing, hearing, walking, remembering, etc.), number of disabilities, disability levels, and separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-16.kmz"
+    },
+    {
+        "idss": "5-17",
+        "namess": "Labor force",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of Pohnpeian residssents aged 15 and above who are in labor force per municipality, and also providsses information on what portions of the labor force are formally employed, employed in home production, or unemployed. The attribute tables in the actual data set contain more detailed information, including separate data for females and males. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-17.kmz"
+    },
+    {
+        "idss": "5-18",
+        "namess": "Home production",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of Pohnpeian residssents aged 15 and above who are engaged in home production per municipality, and also providsses information on what portions of home production are intended for own consumption, sale, or both. The attribute tables in the actual data set also contain information on formal employment, including types of jobs, generalss areas of employment, and the type of employer. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-18.kmz"
+    },
+    {
+        "idss": "5-19",
+        "namess": "Household type",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The average number of persons per household in each municipality on Pohnpei, and also providsses information on the percentage of family members vs. non-family members within the households. The attribute tables in the actual data set contain more detailed information on types of relationships between household members, number of persons living in group quarters (school dormitories, correctional facilities, etc.), and average number of persons per family. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-19.kmz"
+    },
+    {
+        "idss": "5-20",
+        "namess": "Housing tenure",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The ownership status of households (owned free and clear of loan vs. owned with loan or rented) and land (owned vs. leased) in each municipality on Pohnpei. The attribute tables in the actual data set contain more detailed information on specific ownership types involved. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-20.kmz"
+    },
+    {
+        "idss": "5-21",
+        "namess": "Housing structure",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The average number of rooms per household and the building materials used to make house roofs and walls in each municipality on Pohnpei. The attribute tables in the actual data set also contain information on specific building types, floor construction materials, age of buildings, and the number of persons per household and per room. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-21.kmz"
+    },
+    {
+        "idss": "5-22",
+        "namess": "Principal sources of water for drinking and washing",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of households in each municipality on Pohnpei that have access to piped water, and also providsses information on specific sources used to obtain fresh water for drinking and washing. The attribute tables in the actual data set also contain information on toilet types and sewage disposal types in households. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-22.kmz"
+    },
+    {
+        "idss": "5-23",
+        "namess": "Principal sources of energy for cooking and lighting",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of households in each municipality on Pohnpei that have complete kitchen facilities, and also providsses information on energy sources for lighting and cooking. The attribute tables in the actual data set contain more detailed information on specific types of energy sources. This data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-23.kmz"
+    },
+    {
+        "idss": "5-24",
+        "namess": "Households with selected appliances",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of households in each municipality on Pohnpei that possess a sink and/or a refrigerator. The attribute tables in the actual data set contain more detailed information on specific numbers of sinks and refrigerators, as well as other amenities including air conditioning units, generators, DVD/VCR players, and television sets with and without cable TV connection. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-24.kmz"
+    },
+    {
+        "idss": "5-25",
+        "namess": "Households with vehicles",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of households in each municipality on Pohnpei that have at least one car, and also providsses information on the total number of households with cars, boats with engine, and canoes and boats without engine. The attribute tables in the actual data set also contain information about other vehicles (trucks, buses, motorbikes) and detailed information on specific numbers of each vehicle type per household. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-25.kmz"
+    },
+    {
+        "idss": "5-26",
+        "namess": "Households with telephones",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of households in each municipality on Pohnpei that have at least one telephone land line, and also providsses information on the relative availability of cell phones. The attribute tables in the actual data set also contain detailed information on the number of fixed and cellular phones, as well as radios and computers per household. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-26.kmz"
+    },
+    {
+        "idss": "5-27",
+        "namess": "Internet usage",
+        "generalss":"Population",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The percentage of households in each municipality on Pohnpei that have a functioning Internet connection, and also providsses information on the relative number of people who access the Internet. The attribute tables in the actual data set contain more detailed information on the frequency of Internet use. The data set was created by Island Research & Education Initiative (iREi) (2017) using information from the FSM census of population and housing (2010).",
+        "file":"../assets/img/atlas-maps/population/download/5-27.kmz"
+    },
+    {
+        "idss": "6-01",
+        "namess": "Roads",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The road network on Pohnpei. It includes major roads as well as smaller paved and unpaved roads. The data set was originally created by U.S. Geological Survey (USGS) (2001) for Digital Line Graphs (DLGs) used to show information on 1:25,000-scale topographic maps. It has been modified to reflect changes and add street namesss of selected roads throughout the years and using various sources including Kolonia Town Government, U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS), and Pohnpei State Government - Department of Land and Natural Resources (2013). A major update was performed by Island Research & Education Initiative (iREi) (2017) to reflect changes based on 2016 WorldView-3 satellite imagery by Digital Globe. The attribute information (namess and type of road) has not been updated recently.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-01.kmz"
+    },
+    {
+        "idss": "6-02",
+        "namess": "Bridssges and causeways",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Major bridssges and causeways on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017), based on 2016 WorldView-3 satellite imagery by Digital Globe.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-02.kmz"
+    },
+    {
+        "idss": "6-03",
+        "namess": "Hiking trails",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Hiking trails on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013) and Digital Line Graphs (DLGs) created by U.S. Geological Survey for 1:25,000-scale topographic maps (2001).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-03.kmz"
+    },
+    {
+        "idss": "6-04",
+        "namess": "Port and airport locations",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"This map shows the locations of the international port and airport on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017), based on 2016 WorldView-3 satellite imagery by Digital Globe.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-04.kmz"
+    },
+    {
+        "idss": "6-05",
+        "namess": "Port and airport zones",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The international port and airport zones on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017) by extracting polygons from zoning information providssed by Pohnpei State Government and verifying them based on 2016 WorldView-3 satellite imagery by Digital Globe. The dataset also includes the outline of the runway. The boundaries are not authoritative.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-05.kmz"
+    },
+    {
+        "idss": "6-06",
+        "namess": "Locations of houses and other buildings",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The footprints of key government offices (state, national, foreign) and other major buildings. The data set was created by Island Research & Education Initiative (iREi) (2017), based on field verification and 2016 WorldView-3 satellite imagery by Digital Globe.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-06.kmz"
+    },
+    {
+        "idss": "6-09",
+        "namess": "Major businesses",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of businesses on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-09.kmz"
+    },
+    {
+        "idss": "6-07",
+        "namess": "Major buildings in Kolonia and Palikir",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The footprints of key government offices (state, national, foreign) and other major buildings. The data set was created by Island Research & Education Initiative (iREi) (2017), based on field verification and 2016 WorldView-3 satellite imagery by Digital Globe.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-07.kmz"
+    },
+    {
+        "idss": "6-08",
+        "namess": "Government offices",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Office locations of key government entities (state, national, foreign). The data set was created by Island Research & Education Initiative (iREi) (2017), based on field verification and 2016 WorldView-3 satellite imagery by Digital Globe.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-08.kmz"
+    },
+    {
+        "idss": "6-10",
+        "namess": "Hospitals and clinics",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of hospitals, clinics, and dispensaries on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014) and further improved (with additional points added) by Island Research & Education Initiative (iREi) (2017).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-10.kmz"
+    },
+    {
+        "idss": "6-11",
+        "namess": "Schools",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of schools and colleges on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the '' Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia ''project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014) and further improved (with additional points added) by Island Research & Education Initiative (iREi) (2017).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-11.kmz"
+    },
+    {
+        "idss": "6-12",
+        "namess": "Churches",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of churches on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-12.kmz"
+    },
+    {
+        "idss": "6-13",
+        "namess": "Fire stations",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of fire stations on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-13.kmz"
+    },
+    {
+        "idss": "6-14",
+        "namess": "Police stations",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The  locations of police stations on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014) and further improved (with additional points added) by Island Research & Education Initiative (iREi) (2017).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-14.kmz"
+    },
+    {
+        "idss": "6-15",
+        "namess": "Power lines",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of power lines on Pohnpei. The data set was created by Pohnpei Utilities Corporation (PUC).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-15_(DO NOT SHARE).kmz"
+    },
+    {
+        "idss": "6-16",
+        "namess": "Power plants",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of power plants on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-16.kmz"
+    },
+
+    {
+        "idss": "6-17",
+        "namess": "Fuel storage",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of fuel tanks on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-17.kmz"
+    },
+    {
+        "idss": "6-18",
+        "namess": "Water intake structures",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Several water intake structures on Pohnpei. The original data are from Pohnpei State Government. Island Research & Education Initiative (iREi) shifted the features to coincidsse with the closest nearby river. This data set requires verification as accuracy and completeness levels are not known and attribute information is not available.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-18.kmz"
+    },
+    {
+        "idss": "6-19",
+        "namess": "Water reservoir",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of a surface-water storage reservoir on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-19.kmz"
+    },
+    {
+        "idss": "6-20",
+        "namess": "Water lines",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The location of water supply lines on Pohnpei. The data set was created by Pohnpei Utilities Corporation (2017).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-20_(DO NOT SHARE).kmz"
+    },
+    {
+        "idss": "6-21",
+        "namess": "Water tanks",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of storage tanks for fresh water on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-21.kmz"
+    },
+    {
+        "idss": "6-22",
+        "namess": "Water treatment",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of drinking water treatment facilities on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-22.kmz"
+    },
+    {
+        "idss": "6-23",
+        "namess": "Wells",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of groundwater wells on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-23.kmz"
+    },
+    {
+        "idss": "6-24",
+        "namess": "Sewer lines",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Line",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The sewer lines on Pohnpei. The data set was created by Pohnpei State Government (2013).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-24_(DO NOT SHARE).kmz"
+    },
+    {
+        "idss": "6-25",
+        "namess": "Wastewater",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The location of wastewater treatment plant and related infrastructure on Pohnpei. The data were developed by the Pacific Disaster Center (PDC) as part of the 'Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia' project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-25.kmz"
+    },
+    {
+        "idss": "6-26",
+        "namess": "Communication infrastructure",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The communication infrastructure on Pohnpei. The features shown include communication towers, wifi access points, and cell sites. The original data, so-called Digital Line Graphs (DLSs), were created by U.S. Geological Survey (USGS) for the 1:25,000-scale topographic maps (2001). The dataset was updated by Pacific Disaster Center (PDC) (2014) and Island Research & Education Initiative (2017) based on information providssed by FSM Telecommunications Corporation.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-26.kmz"
+    },
+    {
+        "idss": "6-27",
+        "namess": "Waste disposal",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The location of the landfill on Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017), based on 2016 WorldView-3 satellite imagery by Digital Globe.",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-27.kmz"
+    },
+    {
+        "idss": "6-28",
+        "namess": "Cemeteries",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The locations of cemeteries on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-28.kmz"
+    },
+    {
+        "idss": "6-29",
+        "namess": "Quarries",
+        "generalss":"Infrastructure",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The location of a quarry on Pohnpei. The information was extracted by Island Research & Education Initiative (iREi) (2017) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (2001).",
+        "file":"../assets/img/atlas-maps/infrastructure/download/6-29.kmz"
+    },
+    {
+        "idss": "7-01",
+        "namess": "Designated protected areas",
+        "generalss":"Conservation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The designated protected areas on and around Pohnpei. The data set was created by Island Research & Education Initiative (iREi) (2017) by merging information obtained from Pohnpei State Government, The Nature Conservancy, and KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013). This GIS coverage may not be complete. Additional marine protected areas are referenced in legislation (e.g., http://www.fm/PohnpeiLeg/pending/PM_RD.doc) but may not have been delineated or formally implemented. Among sanctuaries that may exist in Pohnpei but are not yet included in these geospatial data are Sokehs Trochus Sanctuaries and Kepidssau en Dauahk (Dawahk Pass) Marine Sanctuary.",
+        "file":"../assets/img/atlas-maps/conservation/download/7-01.kmz"
+    },
+    {
+        "idss": "7-02",
+        "namess": "Proposed protected areas",
+        "generalss":"Conservation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The proposed protected areas on Pohnpei. The data set was created by The Nature Conservancy based on the results of the workshop convened in 2014 by The Nature Conservancy (TNC), Conservation Society of Pohnpei (CSP), and Pohnpei State Governor’s Office to discuss the design of Pohnpei’s Protected Areas Network (PAN).",
+        "file":"../assets/img/atlas-maps/conservation/download/7-02.kmz"
+    },
+    {
+        "idss": "7-03",
+        "namess": "Areas of biodiversity significance",
+        "generalss":"Conservation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The Areas of Biological Significance (ABS) on Pohnpei. The data set was created by The Nature Conservancy. A subset to show only Pohnpei was created by the Island Research & Education Initiative (iREi). The polygons in the data are intended to capture those areas that represent the widsse range of biodiversity features in the marine and terrestrial areas of FSM. They capture expert knowledge from the FSM Blueprint project. They are used to guidsse conservation planning and projects in FSM, and ultimately to help establish conservation areas.",
+        "file":"../assets/img/atlas-maps/conservation/download/7-03.kmz"
+    },
+    {
+        "idss": "7-04",
+        "namess": "Species-level conservation targets",
+        "generalss":"Conservation",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The species-level conservation targets on Pohnpei. The geospatial data were created by The Nature Conservancy based on the results of the workshop convened in 2014 by The Nature Conservancy (TNC), Conservation Society of Pohnpei (CSP), and Pohnpei State Governor’s Office to discuss the design of Pohnpei’s Protected Areas Network (PAN). The original data set could not be located by TNC so a new one was created by Island Research & Education Initiative (iREi) (2017) by digitizing a hard copy map from the original workshop report.",
+        "file":"../assets/img/atlas-maps/conservation/download/7-04.kmz"
+    },
+    {
+        "idss": "8-01",
+        "namess": "Cultural landmarks",
+        "generalss":"Culture",
+        "islandss": "Pohnpei",
+        "geometryss":"Various",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Some of the most significant cultural landmarks on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013).",
+        "file":"../assets/img/atlas-maps/culture/download/8-01.kmz"
+    },
+    {
+        "idss": "8-02",
+        "namess": "Prominent prehistoric sites",
+        "generalss":"Culture",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Some of the prominent prehistoric sites on Pohnpei. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013).",
+        "file":"../assets/img/atlas-maps/culture/download/8-02.kmz"
+    },
+    {
+        "idss": "8-03",
+        "namess": "Nan Madol islets and buildings",
+        "generalss":"Culture",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The islets and buildings at Pohnpei's premier prehistoric site, the ancient Saudeleur capital at Nan Madol. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using exclusively KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013).",
+        "file":"../assets/img/atlas-maps/culture/download/8-03.kmz"
+    },
+    {
+        "idss": "8-04",
+        "namess": "Ancient subdivisions [Saudeleur times]",
+        "generalss":"Culture",
+        "islandss": "Pohnpei",
+        "geometryss":"Polygon",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The ancient subdivisions of Pohnpei, as they existed at the time of Saudeleur dynasty. The boundaries are highly approximate and were digitized by Island Research & Education Initiative (iREi) (2017) from Davidss L. Hanlon (1988), Upon a Stone Altar, University of Hawaii Press. Place namess spellings are from Thomas Panholzer and Rufino Mauricio (2003), Place Names of Pohnpei Island, Bess Press.",
+        "file":"../assets/img/atlas-maps/culture/download/8-04.kmz"
+    },
+    {
+        "idss": "8-05",
+        "namess": "Colonial period sites",
+        "generalss":"Culture",
+        "islandss": "Pohnpei",
+        "geometryss":"Various",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"Some of the key historic sites and remains from the Spanish, German, and Japanese periods of Pohnpei's history. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2017), using KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013).",
+        "file":"../assets/img/atlas-maps/culture/download/8-05.kmz"
+    },
+    {
+        "idss": "8-06",
+        "namess": "Statues and monuments",
+        "generalss":"Culture",
+        "islandss": "Pohnpei",
+        "geometryss":"Point",
+        "filetypess":"Google Earth (KMZ)",
+        "Description":"The statues and monuments on Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017), from original KMZ files created by Alex Zuccarelli for Pohnpei Eco-Adventure Map Guidsse Series (2013) appended by field verification.",
+        "file":"../assets/img/atlas-maps/culture/download/8-06.kmz"
+    }
+]

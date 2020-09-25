@@ -1,6 +1,6 @@
 <template>
   <div id="heroSlider">
-    <a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=1000 centerPadding lazyLoad :autoplaySpeed="3000" accessibility>
+    <a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=800 centerPadding lazyLoad :autoplaySpeed="5000" accessibility>
       <div slot="prevArrow" class="custom-slick-arrow" style="left: 10px;zIndex: 1">
         <a-icon type="left-circle" />
       </div>
@@ -144,6 +144,19 @@ export default {
     reset() {
       this.paused = false
       console.log(this.paused)
+    }
+  },
+  head() {
+    return {
+      title: "Kosrae",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Kosrae main island maps'
+        }
+      ]
     }
   }
 };

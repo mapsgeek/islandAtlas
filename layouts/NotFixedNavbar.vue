@@ -9,6 +9,11 @@ import TopNavBar from '~/components/TopNavbar'
 export default {
   components: {
     TopNavBar
+  },
+  head: {
+    bodyAttrs: {
+      class: ""
+    }
   }
 }
 </script>
