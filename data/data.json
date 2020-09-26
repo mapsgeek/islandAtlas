@@ -543,8 +543,18 @@
       "groups_id": 32
     },
     {
+      "id": 100,
+      "name": "Yapese culture",
+      "groups_id": 32
+    },
+    {
       "id": 71,
       "name": "Prehistoric structures",
+      "groups_id": 32
+    },
+    {
+      "id": 101,
+      "name": "Kosraean culture",
       "groups_id": 32
     },
     {
@@ -6605,7 +6615,7 @@
     {
       "id": "2-8-01",
       "groups_id": 32,
-      "category_id": 70,
+      "category_id": 101,
       "title": "Cultural landmarks",
       "theme": "culture",
       "decription": "This map shows some of the most significant cultural landmarks on Kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019), using Excel spreadsheet information provided by Kosrae Island Resource Management Authority (KIRMA).",
@@ -6621,7 +6631,7 @@
     {
       "id": "3-8-01",
       "groups_id": 32,
-      "category_id": 70,
+      "category_id": 100,
       "title": "Cultural landmarks",
       "theme": "culture",
       "decription": "This map shows some of the significant cultural landmarks on Yap, specifically traditional buildings (p'eebaay, faeluw, or others), dancing grounds, and fish weirs. The map and the data behind it utilize information provided by Yap traditional owners and knowledge holders. The dataset was created by the Island Research & Education Initiative (iREi) (2019) by combining various data layers created by the Queens University of Charlotte and the Yap Historic Preservation Office based on field work conducted in 2002 and 2003 as well as on on-screen digitizing of 1983 USGS topographic maps. The fish weir dataset was created by the Island Research & Education Initiative (iREi) (2019) based on tabular data provided by Dr. William F. Jeffery, who led the project with funding from US National Park Service, US Department of the Interior. The information contained within is not complete and is subject to updating and appending as opportunities permit.",

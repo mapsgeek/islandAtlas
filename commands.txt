@@ -1,6 +1,6 @@
-json2graphql https://atlas0.herokuapp.com -s Mr_ibrahim/Atlas -d ./vectors.json
-json2graphql https://atlas0.herokuapp.com -s Mr_ibrahim/Atlas -d ./data.json
+json2graphql https://atlas0.herokuapp.com -s Mr_ibrahim/Atlas -d ./vectors.json --overwrite
+json2graphql https://atlas0.herokuapp.com -s Mr_ibrahim/Atlas -d ./data.json --overwrite
 
 
 json2graphql http://localhost:8080  -d ./vectors.json
-json2graphql http://localhost:8080 -s Mr_ibrahim/Atlas -d ./data.json
+json2graphql http://localhost:8080  -d ./data.json
