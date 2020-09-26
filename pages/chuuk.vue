@@ -16,6 +16,7 @@ export default {
   mounted() {
     if (process.browser) {
       localStorage.setItem("island", "Chuuk")
+      localStorage.setItem("islandgallery", "chuuk")
     }
   }
 }

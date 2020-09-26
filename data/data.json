@@ -7,7 +7,7 @@
     },
     {
       "id": 2,
-      "name": "Cost",
+      "name": "Coast",
       "theme": "land"
     },
     {
@@ -4410,21 +4410,6 @@
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/webappviewer/index.html?id=32d10858fa51427e81dd4b47bea2be29",
       "island": "yap"
-    },
-    {
-      "id": "4-5-18",
-      "groups_id": 20,
-      "category_id": 45,
-      "title": "Home production",
-      "theme": "population",
-      "decription": "This map shows the percentage of Chuuk Lagoon residents aged 15 and above who are engaged in home production per municipality, and also provides information on what portions of home production are intended for own consumption, sale, or both. The attribute tables in the actual dataset also contain information on formal employment, including types of jobs, general areas of employment, and the type of employer. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
-      "fileName": "5-18",
-      "gisName": "5-18",
-      "metaName": [
-        "5-18"
-      ],
-      "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/webappviewer/index.html?id=b6c0d8bf7f9c483c828c3cd25b545e84",
-      "island": "chuuk"
     },
     {
       "id": "5-19",

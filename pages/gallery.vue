@@ -1,35 +1,37 @@
 <template>
-  <transition appear-active-class="animated fadeInUp" appear>
-    <div style="background-color:#f6f9fc; text-align:center">
-      <div class="page">
-        <h1 style="text-align:center;margin-bottom:20px">Gallery</h1>
-        <Strong>Change island</Strong>
-        <br>
-        <a-select :defaultValue=island style="width: 120px;margin-bottom:40px;margin-top:10px" @change="handleChange">
-          <a-select-option value="pohnpei">
-            Pohnpei
-          </a-select-option>
-          <a-select-option value="yap">
-            Yap
-          </a-select-option>
-          <a-select-option value="chuuk">
-            Chuuk
-          </a-select-option>
-          <a-select-option value="kosrae">
-            Kosrae
-          </a-select-option>
-        </a-select>
-        <viewer :images="map" :options="options" style="text-align: center;">
-          <div v-if="island!=='pohnpei'">
-            <img class="image" loading="lazy" v-for="src in map" :src="`${url}/${island}/${src.theme}/preview/thumbnails/${src.fileName}.png`" :key="src.id" :data-src="`${url}/${island}/${src.theme}/preview/${src.fileName}.png`" :title="src.title">
-          </div>
-          <div v-else>
-            <img class="image" loading="lazy" v-for="src in map" :src="`${url}/${island}/${src.theme}/preview/thumbnails/${src.fileName}.jpg`" :key="src.id" :data-src="`${url}/${island}/${src.theme}/preview/${src.fileName}.jpg`" :title="src.title">
-          </div>
-        </viewer>
+  <client-only>
+    <transition appear-active-class="animated fadeInUp" appear>
+      <div style="background-color:#f6f9fc; text-align:center">
+        <div class="page">
+          <h1 style="text-align:center;margin-bottom:20px">Gallery</h1>
+          <Strong>Select island</Strong>
+          <br>
+          <a-select :defaultValue=intialIsland style="width: 120px;margin-bottom:40px;margin-top:10px" @change="handleChange">
+            <a-select-option value="yap">
+              Yap
+            </a-select-option>
+            <a-select-option value="pohnpei">
+              Chuuk
+            </a-select-option>
+            <a-select-option value="chuuk">
+              Pohnpei
+            </a-select-option>
+            <a-select-option value="kosrae">
+              Kosrae
+            </a-select-option>
+          </a-select>
+          <viewer :images="map" :options="options" style="text-align: center;">
+            <div v-if="island!=='pohnpei'">
+              <img class="image" loading="lazy" v-for="src in map" :src="`${url}/${island}/${src.theme}/preview/thumbnails/${src.fileName}.png`" :key="src.id" :data-src="`${url}/${island}/${src.theme}/preview/${src.fileName}.png`" :title="src.title">
+            </div>
+            <div v-else>
+              <img class="image" loading="lazy" v-for="src in map" :src="`${url}/${island}/${src.theme}/preview/thumbnails/${src.fileName}.jpg`" :key="src.id" :data-src="`${url}/${island}/${src.theme}/preview/${src.fileName}.jpg`" :title="src.title">
+            </div>
+          </viewer>
+        </div>
       </div>
-    </div>
-  </transition>
+    </transition>
+  </client-only>
 </template>
 
 <script>
@@ -47,7 +49,7 @@ export default {
     return {
       url: "https://islandatlas.org/assets/maps",
       // localStorage.getItem("island") ||
-      island: localStorage.getItem("island") || 'pohnpei',
+      island: String,
       options: {
         url: 'data-src',
         inline: false,
@@ -66,23 +68,38 @@ export default {
       },
     }
   },
-  mounted() {
+  created() {
     if (process.client) {
-      if (localStorage.getItem("island") === null) {
+      if (localStorage.getItem("islandgallery") === null) {
         this.island = "pohnpei"
       } else {
-        this.island = localStorage.getItem("island")
-        console.log(this.island)
+        this.island = localStorage.getItem("islandgallery")
+        // console.log(this.island)
       }
     }
   },
   computed: {
+    intialIsland: {
+      get() {
+        if (process.client) {
+          return localStorage.getItem("islandgallery") || 'Select island'
+        }
+      },
+      set(value) {
+        this.value = value
+      }
+    }
+
   },
   methods: {
     handleChange(value) {
+      if (process.client) {
+        localStorage.setItem("islandgallery", value)
+      }
       this.island = value
     },
   },
+
   apollo: {
     map: {
       query: gallery,

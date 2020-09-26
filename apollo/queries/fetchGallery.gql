@@ -1,5 +1,5 @@
 query gallery($island: String) {
-  map(where: {island: {_eq: $island}}, order_by: {id: asc}) {
+  map(where: {island: {_eq: $island}}, order_by: {fileName: asc}) {
     id
     fileName
     title

@@ -1,37 +1,39 @@
 <template>
-  <transition appear-active-class="animated fadeInUp" appear>
-    <div style="background-color:#f6f9fc;">
-      <div class="page">
-        <h1 style="text-align:center;margin-bottom:20px">Data repository</h1>
-        <div style="text-align:center">
-          <!-- <Strong>Change island</Strong> -->
-          <!-- <br> -->
-          <a-select style="width: 140px;margin-bottom:40px;margin-top:10px;text-align:center;" :defaultValue=island placeholder="Select island" @change="handleChange">
-            <a-select-option value="Pohnpei">
-              Pohnpei
-            </a-select-option>
-            <a-select-option value="Yap">
-              Yap
-            </a-select-option>
-            <!-- <a-select-option value="chuuk">
-            Chuuk lagoon
-          </a-select-option> -->
-            <a-select-option value="Kosrae">
-              Kosrae
-            </a-select-option>
-          </a-select>
-        </div>
+  <client-only>
+    <transition appear-active-class="animated fadeInUp" appear>
+      <div style="background-color:#f6f9fc;">
+        <div class="page">
+          <h1 style="text-align:center;margin-bottom:20px">Data repository</h1>
+          <div style="text-align:center">
+            <!-- <Strong>Change island</Strong> -->
+            <!-- <br> -->
+            <a-select style="width: 140px;margin-bottom:40px;margin-top:10px;text-align:center;" :defaultValue="intialIsland" @change="handleChange">
+              <a-select-option value="Yap">
+                Yap
+              </a-select-option>
+              <a-select-option value="Chuuk" disabled>
+                Chuuk
+              </a-select-option>
+              <a-select-option value="Pohnpei">
+                Pohnpei
+              </a-select-option>
+              <a-select-option value="Kosrae">
+                Kosrae
+              </a-select-option>
+            </a-select>
+          </div>
 
-        <a-button style="margin-bottom:10px;" type="primary" @click="downloadWithAxios" :disabled="!hasSelected">Download</a-button>
-        <!-- <a-skeleton v-if="$apollo.queries.vectors.loading" active /> -->
-        <a-table id="table" :row-selection="rowSelection" :columns="columns" :data-source="vectors">
-          <p slot="expandedRowRender" slot-scope="record" style="margin: 0">
-            {{record.Description}}
-          </p>
-        </a-table>
+          <a-button style="margin-bottom:10px;" type="primary" @click="downloadWithAxios" :disabled="!hasSelected">Download</a-button>
+          <!-- <a-skeleton v-if="$apollo.queries.vectors.loading" active /> -->
+          <a-table id="table" :row-selection="rowSelection" :columns="columns" :data-source="vectors">
+            <p slot="expandedRowRender" slot-scope="record" style="margin: 0">
+              {{record.Description}}
+            </p>
+          </a-table>
+        </div>
       </div>
-    </div>
-  </transition>
+    </transition>
+  </client-only>
 </template>
 
 <script>
@@ -138,20 +140,20 @@ export default {
   scrollToTop: true,
   data: () => {
     return {
-      // localStorage.getItem("island") ||
-      island: localStorage.getItem("island") || 'Select island',
+      // localStorage.getItem("island") || 'Select island',
+      island: String,
       columns,
       selectedRows: [],
     }
   },
   mounted() {
-    // if (process.client) {
-    //   if (localStorage.getItem("island") === null) {
-    //     this.island = "Pohnpei"
-    //   } else {
-    this.island = localStorage.getItem("island")
-    //   }
-    // }
+    if (process.client) {
+      if (localStorage.getItem("island") === null) {
+        this.island = "Select island"
+      } else {
+        this.island = localStorage.getItem("island")
+      }
+    }
   },
   computed: {
     hasSelected() {
@@ -169,10 +171,23 @@ export default {
           },
         }),
       };
+    },
+    intialIsland: {
+      get() {
+        if (process.client) {
+          return localStorage.getItem("island") || 'Select island'
+        }
+      },
+      set(value) {
+        this.value = value
+      }
     }
   },
   methods: {
     handleChange(value) {
+      if (process.client) {
+        localStorage.setItem("island", value)
+      }
       this.island = value
     },
     // onSelectChange(selectedRowKeys, selectedRows) {

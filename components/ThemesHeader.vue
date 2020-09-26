@@ -8,31 +8,31 @@
             <a-menu-item>
               <nuxt-link to='/yap'>
                 <!-- <img src="https://islandatlas.org/nuxt/imgs/normal-yap.png" onmouseover="this.src='https://islandatlas.org/nuxt/imgs/grey-yap.png';" onmouseout="this.src='https://islandatlas.org/nuxt/imgs/normal-yap.png';"> -->
-                <img width="200px" src="~assets/imgs/normal-yap.png">
+                <img width="200px" class="hover08" src="~assets/imgs/normal-yap.png">
               </nuxt-link>
             </a-menu-item>
-            <a-menu-item>
-              <img width="200px" src="~assets/imgs/normal-yap-OI.png" alt="">
+            <a-menu-item disabled>
+              <img width="200px" class="hover08" src="~assets/imgs/normal-yap-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
               <nuxt-link to='/chuuk'>
-                <img width="200px" src="~assets/imgs/normal-chuuk.png" alt="">
+                <img width="200px" class="hover08" src="~assets/imgs/normal-chuuk.png" alt="">
               </nuxt-link>
             </a-menu-item>
-            <a-menu-item>
-              <img width="200px" src="~assets/imgs/normal-chuuk-OI.png" alt="">
+            <a-menu-item disabled>
+              <img width="200px" class="hover08" src="~assets/imgs/normal-chuuk-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
               <nuxt-link to='/pohnpei'>
-                <img width="200px" src="~assets/imgs/normal-pohnpei.png" alt="">
+                <img width="200px" class="hover08" src="~assets/imgs/normal-pohnpei.png" alt="">
               </nuxt-link>
             </a-menu-item>
-            <a-menu-item>
-              <img width="200px" src="~assets/imgs/normal-pohnpei-OI.png" alt="">
+            <a-menu-item disabled>
+              <img width="200px" class="hover08" src="~assets/imgs/normal-pohnpei-OI.png" alt="">
             </a-menu-item>
             <a-menu-item>
               <nuxt-link to='/kosrae'>
-                <img width="200px" src="~assets/imgs/normal-kosrae.png" alt="">
+                <img width="200px" class="hover08" src="~assets/imgs/normal-kosrae.png" alt="">
               </nuxt-link>
             </a-menu-item>
           </a-menu>
@@ -164,6 +164,18 @@ export default {
 </script>
 
 <style lang="less" scoped>
+/* Gray Scale */
+.hover08 {
+  -webkit-filter: grayscale(60%);
+  filter: grayscale(60%);
+  &:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    // -webkit-transition: 0.3s ease-in-out;
+    // transition: 0.3s ease-in-out;
+  }
+}
+
 .flags {
   padding: 0;
   transition: all 0;

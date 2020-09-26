@@ -49,7 +49,7 @@
           </nuxt-link>
           <a-tooltip>
             <template slot="title">
-              Comming soon
+              Coming soon
             </template>
             <span></span>
             <span class="img"><img src="~assets/images/object5.png" alt=""></span>
@@ -61,7 +61,7 @@
           </nuxt-link>
           <a-tooltip>
             <template slot="title">
-              Comming soon
+              Coming soon
             </template>
             <span></span>
             <span class="img"><img src="~assets/images/object6.svg" alt=""></span>
@@ -73,7 +73,7 @@
           </nuxt-link>
           <a-tooltip>
             <template slot="title">
-              Comming soon
+              Coming soon
             </template>
             <span></span>
             <span class="img"><img src="~assets/images/object7.svg" alt=""></span>
@@ -149,7 +149,7 @@
                         <li>
                           <a-tooltip>
                             <template slot="title">
-                              Comming soon
+                              Coming soon
                             </template>
                             <span></span>
                             <nuxt-link to="" disabled>
@@ -171,7 +171,7 @@
                         <li>
                           <a-tooltip>
                             <template slot="title">
-                              Comming soon
+                              Coming soon
                             </template>
                             <span></span>
                             <nuxt-link to="" disabled>
@@ -193,7 +193,7 @@
                         <li>
                           <a-tooltip>
                             <template slot="title">
-                              Comming soon
+                              Coming soon
                             </template>
                             <span></span>
                             <nuxt-link to="" disabled>
@@ -231,7 +231,7 @@
               <ul class="fea-list">
                 <li>
                   <div class="image-box">
-                    <span class="img"><img src="~assets/images/fea-img-01.png" alt=""></span>
+                    <span class="img"><img src="~/assets/images/fea-img-01.png" alt=""></span>
                   </div>
                   <div class="text-box">
                     <h2>INSPIRED BY THE<br> DIVERSITY OF MICRONESIA</h2>
@@ -240,13 +240,15 @@
                       sun-drenched coral atolls to lofty peaks shrowded in clouds. People from every
                       island will find information they seek about their home, complete with accurate
                       place names in their own languages and spelling systems.</p>
-                    <!-- <span class="read-more"><nuxt-link to="">Read More</a></span> -->
+                    <!-- <span class="read-more">
+                      <nuxt-link to="/about">Read More</nuxt-link>
+                    </span> -->
                   </div>
 
                 </li>
                 <li>
                   <div class="image-box">
-                    <span class="img"><img src="~assets/images/fea-img-02.png" alt=""></span>
+                    <span class="img"><img src="~/assets/images/fea-img-02.png" alt=""></span>
                   </div>
                   <div class="text-box">
                     <h2>DESIGNED, CREATED, AND<br> UTILIZED IN THE FSM</h2>
@@ -256,13 +258,19 @@
                       Island Research and Education Initiative (iREi), and supported and promoted by
                       the FSM Department of Environment, Climate Change &amp; Emergency Management
                       (DECEM). </p>
-                    <!-- <span class="read-more"><nuxt-link to="">Read More</a></span> -->
+                    <!-- <span class="read-more">
+                      <nuxt-link to="/about">Read More</nuxt-link>
+                    </span> -->
                   </div>
 
                 </li>
               </ul>
               <div class="btn-box">
-                <!-- <span class="show-more-btn"><nuxt-link to="">Show More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></span> -->
+                <span class="show-more-btn">
+                  <nuxt-link to="/about">Read More
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                  </nuxt-link>
+                </span>
               </div>
             </div>
           </div>
@@ -407,16 +415,16 @@
 
           <div class="row">
             <div class="part-box part-box-02 col-12">
-              <h2><span>Partners</span> and Data-Sharing <span>Contributors</span></h2>
+              <h2><span>Major Partners</span> and Data-Sharing <span>Contributors</span></h2>
               <ul class="part-list">
                 <li>
                   <span class="logo"><img src="~assets/images/part-bot-logo-01.png" alt=""></span>
                   <h5>USDA<br> NRCS</h5>
                 </li>
-                <li>
+                <!-- <li>
                   <span class="logo"><img src="~assets/images/part-bot-logo-02.png" alt=""></span>
                   <h5>NOAA NWS</h5>
-                </li>
+                </li> -->
                 <li>
                   <span class="logo"><img src="~assets/images/part-bot-logo-03.png" alt=""></span>
                   <h5>Yap State R&amp;D</h5>
@@ -445,12 +453,13 @@
           <div class="row">
             <div class="part-box part-box-02 col-12">
               <h2><span>REVIEWERS</span> and other <span>COLLABORATORS</span></h2>
-              <h5>NOAA OCM, NOAA NGS,<br> Chuuk Visitors Bureau,<br> KIRMA, Kosrae State HPO</h5>
+              <h5>NOAA OCM, NOAA NGS, NOAA NWS<br> Chuuk Visitors Bureau,<br> KIRMA, Kosrae State HPO</h5>
+
+              <h5>Yap Community Action Program</h5>
             </div>
           </div>
-
           <div class="btn-box">
-            <span class="book-btn"><a @click="ToggleModal">Acknowledgments and Sources<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></span>
+            <span class="book-btn"><a @click="ToggleModal">Acknowledgments and Data Sources<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></span>
           </div>
         </div>
         <Footer />
@@ -479,6 +488,7 @@ export default {
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 6000,
+          // centerMode: true,
           responsive: [
             {
               breakpoint: 1024,
@@ -506,6 +516,19 @@ export default {
             // instead of a settings object
           ]
         });
+      });
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 550) {
+          $(".bnr-frame").addClass("on-hover");
+          $(".hover-bnr-frame").addClass("on-hover");
+          $(".main-frame").addClass("on-hover");
+        } else {
+          $(".bnr-frame").removeClass("on-hover");
+          $(".hover-bnr-frame").removeClass("on-hover");
+          $(".main-frame").removeClass("on-hover");
+        }
       });
     }
   },
@@ -548,18 +571,18 @@ export default {
 }
 @media (max-width: 991px) {
   .slick-next {
-    right: -10px !important;
+    right: -5px !important;
   }
   .slick-prev {
-    left: -10px !important;
+    left: -5px !important;
   }
 }
 @media (max-width: 767px) {
   .slick-next {
-    right: -10px !important;
+    right: -5px !important;
   }
   .slick-prev {
-    left: -10px !important;
+    left: -5px !important;
   }
 }
 

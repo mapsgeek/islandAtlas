@@ -8,12 +8,15 @@
         <div class="topBorder">
         </div>
         <ul>
-          <li class="footerList" @click="() => (acknowledgments = true)">Acknowledgments and Data Sources</li>
+          <li class="footerList firstItem" @click="() => (acknowledgments = true)">Acknowledgments and Data Sources</li>
           <li class="footerList" @click="() => (terms = true)">Terms</li>
           <li class="footerList" @click="() => (disclaimer = true)">Disclaimer</li>
           <li class="footerList" @click="() => (privacy = true)">Privacy Policy</li>
-          <li class="footerList" @click="() => (staff = true)">Project Staff</li>
-          <li class="footerList" @click="() => (funding = true)">Funding Sources</li>
+          <li class="footerList" style="border:none">
+            <nuxt-link style="color: white;padding:3px;" to="/contact"> Contact</nuxt-link>
+          </li>
+          <!-- <li class="footerList" @click="() => (staff = true)">Project Staff</li> -->
+          <!-- <li class="footerList" @click="() => (funding = true)">Funding Sources</li> -->
           <!-- <li class="footerList" @click="() => (datasource = true)">Data Sources</li> -->
         </ul>
 
@@ -44,7 +47,7 @@
             </p>
           </div>
         </a-modal>
-        <a-modal v-model="staff" title="Project Staff" @ok="() => (staff = false)" :bodyStyle=modal width=900px :footer="null">
+        <!-- <a-modal v-model="staff" title="Project Staff" @ok="() => (staff = false)" :bodyStyle=modal width=900px :footer="null">
           <img width="60px" src="~assets/images/symbol-Staff.png" alt="Copyright">
           <div style="width:90%;float:right;">
             <p style="margin-right:25px;">
@@ -63,7 +66,7 @@
               </a-list-item>
             </a-list>
           </div>
-        </a-modal>
+        </a-modal> -->
         <a-modal v-model="acknowledgments" title="Acknowledgments and Data Sources" @ok="() => (acknowledgments = false)" :bodyStyle=modal width=900px :footer="null">
           <a-tabs default-active-key="1">
             <a-tab-pane key="1" tab="Acknowledgments">
@@ -242,7 +245,7 @@
             </a-tab-pane>
           </a-tabs>
         </a-modal>
-        <a-modal v-model="funding" title="Funding Sources" @ok="() => (funding = false)" :bodyStyle=modal width=900px :footer="null">
+        <!-- <a-modal v-model="funding" title="Funding Sources" @ok="() => (funding = false)" :bodyStyle=modal width=900px :footer="null">
           <img width="60px" src="~assets/images/symbol-funding.png" alt="Copyright">
           <div style="width:90%;float:right;">
             <Strong> Project was funded by different sources, as follows:</Strong>
@@ -252,30 +255,45 @@
             <strong>United States Geological Survey (USGS) </strong>through the <strong>National Institutes for Water Resources (NIWR)</strong> Program 104-B FY2016 and by the <strong>Pohnpei State Government</strong>,<strong> Department of Education (Pohnpei DOE)</strong>. <div style="margin-top:5px;"></div>
             Funding information for other parts of the atlas will be included here as it becomes available.
           </div>
-        </a-modal>
+        </a-modal> -->
         <div class="visitorsMap">
           <a href='https://clustrmaps.com/site/19u15' title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=400&t=n&d=qsVavNLv-TnGAJSWdKYe6w8FHSaFqNF9QcyBDaYTe00&co=4b5861&ct=cdd4d9' /></a>
         </div>
-        <div class="links">
-          <a href="http://www.islandresearch.org" target="_blank">
+        <div class="footerGrid">
+          <div class="links">
+            <!-- <a href="http://www.islandresearch.org" target="_blank">
             <img src="~assets/images/logoirei.png">
-          </a>
-          <h4 class="footertext1">
-            Island Research &amp; <br>
-            Education Initiative (iREi)
-          </h4>
-          <a href="http://www.weriguam.org" target="_blank">
+          </a> -->
+            <h4 class="footertext1">
+              Island Research &amp; <br>
+              Education Initiative (iREi)
+            </h4>
+            <!-- <a href="http://www.weriguam.org" target="_blank">
             <img src="~assets/images/logoweri.png">
-          </a>
-          <h4 class="footertext1">
-            Water and Environmental Research Institute
+          </a> -->
             <br>
-            of the Western Pacific (WERI)
-          </h4>
-        </div>
-        <div style="display:flex;justify-content:center;">
-          <!-- <img style="width:50px" src="~assets/images/logo.png" alt=""> -->
-          <p style="color:white">2020 &copy iREi/DECEM</p>
+            <h4 class="footertext1">
+              Water and Environmental Research Institute
+              <br>
+              of the Western Pacific (WERI)
+            </h4>
+            <br>
+            <h4 class="footertext1">
+              FSM Department of Environment, Climate Change
+              <br>
+              and Emergency Management (DECEM)
+              <br>
+              P. O. Box PS-69
+              <br>
+              Palikir, Pohnpei FSM 96941
+            </h4>
+          </div>
+          <div class="copyRights">
+            <img style="width:50px;margin-bottom:20px" src="~assets/images/logo.png" alt="">
+            <br>
+            <p style="color:white">{{year}} &copy iREi/DECEM/WERI</p>
+          </div>
+
         </div>
       </div>
 
@@ -370,7 +388,8 @@ export default {
       funding: false,
       datasource: false,
       modal: { height: "600px", overflow: "auto" },
-      data
+      data,
+      year: new Date().getFullYear(),
     };
   },
   mounted() {
@@ -383,15 +402,71 @@ export default {
 </script>
 
 <style lang="less" scoped>
+@media (min-width: 1199px) {
+  #footer {
+    width: 70%;
+  }
+  .copyRights {
+    text-align: center;
+    margin-top: 200px;
+  }
+}
+@media (max-width: 1450px) {
+  #footer {
+    width: 90%;
+  }
+  .copyRights {
+    text-align: center;
+    align-self: end;
+    margin: 0;
+  }
+}
+@media (max-width: 1199px) {
+  #footer {
+    width: 95%;
+  }
+  .copyRights {
+    text-align: center;
+    align-self: end;
+    margin: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  #footer {
+    width: 100%;
+  }
+  .copyRights {
+    align-self: end;
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .visitorsMap {
+    display: none;
+  }
+  .copyRights {
+    align-self: end;
+    margin: 0;
+  }
+}
+.footerGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  border-radius: 10px;
+}
 .footerContainer {
   background-color: #4b5861;
 }
 #footer {
   background-color: #4b5861;
   margin: auto;
-  width: 70%;
   height: auto;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 ul {
   color: white;
@@ -425,25 +500,31 @@ ul {
 }
 .links {
   margin-top: 50px;
+  padding-left: 30px;
 }
 .visitorsMap {
   float: right;
 }
 
+.firstItem {
+  margin-left: 15px;
+  // border-left: 2px solid #f5f5f5;
+}
 @media screen and (max-width: 600px) {
   li {
-    display: block;
-    border: none;
-    margin: 5px;
+    border-right: none !important;
+    display: block !important;
   }
   .topBorder {
     height: 20px;
   }
   .links {
-    margin-top: 80px;
+    margin-top: 25px;
+    padding-left: 15px;
   }
-  .visitorsMap {
-    display: none;
+  .firstItem {
+    margin-left: 0;
+    border-left: none;
   }
 }
 table {

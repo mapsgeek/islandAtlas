@@ -3,11 +3,11 @@
     <div style="background-color:#f6f9fc;">
       <div class="page">
         <h1 style="text-align:center;margin-bottom:20px">Site Map</h1>
-        <a-tree :tree-data="treeData" :default-expanded-keys="['0-0-0', '0-0-0-0']">
+        <a-tree :tree-data="treeData" :default-expanded-keys="['0-0-1', '0-0-0-0-1']">
           <nuxt-link slot="homepage" class="intro atlas" to="/">DIGITAL ATLAS OF MICRONESIA</nuxt-link>
-          <span slot="pohnpei" class="intro pohnpei">Pohnpei</span>
+          <span slot="pohnpei" class="intro pohnpei">Pohnpei State</span>
 
-          <nuxt-link slot="Main" class="maplinkintro maplink" to="/pohnpei">Main Island</nuxt-link>
+          <nuxt-link slot="Main" class="maplinkintro maplink" to="/pohnpei">Pohnpei</nuxt-link>
           <nuxt-link slot="Interactive" class="maplinkintro maplink" to="/interactive-map">Interactive Map</nuxt-link>
           <nuxt-link slot="Repo" class="maplinkintro maplink" to="/data-repository">Data Repository</nuxt-link>
           <nuxt-link slot="Gallery" class="maplinkintro maplink" to="/gallery">Gallery</nuxt-link>
@@ -24,8 +24,8 @@
           <nuxt-link slot="conservation" class="maplinkconservation maplink" to="/pohnpei/conservation">Conservation</nuxt-link>
           <nuxt-link slot="culture" class="maplinkculture maplink" to="/pohnpei/culture">Culture</nuxt-link>
 
-          <span slot="Yap" class="intro yap">Yap</span>
-          <nuxt-link slot="yapMain" class="maplinkintro maplink" to="/yap">Main Island</nuxt-link>
+          <span slot="Yap" class="intro yap">Yap State</span>
+          <nuxt-link slot="yapMain" class="maplinkintro maplink" to="/yap">WAQAB (YAP Proper)</nuxt-link>
 
           <nuxt-link slot="Neighbor" class="maplinkintro maplink" to="" disabled>NEIGHBORING ISLANDS (Soon)</nuxt-link>
 
@@ -38,8 +38,8 @@
           <nuxt-link slot="yapconservation" class="maplinkconservation maplink" to="/yap/conservation">Conservation</nuxt-link>
           <nuxt-link slot="yapculture" class="maplinkculture maplink" to="/yap/culture">Culture</nuxt-link>
 
-          <span slot="Kosrae" class="intro kosrae">kosrae</span>
-          <nuxt-link slot="kosraeMain" class="maplinkintro maplink" to="/kosrae">Main Island</nuxt-link>
+          <span slot="Kosrae" class="intro kosrae">kosrae state</span>
+          <nuxt-link slot="kosraeMain" class="maplinkintro maplink" to="/kosrae">kosrae</nuxt-link>
           <!-- <nuxt-link slot="OuterKos" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link> -->
 
           <nuxt-link slot="kosraeland" class="maplinkland maplink" to="/kosrae/land">Land</nuxt-link>
@@ -51,8 +51,8 @@
           <nuxt-link slot="kosraeconservation" class="maplinkconservation maplink" to="/kosrae/conservation">Conservation</nuxt-link>
           <nuxt-link slot="kosraeculture" class="maplinkculture maplink" to="/kosrae/culture">Culture</nuxt-link>
 
-          <span slot="Chuuk lagoon" class="intro chuuk">Chuuk lagoon</span>
-          <nuxt-link slot="chuukMain" class="maplinkintro maplink" to="/chuuk">Main Island</nuxt-link>
+          <span slot="Chuuk lagoon" class="intro chuuk">Chuuk state</span>
+          <nuxt-link slot="chuukMain" class="maplinkintro maplink" to="/chuuk">Chuuk lagoon</nuxt-link>
           <nuxt-link slot="OuterChuuk" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link>
 
           <nuxt-link slot="chuukland" class="maplinkland maplink" to="/chuuk/land">Land</nuxt-link>
@@ -92,35 +92,12 @@ const treeData = [
         title: 'Contact', key: '0-0-0-0-0-5', slots: { title: 'Contact' },
       },
       {
-        title: 'Pohnpei',
-        slots: { title: 'pohnpei' },
-        key: '0-0-0',
-        children: [
-          {
-            title: 'Main Island', key: '0-0-0-0', slots: { title: 'Main' },
-            children: [
-              { title: 'Land', key: '0-0-0-2', slots: { title: 'land' }, },
-              { title: 'Land', key: '0-0-0-3', slots: { title: 'reefs' }, },
-              { title: 'Land', key: '0-0-0-4', slots: { title: 'water' }, },
-              { title: 'Land', key: '0-0-0-5', slots: { title: 'vegetation' } },
-              { title: 'Land', key: '0-0-0-6', slots: { title: 'population' } },
-              { title: 'Land', key: '0-0-0-7', slots: { title: 'infrastructure' } },
-              { title: 'Land', key: '0-0-0-8', slots: { title: 'conservation' } },
-              { title: 'Land', key: '0-0-0-9', slots: { title: 'culture' } },
-            ]
-          },
-          {
-            title: 'OUTER ISLANDS', key: '0-0-0-0-4', slots: { title: 'Outer' },
-          }
-        ],
-      },
-      {
         title: 'Yap',
         slots: { title: 'Yap' },
         key: '0-0-1',
         children: [
           {
-            title: 'Main Island', key: '0-0-0-0-1', slots: { title: 'Main' },
+            title: 'Main Island', key: '0-0-0-0-1', slots: { title: 'yapMain' },
             children: [
               { title: 'Land', key: '0-0-0-1-2', slots: { title: 'yapland' }, },
               { title: 'Land', key: '0-0-0-1-3', slots: { title: 'yapreefs' }, },
@@ -135,26 +112,6 @@ const treeData = [
           {
             title: 'Neighbor', key: '0-0-0-0-5', slots: { title: 'Neighbor' },
           }
-        ],
-      },
-      {
-        title: 'Kosrae',
-        slots: { title: 'Kosrae' },
-        key: '0-0-2',
-        children: [
-          {
-            title: 'Main Island', key: '0-0-0-0-2', slots: { title: 'kosraeMain' },
-            children: [
-              { title: 'Land', key: '0-0-0-0-2-2', slots: { title: 'kosraeland' }, },
-              { title: 'Land', key: '0-0-0-0-2-3', slots: { title: 'kosraereefs' }, },
-              { title: 'Land', key: '0-0-0-0-2-4', slots: { title: 'kosraewater' }, },
-              { title: 'Land', key: '0-0-0-0-2-5', slots: { title: 'kosraevegetation' } },
-              { title: 'Land', key: '0-0-0-0-2-6', slots: { title: 'kosraepopulation' } },
-              { title: 'Land', key: '0-0-0-0-2-7', slots: { title: 'kosraeinfrastructure' } },
-              { title: 'Land', key: '0-0-0-0-2-8', slots: { title: 'kosraeconservation' } },
-              { title: 'Land', key: '0-0-0-0-2-9', slots: { title: 'kosraeculture' } },
-            ]
-          },
         ],
       },
       {
@@ -180,6 +137,51 @@ const treeData = [
           }
         ],
       },
+      {
+        title: 'Pohnpei',
+        slots: { title: 'pohnpei' },
+        key: '0-0-0',
+        children: [
+          {
+            title: 'Main Island', key: '0-0-0-0', slots: { title: 'Main' },
+            children: [
+              { title: 'Land', key: '0-0-0-2', slots: { title: 'land' }, },
+              { title: 'Land', key: '0-0-0-3', slots: { title: 'reefs' }, },
+              { title: 'Land', key: '0-0-0-4', slots: { title: 'water' }, },
+              { title: 'Land', key: '0-0-0-5', slots: { title: 'vegetation' } },
+              { title: 'Land', key: '0-0-0-6', slots: { title: 'population' } },
+              { title: 'Land', key: '0-0-0-7', slots: { title: 'infrastructure' } },
+              { title: 'Land', key: '0-0-0-8', slots: { title: 'conservation' } },
+              { title: 'Land', key: '0-0-0-9', slots: { title: 'culture' } },
+            ]
+          },
+          {
+            title: 'OUTER ISLANDS', key: '0-0-0-0-4', slots: { title: 'Outer' },
+          }
+        ],
+      },
+
+      {
+        title: 'Kosrae',
+        slots: { title: 'Kosrae' },
+        key: '0-0-2',
+        children: [
+          {
+            title: 'Main Island', key: '0-0-0-0-2', slots: { title: 'kosraeMain' },
+            children: [
+              { title: 'Land', key: '0-0-0-0-2-2', slots: { title: 'kosraeland' }, },
+              { title: 'Land', key: '0-0-0-0-2-3', slots: { title: 'kosraereefs' }, },
+              { title: 'Land', key: '0-0-0-0-2-4', slots: { title: 'kosraewater' }, },
+              { title: 'Land', key: '0-0-0-0-2-5', slots: { title: 'kosraevegetation' } },
+              { title: 'Land', key: '0-0-0-0-2-6', slots: { title: 'kosraepopulation' } },
+              { title: 'Land', key: '0-0-0-0-2-7', slots: { title: 'kosraeinfrastructure' } },
+              { title: 'Land', key: '0-0-0-0-2-8', slots: { title: 'kosraeconservation' } },
+              { title: 'Land', key: '0-0-0-0-2-9', slots: { title: 'kosraeculture' } },
+            ]
+          },
+        ],
+      },
+
     ]
   },
 ];
@@ -196,6 +198,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.intro {
+  cursor: default;
+}
 .maplinkintro {
   color: #959595;
   &:hover {

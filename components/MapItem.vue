@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="group in maps" :key="group.id">
+    <div style="margin-bottom: 30px;" v-for="group in maps" :key="group.id">
       <h3 v-bind:class="`${theme}color`">{{group.name}}</h3>
       <a-collapse :bordered="false" v-for="category in group.categorysByGroupsId" :key="category.id" expand-icon-position="right">
         <template #expandIcon="props">

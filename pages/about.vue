@@ -12,10 +12,11 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card3-image.png" alt="">
                 <h3>ALL LOCAL CONTENT</h3>
-                <p style="color:#5dc33e;font-weight:500">
-                  LOCALLY INSPIRED AND LOCALLY RELEVANT
+                <p style="color:#5dc33e;font-weight:600;">
+                  <!-- LOCALLY INSPIRED AND LOCALLY RELEVANT -->
+                  Locally inspired and locally relevant
                 </p>
-                <p>Though islands across the Pacific have many things in common, a closer look reveals that each place is distinctive, with unique and fascinating geography, environment, culture,and other aspects. Like the unmistakably Pohnpeian dance paddle shown above, this atlas is firmly connected to specific places.</p>
+                <p>Though islands across the Pacific have many things in common, a closer look reveals that each place is distinctive, with unique and fascinating geography, environment, culture, and other aspects. Like the unmistakably Pohnpeian dance paddle shown above, this atlas is firmly connected to specific places.</p>
               </div>
               <div class="card-back">
                 <div style="background:#5dc33e;padding:20px">
@@ -34,7 +35,7 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card2-image.png" alt="">
                 <h3>THEMATIC INFORMATION</h3>
-                <p style="color:#68cce8;font-weight:500">
+                <p style="color:#68cce8;font-weight:600;">
                   Information, maps, and data organized by theme
                 </p>
                 <p>
@@ -58,8 +59,9 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card1-image.png" alt="">
                 <h3>DIFFERENT MODULES</h3>
-                <p style="color:#f88f58;font-weight:500">
-                  FULL COVERAGE OF THE FEDERATED STATES OF MICRONESIA
+                <p style="color:#f88f58;font-weight:600">
+                  <!-- FULL COVERAGE OF THE FEDERATED STATES OF MICRONESIA -->
+                  Full coverage of the federated states of Micronesia
                 </p>
                 <p>
                   Like a tree with its branches, this Digital Atlas of Micronesia is a unified resource with distinct modules. Each module covers one of the four states comprising the Federated States of Micronesia: Yap, Chuuk, Pohnpei, and Kosrae. Except for Kosrae, each module consists of two units: one focused on the main island and the other focused on the outlying islands.
@@ -87,8 +89,10 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card4-image.png" alt="">
                 <h3>ORIGINAL CARTOGRAPHY</h3>
-                <p style="color:#dec146;font-weight:500">
-                  BEAUTIFUL MAPS CREATED SPECIFICALLY FOR THIS ATLAS </p>
+                <p style="color:#dec146;font-weight:600">
+                  <!-- BEAUTIFUL MAPS CREATED SPECIFICALLY FOR THIS ATLAS -->
+                  Beutiful maps created specifically for this atals
+                </p>
                 <p>
                   Like a tree with its branches, this Digital Atlas of Micronesia is a unified resource with distinct modules. Each module covers one of the four states comprising the Federated States of Micronesia: Yap, Chuuk, Pohnpei, and Kosrae. Except for Kosrae, each module consists of two units: one focused on the main island and the other focused on the outlying islands.
                 </p>
@@ -110,8 +114,8 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card5-image.png" alt="">
                 <h3>INTERACTIVE MAPS</h3>
-                <p style="color:#a23abc;font-weight:500">
-                  visit and explore the islands through easily-manipulated maps
+                <p style="color:#a23abc;font-weight:600">
+                  Visit and explore the islands through easily-manipulated maps
                 </p>
                 <p>
                   Explore the islands—from sandy beaches down to lagoon depths and up to mountaintops—by using a series of interactive maps included in this atlas. Interactive maps allow you to zoom in and out, switch map layers on and off, examine relationships between different features, and get additional information about features of interest.
@@ -134,8 +138,8 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card6-image.png" alt="">
                 <h3>DATA REPOSITORY</h3>
-                <p style="color:#7b3823;font-weight:500">
-                  geospatial information, imagery, and photos—all in one place
+                <p style="color:#7b3823;font-weight:600">
+                  Geospatial information, imagery, and photos—all in one place
                 </p>
                 <p>
                   You can think of this digital atlas as a “shell” that holds information. If you seek data to download and create your own maps and analyses, this digital atlas is your “one-stop shop.” We have inventoried, enhanced, assembled together, and served here all kinds of relevant geospatial information from many sources.
@@ -148,15 +152,15 @@
                   </p>
                 </div>
                 <div class="back-content">
-                  <div style="display:flex;justify-content: space-evenly;margin-top: 20px;">
+                  <!-- <div style="display:flex;justify-content: space-evenly;margin-top: 20px;">
                     <p>
                       Top menu
                     </p>
                     <p>
                       Theme menu
                     </p>
-                  </div>
-                  <img style="margin-top: -70px;z-index: -1 !important;position: relative;" src="~assets/images/6-min.png" alt="">
+                  </div> -->
+                  <img style="margin-top: -40px;z-index: -1 !important;position: relative;" src="~assets/images/6-min.png" alt="">
                 </div>
               </div>
             </div>
@@ -166,8 +170,8 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card7-image.png" alt="">
                 <h3>EASY ACCESS</h3>
-                <p style="color:#2a6e15;font-weight:500">
-                  user-friendly, intuitive, and searchable
+                <p style="color:#2a6e15;font-weight:600">
+                  User-friendly, intuitive, and searchable
                 </p>
                 <p>
                   There is no part of this atlas that is difficult to reach. The easy-to-use menu at the top of every page allows you to quickly fly from one screen to another. Switching between islands, themes, maps, and data takes just one or few clicks. You can search atlas content and data or use the site map to get an overview of the entire atlas.
@@ -198,8 +202,8 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card8-image.png" alt="">
                 <h3>RESPONSIVE DESIGN</h3>
-                <p style="color:#d43e3e;font-weight:500">
-                  useful on any device in any size
+                <p style="color:#d43e3e;font-weight:600">
+                  Useful on any device in any size
                 </p>
                 <p>
                   This atlas uses responsive web design. It can be utilized equally well on many different platforms. You can view it on large desktop monitors as well as portable devices, including notebook computers, tablets, and mobile phones. The atlas layout and functionality adjusts to your browser, operating system, and screen size and resolution.
@@ -222,8 +226,9 @@
               <div class="card-front">
                 <img src="~assets/images/intro-card9-image.png" alt="">
                 <h3>UPDATABLE AND FRESH</h3>
-                <p style="color:#2f81ba;font-weight:500">
-                  CONTENT KEPT RELEVANT AND UP-TO-DATE
+                <p style="color:#2f81ba;font-weight:600">
+                  <!-- CONTENT KEPT RELEVANT AND UP-TO-DATE -->
+                  Content kep relevant and up-to-date
                 </p>
                 <p>
                   The user interface of this atlas is deliberately kept nearly constant so that it can remain familiar and easily accessible. However, the content within is regularly updated. Users will always get the latest versions of the data. Like fruits growing and maturing on a tree, new data is included here as soon as it is available, “ripe,” and ready to use.
@@ -275,7 +280,6 @@ export default {
 //     max-width: 940px;
 //   }
 // }
-
 .cardsContainer {
   display: -ms-grid;
   display: grid;

@@ -13,11 +13,12 @@
 
 *{ margin:0; padding:0; box-sizing:border-box;} a{ text-decoration:none;} img{ max-width:100%;} input,select,textarea{ border:none; outline:none;} ul,ol{ list-style:none;}
 
-html{ max-width:100%;  overflow: hidden-unscrollable;}
+html{ max-width:100%;  overflow: hidden-unscrollable;image-rendering: -webkit-optimize-contrast;}
 
 body{ float:left; width:100%;}
 
-.container{ width:100%;     max-width: 70%;
+.container{ width:100%;         max-width: 1170px;
+
 ; padding:0 15px; margin:0 auto;}
 .row{ margin:0 -15px;}
 
@@ -262,10 +263,10 @@ body{ float:left; width:100%;}
 .flag-card-box p{ float:left; width:100%; font-family: 'Raleway', sans-serif; font-size: 16px; color: #fff; letter-spacing: 1px; margin-bottom: 20px; line-height: 24px;}
 .flag-card-box ul.card-list{ float:left; width:100%; padding-bottom:40px;}
 .flag-card-box ul.card-list li{ float:left; width:25%; padding:15px 15px; position:relative;}
-.flag-card-box ul.card-list li span.img img { border: 2px solid #065086; float: left; width: 100%;}
+.flag-card-box ul.card-list li span.img img { border: 2px solid #065086; float: left; width: 100%; height: 263px;}
 .flag-card-box ul.card-list li:hover span.img img{ border-color:#fff;}
-.flag-card-box ul.card-list li .text-box{ position: absolute; bottom:28px;  right: 0; padding: 0 30px; min-height:70px;}
-.flag-card-box ul.card-list li .text-box h3{ text-align:right; font-family: "Trend Sans One Regular"; font-size:17px; text-transform:uppercase;}
+.flag-card-box ul.card-list li .text-box{ position: absolute; bottom:28px;  right: 0; padding: 0 18px; min-height:70px;}
+.flag-card-box ul.card-list li .text-box h3{ text-align:left; font-family: "Trend Sans One Regular"; font-size:17px; text-transform:uppercase;margin: 0;}
 .flag-card-box ul.card-list li .text-box ul.innr-list{ float:right; width:180px; margin-top:5px; padding-top:5px; border-top:1px solid #ccc;}
 .flag-card-box ul.card-list li .text-box ul.innr-list li{ float:left; width:100%; padding:0 0; font-family: 'Raleway', sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 1px; text-transform:uppercase; line-height:19px; padding-left:20px; position:relative;}
 .flag-card-box ul.card-list li .text-box ul.innr-list li:before{ position: absolute; left: 0; top: 1px; width: 15px; height: 15px; content: ''; background: #999; border-radius: 50%;}
@@ -319,7 +320,8 @@ body{ float:left; width:100%;}
 .part-box-02 .part-list li img { height: 100px;}
 .part-box-02 .part-list li{ padding:20px 20px;}
 .part-box h5{ font-family: 'Raleway', sans-serif; font-size: 12px; color: #fff; letter-spacing: 1px; font-weight:400; line-height:16px; text-align:center;}
-.part-frame .btn-box{ float:left; width:100%; text-align:center; padding-top:150px;}
+.part-frame .btn-box{ float:left; width:100%; text-align:center;     padding-top: 75px;
+    padding-bottom: 75px;}
 .part-frame .btn-box span.book-btn{ float:none; display:inline-block;}
 .part-frame .btn-box span.book-btn a{ float:left; border:1px solid #000; padding:15px 30px; font-family: "Trend Sans One Regular"; font-size:15px; text-transform:uppercase; margin-bottom:20px; font-weight:500; color:#000; letter-spacing:-1px; text-align:center; line-height:30px;}
 .part-frame .btn-box span.book-btn a i{ margin-left:15px;}

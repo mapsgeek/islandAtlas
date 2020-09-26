@@ -131,7 +131,7 @@
 export default {
   head() {
     return {
-      title: "Pohnpei main island",
+      title: "Pohnpei",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {

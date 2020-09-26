@@ -43,3 +43,6 @@ export {
 export {
   default as PhoneFill
 } from '@ant-design/icons/lib/fill/PhoneFill'
+export {
+  default as MailFill
+} from '@ant-design/icons/lib/fill/MailFill'
