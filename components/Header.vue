@@ -13,11 +13,11 @@
           </div>
         </div>
         <span class="scroll-down-icon">
-          <a href="#" v-scroll-to="{ el: '#hoverframe' , duration: 1000, }"><img src="~assets/images/scroll-down-icon.png" alt=""></a>
+          <a href="#" v-scroll-to="{ el: '#islands' , duration: 1000, }"><img src="~assets/images/scroll-down-icon.png" alt=""></a>
         </span>
 
       </div>
-      <div id="hoverframe" class="hover-bnr-frame">
+      <div id="islands" class="hover-bnr-frame">
         <div class="layer" data-depth="0.35" id="object1">
           <nuxt-link class="innr-link" to="/yap" style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>WAQAB (YAP)</p><span class="link-arrow"><span></span></span>
@@ -206,7 +206,7 @@
                   </li>
                   <li>
                     <span class="img"><img src="~assets/images/card-img-04.jpg" alt=""></span>
-                    <div class="text-box">
+                    <div class="text-box" style="margin-bottom:4px">
                       <h3>Kosrae State</h3>
                       <ul class="innr-list">
                         <li>
@@ -453,9 +453,7 @@
           <div class="row">
             <div class="part-box part-box-02 col-12">
               <h2><span>REVIEWERS</span> and other <span>COLLABORATORS</span></h2>
-              <h5>NOAA OCM, NOAA NGS, NOAA NWS<br> Chuuk Visitors Bureau,<br> KIRMA, Kosrae State HPO</h5>
-
-              <h5>Yap Community Action Program</h5>
+              <h5>NOAA OCM, NOAA NGS, NOAA NWS<br> Chuuk Visitors Bureau,<br> KIRMA, Kosrae State HPO,<br> Yap Community Action Program</h5>
             </div>
           </div>
           <div class="btn-box">
@@ -480,7 +478,7 @@ export default {
   },
   mounted() {
     if (process.client) {
-      var scene = document.getElementById('hoverframe');
+      var scene = document.getElementById('islands');
       var parallax = new Parallax(scene);
       $(document).ready(function () {
         $('.gallery-box').slick({

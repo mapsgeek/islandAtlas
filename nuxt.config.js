@@ -70,8 +70,8 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/apollo',
     'nuxt-webfontloader',
-    'vue-scrollto/nuxt'
-    // '@nuxtjs/axios',
+    'vue-scrollto/nuxt',
+    '@nuxtjs/axios',
   ],
   // Give apollo module options
   apollo: {

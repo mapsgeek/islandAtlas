@@ -10,10 +10,10 @@
             <a-select-option value="yap">
               Yap
             </a-select-option>
-            <a-select-option value="pohnpei">
+            <a-select-option value="chuuk">
               Chuuk
             </a-select-option>
-            <a-select-option value="chuuk">
+            <a-select-option value="pohnpei">
               Pohnpei
             </a-select-option>
             <a-select-option value="kosrae">
@@ -49,7 +49,7 @@ export default {
     return {
       url: "https://islandatlas.org/assets/maps",
       // localStorage.getItem("island") ||
-      island: String,
+      island: 'yap',
       options: {
         url: 'data-src',
         inline: false,
@@ -68,10 +68,10 @@ export default {
       },
     }
   },
-  created() {
+  mounted() {
     if (process.client) {
       if (localStorage.getItem("islandgallery") === null) {
-        this.island = "pohnpei"
+        this.island = "yap"
       } else {
         this.island = localStorage.getItem("islandgallery")
         // console.log(this.island)
@@ -82,7 +82,7 @@ export default {
     intialIsland: {
       get() {
         if (process.client) {
-          return localStorage.getItem("islandgallery") || 'Select island'
+          return localStorage.getItem("islandgallery") || 'yap'
         }
       },
       set(value) {

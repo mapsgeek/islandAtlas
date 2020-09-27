@@ -5,8 +5,8 @@
         <div class="page">
           <h1 style="text-align:center;margin-bottom:20px">Data repository</h1>
           <div style="text-align:center">
-            <!-- <Strong>Change island</Strong> -->
-            <!-- <br> -->
+            <Strong>Select island</Strong>
+            <br>
             <a-select style="width: 140px;margin-bottom:40px;margin-top:10px;text-align:center;" :defaultValue="intialIsland" @change="handleChange">
               <a-select-option value="Yap">
                 Yap
@@ -141,7 +141,7 @@ export default {
   data: () => {
     return {
       // localStorage.getItem("island") || 'Select island',
-      island: String,
+      island: 'Yap',
       columns,
       selectedRows: [],
     }
@@ -149,7 +149,7 @@ export default {
   mounted() {
     if (process.client) {
       if (localStorage.getItem("island") === null) {
-        this.island = "Select island"
+        this.island = "Yap"
       } else {
         this.island = localStorage.getItem("island")
       }
@@ -175,7 +175,7 @@ export default {
     intialIsland: {
       get() {
         if (process.client) {
-          return localStorage.getItem("island") || 'Select island'
+          return localStorage.getItem("island") || 'Yap'
         }
       },
       set(value) {

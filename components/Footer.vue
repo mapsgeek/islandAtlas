@@ -11,10 +11,10 @@
           <li class="footerList firstItem" @click="() => (acknowledgments = true)">Acknowledgments and Data Sources</li>
           <li class="footerList" @click="() => (terms = true)">Terms</li>
           <li class="footerList" @click="() => (disclaimer = true)">Disclaimer</li>
-          <li class="footerList" @click="() => (privacy = true)">Privacy Policy</li>
-          <li class="footerList" style="border:none">
+          <li class="footerList" style="border:none" @click="() => (privacy = true)">Privacy Policy</li>
+          <!-- <li class="footerList">
             <nuxt-link style="color: white;padding:3px;" to="/contact"> Contact</nuxt-link>
-          </li>
+          </li> -->
           <!-- <li class="footerList" @click="() => (staff = true)">Project Staff</li> -->
           <!-- <li class="footerList" @click="() => (funding = true)">Funding Sources</li> -->
           <!-- <li class="footerList" @click="() => (datasource = true)">Data Sources</li> -->
@@ -271,13 +271,13 @@
             <!-- <a href="http://www.weriguam.org" target="_blank">
             <img src="~assets/images/logoweri.png">
           </a> -->
-            <br>
+            <!-- <br> -->
             <h4 class="footertext1">
               Water and Environmental Research Institute
               <br>
               of the Western Pacific (WERI)
             </h4>
-            <br>
+            <!-- <br> -->
             <h4 class="footertext1">
               FSM Department of Environment, Climate Change
               <br>
@@ -289,7 +289,7 @@
             </h4>
           </div>
           <div class="copyRights">
-            <img style="width:50px;margin-bottom:20px" src="~assets/images/logo.png" alt="">
+            <img style="width:50px;margin-bottom:20px" src="~assets/images/logo-white.png" alt="">
             <br>
             <p style="color:white">{{year}} &copy iREi/DECEM/WERI</p>
           </div>
@@ -495,11 +495,11 @@ ul {
   color: white;
   font-family: "Raleway";
   font-size: 14px;
-  margin-top: 5px;
+  margin-top: 22px;
   font-weight: 400;
 }
 .links {
-  margin-top: 50px;
+  margin-top: 19px;
   padding-left: 30px;
 }
 .visitorsMap {

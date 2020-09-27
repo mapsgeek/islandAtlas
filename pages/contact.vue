@@ -13,11 +13,9 @@
             <a-divider></a-divider>
             <div>
               <p>
-                © Island Research & Education Initiative (iREi)
+                Island Research & Education Initiative (iREi)
                 <br>
-                PO Box PS 303
-                <br>
-                Palikir, Pohnpei, FM 96941
+                PO Box PS 303, Palikir, Pohnpei, FM 96941
                 <br>
                 Federated States of Micronesia
               </p>
@@ -42,13 +40,9 @@
             <a-divider></a-divider>
             <div>
               <p>
-                © Water and Environmental Research Institute of <br> the Western Pacific (WERI)
+                Water and Environmental Research Institute of <br> the Western Pacific (WERI)
                 <br>
-                University of Guam
-                <br>
-                UOG Station
-                <br>
-                Mangilao, GU 96923
+                University of Guam, Mangilao, GU 96923
               </p>
               <ul>
                 <li>
@@ -71,13 +65,11 @@
             <a-divider></a-divider>
             <div>
               <p>
-                © FSM Department of Environment, Climate Change <br> and Emergency Management (DECEM)
+                FSM Department of Environment, Climate Change <br> and Emergency Management (DECEM)
                 <br>
-                P. O. Box PS-69
+                PO Box PS 69, Palikir, Pohnpei, FM 96941
                 <br>
-                Palikir, Pohnpei FSM 96941
-                <br>
-                Fedrate State of Micronesia
+                Federated States of Micronesia
                 <br>
               </p>
               <ul>
@@ -197,7 +189,6 @@ li {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
