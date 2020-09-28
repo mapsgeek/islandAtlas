@@ -2579,7 +2579,7 @@
       "category_id": 26,
       "title": "Popular swim and picnic sites",
       "theme": "reefs",
-      "decription": "This map shows the locations of popular swimming spots and small-island beach and picnic sites in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), using information provided as KML files by Nely Mori Ruben (Chuuk Visitor's Bureau). Note that only the best known locations are included on this map. Many others are not shown.",
+      "decription": "This map shows the locations of popular swimming spots and small-island beach and picnic sites in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), using information provided as KML files by Nely Mori Ruben (Chuuk Visitors Bureau). Note that only the best known locations are included on this map. Many others are not shown.",
       "fileName": "2-08",
       "gisName": "2-05_to_2-08",
       "metaName": [
@@ -2760,7 +2760,7 @@
       "category_id": 27,
       "title": "Waterfalls",
       "theme": "water",
-      "decription": "This map shows the locations of waterfalls on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), using field observations and information provided as KML files by Nely Mori Ruben (Chuuk Visitor's Bureau).",
+      "decription": "This map shows the locations of waterfalls on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), using field observations and information provided as KML files by Nely Mori Ruben (Chuuk Visitors Bureau).",
       "fileName": "3-08",
       "gisName": "3-08",
       "metaName": [
@@ -6634,7 +6634,7 @@
       "category_id": 100,
       "title": "Cultural landmarks",
       "theme": "culture",
-      "decription": "This map shows some of the significant cultural landmarks on Yap, specifically traditional buildings (p'eebaay, faeluw, or others), dancing grounds, and fish weirs. The map and the data behind it utilize information provided by Yap traditional owners and knowledge holders. The dataset was created by the Island Research & Education Initiative (iREi) (2019) by combining various data layers created by the Queens University of Charlotte and the Yap Historic Preservation Office based on field work conducted in 2002 and 2003 as well as on on-screen digitizing of 1983 USGS topographic maps. The fish weir dataset was created by the Island Research & Education Initiative (iREi) (2019) based on tabular data provided by Dr. William F. Jeffery, who led the project with funding from US National Park Service, US Department of the Interior. The information contained within is not complete and is subject to updating and appending as opportunities permit.",
+      "decription": "This map shows some of the significant cultural landmarks on Yap, specifically traditional buildings (p'eebaay, faeluw, or others), dancing grounds, and fish weirs. The map and the data behind it utilize information provided by Yap traditional owners and knowledge holders. The dataset was created by the Island Research & Education Initiative (iREi) (2019) by combining various data layers created by the Queens University of Charlotte, Yap Historic Preservation Office, and Yap Traditional Owners based on field work conducted in 2002 and 2003 as well as on on-screen digitizing of 1983 USGS topographic maps. The fish weir dataset was created by the Island Research & Education Initiative (iREi) (2019) based on tabular data provided by Dr. William F. Jeffery, who led the project financed with Yap State historic preservation funds in partnership with US National Park Service, US Department of the Interior. The information contained within is not complete and is subject to updating and appending as opportunities permit.",
       "fileName": "8-01",
       "gisName": "8-01",
       "metaName": [
@@ -6851,7 +6851,7 @@
       "category_id": 74,
       "title": "Tourism points of interest",
       "theme": "culture",
-      "decription": "This map shows tourism points of interest, as considered and promoted by Chuuk Visitors Bureau. Sites include prominent hotels and dive shops, beaches and picnic sites, well known culturally-significant sites, World War II remains, and other locations of interest to visitors to Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) in consultation with Douglas Marar (Chuuk Visitors Bureau) and using information provided in KML form by Nely Mori Ruben (Chuuk Visitor's Bureau).",
+      "decription": "This map shows tourism points of interest, as considered and promoted by Chuuk Visitors Bureau. Sites include prominent hotels and dive shops, beaches and picnic sites, well known culturally-significant sites, World War II remains, and other locations of interest to visitors to Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) in consultation with Douglas Marar (Chuuk Visitors Bureau) and using information provided in KML form by Nely Mori Ruben (Chuuk Visitors Bureau).",
       "fileName": "8-10",
       "gisName": "8-10",
       "metaName": [
@@ -6866,7 +6866,7 @@
       "category_id": 74,
       "title": "Lighthouses",
       "theme": "culture",
-      "decription": "This map shows tourism points of interest, as considered and promoted by Chuuk Visitors Bureau. Sites include prominent hotels and dive shops, beaches and picnic sites, well known culturally-significant sites, World War II remains, and other locations of interest to visitors to Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) in consultation with Douglas Marar (Chuuk Visitors Bureau) and using information provided in KML form by Nely Mori Ruben (Chuuk Visitor's Bureau).",
+      "decription": "This map shows tourism points of interest, as considered and promoted by Chuuk Visitors Bureau. Sites include prominent hotels and dive shops, beaches and picnic sites, well known culturally-significant sites, World War II remains, and other locations of interest to visitors to Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) in consultation with Douglas Marar (Chuuk Visitors Bureau) and using information provided in KML form by Nely Mori Ruben (Chuuk Visitors Bureau).",
       "fileName": "8-11",
       "gisName": "8-11",
       "metaName": [

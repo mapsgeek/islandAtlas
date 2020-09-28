@@ -104,8 +104,7 @@
                 </div>
 
                 <div class="right-cont-box col">
-                  <p>At the core of the Atlas is intuitive and searchable web-based data repository that
-                    allows users to quickly locate, view, and manipulate geospatial information.</p>
+                  <p>At the core of the Atlas are user-friendly interactive maps and searchable data repository that allow users to quickly locate, view, and manipulate geospatial information.</p>
                   <p>In addition, the Atlas is also an informational hub that incorporates hundreds of
                     static maps, charts, and datasets related to the natural and human environment of
                     Micronesian islands.</p>
@@ -144,7 +143,7 @@
                       <h3>Yap State</h3>
                       <ul class="innr-list">
                         <li>
-                          <nuxt-link to="/yap">WAQAB (YAP)</nuxt-link>
+                          <nuxt-link to="/yap">WAQAB (YAP PROPER)</nuxt-link>
                         </li>
                         <li>
                           <a-tooltip>
@@ -452,8 +451,11 @@
 
           <div class="row">
             <div class="part-box part-box-02 col-12">
+
               <h2><span>REVIEWERS</span> and other <span>COLLABORATORS</span></h2>
-              <h5>NOAA OCM, NOAA NGS, NOAA NWS<br> Chuuk Visitors Bureau,<br> KIRMA, Kosrae State HPO,<br> Yap Community Action Program</h5>
+              <h5>Chuuk Visitors Bureau,<br>FSM Department of R&D,
+                FSM Telecom,<br>KIRMA, Kosrae HPO,<br>NOAA NGS, NOAA NWS, NOAA OCM,<br>
+                Yap CAP, Yap DHS, Yap HPO</h5>
             </div>
           </div>
           <div class="btn-box">
@@ -473,6 +475,7 @@ import Footer from '~/components/Footer'
 // optional style for arrows & dots
 // import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 export default {
+  scrollTop: true,
   components: {
     Footer,
   },
@@ -641,6 +644,7 @@ export default {
 }
 .slick-slide.slick-active + .slick-active + .slick-active {
   transform: none;
+  z-index: 0;
 }
 .slick-prev:before,
 .slick-next:before {

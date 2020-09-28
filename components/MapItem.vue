@@ -2,11 +2,11 @@
   <div>
     <div style="margin-bottom: 30px;" v-for="group in maps" :key="group.id">
       <h3 v-bind:class="`${theme}color`">{{group.name}}</h3>
-      <a-collapse :bordered="false" v-for="category in group.categorysByGroupsId" :key="category.id" expand-icon-position="right">
+      <a-collapse :bordered="false" v-for="category in group.categorysByGroupsId" :key="category.id.toString()" expand-icon-position="right" v-model="activeKey" @change="changedKey">
         <template #expandIcon="props">
           <a-icon type="caret-right" :rotate="props.isActive ? 90 : 0" />
         </template>
-        <a-collapse-panel key="1" :header="category.name" :style="customStyle" :forceRender="true">
+        <a-collapse-panel :key="category.id.toString()" :header="category.name" :style="customStyle" :forceRender="true">
           <div class="map" v-for="map in category.mapsByCategoryId" :key="map.id">
             <div class="previewMap">
               <img v-if="map.island !=='pohnpei'" :src="`${url}/${island}/${theme}/preview/thumbnails/${map.fileName}.png`" alt="thumbnail">
@@ -185,16 +185,35 @@
 import maps from '~/apollo/queries/fetchMaps'
 
 export default {
-  scrollToTop: true,
+  scrollToTop: false,
   props: ['maps', 'island', 'theme'],
   data() {
     return {
       text: `A dog is a type of domesticated animal.Known for its loyalty and faithfulness,it can be found as a welcome guest in many households across the world.`,
       customStyle:
         'border-radius: 4px;margin-bottom: 8px;border: 0;overflow: hidden;background:#f6f9fc',
-      url: 'https://islandatlas.org/assets/maps'
+      url: 'https://islandatlas.org/assets/maps',
+      activeKey: []
     };
   },
+  mounted() {
+    if (process.client) {
+      if (localStorage.getItem('mapKey') !== undefined) {
+        this.activeKey = JSON.parse(localStorage.getItem('mapKey'))
+      }
+    }
+  },
+  beforeDestroy() {
+    console.log(this.activeKey)
+    if (process.client) {
+      localStorage.setItem('mapKey', JSON.stringify(this.activeKey))
+    }
+  },
+  methods: {
+    changedKey(key) {
+      // console.log(this.activeKey)
+    }
+  }
 }
 </script>
 

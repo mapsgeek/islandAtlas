@@ -223,7 +223,7 @@ export default {
 .infrastructure {
   width: 100%;
   height: 100vh;
-  background-image: url("https://islandatlas.org/assets/images/chuuk/Chuuk-INFRASTRUCTURE1.jpg");
+  background-image: url("https://islandatlas.org/assets/images/chuuk/Chuuk-INFRASTRUCTURE2.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -253,7 +253,7 @@ export default {
   background-position: center center;
   background-size: cover;
 }
-.conserculturevation button:hover {
+.culture button:hover {
   background-color: #901c21;
   outline: none;
   color: white;

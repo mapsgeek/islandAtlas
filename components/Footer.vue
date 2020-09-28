@@ -283,9 +283,7 @@
               <br>
               and Emergency Management (DECEM)
               <br>
-              P. O. Box PS-69
-              <br>
-              Palikir, Pohnpei FSM 96941
+              PO Box PS 69, Palikir, Pohnpei, FM 96941
             </h4>
           </div>
           <div class="copyRights">

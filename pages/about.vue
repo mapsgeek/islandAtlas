@@ -263,7 +263,7 @@ export default {
 
 <style lang="less" scoped>
 .w-container {
-  // min-height: 100vh;
+  min-height: 100vh;
   margin-top: 50px;
   // background-color: white;
   padding: 50px;

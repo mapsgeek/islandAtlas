@@ -137,7 +137,7 @@ const columns = [
 ];
 
 export default {
-  scrollToTop: true,
+  // scrollToTop: true,
   data: () => {
     return {
       // localStorage.getItem("island") || 'Select island',

@@ -9,7 +9,7 @@
 import ThemesHeader from '~/components/ThemesHeader'
 
 export default {
-  scrollToTop: true,
+  // scrollToTop: true,
   components: {
     ThemesHeader
   },

@@ -276,7 +276,7 @@ export default {
   background-position: center center;
   background-size: cover;
 }
-.conserculturevation button:hover {
+.culture button:hover {
   background-color: #901c21;
   outline: none;
   color: white;
