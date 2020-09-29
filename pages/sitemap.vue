@@ -4,8 +4,9 @@
       <div class="page">
         <h1 style="text-align:center;margin-bottom:20px">Site Map</h1>
         <client-only>
-          <a-tree :tree-data="treeData" :default-expanded-keys=keys @expand="onExpand">
+          <a-tree :tree-data="treeData" :default-expanded-keys=keys @expand="onExpand" :autoExpandParent="false">
             <nuxt-link slot="homepage" class="intro atlas" to="/">DIGITAL ATLAS OF MICRONESIA</nuxt-link>
+            <span slot="islands" style="cursor: default;" class="maplink">Islands Module</span>
             <span slot="pohnpei" class="intro pohnpei">Pohnpei State</span>
 
             <nuxt-link slot="Main" class="maplinkintro maplink" to="/pohnpei">Pohnpei</nuxt-link>
@@ -83,131 +84,138 @@ const treeData = [
     slots: { title: 'homepage' },
     children: [
       {
-        title: 'Interactive', key: '0-0-0-0-0-1', slots: { title: 'Interactive' },
-      },
-      {
-        title: 'Repo', key: '0-0-0-0-0-2', slots: { title: 'Repo' },
-      },
-      {
-        title: 'Gallery', key: '0-0-0-0-0-3', slots: { title: 'Gallery' },
-      },
-      {
-        title: 'About', key: '0-0-0-0-0-4', slots: { title: 'About' },
-      },
-      {
-        title: 'Contact', key: '0-0-0-0-0-5', slots: { title: 'Contact' },
-      },
-      {
-        title: 'Yap',
-        slots: { title: 'Yap' },
-        key: '0-0-1',
+        title: 'Islands Modules',
+        key: '0',
+        slots: { title: 'islands' },
         children: [
           {
-            title: 'Main Island', key: '0-0-0-0-1', slots: { title: 'yapMain' },
+            title: 'Yap',
+            slots: { title: 'Yap' },
+            key: '0-0-1',
             children: [
-              { title: 'Land', key: '0-0-0-1-2', slots: { title: 'yapland' }, },
-              { title: 'Land', key: '0-0-0-1-3', slots: { title: 'yapreefs' }, },
-              { title: 'Land', key: '0-0-0-1-4', slots: { title: 'yapwater' }, },
-              { title: 'Land', key: '0-0-0-1-5', slots: { title: 'yapvegetation' } },
-              { title: 'Land', key: '0-0-0-1-6', slots: { title: 'yappopulation' } },
-              { title: 'Land', key: '0-0-0-1-7', slots: { title: 'yapinfrastructure' } },
-              { title: 'Land', key: '0-0-0-1-8', slots: { title: 'yapconservation' } },
-              { title: 'Land', key: '0-0-0-1-9', slots: { title: 'yapculture' } },
+              {
+                title: 'Main Island', key: '0-0-0-0-1', slots: { title: 'yapMain' },
+                children: [
+                  { title: 'Land', key: '0-0-0-1-2', slots: { title: 'yapland' }, },
+                  { title: 'Land', key: '0-0-0-1-3', slots: { title: 'yapreefs' }, },
+                  { title: 'Land', key: '0-0-0-1-4', slots: { title: 'yapwater' }, },
+                  { title: 'Land', key: '0-0-0-1-5', slots: { title: 'yapvegetation' } },
+                  { title: 'Land', key: '0-0-0-1-6', slots: { title: 'yappopulation' } },
+                  { title: 'Land', key: '0-0-0-1-7', slots: { title: 'yapinfrastructure' } },
+                  { title: 'Land', key: '0-0-0-1-8', slots: { title: 'yapconservation' } },
+                  { title: 'Land', key: '0-0-0-1-9', slots: { title: 'yapculture' } },
+                ],
+              },
+              {
+                title: 'Neighbor', key: '0-0-0-0-5', slots: { title: 'Neighbor' },
+              }
             ],
           },
           {
-            title: 'Neighbor', key: '0-0-0-0-5', slots: { title: 'Neighbor' },
-          }
-        ],
-      },
-      {
-        title: 'Chuuk lagoon',
-        slots: { title: 'Chuuk lagoon' },
-        key: '0-0-3',
-        children: [
-          {
-            title: 'Main Island', key: '0-0-0-0-3', slots: { title: 'chuukMain' },
+            title: 'Chuuk lagoon',
+            slots: { title: 'Chuuk lagoon' },
+            key: '0-0-3',
             children: [
-              { title: 'Land', key: '0-0-0-0-3-2', slots: { title: 'chuukland' }, },
-              { title: 'Land', key: '0-0-0-0-3-3', slots: { title: 'chuukreefs' }, },
-              { title: 'Land', key: '0-0-0-0-3-4', slots: { title: 'chuukwater' }, },
-              { title: 'Land', key: '0-0-0-0-3-5', slots: { title: 'chuukvegetation' } },
-              { title: 'Land', key: '0-0-0-0-3-6', slots: { title: 'chuukpopulation' } },
-              { title: 'Land', key: '0-0-0-0-3-7', slots: { title: 'chuukinfrastructure' } },
-              { title: 'Land', key: '0-0-0-0-3-8', slots: { title: 'chuukconservation' } },
-              { title: 'Land', key: '0-0-0-0-3-9', slots: { title: 'chuukculture' } },
-            ]
+              {
+                title: 'Main Island', key: '0-0-0-0-3', slots: { title: 'chuukMain' },
+                children: [
+                  { title: 'Land', key: '0-0-0-0-3-2', slots: { title: 'chuukland' }, },
+                  { title: 'Land', key: '0-0-0-0-3-3', slots: { title: 'chuukreefs' }, },
+                  { title: 'Land', key: '0-0-0-0-3-4', slots: { title: 'chuukwater' }, },
+                  { title: 'Land', key: '0-0-0-0-3-5', slots: { title: 'chuukvegetation' } },
+                  { title: 'Land', key: '0-0-0-0-3-6', slots: { title: 'chuukpopulation' } },
+                  { title: 'Land', key: '0-0-0-0-3-7', slots: { title: 'chuukinfrastructure' } },
+                  { title: 'Land', key: '0-0-0-0-3-8', slots: { title: 'chuukconservation' } },
+                  { title: 'Land', key: '0-0-0-0-3-9', slots: { title: 'chuukculture' } },
+                ]
+              },
+              {
+                title: 'OuterChuuk', key: '0-0-0-0-6', slots: { title: 'OuterChuuk' },
+              }
+            ],
           },
           {
-            title: 'OuterChuuk', key: '0-0-0-0-6', slots: { title: 'OuterChuuk' },
-          }
-        ],
-      },
-      {
-        title: 'Pohnpei',
-        slots: { title: 'pohnpei' },
-        key: '0-0-0',
-        children: [
-          {
-            title: 'Main Island', key: '0-0-0-0', slots: { title: 'Main' },
+            title: 'Pohnpei',
+            slots: { title: 'pohnpei' },
+            key: '0-0-0',
             children: [
-              { title: 'Land', key: '0-0-0-2', slots: { title: 'land' }, },
-              { title: 'Land', key: '0-0-0-3', slots: { title: 'reefs' }, },
-              { title: 'Land', key: '0-0-0-4', slots: { title: 'water' }, },
-              { title: 'Land', key: '0-0-0-5', slots: { title: 'vegetation' } },
-              { title: 'Land', key: '0-0-0-6', slots: { title: 'population' } },
-              { title: 'Land', key: '0-0-0-7', slots: { title: 'infrastructure' } },
-              { title: 'Land', key: '0-0-0-8', slots: { title: 'conservation' } },
-              { title: 'Land', key: '0-0-0-9', slots: { title: 'culture' } },
-            ]
+              {
+                title: 'Main Island', key: '0-0-0-0', slots: { title: 'Main' },
+                children: [
+                  { title: 'Land', key: '0-0-0-2', slots: { title: 'land' }, },
+                  { title: 'Land', key: '0-0-0-3', slots: { title: 'reefs' }, },
+                  { title: 'Land', key: '0-0-0-4', slots: { title: 'water' }, },
+                  { title: 'Land', key: '0-0-0-5', slots: { title: 'vegetation' } },
+                  { title: 'Land', key: '0-0-0-6', slots: { title: 'population' } },
+                  { title: 'Land', key: '0-0-0-7', slots: { title: 'infrastructure' } },
+                  { title: 'Land', key: '0-0-0-8', slots: { title: 'conservation' } },
+                  { title: 'Land', key: '0-0-0-9', slots: { title: 'culture' } },
+                ]
+              },
+              {
+                title: 'OUTER ISLANDS', key: '0-0-0-0-4', slots: { title: 'Outer' },
+              }
+            ],
           },
           {
-            title: 'OUTER ISLANDS', key: '0-0-0-0-4', slots: { title: 'Outer' },
-          }
-        ],
-      },
-      {
-        title: 'Kosrae',
-        slots: { title: 'Kosrae' },
-        key: '0-0-2',
-        children: [
-          {
-            title: 'Main Island', key: '0-0-0-0-2', slots: { title: 'kosraeMain' },
+            title: 'Kosrae',
+            slots: { title: 'Kosrae' },
+            key: '0-0-2',
             children: [
-              { title: 'Land', key: '0-0-0-0-2-2', slots: { title: 'kosraeland' }, },
-              { title: 'Land', key: '0-0-0-0-2-3', slots: { title: 'kosraereefs' }, },
-              { title: 'Land', key: '0-0-0-0-2-4', slots: { title: 'kosraewater' }, },
-              { title: 'Land', key: '0-0-0-0-2-5', slots: { title: 'kosraevegetation' } },
-              { title: 'Land', key: '0-0-0-0-2-6', slots: { title: 'kosraepopulation' } },
-              { title: 'Land', key: '0-0-0-0-2-7', slots: { title: 'kosraeinfrastructure' } },
-              { title: 'Land', key: '0-0-0-0-2-8', slots: { title: 'kosraeconservation' } },
-              { title: 'Land', key: '0-0-0-0-2-9', slots: { title: 'kosraeculture' } },
-            ]
+              {
+                title: 'Main Island', key: '0-0-0-0-2', slots: { title: 'kosraeMain' },
+                children: [
+                  { title: 'Land', key: '0-0-0-0-2-2', slots: { title: 'kosraeland' }, },
+                  { title: 'Land', key: '0-0-0-0-2-3', slots: { title: 'kosraereefs' }, },
+                  { title: 'Land', key: '0-0-0-0-2-4', slots: { title: 'kosraewater' }, },
+                  { title: 'Land', key: '0-0-0-0-2-5', slots: { title: 'kosraevegetation' } },
+                  { title: 'Land', key: '0-0-0-0-2-6', slots: { title: 'kosraepopulation' } },
+                  { title: 'Land', key: '0-0-0-0-2-7', slots: { title: 'kosraeinfrastructure' } },
+                  { title: 'Land', key: '0-0-0-0-2-8', slots: { title: 'kosraeconservation' } },
+                  { title: 'Land', key: '0-0-0-0-2-9', slots: { title: 'kosraeculture' } },
+                ]
+              },
+            ],
           },
-        ],
-      },
-      {
-        title: 'Acknowledgements', key: '0-0-0-0-0-6', slots: { title: 'Acknowledgements' },
-      },
-      {
-        title: 'Data sources', key: '0-0-0-0-0-7', slots: { title: 'Data' },
-      },
+          {
+            title: 'Interactive', key: '0-0-0-0-0-1', slots: { title: 'Interactive' },
+          },
+          {
+            title: 'Repo', key: '0-0-0-0-0-2', slots: { title: 'Repo' },
+          },
+          {
+            title: 'Gallery', key: '0-0-0-0-0-3', slots: { title: 'Gallery' },
+          },
+          {
+            title: 'About', key: '0-0-0-0-0-4', slots: { title: 'About' },
+          },
+          {
+            title: 'Contact', key: '0-0-0-0-0-5', slots: { title: 'Contact' },
+          },
+          {
+            title: 'Acknowledgements', key: '0-0-0-0-0-6', slots: { title: 'Acknowledgements' },
+          },
+          {
+            title: 'Data sources', key: '0-0-0-0-0-7', slots: { title: 'Data' },
+          },
+        ]
+      }
     ],
   },
+
 ];
 
 export default {
   data() {
     return {
       treeData,
-      expandedKeys: ["0-0", "0-0-1", "0-0-0-0-1"]
+      expandedKeys: ["0-0"]
     };
   },
   mounted() {
     if (process.client) {
       if (localStorage.getItem("keys") === null) {
-        this.expandedKeys = ["0-0", "0-0-1", "0-0-0-0-1"]
-        console.log(this.expandedKeys)
+        this.expandedKeys = ["0-0"]
       } else {
         this.expandedKeys = JSON.parse(localStorage.getItem("keys"))
       }
@@ -217,7 +225,7 @@ export default {
     keys: {
       get() {
         if (process.client) {
-          return JSON.parse(localStorage.getItem("keys")) || ["0-0", "0-0-1", "0-0-0-0-1"]
+          return JSON.parse(localStorage.getItem("keys")) || ["0-0"]
         }
       },
       set(value) {

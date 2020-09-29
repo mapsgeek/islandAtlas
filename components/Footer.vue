@@ -222,7 +222,7 @@
                 </table>
               </div>
             </a-tab-pane>
-            <a-tab-pane key="2" tab="Data sources">
+            <a-tab-pane key="2" tab="Data Sources">
               <img width="60px" src="~assets/images/symbol-data.png" alt="Copyright">
               <div style="width:90%;float:right;">
                 <p style="margin-right:25px;">

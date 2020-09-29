@@ -46,3 +46,6 @@ export {
 export {
   default as MailFill
 } from '@ant-design/icons/lib/fill/MailFill'
+export {
+  default as LoadingOutline
+} from '@ant-design/icons/lib/outline/LoadingOutline'

@@ -174,6 +174,16 @@
       "id": 35,
       "name": "Groundwater",
       "theme": "water"
+    },
+    {
+      "id": 36,
+      "name": "NAUTICAL SITES",
+      "theme": "culture"
+    },
+    {
+      "id": 37,
+      "name": "TOURISM SITES",
+      "theme": "culture"
     }
   ],
   "category": [
@@ -571,6 +581,21 @@
       "id": 74,
       "name": "Statues and monuments",
       "groups_id": 34
+    },
+    {
+      "id": 77,
+      "name": "Lighthouses",
+      "groups_id": 36
+    },
+    {
+      "id": 78,
+      "name": "Vessels aground",
+      "groups_id": 36
+    },
+    {
+      "id": 79,
+      "name": "Tourism points of interest",
+      "groups_id": 37
     }
   ],
   "map": [
@@ -6802,8 +6827,8 @@
     },
     {
       "id": "4-8-07",
-      "groups_id": 34,
-      "category_id": 74,
+      "groups_id": 33,
+      "category_id": 73,
       "title": "Japanese military installations",
       "theme": "culture",
       "decription": "This map shows the locations of a significant part of Japanese military and World War II legacy scattered around the islands of Chuuk Lagoon. The features shown are remains of military bases, command centers, runways, storage areas, artillery sites, bunkers, port facilities, seaplane sites, and other war paraphernalia located on land, as opposed to sunken ships and other underwater features. The data layer was created by Island Research & Education Initiative (iREi) (2020) by compiling location information from a number of sources, including Geoview and years of research (2001-2008) by William Jeffery (University of Guam) and fieldwork implemented with Arimichy Rudolph and Anerit Mailo of Chuuk State Historic Preservation Office (Chuuk SHPO), in collaboration with many people in Chuuk, including Gradvin Aisek, Tong Misa, and the other chiefs of Tonoas, informant and translator Joshua Suka, landowners and residents of Tonoas and Weno, and the US National Park Service / Historic Preservation Fund.",
@@ -6817,8 +6842,8 @@
     },
     {
       "id": "4-8-08",
-      "groups_id": 34,
-      "category_id": 74,
+      "groups_id": 33,
+      "category_id": 73,
       "title": "Sunken ships and planes",
       "theme": "culture",
       "decription": "This map shows the locations of sunken ships, planes, and war debris in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) from location data reported by Jeffery (2007), War graves, munition dumps and pleasure grounds: A post- colonial perspective of Chuuk Lagoon’s submerged World War II sites; as well as Jeffery (2012), The future of Chuuk Lagoon's submerged WW II sites. All dive sites shown here are sunken ships, planes, and related war remains. The layer includes all known ships sunken inside Chuuk Lagoon. It excludes locations of ships that were damaged but did not sink, ships that were sunk but later refloated, and ships that sunk outside Chuuk Lagoon.",
@@ -6832,8 +6857,8 @@
     },
     {
       "id": "4-8-09",
-      "groups_id": 34,
-      "category_id": 74,
+      "groups_id": 33,
+      "category_id": 73,
       "title": "Registered historic places [US NPS National Register of Historic Places and US National Historic Landmarks]",
       "theme": "culture",
       "decription": "This map shows the locations of sunken ships, planes, and war debris in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) from location data reported by Jeffery (2007), War graves, munition dumps and pleasure grounds: A post- colonial perspective of Chuuk Lagoon’s submerged World War II sites; as well as Jeffery (2012), The future of Chuuk Lagoon's submerged WW II sites. All dive sites shown here are sunken ships, planes, and related war remains. The layer includes all known ships sunken inside Chuuk Lagoon. It excludes locations of ships that were damaged but did not sink, ships that were sunk but later refloated, and ships that sunk outside Chuuk Lagoon.",
@@ -6847,8 +6872,8 @@
     },
     {
       "id": "4-8-10",
-      "groups_id": 34,
-      "category_id": 74,
+      "groups_id": 37,
+      "category_id": 79,
       "title": "Tourism points of interest",
       "theme": "culture",
       "decription": "This map shows tourism points of interest, as considered and promoted by Chuuk Visitors Bureau. Sites include prominent hotels and dive shops, beaches and picnic sites, well known culturally-significant sites, World War II remains, and other locations of interest to visitors to Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) in consultation with Douglas Marar (Chuuk Visitors Bureau) and using information provided in KML form by Nely Mori Ruben (Chuuk Visitors Bureau).",
@@ -6862,8 +6887,8 @@
     },
     {
       "id": "4-8-11",
-      "groups_id": 34,
-      "category_id": 74,
+      "groups_id": 36,
+      "category_id": 77,
       "title": "Lighthouses",
       "theme": "culture",
       "decription": "This map shows tourism points of interest, as considered and promoted by Chuuk Visitors Bureau. Sites include prominent hotels and dive shops, beaches and picnic sites, well known culturally-significant sites, World War II remains, and other locations of interest to visitors to Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) in consultation with Douglas Marar (Chuuk Visitors Bureau) and using information provided in KML form by Nely Mori Ruben (Chuuk Visitors Bureau).",
@@ -6877,8 +6902,8 @@
     },
     {
       "id": "4-8-12",
-      "groups_id": 34,
-      "category_id": 74,
+      "groups_id": 36,
+      "category_id": 78,
       "title": "Wrecked and abandoned vessels [post World War II]",
       "theme": "culture",
       "decription": "This map shows the locations of wrecked and abandonded vessels in Chuuk Lagoon, especially ships that ran aground on the barrier reef and patch reefs. The data layer was created by Island Research & Education Initiative (iREi) (2020) using a combination of field-collected information and observations using Google Maps and imagery. It should be noted that this layer is an incipient version that currently contains only one data point, but is slated for expansion in the near future as fieldwork opportunities permit.",

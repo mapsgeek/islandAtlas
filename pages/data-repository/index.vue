@@ -23,7 +23,7 @@
             </a-select>
           </div>
 
-          <a-button style="margin-bottom:10px;" type="primary" @click="downloadWithAxios" :disabled="!hasSelected">Download</a-button>
+          <a-button style="margin-bottom:10px;" type="primary" @click="downloadWithAxios" :disabled="!hasSelected" :loading="loading">Download</a-button>
           <!-- <a-skeleton v-if="$apollo.queries.vectors.loading" active /> -->
           <a-table id="table" :row-selection="rowSelection" :columns="columns" :data-source="vectors">
             <p slot="expandedRowRender" slot-scope="record" style="margin: 0">
@@ -143,7 +143,9 @@ export default {
       // localStorage.getItem("island") || 'Select island',
       island: 'Yap',
       columns,
-      selectedRows: [],
+      selectedRowKeys: [],
+      rows: [],
+      loading: false
     }
   },
   mounted() {
@@ -156,13 +158,19 @@ export default {
     }
   },
   computed: {
-    hasSelected() {
-      return this.selectedRows.length > 0;
+    hasSelected: {
+      get() {
+        return this.selectedRowKeys.length > 0;
+      },
+      set(value) {
+        this.value = value
+      }
     },
     rowSelection() {
       return {
         onChange: (selectedRowKeys, selectedRows) => {
-          this.selectedRows = selectedRows;
+          this.selectedRowKeys = selectedRowKeys
+          this.rows = selectedRows
         },
         getCheckboxProps: record => ({
           props: {
@@ -170,6 +178,7 @@ export default {
             name: record.file,
           },
         }),
+        selectedRowKeys: this.selectedRowKeys
       };
     },
     intialIsland: {
@@ -191,26 +200,38 @@ export default {
       this.island = value
     },
     // onSelectChange(selectedRowKeys, selectedRows) {
-    //   this.selectedRows = selectedRows;
+    //   this.selectedRowKeys = selectedRowKeys;
     // },
     downloadWithAxios() {
-      this.selectedRows.forEach(url => {
+      this.loading = true;
+      this.$nuxt.$loading.start()
+      this.rows.forEach(url => {
         this.$axios({
-          url: `http://islandatlas.org/assets/maps/${this.island}${url.file}`,
+          url: `https://islandatlas.org/assets/maps/${this.island.toLowerCase()}${url.file}`,
           method: 'GET',
           proxyHeaders: false,
           credentials: false,
-          responseType: 'blob', // important
+          responseType: 'arraybuffer', // important
         }).then((response) => {
-          const url = window.URL.createObjectURL(new Blob([response.data
+          const urlx = window.URL.createObjectURL(new Blob([response.data
           ]));
           const link = document.createElement('a');
-          link.href = url;
-          link.setAttribute('download', `file.kmz`);
+          link.href = urlx;
+          link.setAttribute('download', url.file.toString());
           document.body.appendChild(link);
           link.click();
+          this.selectedRowKeys = []
+          this.rows = []
         })
-          .catch(() => console.log('error occured'))
+          .then(() => {
+            this.loading = false
+            this.$nuxt.$loading.finish()
+          })
+          .catch((error) => {
+            this.loading = false
+            this.$nuxt.$loading.finish()
+            // alert('Sorry, something went wrong please try again')
+          })
       });
     }
   },

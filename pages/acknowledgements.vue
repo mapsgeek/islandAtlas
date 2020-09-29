@@ -3,159 +3,261 @@
     <div style="background-color:#f6f9fc;">
       <div class="w-container">
         <h1 style="text-align:center;margin-bottom:20px">Acknowledgements</h1>
-        <div style="margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom:40px;">
-          <img width="60px" src="~assets/images/symbol-Staff.png" alt="Copyright">
-          <p style="align-self:flex-end;">We are grateful to the following individuals and agencies that helped this project by providing additional data or technical expertise.<br>
-            The creators/originators of specific data sets are named in the metadata of the respective files. </p>
-        </div>
-        <div class="tg-wrap">
-          <table class="tg">
-            <tbody>
-              <tr>
-                <th class="tg-9hbo">First Name</th>
-                <th class="tg-9hbo">Last Name</th>
-                <th class="tg-9hbo">Organization</th>
-                <th class="tg-9hbo">Organization Abbreviated</th>
-                <th class="tg-9hbo">Contributions</th>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Tony</td>
-                <td class="tg-yw4l">Kimmet</td>
-                <td class="tg-yw4l">U.S. Department of Agriculture -<br> Natural Resources Conservation Service</td>
-                <td class="tg-yw4l">USDA-NRCS</td>
-                <td class="tg-yw4l">Imagery</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Drew</td>
-                <td class="tg-yw4l">Decker</td>
-                <td class="tg-yw4l">U.S. Geological survey</td>
-                <td class="tg-yw4l">USGS</td>
-                <td class="tg-yw4l">DLGs/ Topo maps</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Alex</td>
-                <td class="tg-yw4l">Zuccarelli</td>
-                <td class="tg-yw4l">--</td>
-                <td class="tg-yw4l">--</td>
-                <td class="tg-yw4l">Various hiking and cultural KMLs</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Ed</td>
-                <td class="tg-yw4l">Carlson</td>
-                <td class="tg-yw4l">NOAA National Geodetic Survey</td>
-                <td class="tg-yw4l">NOAA-NGS</td>
-                <td class="tg-yw4l">Benchmarks</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Ross</td>
-                <td class="tg-yw4l">Winans</td>
-                <td class="tg-yw4l">NOAA Office of Coastal Management</td>
-                <td class="tg-yw4l">NOAA-OCM</td>
-                <td class="tg-yw4l">DLGs</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Gretchen</td>
-                <td class="tg-yw4l">Chiques</td>
-                <td class="tg-yw4l">NOAA Office of Coastal Management</td>
-                <td class="tg-yw4l">NOAA-OCM</td>
-                <td class="tg-yw4l"></td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Kalisi</td>
-                <td class="tg-yw4l">Mausio</td>
-                <td class="tg-yw4l">NOAA Office of Coastal Management</td>
-                <td class="tg-yw4l">NOAA-OCM</td>
-                <td class="tg-yw4l"></td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Bruce</td>
-                <td class="tg-yw4l">Robert</td>
-                <td class="tg-yw4l">College of Micronesia</td>
-                <td class="tg-yw4l">COM</td>
-                <td class="tg-yw4l">Historic maps</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Sharon</td>
-                <td class="tg-yw4l">Sawdey</td>
-                <td class="tg-yw4l">U.S. Department of Agriculture -<br> Natural Resources Conservation Service</td>
-                <td class="tg-yw4l">USDA-NRCS</td>
-                <td class="tg-yw4l"></td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Bart</td>
-                <td class="tg-yw4l">Lawrence</td>
-                <td class="tg-yw4l">U.S. Department of Agriculture -<br> Natural Resources Conservation Service</td>
-                <td class="tg-yw4l">USDA-NRCS</td>
-                <td class="tg-yw4l"></td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Len</td>
-                <td class="tg-yw4l">McKenzie</td>
-                <td class="tg-yw4l">James Cook University</td>
-                <td class="tg-yw4l">JCU</td>
-                <td class="tg-yw4l">Seagrasses</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Mike</td>
-                <td class="tg-yw4l">Aulerio</td>
-                <td class="tg-yw4l">The Nature Conservancy</td>
-                <td class="tg-yw4l">TNC</td>
-                <td class="tg-yw4l">Various conservation layers</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Nate</td>
-                <td class="tg-yw4l">Peterson</td>
-                <td class="tg-yw4l">The Nature Conservancy</td>
-                <td class="tg-yw4l">TNC</td>
-                <td class="tg-yw4l">Vegetation layers</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Chip</td>
-                <td class="tg-yw4l">Guard</td>
-                <td class="tg-ecrz">National Weather Service Guam</td>
-                <td class="tg-yw4l">NWS</td>
-                <td class="tg-yw4l">Weather stations</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Paulina</td>
-                <td class="tg-yw4l">Yourupi-Sandy</td>
-                <td class="tg-yw4l">Island Research &amp; Education Initiative</td>
-                <td class="tg-yw4l">iREi</td>
-                <td class="tg-yw4l">Building identifications</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Jacquline</td>
-                <td class="tg-yw4l">Hazen</td>
-                <td class="tg-yw4l">Island Research &amp; Education Initiative</td>
-                <td class="tg-yw4l">iREi</td>
-                <td class="tg-yw4l">Schools</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Wolf</td>
-                <td class="tg-yw4l">Forstreueter</td>
-                <td class="tg-yw4l">SPC Geoscience Division</td>
-                <td class="tg-yw4l">SPC</td>
-                <td class="tg-yw4l">Elevation data info</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Brihmer</td>
-                <td class="tg-yw4l">Johnson</td>
-                <td class="tg-yw4l">Department of Resources and Development, FSM</td>
-                <td class="tg-yw4l">FSMRD</td>
-                <td class="tg-yw4l">Raw census data</td>
-              </tr>
-              <tr>
-                <td class="tg-yw4l">Itorie</td>
-                <td class="tg-yw4l">Amond</td>
-                <td class="tg-yw4l">Department of Resources and Development, FSM</td>
-                <td class="tg-yw4l">FSMRD</td>
-                <td class="tg-yw4l">Raw census data</td>
-              </tr>
-            </tbody>
-          </table>
+        <div>
+          <p>
+            <img width="60px;" style="margin-right:20px;" src="~assets/images/acknowledgments-icon.svg" alt="Copyright">
+            This Atlas is a collaborative project conducted by:
+          </p>
+          <div style="text-align:center">
+            <p>
+              <strong>Island Research & Education Initiative (iREi)</strong>,
+              <br>
+              <strong>FSM Department of Environment, Climate Change & Emergency Management (DECEM)</strong>, and<br>
+              <strong>Water and Environmental Research Institute of the Western Pacific (WERI),</strong>
+              <br>
+              <strong>University of Guam (UOG)</strong>, with funding from the<br>
+              <strong>FSM National Government</strong> and the<br>
+              <strong>United States Geological Survey (USGS)</strong>
+            </p>
+          </div>
+          <div class="team">
+            <h5>
+              The Atlas core team are:
+            </h5>
+            <ul>
+              <li>
+                <span>Chief editor:</span>
+                <p style="margin-left: 105px;margin-top: -20px;">
+                  <strong>Danko Taboroši</strong>
+                </p>
+              </li>
+              <li>
+                <span>Co-editor:</span>
+                <p style="margin-left: 105px;margin-top: -20px;">
+                  <strong>Maria Kottermair</strong>
+                </p>
+              </li>
+              <li>
+                <span>Advisors:</span>
+                <p style="margin-left: 105px;margin-top: -20px;">
+                  <strong>John W. Jenson</strong><br>
+                  <strong>Joseph D. Rouse</strong><br>
+                  <strong>Myeong-Ho Yeo</strong><br>
+                  <strong>Lara Payne</strong><br>
+                  <strong>Shahram Khosrowpanah</strong><br>
+                </p>
+              </li>
+              <li>
+                <span>Developer:</span>
+                <p style="margin-left: 105px;margin-top: -20px;">
+                  <strong>Ibrahim Mohammed</strong>
+                </p>
+              </li>
+              <li>
+                <span>Cartographer:</span>
+                <p style="margin-left: 105px;margin-top: -20px;">
+                  <strong>Jan Rykr</strong>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <br>
+          <p>The Atlas would certainly not be as comprehensive as it is without the data-sharing agreements and support we have
+            received over the years from the following key partners and contributors:</p>
+          <br>
+
+          <div style=" margin-left: 120px;">
+            <strong>
+              USDA Natural Resources Conservation Service (NRCS)<br>
+              Yap State Department of Resources and Development (Yap R&D)<br>
+              Pohnpei State Department of Education (Pohnpei DOE)<br>
+              Chuuk State Environmental Protection Agency (Chuuk EPA)<br>
+              College of Micronesia (COM-FSM)<br>
+              Pacific Disaster Center (PDC)<br>
+            </strong>
+          </div>
+
+          <br>
+          <p>
+            Numerous other organizations contributed to this Atlas in different ways and at different stages of the project. The
+            most significant among them are:
+          <p>
+            <br>
+          <div style=" margin-left: 120px;">
+            <strong>
+              Chuuk Visitors Bureau (CVB)<br>
+              FSM Department of Resources and Development (FSM R&D)<br>
+              FSM Telecom<br>
+              Kosrae Island Resource Management Authority (KIRMA)<br>
+              Kosrae State Historic Preservation Office (Kosrae HPO)<br>
+              NOAA National Geodetic Survey (NGS)<br>
+              NOAA National Weather Service (NWS)<br>
+              NOAA Office for Coastal Management (OCM)<br>
+              The Nature Conservancy (TNC)<br>
+              Yap Community Action Program (Yap CAP)<br>
+              Yap Department of Health Services (Yap DHS)<br>
+              Yap State Historic Preservation Office (Yap HPO)<br>
+            </strong>
+          </div>
+
+          <br>
+          <p>
+            We have also received major support from the following individuals, to whom we extend special thanks:
+          <p>
+            <br>
+          <div style=" margin-left: 120px;">
+            <p>
+              <strong>Tony Kimmet,</strong> USDA-NRCS National Geospatial Center of Excellence
+            </p>
+            <p>
+              <strong>Drew Decker,</strong> USGS National Geospatial Program
+            </p>
+            <p>
+              <strong>Ross Winans,</strong> NOAA Office of Coastal Management
+            </p>
+          </div>
+          <br>
+          <p>
+            The maps, and indirectly other information in the Atlas, were reviewed and improved based on the comments by
+            the following individuals knowledgeable about their respective islands.
+          </p>
+          <br>
+          <div style=" margin-left: 120px;">
+            <ul>
+              <li>
+                <span style="font-style: italic;">Yap:</span>
+                <p style="margin-left: 75px;
+    margin-top: -20px;">
+                  <strong>Joshua Libyan Tun</strong>, Yap DOE<br>
+                  <strong>Francis Ruegorong</strong>, Yap Department of R&D <br>
+                  <strong>Douglas Marar</strong>, Chuuk Visitors' Bureau<br>
+                </p>
+
+              </li>
+
+              <li>
+                <span style="font-style: italic;">Chuuk:</span>
+                <p style="margin-left: 75px;
+    margin-top: -20px;">
+                  <strong>Brad Mori</strong>, Chuuk EPA<br>
+                  <strong>Curtis Graham</strong>, Chuuk Conservation Society<br>
+                  <strong>Douglas Marar</strong>, Chuuk Visitors' Bureau<br>
+                </p>
+              </li>
+              <li>
+                <span style="font-style: italic;">Pohnpei:</span>
+                <p style="margin-left: 75px;
+    margin-top: -20px;">
+                  <strong>Peterson Anson</strong>, Pohnpei State Department of Land<br>
+                  <strong>Jocyleen Anson</strong>, FSM Telecom<br>
+                </p>
+
+              </li>
+              <li>
+                <span style="font-style: italic;">Kosrae:</span>
+                <p style="margin-left: 75px;
+    margin-top: -20px;">
+                  <strong>Blair Charley</strong>, KIRMA<br>
+                  <strong>Betwin Tilfas</strong>, KIRMA<br>
+                  <strong>Ashley Meredith</strong>, Kosrae HPO<br>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <br>
+          <p>
+            Numerous other individuals assisted this project in many different ways, from providing advice and existing data
+            layers to carrying out field verifications and creating new data layers specifically for this Atlas. In alphabetical
+            order, we thank:
+          <p>
+            <br>
+          <div style=" margin-left: 120px;">
+            <p>
+              <strong>Itorie Amond,</strong> FSM Department of Resources and Development
+            </p>
+            <p>
+              <strong>Mike Aulerio,</strong> The Nature Conservancy
+            </p>
+            <p>
+              <strong>John Paul Batarao,</strong> student, University of Guam
+            </p>
+            <p>
+              <strong>Julie Callebaut,</strong> Secretariat of the Pacific Regional Environment Programme
+            </p>
+            <p>
+              <strong>Ed Carlson,</strong> NOAA National Geodetic Survey (NGS)
+            </p>
+            <p>
+              <strong>Matthew Chigiyal,</strong> FSM National Oceanic Resource Management Authority
+            </p>
+            <p>
+              <strong>Gretchen Chiques,</strong> ESRI
+            </p>
+            <p>
+              <strong>Jacquline Hazen,</strong> Island Research & Education Initiative
+            </p>
+            <p>
+              <strong>Mandy Flowers,</strong> Island Research & Education Initiative
+            </p>
+            <p>
+              <strong>Wolf Forstreuter,</strong> Pacific GIS & Remote Sensing Council
+            </p>
+            <p>
+              <strong>Vaness Fread,</strong> Yap Community Action Program
+            </p>
+            <p>
+              <strong>Joyminda Palokoa George,</strong> UNICEF
+            </p>
+            <p>
+              <strong>John Gilmatam,</strong> Wa'ab Community Health Center / Yap Department of Health Services
+            </p>
+            <p>
+              <strong> Chip Guard,</strong> NOAA National Weather Service
+            </p>
+            <p>
+              <strong> William Jeffery,</strong> University of Guam
+            </p>
+            <p>
+              <strong> Brihmer Johnson,</strong> FSM Department of Resources and Development
+            </p>
+            <p>
+              <strong>Bart Lawrence,</strong> U.S. Department of Agriculture - Natural Resources Conservation Service
+            </p>
+            <p>
+              <strong>Len McKenzie,</strong> James Cook University
+            </p>
+            <p>
+              <strong>Nate Peterson,</strong> The Nature Conservancy
+            </p>
+            <p>
+              <strong>Larry Raigetal,</strong> Waagey
+            </p>
+            <p>
+              <strong>Bruce Robert,</strong> College of Micronesia
+            </p>
+            <p>
+              <strong>Nely Mori Ruben,</strong> Chuuk Visitors Bureau
+            </p>
+            <p>
+              <strong>Constance Sartor,</strong> student, University of Guam
+            </p>
+            <p>
+              <strong>Sharon Sawdey,</strong> Natural Resources Conservation Service
+            </p>
+            <p>
+              <strong>Paulina Yourupi-Sandy,</strong> Island Research & Education Initiative
+            </p>
+            <p>
+              <strong>Alex Zuccarelli,</strong> Pohnpei Eco-Adventure Guide
+            </p>
+
+          </div>
+          <br>
+          <p>
+            Over the years, we were also assisted by many other individuals whose names may not have been added to this list.
+            We apologize for that and remain grateful for all of their help. As we continue the work on the project, we hope that
+            more people will get involved with this Atlas and help us continually improve this resource for everyone.
+          </p>
         </div>
       </div>
     </div>
@@ -172,11 +274,24 @@ export default {
 </script>
 
 <style lang="less" scoped>
+p {
+  margin-bottom: 5px;
+}
+.team {
+  h5 {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  ul {
+    margin-left: 120px;
+  }
+}
 .w-container {
   min-height: 100vh;
   margin-top: 50px;
   // background-color: white;
-  padding: 50px;
+  padding: 50px 185px 50px 185px;
+
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;

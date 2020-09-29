@@ -59,9 +59,10 @@
             </a-menu>
           </a-dropdown>
           <div class="fullLinks">
-            <nuxt-link :to="{ path: '/',hash:'#islands'}" v-if="['contact','interactive-map','about','gallery','data-repository','sitemap','index'].includes($route.name)">
+            <!-- v-if="['contact','interactive-map','about','gallery','data-repository','sitemap','index'].includes($route.name)" -->
+            <nuxt-link :to="{ path: '/',hash:'#islands'}">
               <img class="imgIcon" src="~assets/icons/icons8-browse-folder-32.png">
-              Islands Modules
+              Island Modules
             </nuxt-link>
             <nuxt-link to="/interactive-map">
               <img class="imgIcon" src="~assets/icons/interactivemapwhite.png">
