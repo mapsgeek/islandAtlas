@@ -4,11 +4,11 @@
       <div class="w-container">
         <h1 style="text-align:center;margin-bottom:20px">Acknowledgements</h1>
         <div>
-          <p>
-            <img width="60px;" style="margin-right:20px;" src="~assets/images/acknowledgments-icon.svg" alt="Copyright">
+          <p style="text-align: left; margin-bottom: 20px;">
+            <!-- <img width="60px;" style="margin-right:20px;" src="~assets/images/acknowledgments-icon.svg" alt="Copyright"> -->
             This Atlas is a collaborative project conducted by:
           </p>
-          <div style="text-align:center">
+          <div style="text-align:center;    margin-bottom: 20px;">
             <p>
               <strong>Island Research & Education Initiative (iREi)</strong>,
               <br>
@@ -21,9 +21,9 @@
             </p>
           </div>
           <div class="team">
-            <h5>
+            <p style="text-align: left;margin-bottom: 20px;">
               The Atlas core team are:
-            </h5>
+            </p>
             <ul>
               <li>
                 <span>Chief editor:</span>
@@ -122,10 +122,10 @@
             the following individuals knowledgeable about their respective islands.
           </p>
           <br>
-          <div style=" margin-left: 120px;">
+          <div style=" margin-left: 45px;">
             <ul>
               <li>
-                <span style="font-style: italic;">Yap:</span>
+                <span style="font-style: italic; margin-left: -33px;">Yap:</span>
                 <p style="margin-left: 75px;
     margin-top: -20px;">
                   <strong>Joshua Libyan Tun</strong>, Yap DOE<br>
@@ -136,7 +136,7 @@
               </li>
 
               <li>
-                <span style="font-style: italic;">Chuuk:</span>
+                <span style="font-style: italic;margin-left: -33px;">Chuuk:</span>
                 <p style="margin-left: 75px;
     margin-top: -20px;">
                   <strong>Brad Mori</strong>, Chuuk EPA<br>
@@ -145,7 +145,7 @@
                 </p>
               </li>
               <li>
-                <span style="font-style: italic;">Pohnpei:</span>
+                <span style="font-style: italic;margin-left: -33px;">Pohnpei:</span>
                 <p style="margin-left: 75px;
     margin-top: -20px;">
                   <strong>Peterson Anson</strong>, Pohnpei State Department of Land<br>
@@ -154,7 +154,7 @@
 
               </li>
               <li>
-                <span style="font-style: italic;">Kosrae:</span>
+                <span style="font-style: italic;margin-left: -33px;">Kosrae:</span>
                 <p style="margin-left: 75px;
     margin-top: -20px;">
                   <strong>Blair Charley</strong>, KIRMA<br>
@@ -275,15 +275,11 @@ export default {
 
 <style lang="less" scoped>
 p {
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 .team {
-  h5 {
-    text-align: left;
-    margin-bottom: 10px;
-  }
   ul {
-    margin-left: 120px;
+    margin-left: 15px;
   }
 }
 .w-container {

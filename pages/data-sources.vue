@@ -3,28 +3,37 @@
     <div style="background-color:#f6f9fc;">
       <div class="w-container">
         <h1 style="text-align:center;margin-bottom:20px">Data Sources</h1>
-
         <br>
         <p>
-          The data layers served here are either original information created specifically for this Atlas or were acquired from
-          other sources and processed before being incorporated. New layers were created by Island Research & Education
-          Initiative (iREi) through fieldwork, imagery interpretation, or digitizing of published and unpublished sources. In
-          contrast, many layers were already created by some other entity and our task was to locate, inventory, acquire,
-          process, and incorporate such data in the Atlas. In fact, inventorying and organizing existing data was the original
-          goal around which this Atlas was initiated. Over the years we have acquired relevant geospatial layers from a great
-          variety of sources and continue to do so. Before any such data are incorporated into this Atlas, the layers are
-          processed to ensure consistency throughout the atlas. The processing steps generally include but are not limited to
-          locating the most up-to-date and complete layers, extracting datasets for specific islands, verifying and correcting
-          the projection, shifting features to better match imagery and the Atlas original base layers, performing additional
-          edits and updates, checking topology and fixing errors, reviewing and populating attribute information, appending
-          source information to the attributes, and compiling and attaching metadata. That is why layers served to the users of
-          this Atlas contain many improvements with respect to their original versions. Irrespective of the type and amount of
-          work done to improve a particular layer, its creators/originators, version history, and changes made are carefully
-          documented in metadata. Arranged in alphabetical order, the principal sources from which we obtained geospatial
-          data or which we relied on to create GIS files are:
-        <p>
-          <br>
-        <div style=" margin-left: 120px;">
+          The data layers served here include:
+        <ul style="list-style: disc;
+    margin-left: 35px;">
+          <li>
+            original information created specifically for this Atlas;
+          </li>
+          <li>
+            layers acquired from other sources and modified for inclusion in the Atlas; or a combination of the two, which is
+          </li>
+          <li>
+            layers where some data were previously available but required major updating.
+          </li>
+        </ul>
+        New layers were created by Island Research & Education Initiative (iREi) through fieldwork, imagery interpretation, or digitizing of published and unpublished sources. In contrast, many layers were already created by some other entity and our task was to locate, inventory, acquire,
+        process, and incorporate such data in the Atlas. In fact, inventorying and organizing existing data was the original
+        goal around which this Atlas was initiated. Over the years we have acquired relevant geospatial layers from a great
+        variety of sources and continue to do so. Before any such data are incorporated into this Atlas, the layers are
+        processed to ensure consistency throughout the atlas. The processing steps generally include but are not limited to
+        locating the most up-to-date and complete layers, extracting datasets for specific islands, verifying and correcting
+        the projection, shifting features to better match imagery and the Atlas original base layers, performing additional
+        edits and updates, checking topology and fixing errors, reviewing and populating attribute information, appending
+        source information to the attributes, and compiling and attaching metadata. That is why layers served to the users of
+        this Atlas contain many improvements with respect to their original versions. Irrespective of the type and amount of
+        work done to improve a particular layer, its creators/originators, version history, and changes made are carefully
+        documented in metadata. Arranged in alphabetical order, the principal sources from which we obtained geospatial
+        data or which we relied on to create GIS files are:
+        </p>
+        <br>
+        <div style=" margin-left: 120px;    margin-bottom: 1em;">
           <strong>
             Chuuk Environmental Protection Agency (Chuuk EPA)<br>
             Chuuk State Department of Education (Chuuk DOE)<br>

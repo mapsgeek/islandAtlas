@@ -6,7 +6,7 @@
         <client-only>
           <a-tree :tree-data="treeData" :default-expanded-keys=keys @expand="onExpand" :autoExpandParent="false">
             <nuxt-link slot="homepage" class="intro atlas" to="/">DIGITAL ATLAS OF MICRONESIA</nuxt-link>
-            <span slot="islands" style="cursor: default;" class="maplink">Islands Module</span>
+            <span slot="islands" style="cursor: default;" class="maplink">Island Modules</span>
             <span slot="pohnpei" class="intro pohnpei">Pohnpei State</span>
 
             <nuxt-link slot="Main" class="maplinkintro maplink" to="/pohnpei">Pohnpei</nuxt-link>
@@ -80,12 +80,12 @@
 const treeData = [
   {
     title: 'DIGITAL ATLAS OF MICRONESIA',
-    key: '0-0',
+    key: '0',
     slots: { title: 'homepage' },
     children: [
       {
-        title: 'Islands Modules',
-        key: '0',
+        title: 'Island Modules',
+        key: '0-0',
         slots: { title: 'islands' },
         children: [
           {
@@ -177,32 +177,31 @@ const treeData = [
               },
             ],
           },
-          {
-            title: 'Interactive', key: '0-0-0-0-0-1', slots: { title: 'Interactive' },
-          },
-          {
-            title: 'Repo', key: '0-0-0-0-0-2', slots: { title: 'Repo' },
-          },
-          {
-            title: 'Gallery', key: '0-0-0-0-0-3', slots: { title: 'Gallery' },
-          },
-          {
-            title: 'About', key: '0-0-0-0-0-4', slots: { title: 'About' },
-          },
-          {
-            title: 'Contact', key: '0-0-0-0-0-5', slots: { title: 'Contact' },
-          },
-          {
-            title: 'Acknowledgements', key: '0-0-0-0-0-6', slots: { title: 'Acknowledgements' },
-          },
-          {
-            title: 'Data sources', key: '0-0-0-0-0-7', slots: { title: 'Data' },
-          },
         ]
-      }
+      },
+      {
+        title: 'Interactive', key: '0-1', slots: { title: 'Interactive' },
+      },
+      {
+        title: 'Repo', key: '0-2', slots: { title: 'Repo' },
+      },
+      {
+        title: 'Gallery', key: '0-3', slots: { title: 'Gallery' },
+      },
+      {
+        title: 'About', key: '0-4', slots: { title: 'About' },
+      },
+      {
+        title: 'Contact', key: '0-5', slots: { title: 'Contact' },
+      },
+      {
+        title: 'Acknowledgements', key: '0-6', slots: { title: 'Acknowledgements' },
+      },
+      {
+        title: 'Data sources', key: '0-7', slots: { title: 'Data' },
+      },
     ],
   },
-
 ];
 
 export default {

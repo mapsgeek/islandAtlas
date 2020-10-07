@@ -474,7 +474,7 @@
       "name": "Religion"
     },
     {
-      "Description": "the percentage of ethnically Kosraean residents by municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual dataset contain more detailed information on the full range of specific ethnic identities involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2000) and the FSM census of population and housing (2010).",
+      "Description": "The percentage of ethnically Yapese residents by municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual dataset contain more detailed information on the full range of specific ethnic identities involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
       "file": "/population/5-11.zip",
       "filetype": "Esri Shapefile",
       "general": "Population",
@@ -618,7 +618,7 @@
     },
     {
       "Description": "the vegetation of Yap in 1975. It was derived by Landcare research from 1975 Vegetation Survey Maps of Yap. The original hardcopy map was created as part of the following publication: MacLean, C.D., Cole, T.G., Whitesell, C.D., Falanruw, M.V., and Ambacher, A.H. (1986). Vegetation Survey of Yap, Federated States of Micronesia. U.S. Department of Agriculture (USDA), Resource Bulletin PSW-18. It was also included in Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Yap 1995, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was shifted modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
-      "file": "/vegetation/4-04_to_4-07.zip",
+      "file": "/vegetation/4-01.zip",
       "filetype": "Esri Shapefile",
       "general": "Vegetation",
       "geometry": "Polygon",
@@ -706,7 +706,7 @@
     },
     {
       "Description": "The locations of popular surf breaks around yap. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019) from information provided by YapIsland Resource Management Authority (KIRMA).",
-      "file": "/reefs/2-05_to_2-08.zip",
+      "file": "/reefs/2-05.zip",
       "filetype": "Esri Shapefile",
       "general": "Reefs",
       "geometry": "Point",
@@ -728,7 +728,7 @@
     },
     {
       "Description": "This map classifies the reefs around Yap by their geomorphology. The dataset used here is the same as the one used for the reef zonation map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
-      "file": "/reefs/2-02_and_2-09.zip",
+      "file": "/reefs/2-02.zip",
       "filetype": "Esri Shapefile",
       "general": "Reefs",
       "geometry": "Polygon",
@@ -739,7 +739,7 @@
     },
     {
       "Description": "This map represents the topography of Pohnpei. It shows elevation contour lines at 10-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) and the University of Guam (UOG) (2017) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975 and the shoreline dataset representing the zero contour line.",
-      "file": "/reefs/2-02_and_2-09.zip",
+      "file": "/reefs/2-02.zip",
       "filetype": "Esri Shapefile",
       "general": "Reefs",
       "geometry": "Polygon",
@@ -1674,18 +1674,18 @@
     },
     {
       "Description": "The topography of Kosrae. It shows elevation contour lines at 50-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967 and the shoreline dataset representing the zero contour line.",
-      "file": "/land/1-04_to_1-05.zip",
+      "file": "/land/1-04.zip",
       "filetype": "Google Earth (KMZ)",
       "general": "Land",
       "geometry": "Line",
-      "id": "2-B1-04 to 1-05",
+      "id": "2-B1-04",
       "island": "Kosrae",
       "key": 153,
       "name": "50-m elevation contours"
     },
     {
       "Description": "The topography of Kosrae. It shows elevation contour lines at 10-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967 and the shoreline dataset representing the zero contour line.",
-      "file": "/land/1-02_to_1-03.zip",
+      "file": "/land/1-02.kmz",
       "filetype": "Google Earth (KMZ)",
       "general": "Land",
       "geometry": "Line",
@@ -2631,11 +2631,11 @@
     },
     {
       "Description": "The topography of Kosrae. It shows elevation contour lines at 50-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1967 and the shoreline dataset representing the zero contour line.",
-      "file": "/land/1-04_to_1-05.zip",
+      "file": "/land/1-04.kmz",
       "filetype": "Esri Shapefile",
       "general": "Land",
       "geometry": "Line",
-      "id": "2-1-04 to 1-05",
+      "id": "2-1-04",
       "island": "Kosrae",
       "key": 240,
       "name": "50-m elevation contours"
@@ -2763,7 +2763,7 @@
     },
     {
       "Description": "Elevation contour lines at 50-meter intervals. Depicted in grayscale, the contour lines were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
-      "file": "/land/1-04_to_1-05.kmz",
+      "file": "/land/1-04.kmz",
       "filetype": "Google Earth (KMZ)",
       "general": "Land",
       "geometry": "Line",
@@ -3698,7 +3698,7 @@
     },
     {
       "Description": "Elevation contour lines at 50-meter intervals. The contour lines are depicted in a range of colors corresponding to elevations from the shoreline to 780 m above sea level. They were derived by Island Research & Education Initiative (iREi) and University of Guam (UOG) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975.",
-      "file": "/land/1-04_to_1-05.kmz",
+      "file": "/land/1-05.kmz",
       "filetype": "Google Earth (KMZ)",
       "general": "Land",
       "geometry": "Line",
@@ -5004,6 +5004,28 @@
       "island": "Pohnpei",
       "key": 455,
       "name": "general physiography"
+    },
+    {
+      "Description": "The locations of prominent caves on Kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019) from location information provided by Kosrae Island Resource Management Authority (KIRMA). It should be noted that Kosrae has no karst terrain whatsoever, so caves found on the island are all in volcanic bedrock. The natural caves are lava tubes.",
+      "file": "/land/1-23.zip",
+      "filetype": "Esri Shapefile",
+      "general": "Land",
+      "geometry": "Polygon",
+      "id": "2-1-23",
+      "island": "Kosrae",
+      "key": 7448,
+      "name": "Prominent caves"
+    },
+    {
+      "Description": "The locations of prominent caves on Kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019) from location information provided by Kosrae Island Resource Management Authority (KIRMA). It should be noted that Kosrae has no karst terrain whatsoever, so caves found on the island are all in volcanic bedrock. The natural caves are lava tubes.",
+      "file": "/land/1-23.zip",
+      "filetype": "Google Earth (KMZ)",
+      "general": "Land",
+      "geometry": "Polygon",
+      "id": "2-B1-23",
+      "island": "Kosrae",
+      "key": 7444,
+      "name": "Prominent caves"
     },
     {
       "Description": "The detailed geology of Pohnpei. The data layer was created by Island Research & Education Initiative (iREi) (2017) by scanning, georeferencing, and digitizing a paper map found in Spengler, S. R., Spencer, K. J., Mahoney, J. J., and Goles, G. G. (1994), Geology and Geochemical Evolution of Lavas on the Island of Pohnpei.",

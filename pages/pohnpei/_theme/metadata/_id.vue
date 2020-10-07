@@ -15,7 +15,7 @@
 import InteractiveMap from '~/apollo/queries/fetchInteractiveMap'
 
 export default {
-  layout: 'SpecialBody',
+  // layout: 'SpecialBody',
   mounted() {
   },
   data() {

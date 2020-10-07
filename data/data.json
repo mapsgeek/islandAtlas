@@ -881,7 +881,7 @@
       "gisName": "1-01",
       "metaName": [
         "1-01a",
-        "0-01b"
+        "1-01b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/EmbedMinimal/index.html?appid=2956a96797e649aaa63e721c8effdcf1",
       "island": "kosrae"
@@ -897,7 +897,7 @@
       "gisName": "1-01",
       "metaName": [
         "1-01a",
-        "0-01b"
+        "1-01b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=5e369a41beb047ae94153fb2896e7028",
       "island": "yap"
@@ -927,7 +927,7 @@
       "fileName": "1-01b",
       "gisName": "1-01",
       "metaName": [
-        "0-01b"
+        "1-01b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=5e369a41beb047ae94153fb2896e7028",
       "island": "chuuk"
@@ -957,7 +957,7 @@
       "fileName": "1-02",
       "gisName": "1-02_to_1-03",
       "metaName": [
-        "1-02"
+        "1-02_to_1-03"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=7db95eb19e594ad19043fd3361d2bc48",
       "island": "kosrae"
@@ -972,7 +972,7 @@
       "fileName": "1-02",
       "gisName": "1-02_to_1-03",
       "metaName": [
-        "1-02"
+        "1-02_to_1-03"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=7db95eb19e594ad19043fd3361d2bc48",
       "island": "yap"
@@ -1002,7 +1002,7 @@
       "fileName": "1-03",
       "gisName": "1-02_to_1-03",
       "metaName": [
-        "1-03"
+        "1-02"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=b8d3704d66764f658cf45a4fe6b2f71b",
       "island": "pohnpei"
@@ -1017,7 +1017,7 @@
       "fileName": "1-03",
       "gisName": "1-02_to_1-03",
       "metaName": [
-        "1-03"
+        "1-02_to_1-03"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=99e004bca2a04443b044665ab8317910",
       "island": "kosrae"
@@ -1032,7 +1032,7 @@
       "fileName": "1-03",
       "gisName": "1-02_to_1-03",
       "metaName": [
-        "1-03"
+        "1-02_to_1-03"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=e65fee225b554061a0fcf08675b6be6d",
       "island": "yap"
@@ -1047,7 +1047,7 @@
       "fileName": "1-03",
       "gisName": "1-02_to_1-03",
       "metaName": [
-        "1-03"
+        "1-02"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=e65fee225b554061a0fcf08675b6be6d",
       "island": "chuuk"
@@ -1062,7 +1062,7 @@
       "fileName": "1-04",
       "gisName": "1-04_to_1-05",
       "metaName": [
-        "1-04"
+        "1-03"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=92f407ce4ae541888be6e5a3bf798b60",
       "island": "pohnpei"
@@ -1077,7 +1077,7 @@
       "fileName": "1-04",
       "gisName": "1-04_to_1-05",
       "metaName": [
-        "1-04"
+        "1-04_to_1-05"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=9afeffb057d544e5a9b1358fd134f054",
       "island": "kosrae"
@@ -1092,7 +1092,7 @@
       "fileName": "1-04",
       "gisName": "1-04_to_1-05",
       "metaName": [
-        "1-04"
+        "1-04_to_1-05"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=19a3d9a4a4cf4b718ec7310a422734a9",
       "island": "yap"
@@ -1122,7 +1122,7 @@
       "fileName": "1-04",
       "gisName": "1-04_to_1-05",
       "metaName": [
-        "1-05"
+        "1-03"
       ],
       "interactiveMapURL": "http://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=105c61e46019419598f57dc752381c2f",
       "island": "pohnpei"
@@ -1137,7 +1137,7 @@
       "fileName": "1-04",
       "gisName": "1-04_to_1-05",
       "metaName": [
-        "1-05"
+        "1-04_to_1-05"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=a0920cdca1ec4af18b81880f56d923c4",
       "island": "kosrae"
@@ -1152,7 +1152,7 @@
       "fileName": "1-04",
       "gisName": "1-04_to_1-05",
       "metaName": [
-        "1-05"
+        "1-04_to_1-05"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=3bfe84d064114fef8e7cadab376230ed",
       "island": "yap"
@@ -1167,7 +1167,7 @@
       "fileName": "1-04",
       "gisName": "1-04_to_1-05",
       "metaName": [
-        "1-05"
+        "1-04"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=3bfe84d064114fef8e7cadab376230ed",
       "island": "chuuk"
@@ -1182,8 +1182,7 @@
       "fileName": "1-06",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-06a",
-        "1-06b"
+        "1-06"
       ],
       "interactiveMapURL": "http://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=6089b90a2e584875b6f413c565977204",
       "island": "pohnpei"
@@ -1198,8 +1197,8 @@
       "fileName": "1-06",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-06a",
-        "1-06b"
+        "1-06_to_1-08a",
+        "1-06_to_1-08b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=13c7b6eb06574aee914fa300998c7f67",
       "island": "kosrae"
@@ -1214,8 +1213,8 @@
       "fileName": "1-06",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-06a",
-        "1-06b"
+        "1-06_to_1-08a",
+        "1-06_to_1-08b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=2dd698eb8dd443b3a887c616514ac776",
       "island": "yap"
@@ -1230,8 +1229,7 @@
       "fileName": "1-06",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-06a",
-        "1-06b"
+        "1-06"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=2dd698eb8dd443b3a887c616514ac776",
       "island": "chuuk"
@@ -1262,8 +1260,8 @@
       "fileName": "1-07",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-07a",
-        "1-07b"
+        "1-06_to_1-08a",
+        "1-06_to_1-08b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=d3297b61668147eebbcb0fba26128545",
       "island": "kosrae"
@@ -1278,8 +1276,8 @@
       "fileName": "1-07",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-07a",
-        "1-07b"
+        "1-06_to_1-08a",
+        "1-06_to_1-08b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=318521a7b20b42bd8a38660c61cabc09",
       "island": "yap"
@@ -1294,8 +1292,7 @@
       "fileName": "1-07",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-07a",
-        "1-07b"
+        "1-06"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=318521a7b20b42bd8a38660c61cabc09",
       "island": "chuuk"
@@ -1326,8 +1323,8 @@
       "fileName": "1-08",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-08a",
-        "1-08b"
+        "1-06_to_1-08a",
+        "1-06_to_1-08b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=3ef8f9c2e3a242a2a5e4930a7460dead",
       "island": "kosrae"
@@ -1342,8 +1339,8 @@
       "fileName": "1-08",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-08a",
-        "1-08b"
+        "1-06_to_1-08a",
+        "1-06_to_1-08b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=e352e1e6c0a3466fb7ca49027214ccff",
       "island": "yap"
@@ -1358,8 +1355,7 @@
       "fileName": "1-08",
       "gisName": "1-06_to_1-08",
       "metaName": [
-        "1-08a",
-        "1-08b"
+        "1-06"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=e352e1e6c0a3466fb7ca49027214ccff",
       "island": "chuuk"
@@ -1469,8 +1465,7 @@
       "gisName": "1-10",
       "metaName": [
         "1-10a",
-        "1-10b",
-        "1-10c"
+        "1-10b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=9bac5050c45442ebb312edfc06db6f47",
       "island": "yap"
@@ -1486,8 +1481,7 @@
       "gisName": "1-10",
       "metaName": [
         "1-10a",
-        "1-10b",
-        "1-10c"
+        "1-10b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=9bac5050c45442ebb312edfc06db6f47",
       "island": "chuuk"
@@ -1749,10 +1743,7 @@
       "fileName": "1-22",
       "gisName": "1-22",
       "metaName": [
-        "1-22a",
-        "1-22b",
-        "1-22c",
-        "1-22d"
+        "1-22"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=3c39f9aca43e495a8f4c392608bd9216",
       "island": "kosrae"
@@ -1788,7 +1779,11 @@
         "1-22a",
         "1-22b",
         "1-22c",
-        "1-22d"
+        "1-22d",
+        "1-22f",
+        "1-22g",
+        "1-22h",
+        "1-22i"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=8895ca63d463487b91458188dbd613f8",
       "island": "chuuk"
@@ -1816,9 +1811,9 @@
       "theme": "land",
       "decription": "This map shows the basic soil types of Kosrae.  The original dataset was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1983) as part of the soil survey of the Islands of Kosrae, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). The data layer was created by Island Research & Education Initiative (iREi) (2019) by extracting and formatting a subset of the Gridded Soil Survey Geographic (gSSURGO) Database for Federated States of Micronesia (2019) created by USDA-NRCS.",
       "fileName": "1-16",
-      "gisName": "1-16",
+      "gisName": "1-16_to_1-18",
       "metaName": [
-        "1-16"
+        "1-16_to_1-18"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=9de206cca6894d599dd6593b6ee02a03",
       "island": "kosrae"
@@ -1923,7 +1918,8 @@
       "fileName": "1-20",
       "gisName": "1-20",
       "metaName": [
-        "1-20"
+        "1-20a",
+        "1-20b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=c721f0f99f1346d1a361ff3450d11dd6",
       "island": "yap"
@@ -2079,6 +2075,21 @@
       "island": "pohnpei"
     },
     {
+      "id": "2-1-23",
+      "groups_id": 7,
+      "category_id": 17,
+      "title": "Prominent caves",
+      "theme": "land",
+      "decription": "This map shows the locations of prominent caves on Kosrae. The data layer was formatted for GIS by Island Research & Education Initiative (iREi) (2019) from location information provided by Kosrae Island Resource Management Authority (KIRMA). It should be noted that Kosrae has no karst terrain whatsoever, so caves found on the island are all in volcanic bedrock. The natural caves are lava tubes.",
+      "fileName": "1-23",
+      "gisName": "1-23",
+      "metaName": [
+        "1-23"
+      ],
+      "interactiveMapURL": null,
+      "island": "kosrae"
+    },
+    {
       "id": "4-1-23",
       "groups_id": 7,
       "category_id": 17,
@@ -2178,7 +2189,7 @@
       "fileName": "2-02",
       "gisName": "2-02_and_2-09",
       "metaName": [
-        "2-02"
+        "2-02_and_2-09"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=2edfa246b46a435db132baed1881c5ac",
       "island": "kosrae"
@@ -2191,7 +2202,7 @@
       "theme": "reefs",
       "decription": "This map represents the topography of Pohnpei. It shows elevation contour lines at 10-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) and the University of Guam (UOG) (2017) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1975 and the shoreline dataset representing the zero contour line.",
       "fileName": "2-02a",
-      "gisName": "2-02_and_2-09",
+      "gisName": "2-02",
       "metaName": [
         "2-02a"
       ],
@@ -2206,7 +2217,7 @@
       "theme": "reefs",
       "decription": "This map classifies the reefs around Yap by their geomorphology. The dataset used here is the same as the one used for the reef zonation map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
       "fileName": "2-02b",
-      "gisName": "2-02_and_2-09",
+      "gisName": "2-02",
       "metaName": [
         "2-02b"
       ],
@@ -2221,9 +2232,9 @@
       "theme": "reefs",
       "decription": "This map classifies the reefs of Chuuk Lagoon by their geomorphology. The dataset used here is the same as the one used for the reef zonation map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
       "fileName": "2-02a",
-      "gisName": "2-02a",
+      "gisName": "2-02_to_2-029",
       "metaName": [
-        "2-02a"
+        "2-02_and_2-09"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=680b765c65164c59a8a0fb39b610f956",
       "island": "chuuk"
@@ -2251,9 +2262,9 @@
       "theme": "reefs",
       "decription": "This map classifies the reefs of Chuuk Lagoon by zone. Reef zones describe the locations and ecological conditions of different parts of the reef with respect to the reef system as a whole. The dataset used here is the same as the one used for the reef geomorphology map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
       "fileName": "2-02b",
-      "gisName": "2-02",
+      "gisName": "2-02_and_2-09",
       "metaName": [
-        "2-02b"
+        "2-02_and_2-09"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=0b0efd3e9cfb4a2b9f0b5ff497d079ad",
       "island": "chuuk"
@@ -2352,24 +2363,6 @@
       "island": "pohnpei"
     },
     {
-      "id": "4-2-04a",
-      "groups_id": 10,
-      "category_id": 23,
-      "title": "Bathymetry",
-      "theme": "reefs",
-      "decription": "This map shows the bathymetry (depth to seafloor) around Chuuk Lagoon. The dataset was extracted from the 2020 General Bathymetric Chart of the Oceans (GEBCO) by the GEBCO Compilation Group (2020) as part of the Seabed 2030 Project. Known as the GEBCO 2020 Grid, this is a continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. It is an updated version of previous GEBCO Grids, first published in January 2009. Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
-      "fileName": "2-04a",
-      "gisName": "2-04a",
-      "metaName": [
-        "2-04a",
-        "2-04b",
-        "2-04c",
-        "2-04d"
-      ],
-      "interactiveMapURL": null,
-      "island": "chuuk"
-    },
-    {
       "id": "2-2-04a",
       "groups_id": 10,
       "category_id": 23,
@@ -2377,12 +2370,10 @@
       "theme": "reefs",
       "decription": "This map shows the bathymetry (depth to seafloor) around Kosrae. It was generated by AutoGrid (2019), a web application that creates grids and map images from multibeam bathymetry data. AutoGrid is a program by the National Oceanic and Atmospheric Administration (NOAA), National Centers for Environmental Information (NCEI, formerly NGDC). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
       "fileName": "2-04a",
-      "gisName": "2-04a",
+      "gisName": "2-04",
       "metaName": [
         "2-04a",
         "2-04b",
-        "2-04c",
-        "2-04d"
       ],
       "interactiveMapURL": null,
       "island": "kosrae"
@@ -2398,12 +2389,25 @@
       "gisName": "2-04b",
       "metaName": [
         "2-04a",
-        "2-04b",
-        "2-04c",
-        "2-04d"
+        "2-04b"
       ],
       "interactiveMapURL": null,
       "island": "kosrae"
+    },
+    {
+      "id": "4-2-04a",
+      "groups_id": 10,
+      "category_id": 23,
+      "title": "Bathymetry",
+      "theme": "reefs",
+      "decription": "This map shows the bathymetry (depth to seafloor) around Chuuk Lagoon. The dataset was extracted from the 2020 General Bathymetric Chart of the Oceans (GEBCO) by the GEBCO Compilation Group (2020) as part of the Seabed 2030 Project. Known as the GEBCO 2020 Grid, this is a continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. It is an updated version of previous GEBCO Grids, first published in January 2009. Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
+      "fileName": "2-04a",
+      "gisName": "2-04",
+      "metaName": [
+        "2-04a"
+      ],
+      "interactiveMapURL": null,
+      "island": "chuuk"
     },
     {
       "id": "3-2-04a",
@@ -2413,12 +2417,9 @@
       "theme": "reefs",
       "decription": "This map shows the bathymetry (depth to seafloor) around Yap. This map shows the bathymetry (depth to seafloor) around Yap. It was generated by AutoGrid (2019), a web application that creates grids and map images from multibeam bathymetry data. AutoGrid is a program by the National Oceanic and Atmospheric Administration (NOAA), National Centers for Environmental Information (NCEI, formerly NGDC). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
       "fileName": "2-04a",
-      "gisName": "2-04a",
+      "gisName": "2-04",
       "metaName": [
-        "2-04a",
-        "2-04b",
-        "2-04c",
-        "2-04d"
+        "2-04a"
       ],
       "interactiveMapURL": null,
       "island": "yap"
@@ -2431,12 +2432,9 @@
       "theme": "reefs",
       "decription": "This map shows the bathymetry (depth to seafloor) around Yap. This map shows the bathymetry (depth to seafloor) around Yap. It was generated by AutoGrid (2019), a web application that creates grids and map images from multibeam bathymetry data. AutoGrid is a program by the National Oceanic and Atmospheric Administration (NOAA), National Centers for Environmental Information (NCEI, formerly NGDC). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
       "fileName": "2-04b",
-      "gisName": "2-04b",
+      "gisName": "2-04",
       "metaName": [
-        "2-04a",
-        "2-04b",
-        "2-04c",
-        "2-04d"
+        "2-04b"
       ],
       "interactiveMapURL": null,
       "island": "yap"
@@ -2449,12 +2447,9 @@
       "theme": "reefs",
       "decription": "This map shows the bathymetry (depth to seafloor) around Chuuk Lagoon. The dataset was extracted from the 2020 General Bathymetric Chart of the Oceans (GEBCO) by the GEBCO Compilation Group (2020) as part of the Seabed 2030 Project. Known as the GEBCO 2020 Grid, this is a continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. It is an updated version of previous GEBCO Grids, first published in January 2009. Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
       "fileName": "2-04b",
-      "gisName": "2-04b",
+      "gisName": "2-04",
       "metaName": [
-        "2-04a",
-        "2-04b",
-        "2-04c",
-        "2-04d"
+        "2-04b"
       ],
       "interactiveMapURL": null,
       "island": "chuuk"
@@ -2484,7 +2479,7 @@
       "fileName": "2-05",
       "gisName": "2-05_to_2-08",
       "metaName": [
-        "2-05"
+        "2-05_to_2-08"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=b5e8773fd00741ae8f35b03972687c32",
       "island": "kosrae"
@@ -2529,7 +2524,7 @@
       "theme": "reefs",
       "decription": "This map shows the locations of popular dive sites and dive paths around Yap. The data layer was created by Island Research & Education Initiative (iREi) (2019) by digitizing and merging several different tourist maps available from dive centers in Yap. Locations of the sites are highly approximate.",
       "fileName": "2-06",
-      "gisName": "2-05_to_2-08",
+      "gisName": "2-05",
       "metaName": [
         "2-06a",
         "2-06b"
@@ -2547,8 +2542,7 @@
       "fileName": "2-06",
       "gisName": "2-05_to_2-08",
       "metaName": [
-        "2-06a",
-        "2-06b"
+        "2-05_to_2-08"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=1e3163360e0f44d494daf23438669c0a",
       "island": "chuuk"
@@ -2593,7 +2587,7 @@
       "fileName": "2-08",
       "gisName": "2-05_to_2-08",
       "metaName": [
-        "2-08"
+        "2-05_to_2-08"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=aa183cbb2282410588e3edab448cde72",
       "island": "kosrae"
@@ -2608,7 +2602,7 @@
       "fileName": "2-08",
       "gisName": "2-05_to_2-08",
       "metaName": [
-        "2-08"
+        "2-05_to_2-08"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=aa183cbb2282410588e3edab448cde72",
       "island": "chuuk"
@@ -2684,7 +2678,8 @@
       "fileName": "3-02",
       "gisName": "3-02",
       "metaName": [
-        "3-02"
+        "3-02a",
+        "3-02b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=dcf9caea65154ef28da6aec91e90579c",
       "island": "yap"
@@ -3225,8 +3220,7 @@
       "fileName": "4-01",
       "gisName": "4-01",
       "metaName": [
-        "4-01a",
-        "4-01b"
+        "4-01"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=1f5d377fe92d42aa989b78610fe60caa",
       "island": "yap"
@@ -3271,7 +3265,7 @@
       "fileName": "4-04",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-04"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=9a5b298ec5ea4def97b1125f64ba95af",
       "island": "pohnpei"
@@ -3286,7 +3280,7 @@
       "fileName": "4-04",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-04"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=262fab782ba14282ba554a059f17a834",
       "island": "yap"
@@ -3301,7 +3295,7 @@
       "fileName": "4-04",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-04"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=262fab782ba14282ba554a059f17a834",
       "island": "chuuk"
@@ -3316,7 +3310,7 @@
       "fileName": "4-04",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-04"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=c337695c7860463088aaaa0da2a860a7",
       "island": "kosrae"
@@ -3329,9 +3323,9 @@
       "theme": "vegetation",
       "decription": "This map shows the wetlands of Pohnpei. The information on mangroves was extracted from Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand [based on 2002 aerial photographs]. The information on marshes was extracted from data by L. Cairns, 1995, Department of Survey and Land Information, New Zealand, interpreted by P. Newsome and M. Page, Landcare Research, New Zealand [based on 1995 aerial photographs].",
       "fileName": "4-05",
-      "gisName": "4-05",
+      "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-05"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=56063e22d95f4e0098ff024f030ffef2",
       "island": "pohnpei"
@@ -3346,7 +3340,7 @@
       "fileName": "4-05",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-05"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=030251e115e94c5b8f3295475c48781e",
       "island": "kosrae"
@@ -3361,7 +3355,7 @@
       "fileName": "4-05",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-05"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=f51983b21a604b25aa8d132665b20afe",
       "island": "yap"
@@ -3376,7 +3370,7 @@
       "fileName": "4-05",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-05"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=f51983b21a604b25aa8d132665b20afe",
       "island": "chuuk"
@@ -3389,9 +3383,9 @@
       "theme": "vegetation",
       "decription": "This map shows the extent of upland forest on Pohnpei. This type of forest is known in Pohnpeian language as nanwel. The information on mangroves was extracted from Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Pohnpei 2002, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand [based on 2002 aerial photographs].",
       "fileName": "4-06",
-      "gisName": "4-06",
+      "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-06"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://ireimicronesia.maps.arcgis.com/apps/webappviewer/index.html?id=1adae6fd42094687a6d6b4295b75ad11",
       "island": "pohnpei"
@@ -3406,7 +3400,7 @@
       "fileName": "4-06",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-06"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=146bcc522516404dbb7f9f1e579bf6cc",
       "island": "kosrae"
@@ -3421,7 +3415,7 @@
       "fileName": "4-06",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-06"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=2f5212ea093e44fab03c795263e4e1dd",
       "island": "yap"
@@ -3436,7 +3430,7 @@
       "fileName": "4-06",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-06"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=2f5212ea093e44fab03c795263e4e1dd",
       "island": "chuuk"
@@ -3481,7 +3475,7 @@
       "fileName": "4-07",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-07"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=08ed279fc8174494a9cb6eab777b0d31",
       "island": "yap"
@@ -3496,7 +3490,7 @@
       "fileName": "4-07",
       "gisName": "4-04_to_4-07",
       "metaName": [
-        "4-07"
+        "4-04_to_4-07"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=08ed279fc8174494a9cb6eab777b0d31",
       "island": "chuuk"
@@ -3554,9 +3548,9 @@
       "theme": "population",
       "decription": "This map shows the municipalities in Chuuk Lagoon. The layer was created by Island Research & Education Initiative (iREi) (2020) from the most recent base layer. Islands were classified into municipalities as per information in the Chuuk State Constitution. Only the main islands were classified, and all low-lying islands were left undefined due to uncertain status or lack of information. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
       "fileName": "5-01",
-      "gisName": "5-01",
+      "gisName": "5-01_to_5-03",
       "metaName": [
-        "5-01"
+        "5-01_5-03"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=d95f96af82d545749fa35d3bb7a9ff30",
       "island": "chuuk"
@@ -3644,9 +3638,9 @@
       "theme": "population",
       "decription": "This map shows the principal regions and sub-regions in Chuuk Lagoon. The layer was created by Island Research & Education Initiative (iREi) (2020) from the most recent base layer. Islands were grouped into regions commonly used by Chuuk State government and further into culturally-established sub-regions. Only the main islands were classified. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
       "fileName": "5-03",
-      "gisName": "5-03",
+      "gisName": "5-01_to_5-03",
       "metaName": [
-        "5-03"
+        "5-01_5-03"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=e7dd0d7b7b654dc9886a68e1a5d5151f",
       "island": "chuuk"
@@ -4032,7 +4026,7 @@
       "category_id": 43,
       "title": "Ethnicity",
       "theme": "population",
-      "decription": "This map shows the percentage of ethnically Kosraean residents by municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual dataset contain more detailed information on the full range of specific ethnic identities involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2000) and the FSM census of population and housing (2010).",
+      "decription": "This map shows the percentage of ethnically Yapese residents by municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual dataset contain more detailed information on the full range of specific ethnic identities involved. This dataset was created by Island Research & Education Initiative (iREi) (2019) using information from the FSM census of population and housing (2010).",
       "fileName": "5-11",
       "gisName": "5-11",
       "metaName": [
@@ -5236,7 +5230,8 @@
       "fileName": "6-05",
       "gisName": "6-05",
       "metaName": [
-        "6-05"
+        "6-05a",
+        "6-05b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=d26ac64deabd47949a25012ea8e29954",
       "island": "kosrae"
@@ -5251,7 +5246,8 @@
       "fileName": "6-05",
       "gisName": "6-05",
       "metaName": [
-        "6-05"
+        "6-05a",
+        "6-05b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=fe6a809fa76748bea15c58da5e7a5899",
       "island": "yap"
@@ -5266,7 +5262,8 @@
       "fileName": "6-05",
       "gisName": "6-05",
       "metaName": [
-        "6-05"
+        "6-05a",
+        "6-05b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=d26ac64deabd47949a25012ea8e29954",
       "island": "chuuk"
@@ -6406,7 +6403,8 @@
       "fileName": "6-28",
       "gisName": "6-28",
       "metaName": [
-        "6-28"
+        "6-28a",
+        "6-28b",
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=146e1dcc005744118524f9c69f2488ea",
       "island": "yap"
@@ -6724,7 +6722,8 @@
       "fileName": "8-03",
       "gisName": "8-03",
       "metaName": [
-        "8-03"
+        "8-03a",
+        "8-03b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=ab31f427a7134e96869d4a37bde8a185",
       "island": "kosrae"
@@ -6771,9 +6770,7 @@
       "fileName": "8-05",
       "gisName": "8-05",
       "metaName": [
-        "8-05a",
-        "8-05b",
-        "8-05c"
+        "8-05"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=d81dd1a1cd1c498a9b1be93b12c0ba57",
       "island": "yap"
@@ -6788,9 +6785,7 @@
       "fileName": "8-05",
       "gisName": "8-05",
       "metaName": [
-        "8-05a",
-        "8-05b",
-        "8-05c"
+        "8-05"
       ],
       "interactiveMapURL": "https://pohepei-maps.maps.arcgis.com/apps/webappviewer/index.html?id=e63c2070295b4faeb290bfd5aa7176ac",
       "island": "chuuk"

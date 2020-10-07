@@ -11,7 +11,7 @@
               <a-select-option value="Yap">
                 Yap
               </a-select-option>
-              <a-select-option value="Chuuk" disabled>
+              <a-select-option value="Chuuk">
                 Chuuk
               </a-select-option>
               <a-select-option value="Pohnpei">

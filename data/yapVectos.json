@@ -208,7 +208,7 @@
       "geometry": "Polygon",
       "filetype": "Esri Shapefile",
       "Description": "the vegetation of Yap in 1975. It was derived by Landcare research from 1975 Vegetation Survey Maps of Yap. The original hardcopy map was created as part of the following publication: MacLean, C.D., Cole, T.G., Whitesell, C.D., Falanruw, M.V., and Ambacher, A.H. (1986). Vegetation Survey of Yap, Federated States of Micronesia. U.S. Department of Agriculture (USDA), Resource Bulletin PSW-18. It was also included in Newsome, P. F., M. J. Page, and H. A. Heke (2003), Vegetation Map of Yap 1995, Federated States of Micronesia. Unpublished Contract Report LC0203/079, Landcare Research, New Zealand. The dataset was shifted modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
-      "file": "/vegetation/4-04_to_4-07.zip"
+      "file": "/vegetation/4-01.zip"
     },
     {
       "id": "3-4-04",

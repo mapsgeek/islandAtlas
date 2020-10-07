@@ -16,14 +16,14 @@
               <h2 class="title">{{map.title}}</h2>
               <p class="description">{{map.decription}}</p>
               <div class="buttons">
-                <nuxt-link :to="`${theme}/map/${map.fileName}`" class="ant-dropdown-link">
+                <nuxt-link :to="`/${island}/${theme}/map/${map.fileName}`" class="ant-dropdown-link">
                   View Map
                 </nuxt-link>
-                <nuxt-link :to="`${theme}/interactive/${map.id}`" class="ant-dropdown-link" :disabled="map.interactiveMapURL===null">
+                <nuxt-link :to="`/${island}/${theme}/interactive/${map.id}`" class="ant-dropdown-link" :disabled="map.interactiveMapURL===null || map.island==='chuuk'">
                   View Layers
                 </nuxt-link>
                 <!-- :NOTE temporary -->
-                <nuxt-link :to="`${theme}/metadata/${map.id}`" class="ant-dropdown-link">
+                <nuxt-link :to="`/${island}/${theme}/metadata/${map.id}`" class="ant-dropdown-link">
                   View Metadata
                 </nuxt-link>
                 <a-dropdown placement="bottomCenter" :trigger="['hover']">
@@ -204,7 +204,7 @@ export default {
     }
   },
   beforeDestroy() {
-    console.log(this.activeKey)
+    // console.log(this.activeKey)
     if (process.client) {
       localStorage.setItem('mapKey', JSON.stringify(this.activeKey))
     }
