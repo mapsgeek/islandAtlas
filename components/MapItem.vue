@@ -23,7 +23,7 @@
                   View Layers
                 </nuxt-link>
                 <!-- :NOTE temporary -->
-                <nuxt-link :to="`/${island}/${theme}/metadata/${map.id}`" class="ant-dropdown-link">
+                <nuxt-link :to="`/${island}/${theme}/metadata/${map.id}`" class="ant-dropdown-link" :disabled="map.metaName===null">
                   View Metadata
                 </nuxt-link>
                 <a-dropdown placement="bottomCenter" :trigger="['hover']">

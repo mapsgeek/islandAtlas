@@ -623,9 +623,7 @@
       "decription": "This map showcases 2004-2007 satellite imagery of Kosrae taken by Digital Globe’s QuickBird satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Kosrae are omitted from the map.",
       "fileName": "0-01",
       "gisName": null,
-      "metaName": [
-        "0-1"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "kosrae"
     },
@@ -638,9 +636,7 @@
       "decription": "This map showcases 2005 satellite imagery of Yap taken by Digital Globe’s QuickBird satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Yap are omitted from the map.",
       "fileName": "0-01",
       "gisName": null,
-      "metaName": [
-        "0-1"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "yap"
     },
@@ -653,9 +649,7 @@
       "decription": "This map showcases 2004-2006 satellite imagery of Chuuk taken by Digital Globe’s QuickBird satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Chuuk are omitted from the map.",
       "fileName": "0-01",
       "gisName": null,
-      "metaName": [
-        "0-1"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "chuuk"
     },
@@ -683,9 +677,7 @@
       "decription": "This map showcases 2004-2007 satellite imagery of Kosrae taken by Digital Globe’s QuickBird satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in color infrared. Image portions that fall outside the barrier reef of Kosrae are omitted from the map.",
       "fileName": "0-02",
       "gisName": null,
-      "metaName": [
-        "0-2"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "kosrae"
     },
@@ -698,9 +690,7 @@
       "decription": "This map showcases 2009 satellite imagery of Chuuk taken by Digital Globe’s QuickBird satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Chuuk are omitted from the map.",
       "fileName": "0-02",
       "gisName": null,
-      "metaName": [
-        "0-2"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "chuuk"
     },
@@ -728,9 +718,7 @@
       "decription": "This map showcases 2015-2018 satellite imagery of Kosrae taken by Digital Globe’s WorldView-2 satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Kosrae are omitted from the map.",
       "fileName": "0-03",
       "gisName": null,
-      "metaName": [
-        "0-3"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "kosrae"
     },
@@ -743,9 +731,7 @@
       "decription": "This map showcases 2010 satellite imagery of Yap taken by Digital Globe’s WorldView-2 satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Yap are omitted from the map.",
       "fileName": "0-02",
       "gisName": null,
-      "metaName": [
-        "0-2"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "yap"
     },
@@ -773,9 +759,7 @@
       "decription": "This map showcases 2014 satellite imagery of Chuuk taken by Digital Globe’s WorldView-2 satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Chuuk are omitted from the map.",
       "fileName": "0-03",
       "gisName": null,
-      "metaName": [
-        "0-3"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "chuuk"
     },
@@ -803,9 +787,7 @@
       "decription": "This map showcases 2016 satellite imagery of Kosrae taken by Digital Globe’s WorldView-3 satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Kosrae are omitted from the map.",
       "fileName": "0-04",
       "gisName": null,
-      "metaName": [
-        "0-4"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "kosrae"
     },
@@ -818,9 +800,7 @@
       "decription": "This map showcases 2016 satellite imagery of Yap taken by Digital Globe’s WorldView-3 satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Yap are omitted from the map.",
       "fileName": "0-04",
       "gisName": null,
-      "metaName": [
-        "0-4"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "yap"
     },
@@ -833,9 +813,7 @@
       "decription": "This map showcases satellite imagery of Chuuk taken between 2015 and 2016 by Digital Globe’s WorldView-2 satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Chuuk are omitted from the map.",
       "fileName": "0-04",
       "gisName": null,
-      "metaName": [
-        "0-4"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "chuuk"
     },
@@ -848,9 +826,7 @@
       "decription": "This map showcases satellite imagery of Chuuk taken between 2018 and 2019 by Digital Globe’s WorldView-2 satellite. The data were purchased and processed by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The image shown here is in natural color. Image portions that fall outside the barrier reef of Chuuk are omitted from the map.",
       "fileName": "0-05",
       "gisName": null,
-      "metaName": [
-        "0-4"
-      ],
+      "metaName": null,
       "interactiveMapURL": null,
       "island": "chuuk"
     },
@@ -1225,7 +1201,7 @@
       "category_id": 5,
       "title": "Elevation intervals",
       "theme": "land",
-      "decription": "This map shows the elevation of terrain on Yap. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1969. The DEM was classified into elevation intervals and colored based on elevation in meters above sea level.",
+      "decription": "This map shows the elevation of terrain of islands in Chuuk Lagoon. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968. The DEM was classified into elevation intervals and colored based on elevation in meters above sea level.",
       "fileName": "1-06",
       "gisName": "1-06_to_1-08",
       "metaName": [
@@ -2373,7 +2349,7 @@
       "gisName": "2-04",
       "metaName": [
         "2-04a",
-        "2-04b",
+        "2-04b"
       ],
       "interactiveMapURL": null,
       "island": "kosrae"
@@ -6404,7 +6380,7 @@
       "gisName": "6-28",
       "metaName": [
         "6-28a",
-        "6-28b",
+        "6-28b"
       ],
       "interactiveMapURL": "https://helaportal.maps.arcgis.com/apps/View/index.html?appid=146e1dcc005744118524f9c69f2488ea",
       "island": "yap"

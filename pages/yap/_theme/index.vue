@@ -3,7 +3,9 @@
     <div style="background-color:#f6f9fc;">
       <div class="page">
         <h1 style="text-align:center;margin-bottom: 35px;">WAQAB (YAP PROPER) MAPS:<span v-bind:class="`${theme}color`"> {{theme}}</span></h1>
-        <!-- <a-skeleton v-if="$apollo.queries.groups.loading" active /> -->
+        <client-only>
+          <a-skeleton v-if="$apollo.queries.groups.loading" active />
+        </client-only>
         <MapItem :maps=groups :island='"yap"' :theme="theme" />
       </div>
     </div>

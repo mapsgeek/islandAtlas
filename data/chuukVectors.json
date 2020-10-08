@@ -1,0 +1,864 @@
+{
+  "vectors": [
+    {
+      "id": "4-1-01",
+      "name": "Shoreline",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The shoreline and the land area of all islands in Chuuk Lagoon and on the barrier reef. It actually contains two datasets: the shoreline itself and Chuuk base layer. Both were created by Island Research & Education Initiative (iREi) (2020). The shoreline was manually digitized based on Worldview-2 satellite imagery from Digital Globe (2014 and 2018-2019 for selected urban areas) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) while the reef areas were generally based on the Digital Line Graphs (DGLs) by U.S. Geological Survey (USGS) but shifted and adjusted to follow current imagery better. The base layer distinguishes high islands from low islands, lagoon reefs from lagoon bottom, and barrier reef flats from deeper and permanently submerged parts of the barrier reef.",
+      "file": "/land/1-01.zip"
+    },
+    {
+      "id": "4-1-02 to 1-03",
+      "name": "10-m elevation contours",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "This map represents the topography of islands in Chuuk Lagoon. It shows elevation contour lines at 10-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) (2020) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968 and the shoreline dataset representing the zero contour line.",
+      "file": "/land/1-02_to_1-03.zip"
+    },
+    {
+      "id": "4-1-04 to 1-05",
+      "name": "50-m elevation contours",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "This map represents the topography of islands in Chuuk Lagoon. It shows elevation contour lines at 50-meter intervals. Depicted in greyscale, the contour lines were derived by Island Research & Education Initiative (iREi) (2020) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968 and the shoreline dataset representing the zero contour line.",
+      "file": "/land/1-04_to_1-05.zip"
+    },
+    {
+      "id": "4-1-16 to 1-18",
+      "name": "Basic soil types",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The basic soil types of the islands in Chuuk Lagoon. The original dataset was created by the U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) (1983) as part of the soil survey of the Islands of Truk, Federated States of Micronesia at 1:10,000 scale. Soil map unit delineations were confirmed as accurate during a subsequent evaluation (1999). The data layer was created by Island Research & Education Initiative (iREi) (2019) by extracting and formatting a subset of the Gridded Soil Survey Geographic (gSSURGO) Database for Federated States of Micronesia (2019) created by USDA-NRCS.",
+      "file": "/land/1-16_to_1-18.zip"
+    },
+    {
+      "id": "4-1-15",
+      "name": "Benchmarks",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The location of survey control points established on the islands of Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2019) by creating a subset of the Digital Line Graphs (DGLs) by U.S. Geological Survey (USGS). The dataset was shifted to follow current imagery better. The exact location in this dataset may not be accurate.",
+      "file": "/land/1-15.zip"
+    },
+    {
+      "id": "4-1-20",
+      "name": "General geology",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The general geology of the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) by scanning, georeferencing, and digitizing a set of paper maps prepared under the direction of the Engineer, Hq AFFE/8A, by the US Army Map Service, Far East; based on field investigations by the Military Geology Branch, Intelligence Division, Office of the Engineer, Hq, US Army Japan. Fieldwork conducted in 1954-1955 by JT Stark, RL Hay, HG May, and ED Patterson; maps are titled \"Geology, Truk Islands\" and were compiled in 1957 by photogrammetric (multiplex) methods.",
+      "file": "/land/1-20.zip"
+    },
+    {
+      "id": "4-1-21",
+      "name": "General physiography",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The general physiography of the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2019) by scanning, georeferencing, and digitizing a set of paper maps prepared under the direction of the Engineer, Hq AFFE/8A, by the US Army Map Service, Far East; based on interpretations for road and airfield constructions by Harold G. May, 1954-1955; maps are titled \"Suitability for Road and Airfield Construction Map, Truk Islands\" and were compiled in 1957 by photogrammetric (multiplex) methods.",
+      "file": "/land/1-21.zip"
+    },
+    {
+      "id": "4-1-22",
+      "name": "Prominent caves",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of prominent caves on Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) by manually digitizing features from the topographic map of Chuuk, 1:25,000 scale, published by the U.S. Geological Survey (1996-1997). The locations are approximate and none were verified in the field. Along with the location, we noted the approximate directions of the caves' openings, as marked on the topographic maps. It should be noted that high islands of Chuuk Lagoon have no karst terrain, so all caves found there are in volcanic units. They include both natural caves (lava tubes and cliff-base rock shelters) and human-made caves (mostly excavated for defensive purposes by the Japanese military during World War II).",
+      "file": "/land/1-21.zip"
+    },
+    {
+      "id": "4-1-25",
+      "name": "Unique landforms",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The most prominent and unique natural landforms, such as rock and reef formations and other geological sites of interest in Chuuk Lagoon. This layer was created by Island Research & Education Initiative (iREi) (2020) using field observations and location data from a variety of sources. The selection of included sites is not definitive and the layer will be appended with more fieldwork in the future.",
+      "file": "/land/1-25.zip"
+    },
+    {
+      "id": "4-1-14",
+      "name": "Hilltops",
+      "general": "Land",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of prominent peaks on the high islands in Chuuk Lagoon. This data layer was developed by Island Research & Education Initiative (iREi) (2020) by extracting a subset of the U.S. Geological Survey's Geographic Names Information System (GNIS). Note that the actual names contained in the dataset are copied exactly as they are in GNIS and are not necessarily correct or aligned with Chuukese orthography.",
+      "file": "/land/1-14.zip"
+    },
+    {
+      "id": "4-2-01",
+      "name": "Extent of coral reefs",
+      "general": "Reefs",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The extent of coral reefs of Chuuk Lagoon. The data layer shown here is a subset of Chuuk base layer created by Island Research & Education Initiative (iREi) (2020) by manually digitizing of shorelines and from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (1996-1997). The shoreline was created in entirety and coral reef features were slightly shifted and partially modified based on Worldview-2 satellite imagery from Digital Globe (2015-2016) provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/reefs/2-01.zip"
+    },
+    {
+      "id": "4-2-02 and 2-09",
+      "name": "Reef geomorphology",
+      "general": "Reefs",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "This map classifies the reefs of Chuuk Lagoon by their geomorphology. The dataset used here is the same as the one used for the reef zonation map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
+      "file": "/reefs/2-02_and_2-09.zip"
+    },
+    {
+      "id": "4-2-02b and 2-09",
+      "name": "Reef habitat types",
+      "general": "Reefs",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "This map classifies the reefs around Yap by their geomorphology. The dataset used here is the same as the one used for the reef zonation map. It was created by the Millennium Coral Reef Mapping Project by the Institute for Marine Remote Sensing - University of South Florida (IMaRS-USF) and the Institut de Recherche Pour le Développement (IRD) (2005). Island Research & Education Initiative (iREi) (2019) extracted a subset of the original dataset and formatted it for use in this atlas.",
+      "file": "/reefs/2-02_and_2-09.zip"
+    },
+    {
+      "id": "4-2-03",
+      "name": "Passes and channels",
+      "general": "Reefs",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of the passes in the barrier reef allowing entry of large vessels from open ocean into Chuuk Lagoon, as well as the most prominent reef and mangrove channels allowing transit and shore access by small boats and canoes. This data layer was derived by Island Research & Education Initiative (iREi) (2020) from data from Geographic Names Information System (GNIS), Geoview, and Student Atlas of Chuuk, published by Island Research & Education Initiative (iREi) (2018). We have updated many place names to reflect modern Chuukese orthography, but they are still subject to verification and correction if necessary.",
+      "file": "/reefs/2-03.zip"
+    },
+    {
+      "id": "4-2-05 to 2-08",
+      "name": "Recreation",
+      "general": "Reefs",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of popular dive sites in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) by digitizing several tourist and historic maps depicting the sites of WWII wrecks in Chuuk Lagoon and cross-referencing them with exact location data reported by Jeffery (2007), war graves, munition dumps and pleasure grounds: A post- colonial perspective of Chuuk Lagoon’s submerged World War II sites; as well as Jeffery (2012), The future of Chuuk Lagoon's submerged WW II sites. All dive sites shown here are sunken ships, planes, and related war remains.",
+      "file": "/reefs/2-05_to_2-08.zip"
+    },
+    {
+      "id": "4-3-02",
+      "name": "Streams and rivers [USGS version]",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "The rivers and streams on the islands in Chuuk Lagoon as represented on the U.S. Geological Survey (USGS) 1:25,000-scale topographic maps (1996-1997). The dataset was extracted from the Digital Line Graphs (DLGs) from USGS and names from the Geographic Names Information System (GNIS) by Island Research & Education Initiative (iREi) (2020) and slightly modified to match the new base layer.",
+      "file": "/water/3-02.zip"
+    },
+    {
+      "id": "4-3-03",
+      "name": "Stream outflow points",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The natural outflow locations on the islands in Chuuk Lagoon, defined as points where streams and rivers discharge into the lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020) by identifying the points where streams and rivers from 1:25,000-scale U.S. Geological Survey topographic maps (1996-1997) intersect with the most recent shoreline of Chuuk. Please note that the points are somewhat arbitrary and approximate because many streams discharge into mangrove areas rather then directly into the lagoon and lack particular channels or single outflow locations.",
+      "file": "/water/3-03.zip"
+    },
+    {
+      "id": "4-3-04",
+      "name": "Flow paths",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "The theoretical drainage pattern on the islands in Chuuk Lagoon. The flow paths were delineated by Island Research & Education Initiative (iREi) (2020). This was done by Maria Kottermair through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968. Note that in very flat low-lying areas the data may indicate straight lines that are an artifact of the modeling process and do not reflect reality.",
+      "file": "/water/3-04.zip"
+    },
+    {
+      "id": "4-3-06",
+      "name": "Principal watersheds",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The principal watersheds (drainage basins) on the islands in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020). Basin boundaries were delineated by Maria Kottermair through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968. Note that basin boundaries shown are modeled and, as such, reflect the DEM and not necessarily actual situation on the ground. The watershed boundaries may differ from actual management units, especially as smaller basins were sometimes merged to a ‘principal’ watershed to avoid too many small remnant basins.",
+      "file": "/water/3-06.zip"
+    },
+    {
+      "id": "4-3-07",
+      "name": "Sub-watersheds",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The principal watersheds (drainage basins) and their sub-watersheds on the islands in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020). All boundaries were delineated by Maria Kottermair through hydrological modeling using a 10-meter Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968. Note that apparently unnatural boundaries such as series of straight, parallel lines are artifacts of modeling and do not reflect reality.",
+      "file": "/water/3-07.zip"
+    },
+    {
+      "id": "4-3-08",
+      "name": "Waterfalls",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of waterfalls on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), using field observations and information provided as KML files by Nely Mori Ruben (Chuuk Visitor's Bureau).",
+      "file": "/water/3-08.zip"
+    },
+    {
+      "id": "4-3-09",
+      "name": "Gaging stations",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of the U.S. Geological Survey gaging stations on Weno and Tonoas islands. The dataset was extracted by Island Research & Education Initiative (iREi) (2020) from Digital Line Graphs (DLGs). The DLGs were created by U.S. Geological Survey for the 1:25,000-scale topographic maps (1996-1997).",
+      "file": "/water/3-09.zip"
+    },
+    {
+      "id": "4-3-10",
+      "name": "Weather stations",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The location of the active weather observation sites on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) using location information obtained from the National Weather Service office in Guam.",
+      "file": "/water/3-10.zip"
+    },
+    {
+      "id": "4-3-13",
+      "name": "Freshwater sources [springs and shallow wells]",
+      "general": "Water",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of the freshwater sources recorded on the topographic map of Chuuk, 1:25,000 scale, published by the U.S. Geological Survey (2001). The dataset distinguishes between springs and wells, as shown on the original map. The wells are mostly shallow, dug wells, but may also include deeper, drilled wells on Weno and other islands. The data layer was created by Island Research & Education Initiative (iREi) (2020) by manually digitizing features from the USGS topographic map. The locations are approximate and may include features that no longer exist. It should be noted that Chuuk Lagoon has no karst terrain on high islands, so all groundwater there issues from volcanic aquifers.",
+      "file": "/water/3-13.zip"
+    },
+    {
+      "id": "4-4-04",
+      "name": "Vegetation (2004-2006)",
+      "general": "Vegetation",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the vegetation of Yap in 2005. The dataset was developed from 2005 QuickBird satellite imagery by Digital Globe through land cover classification carried out by U.S. Forest Service (2007). The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "4-4-05",
+      "name": "Wetlands",
+      "general": "Vegetation",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the wetlands of Yap, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2005 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery.",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "4-4-06",
+      "name": "Upland forests",
+      "general": "Vegetation",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the extent of upland forest on Yap, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2005 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery.",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "4-4-07",
+      "name": "Agroforests",
+      "general": "Vegetation",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "the extent of agroforest on Yap, as mapped by the U.S. Forest Service (2007) through land cover classification based on 2005 QuickBird satellite imagery by Digital Globe. The dataset was slightly modified by Island Research & Education Initiative (iREi) (2019) to better match 2016 WorldView-3 satellite imagery.",
+      "file": "/vegetation/4-04_to_4-07.zip"
+    },
+    {
+      "id": "4-5-01",
+      "name": "Municipalities [areas]",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The municipalities in Chuuk Lagoon. The layer was created by Island Research & Education Initiative (iREi) (2020) from the most recent base layer. Islands were classified into municipalities as per information in the Chuuk State Constitution. Only the main islands were classified, and all low-lying islands were left undefined due to uncertain status or lack of information. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+      "file": "/population/5-01.zip"
+    },
+    {
+      "id": "4-5-03",
+      "name": "Regions and sub-regions",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The principal regions and sub-regions in Chuuk Lagoon. The layer was created by Island Research & Education Initiative (iREi) (2020) from the most recent base layer. Islands were grouped into regions commonly used by Chuuk State government and further into culturally-established sub-regions. Only the main islands were classified. Note that boundaries shown in this map are not definite. This map does not constitute any sort of recommendation, claim, or endorsement.",
+      "file": "/population/5-03.zip"
+    },
+    {
+      "id": "4-5-05",
+      "name": "Capitals",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of the Chuuk State capital Weno, the historic capital Tonoas, and the capital villages of the individual municipalities in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) from information contributed by informants from different municipalities.",
+      "file": "/population/5-05.zip"
+    },
+    {
+      "id": "4-5-07",
+      "name": "Place names",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of all named geographic features on Chuuk Lagoon that are contained within the Geographic Names Information System (GNIS). The GNIS is the official database that contains all standard toponyms in the U.S. and its territories and associated states. It was developed by the U.S. Geological Survey (USGS) in cooperation with the U.S. Board on Geographic Names (BGN) in order to standardize place names. Island Research & Education Initiative (iREi) (2020) transferred this information to GIS format and shifted to match the most recent base layer and 2016 WorldView-2 satellite imagery provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). Note that the actual names contained in the dataset are copied exactly as they are in GNIS and are not necessarily correct or aligned with Chuukese orthography.",
+      "file": "/population/5-07.zip"
+    },
+    {
+      "id": "4-5-08",
+      "name": "Population by age and sex",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The number of residents of Chuuk Lagoon by municipality, and also provides information on sex and age distribution in the form of population pyramids for each municipality. The attribute tables in the actual dataset also contain information on median age and average annual population growth rate. This geospatial dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-08.zip"
+    },
+    {
+      "id": "4-5-09",
+      "name": "Population density and growth",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The population density of Chuuk Lagoon by municipality, and also provides information on population growth in Chuuk from 1920 until 2010. The map was created using the same data layer as the map that shows population by age and sex. This geospatial dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-09.zip"
+    },
+    {
+      "id": "4-5-10",
+      "name": "Birthplace",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of residents born outside of Chuuk Lagoon by municipality. The attribute tables in the actual dataset contain very detailed information on specific places of birth and citizenship status. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-10.zip"
+    },
+    {
+      "id": "4-5-11",
+      "name": "Ethnicity",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of ethnically Chuukese residents by Chuuk Lagoon municipality, and also provides information on the relative proportion of people identifying with one vs. more than one ethnicity. The attribute tables in the actual dataset contain more detailed information on the full range of specific ethnic identities involved. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-11.zip"
+    },
+    {
+      "id": "4-5-12",
+      "name": "Religion",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The religious affiliation of Chuuk Lagoon residents aged 15 and above by municipality. The attribute tables in the actual dataset contain more detailed information on specific churches involved (or absence of religious belief) and on marital status. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-12.zip"
+    },
+    {
+      "id": "4-5-13",
+      "name": "Literacy and language",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The literacy rate of Chuuk Lagoon residents aged 5 and above by municipality, and also provides information on the first language spoken. The attribute tables in the actual dataset contain more detailed information on literacy levels in specific languages spoken as the first or second language for persons aged 5, as well as the specific languages predominantly spoken in households for persons aged 3 and above. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-13.zip"
+    },
+    {
+      "id": "4-5-14",
+      "name": "School enrollment",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of Chuuk Lagoon residents aged 3 and above enrolled in schools by municipality, and also provides information on the number of students attending different types of schools. The attribute tables in the actual dataset contain more detailed information, including separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-14.zip"
+    },
+    {
+      "id": "4-5-15",
+      "name": "Educational attainment",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of Chuuk Lagoon residents aged 25 and above who graduated high school and also provides information on the highest level of education attained by municipality. The attribute tables in the actual dataset contain information at a higher resolution (breakdown by individual grade levels) and separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-15.zip"
+    },
+    {
+      "id": "4-5-16",
+      "name": "Disabilities",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of Chuuk Lagoon residents with disabilities by municipality. The attribute tables in the actual dataset contain more detailed information on specific disabilities (seeing, hearing, walking, remembering, etc.), number of disabilities, disability levels, and separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-16.zip"
+    },
+    {
+      "id": "4-5-17",
+      "name": "Labor force",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of Chuuk Lagoon residents aged 15 and above who are in labor force per municipality, and also provides information on what portions of the labor force are formally employed, employed in home production, or unemployed. The attribute tables in the actual dataset contain more detailed information, including separate data for females and males. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-17.zip"
+    },
+    {
+      "id": "4-5-18",
+      "name": "Home production",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of Chuuk Lagoon residents aged 15 and above who are engaged in home production per municipality, and also provides information on what portions of home production are intended for own consumption, sale, or both. The attribute tables in the actual dataset also contain information on formal employment, including types of jobs, general areas of employment, and the type of employer. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-18.zip"
+    },
+    {
+      "id": "4-5-19",
+      "name": "Household type",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The average number of persons per household in each municipality in Chuuk Lagoon, and also provides information on the percentage of family members vs. non-family members within the households. The attribute tables in the actual dataset contain more detailed information on types of relationships between household members, number of persons living in group quarters (school dormitories, correctional facilities, etc.), and average number of persons per family. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-19.zip"
+    },
+    {
+      "id": "4-5-20",
+      "name": "Housing tenure",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The ownership status of households (owned free and clear of loan vs. owned with loan or rented) and land (owned vs. leased) in each municipality in Chuuk Lagoon. The attribute tables in the actual dataset contain more detailed information on specific ownership types involved. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-20.zip"
+    },
+    {
+      "id": "4-5-21",
+      "name": "Housing structure",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The average number of rooms per household and the building materials used to make house roofs and walls in each municipality in Chuuk Lagoon. The attribute tables in the actual dataset also contain information on specific building types, floor construction materials, age of buildings, and the number of persons per household and per room. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-21.zip"
+    },
+    {
+      "id": "4-5-22",
+      "name": "Principal sources of water for drinking and washing",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of households in each municipality in Chuuk Lagoon that have access to piped water, and also provides information on specific sources used to obtain fresh water for drinking and washing. The attribute tables in the actual dataset also contain information on toilet types and sewage disposal types in households. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-22.zip"
+    },
+    {
+      "id": "4-5-23",
+      "name": "Principal sources of energy for cooking and lighting",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of households in each municipality in Chuuk Lagoon that have complete kitchen facilities, and also provides information on energy sources for lighting and cooking. The attribute tables in the actual dataset contain more detailed information on specific types of energy sources. This dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-23.zip"
+    },
+    {
+      "id": "4-5-24",
+      "name": "Households with selected appliances",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of households in each municipality in Chuuk Lagoon that possess a sink and/or a refrigerator. The attribute tables in the actual dataset contain more detailed information on specific numbers of sinks and refrigerators, as well as other amenities including air conditioning units, generators, DVD/VCR players, and television sets with and without cable TV connection. The dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-24.zip"
+    },
+    {
+      "id": "4-5-25",
+      "name": "Households with vehicles",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of households in each municipality in Chuuk Lagoon that have at least one car, and also provides information on the total number of households with cars, boats with engine, and canoes and boats without engine. The attribute tables in the actual dataset also contain information about other vehicles (trucks, buses, motorbikes) and detailed information on specific numbers of each vehicle type per household. The dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-25.zip"
+    },
+    {
+      "id": "4-5-26",
+      "name": "Households with telephones",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of households in each municipality in Chuuk Lagoon that have at least one telephone land line, and also provides information on the relative availability of cell phones. The attribute tables in the actual dataset also contain detailed information on the number of fixed and cellular phones, as well as radios and computers per household. The dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-26.zip"
+    },
+    {
+      "id": "4-5-27",
+      "name": "Internet usage",
+      "general": "Population",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The percentage of households in each municipality in Chuuk Lagoon that have a functioning Internet connection, and also provides information on the relative number of people who access the Internet. The attribute tables in the actual dataset contain more detailed information on the frequency of Internet use. The dataset was created by Island Research & Education Initiative (iREi) (2020) using information from the FSM census of population and housing (2010).",
+      "file": "/population/5-27.zip"
+    },
+    {
+      "id": "4-6-01",
+      "name": "Roads",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Line",
+      "filetype": "Esri Shapefile",
+      "Description": "The road network on the islands in Chuuk Lagoon. It only includes major roads. The dataset was created by Island Research & Education Initiative (iREi) (2020), by extracting data from the Open Street Map (2020) and formatting it for use in this atlas.",
+      "file": "/infrastructure/6-01.zip"
+    },
+    {
+      "id": "4-6-02",
+      "name": "Bridges and causeways",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "This map shows major bridges and causeways on the islands in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020), based on 2016 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/infrastructure/6-02.zip"
+    },
+    {
+      "id": "4-6-03",
+      "name": "Docks, piers, marinas, anchorages",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The most significant docks, piers, marinas, and anchorages in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020) by interpreting 2016 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) and compiling locations from a variety of sources, notably Geoview.",
+      "file": "/infrastructure/6-03.zip"
+    },
+    {
+      "id": "4-6-04",
+      "name": "Port and airport locations",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of the international port and airport in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020), based on 2016 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/infrastructure/6-04.zip"
+    },
+    {
+      "id": "4-6-05",
+      "name": "Port and airport zones",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The international port and airport zones in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020) by outlining polygons based on 2016 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS). The dataset also includes the outline of the runway. The boundaries are not authoritative.",
+      "file": "/infrastructure/6-05.zip"
+    },
+    {
+      "id": "4-6-06",
+      "name": "Locations of houses and other buildings",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The footprints of key government offices (state, national, foreign) and other major buildings on the islands in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020) by manually digitizing all structures visible in 2014 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS) and then converting the polygons into central points.",
+      "file": "/infrastructure/6-06.zip"
+    },
+    {
+      "id": "4-6-07",
+      "name": "Footprints of houses and other buildings",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The footprints of key government offices (state, national, foreign) and other major buildings on the islands in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020) by manually digitizing all structures visible in 2014 WorldView-2 satellite imagery by Digital Globe provided by U.S. Department of Agriculture (USDA) - Natural Resources Conservation Service (NRCS).",
+      "file": "/infrastructure/6-07.zip"
+    },
+    {
+      "id": "4-6-08",
+      "name": "Public sector",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The footprints of key government offices (state, national, foreign) and other major quasi-governmental and non-governmental entities on the islands of Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020), based on the listing in the FSM Telecom Phonebook 2020 and field verification of office locations.",
+      "file": "/infrastructure/6-08.zip"
+    },
+    {
+      "id": "4-6-09",
+      "name": "Major businesses",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "This map shows office locations of major business entities on the islands in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020), based on various sources including Open Street Maps and Google Maps and limited field verification.",
+      "file": "/infrastructure/6-09.zip"
+    },
+    {
+      "id": "4-6-10",
+      "name": "Hospitals and clinics",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of hospitals, clinics, and dispensaries on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), based on field verification. Attribute information for the hospital is from the Pacific Disaster Center (PDC) (2013).",
+      "file": "/infrastructure/6-10.zip"
+    },
+    {
+      "id": "4-6-11",
+      "name": "Schools",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of schools and colleges on the islands in Chuuk Lagoon. The data were developed by Island Research & Education Initiative (iREi) (2020), based on the list of public schools provided by Chuuk State Department of Education, list of private schools, and field verification of their locations.",
+      "file": "/infrastructure/6-11.zip"
+    },
+    {
+      "id": "4-6-12",
+      "name": "Places of worship",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of churches on the islands in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020), based on various sources, notably Geoview.",
+      "file": "/infrastructure/6-12.zip"
+    },
+    {
+      "id": "4-6-13",
+      "name": "Fire stations",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of fire stations on the islands in Chuuk Lagoon. The original data were developed by the Pacific Disaster Center (PDC) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-13.zip"
+    },
+    {
+      "id": "4-6-14",
+      "name": "Police stations",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of police stations on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), based on field verification.",
+      "file": "/infrastructure/6-14.zip"
+    },
+    {
+      "id": "4-6-16",
+      "name": "Power plants",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of power plants on the islands in Chuuk Lagoon. The original data layer was created by Island Research & Education Initiative (iREi) (2020), using data obtained through field verification and an older layer by the Pacific Disaster Center (PDC), created as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program, and incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-16.zip"
+    },
+    {
+      "id": "4-6-17",
+      "name": "Fuel storage",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of fuel tanks on the islands in Chuuk Lagoon. The original data were developed by the Pacific Disaster Center (PDC) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-17.zip"
+    },
+    {
+      "id": "4-6-19",
+      "name": "Water reservoir",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The location of one surface-water storage reservoir on Weno. The original data were developed by the Pacific Disaster Center (PDC) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-19.zip"
+    },
+    {
+      "id": "4-6-21",
+      "name": "Water tanks",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of storage tanks for fresh water on the islands in Chuuk Lagoon. The original data were developed by the Pacific Disaster Center (PDC) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-21.zip"
+    },
+    {
+      "id": "4-6-22",
+      "name": "Water treatment facilities",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of drinking water treatment facilities on the islands in Chuuk Lagoon. The original data were developed by the Pacific Disaster Center (PDC) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.  ",
+      "file": "/infrastructure/6-22.zip"
+    },
+    {
+      "id": "4-6-25",
+      "name": "Wastewater",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The location of wastewater treatment plant and related infrastructure on the islands in Chuuk Lagoon. The original data were developed by the Pacific Disaster Center (PDC) as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program. The data were incorporated into PDC's DisasterAWARE decision-support system (2014). Island Research & Education Initiative (iREi) (2019) extracted a subset from the original dataset and formatted it for use in this atlas. The features were reviewed for accuracy and currentness.",
+      "file": "/infrastructure/6-25.zip"
+    },
+    {
+      "id": "4-6-26",
+      "name": "Communication infrastructure",
+      "general": "Infrastructure",
+      "island": "chuuk",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The communication infrastructure on the islands in Chuuk Lagoon. The locations of features shown include communication towers, wifi access points, and cell sites on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), based on field verification and previously available data from the Pacific Disaster Center (PDC), created as part of the \"Geospatial Information Development and Application to Support Effective Decision Making in the Federated States of Micronesia\" project conducted in partnership with Island Research & Education Initiative (iREi) and College of Micronesia (COM), with funding from NOAA - Coastal Storms Program.",
+      "file": "/infrastructure/6-26.zip"
+    },
+    {
+      "id": "4-6-28",
+      "name": "Cemeteries",
+      "general": "Infrastructure",
+      "island": "pohnpei",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of cemeteries on the islands in Chuuk Lagoon. The information was extracted by Island Research & Education Initiative (iREi) (2020) from Digital Line Graphs (DLGs) of U.S. Geological Survey 1:25,000-scale topographic maps (1996-1997).",
+      "file": "/infrastructure/6-28.zip"
+    },
+    {
+      "id": "4-6-29",
+      "name": "Quarries and dredge sites",
+      "general": "Infrastructure",
+      "island": "pohnpei",
+      "geometry": "Point",
+      "filetype": "Esri Shapefile",
+      "Description": "The location of rock quarries and dredging basins on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020), based on field verification and locations obtained from Geoview.",
+      "file": "/infrastructure/6-29.zip"
+    },
+    {
+      "id": "4-7-01",
+      "name": "Protected areas",
+      "general": "Conservation",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The designated protected areas in Chuuk Lagoon. The dataset was created by Island Research & Education Initiative (iREi) (2020) by merging a variety of relevant information obtained from Chuuk State Government, The Nature Conservancy, and Chuuk Environmental Protection Agency (Chuuk EPA).",
+      "file": "/conservation/7-01.zip"
+    },
+    {
+      "id": "4-7-03",
+      "name": "Areas of biodiversity significance",
+      "general": "Conservation",
+      "island": "chuuk",
+      "geometry": "Polygon",
+      "filetype": "Esri Shapefile",
+      "Description": "The Areas of Biological Significance (ABS) in Chuuk Lagoon. The dataset was created by The Nature Conservancy. A subset to show only Chuuk was created by the Island Research & Education Initiative (iREi) (2020). The polygons in the data are intended to capture those areas that represent the wide range of biodiversity features in the marine and terrestrial areas of FSM. They capture expert knowledge from the FSM Blueprint project. They are used to guide conservation planning and projects in FSM, and ultimately to help establish conservation areas.",
+      "file": "/conservation/7-03.zip"
+    },
+    {
+      "id": "4-8-02",
+      "name": "Prominent prehistoric sites",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "This map shows some of the prominent prehistoric sites on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) by researching and combining location data from Chuuk State Historic Preservation Office, Geoview, Chuuk Visitors Bureau, US National Park Service, Rainbird (1993), and years of research (2001-2008) by William Jeffery (University of Guam) and fieldwork implemented with Arimichy Rudolph and Anerit Mailo of Chuuk State Historic Preservation Office (Chuuk SHPO), in collaboration with many people in Chuuk, including Gradvin Aisek, Tong Misa, and the other chiefs of Tonoas, informant and translator Joshua Suka, landowners and residents of Tonoas and Weno, and the US National Park Service / Historic Preservation Fund.",
+      "file": "/culture/8-01.zip"
+    },
+    {
+      "id": "4-8-05",
+      "name": "German, Japanese, and TTPI sites",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "This map shows some of the key historic sites and remains from the German, Japanese, and Trust Territory of the Pacific Islands periods of Chuuk's history. The features shown are remains of government, civilian, and mixed-used sites and exclude military installation and World War II remnants. The data layer was created by Island Research & Education Initiative (iREi) (2020) by compiling location information from a number of sources, including Geoview and the years of research (2001-2008) by William Jeffery (University of Guam) and fieldwork implemented with Arimichy Rudolph and Anerit Mailo of Chuuk State Historic Preservation Office (Chuuk SHPO), in collaboration with many people in Chuuk, including Gradvin Aisek, Tong Misa, and the other chiefs of Tonoas, informant and translator Joshua Suka, landowners and residents of Tonoas and Weno, and the US National Park Service / Historic Preservation Fund.",
+      "file": "/culture/8-05.zip"
+    },
+    {
+      "id": "4-8-06",
+      "name": "Monuments and museums",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of memorial plaques, monuments, and musems on the islands in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) using location data established by William Jeffery (University of Guam), Chuuk State Historic Preservation Office, Chuuk Visitors Bureau, and a number of other published and unpublished sources.",
+      "file": "/culture/8-06.zip"
+    },
+    {
+      "id": "4-8-07",
+      "name": "Japanese military installations",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of a significant part of Japanese military and World War II legacy scattered around the islands of Chuuk Lagoon. The features shown are remains of military bases, command centers, runways, storage areas, artillery sites, bunkers, port facilities, seaplane sites, and other war paraphernalia located on land, as opposed to sunken ships and other underwater features. The data layer was created by Island Research & Education Initiative (iREi) (2020) by compiling location information from a number of sources, including Geoview and years of research (2001-2008) by William Jeffery (University of Guam) and fieldwork implemented with Arimichy Rudolph and Anerit Mailo of Chuuk State Historic Preservation Office (Chuuk SHPO), in collaboration with many people in Chuuk, including Gradvin Aisek, Tong Misa, and the other chiefs of Tonoas, informant and translator Joshua Suka, landowners and residents of Tonoas and Weno, and the US National Park Service / Historic Preservation Fund.",
+      "file": "/culture/8-07.zip"
+    },
+    {
+      "id": "4-8-08",
+      "name": "Sunken ships and planes",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of sunken ships, planes, and war debris in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) from location data reported by Jeffery (2007), War graves, munition dumps and pleasure grounds: A post- colonial perspective of Chuuk Lagoon’s submerged World War II sites; as well as Jeffery (2012), The future of Chuuk Lagoon's submerged WW II sites. All dive sites shown here are sunken ships, planes, and related war remains. The layer includes all known ships sunken inside Chuuk Lagoon. It excludes locations of ships that were damaged but did not sink, ships that were sunk but later refloated, and ships that sunk outside Chuuk Lagoon.",
+      "file": "/culture/8-08.zip"
+    },
+    {
+      "id": "4-8-09",
+      "name": "Registered historic places [US NPS National Register of Historic Places and US National Historic Landmarks]",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of pre-historic and historic places that are located in Chuuk Lagoon and formally inscribed into the US National Park Service's Register of Historic Places. One of the sites is also recognized as US National Historic Landmark. The data layer was created by Island Research & Education Initiative (iREi) (2020) based on locations sourced from Geoview and the US National Park Service.",
+      "file": "/culture/8-09.zip"
+    },
+    {
+      "id": "4-8-10",
+      "name": "Tourism points of interest",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "This map shows tourism points of interest, as considered and promoted by Chuuk Visitors Bureau. Sites include prominent hotels and dive shops, beaches and picnic sites, well known culturally-significant sites, World War II remains, and other locations of interest to visitors to Chuuk. The data layer was created by Island Research & Education Initiative (iREi) (2020) in consultation with Douglas Marar (Chuuk Visitors Bureau) and using information provided in KML form by Nely Mori Ruben (Chuuk Visitor's Bureau).",
+      "file": "/culture/8-10.zip"
+    },
+    {
+      "id": "4-8-11",
+      "name": "Lighthouses",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of lighthouses in Chuuk Lagoon. The data layer was created by Island Research & Education Initiative (iREi) (2020) using location information from Geoview.",
+      "file": "/culture/8-11.zip"
+    },
+    {
+      "id": "4-8-12",
+      "name": "Wrecked and abandoned vessels [post World War II]",
+      "general": "Culture",
+      "island": "chuuk",
+      "geometry": "Points",
+      "filetype": "Esri Shapefile",
+      "Description": "The locations of wrecked and abandonded vessels in Chuuk Lagoon, especially ships that ran aground on the barrier reef and patch reefs. The data layer was created by Island Research & Education Initiative (iREi) (2020) using a combination of field-collected information and observations using Google Maps and imagery. It should be noted that this layer is an incipient version that currently contains only one data point, but is slated for expansion in the near future as fieldwork opportunities permit.",
+      "file": "/culture/8-12.zip"
+    }
+  ]
+}

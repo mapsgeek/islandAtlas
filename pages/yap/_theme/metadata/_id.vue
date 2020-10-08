@@ -3,7 +3,7 @@
     <div class="page" v-if="map">
       <a-tabs>
         <a-tab-pane v-for="(item, index) in JSON.parse(map[0].metaName)" :key="index" default-active-key="1" :tab=item>
-          <iframe style="height:89vh;width:100%;" scrolling="no" :src="`${url}/yap/${$route.params.theme}/${item}.html`" frameborder="0" allowfullscreen>
+          <iframe style="height:81vh;width: 100%;" :src="`${url}/yap/${$route.params.theme}/${item}.html`" frameborder="0" allowfullscreen>
           </iframe>
         </a-tab-pane>
       </a-tabs>
@@ -32,5 +32,8 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
+.page {
+  padding: 7px;
+}
 </style>

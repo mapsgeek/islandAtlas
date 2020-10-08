@@ -1,5 +1,5 @@
     {
-      "id": "3-c1-06 to 1-08",
+      "id": "3-C1-06 to 1-08",
       "name": "Elevation (Ranges & Intervals)",
       "general": "Land",
       "island": "yap",
@@ -9,17 +9,17 @@
       "file": "/land/download/1-06_to_1-08.zip"
     },
     {
-      "id": "3-c1-09",
+      "id": "3-C1-09",
       "name": "Shaded relief (Hillshade)",
       "general": "Land",
       "island": "yap",
       "filetype": "TIFF",
       "geometry": "Raster",
-      "Description": "This map shows the relief of terrain on Yap. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1969. The dataset was derived using the so-called hillshade function that creates an illusion of viewing terrain in 3D.",
+      "Description": "This map shows the relief of terrain on Yap. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1969. The dataset was derived using the so-Called hillshade function that creates an illusion of viewing terrain in 3D.",
       "file": "/land/download/1-09.zip"
     },
     {
-      "id": "3-c1-11",
+      "id": "3-C1-11",
       "name": "Slope aspect",
       "general": "Land",
       "island": "yap",
@@ -31,7 +31,7 @@
       "file": "/land/download/1-11.zip"
     },
     {
-      "id": "3-c1-12",
+      "id": "3-C1-12",
       "name": "Slope (degrees)",
       "general": "Land",
       "island": "yap",
@@ -43,7 +43,7 @@
       "file": "/land/download/1-12.zip"
     },
     {
-      "id": "3-c1-13",
+      "id": "3-C1-13",
       "name": "Slope (percent rise)",
       "general": "Land",
       "island": "yap",
@@ -55,7 +55,7 @@
       "file": "/land/download/1-13.zip"
     },
     {
-      "id": "3-c1-22",
+      "id": "3-C1-22",
       "name": "USGS topographic map (1996)",
       "general": "Land",
       "island": "yap",

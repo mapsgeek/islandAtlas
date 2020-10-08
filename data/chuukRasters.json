@@ -1,0 +1,80 @@
+    {
+      "id": "4-C1-06 to 1-08",
+      "name": "Elevation (Ranges & Intervals)",
+      "general": "Land",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "The elevation of terrain of islands in Chuuk Lagoon. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968. The DEM was classified into elevation intervals and colored based on elevation in meters above sea level.",
+      "file": "/land/download/1-06_to_1-08.zip"
+    },
+    {
+      "id": "4-C1-09",
+      "name": "Shaded relief (Hillshade)",
+      "general": "Land",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "The relief of terrain of islands in Chuuk Lagoon. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968. The dataset was derived using the so-called hillshade function that creates an illusion of viewing terrain in 3D.",
+      "file": "/land/download/1-09.zip"
+    },
+    {
+      "id": "4-C1-11",
+      "name": "Slope aspect",
+      "general": "Land",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "The slope aspect of the terrain of islands in Chuuk Lagoon. Slope aspect is the compass direction in which a particular slope faces. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) created U.S. Geological Survey based on topography compiled in 1968.",
+      "file": "/land/download/1-11.zip"
+    },
+    {
+      "id": "4-C1-12",
+      "name": "Slope (degrees)",
+      "general": "Land",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "The steepness of slope on islands in Chuuk Lagoon. The steepness here is expressed in degrees and illustrated by means of a color gradient. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968.",
+      "file": "/land/download/1-12.zip"
+    },
+    {
+      "id": "4-C1-13",
+      "name": "Slope (percent rise)",
+      "general": "Land",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "The steepness of slope on islands in Chuuk Lagoon. The steepness here is expressed in terms of percent rise and illustrated by means of a greyscale gradient. The dataset was derived by Island Research & Education Initiative (iREi) from a 10-meter resolution Digital Elevation Model (DEM) created by U.S. Geological Survey based on topography compiled in 1968.",
+      "file": "/land/download/1-13.zip"
+    },
+    {
+      "id": "4-C1-22",
+      "name": "USGS topographic map (1996)",
+      "general": "Land",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "This is a topographic map of Chuuk. It is made from a raster document actually comprised of eight separate topographic maps, 1:25,000 scale, published by the U.S. Geological Survey (1996-1997) as paper document. The maps were later scanned and georeferenced to create what is commonly referred to as Digital Raster Graphics (DRGs). Island Research & Education Initiative (iREi) (2020) converted the original PDF files to GeoTiffs. The scanned topographic maps are commonly referred to as Digital Raster Graphics (DRGs). In the map shown here, portions of the DRG that fall outside the barrier reef of Chuuk are omitted.",
+      "file": "/land/download/1-22.zip"
+    },
+    {
+      "id": "4-C2-04",
+      "name": "Bathymetry",
+      "general": "Reefs",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "The bathymetry (depth to seafloor) around Chuuk Lagoon. The dataset was extracted from the 2020 General Bathymetric Chart of the Oceans (GEBCO) by the GEBCO Compilation Group (2020) as part of the Seabed 2030 Project. Known as the GEBCO 2020 Grid, this is a continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. It is an updated version of previous GEBCO Grids, first published in January 2009. Island Research & Education Initiative (iREi) (2020) extracted a subset of the original dataset and formatted it for use in this atlas.",
+      "file": "/reefs/download/2-04.zip"
+    },
+    {
+      "id": "4-C3-05",
+      "name": "Flow accumulation",
+      "general": "Water",
+      "island": "chuuk",
+      "filetype": "TIFF",
+      "geometry": "Raster",
+      "Description": "The flow accumulation on Yap. Flow accumulation describes the amount of water in streams. The higher the value, the more water a particular location receives from areas uphill. The dataset was created by Island Research & Education Initiative (iREi) (2019). This was done by Maria Kottermair (iREi) through hydrological modeling using a 10-meter Digital Elevation Model (DEM) by U.S. Geological Survey based on topography compiled in 1969. Note that in very flat low-lying areas the data may indicate straight lines that are an artifact of the modeling process and do not reflect reality.",
+      "file": "/water/download/3-05.zip"
+    }

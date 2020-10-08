@@ -3,7 +3,7 @@
     <div class="page" v-if="map">
       <a-tabs>
         <a-tab-pane v-for="(item, index) in JSON.parse(map[0].metaName)" :key="index" default-active-key="1" :tab=item>
-          <iframe id="iframe" style="height: 81vh;width: 100%;" :src="`${url}/pohnpei/${$route.params.theme}/${item}.html`" frameborder="0" allowfullscreen>
+          <iframe id="iframe" style="height:81vh;width: 100%;" :src="`${url}/pohnpei/${$route.params.theme}/${item}.html`" frameborder="0" allowfullscreen>
           </iframe>
         </a-tab-pane>
       </a-tabs>
