@@ -26,19 +26,25 @@
             </p>
             <ul>
               <li>
-                <span>Chief editor:</span>
+                <span style="font-style: italic;">Chief editor:</span>
                 <p style="margin-left: 105px;margin-top: -20px;">
                   <strong>Danko Taboroši</strong>
                 </p>
               </li>
               <li>
-                <span>Co-editor:</span>
+                <span style="font-style: italic;">Co-editor:</span>
                 <p style="margin-left: 105px;margin-top: -20px;">
                   <strong>Maria Kottermair</strong>
                 </p>
               </li>
               <li>
-                <span>Advisors:</span>
+                <span style="font-style: italic;">Controller:</span>
+                <p style="margin-left: 105px;margin-top: -20px;">
+                  <strong>Snyther Biza</strong>
+                </p>
+              </li>
+              <li>
+                <span style="font-style: italic;">Advisors:</span>
                 <p style="margin-left: 105px;margin-top: -20px;">
                   <strong>John W. Jenson</strong><br>
                   <strong>Joseph D. Rouse</strong><br>
@@ -48,13 +54,13 @@
                 </p>
               </li>
               <li>
-                <span>Developer:</span>
+                <span style="font-style: italic;">Developer:</span>
                 <p style="margin-left: 105px;margin-top: -20px;">
                   <strong>Ibrahim Mohammed</strong>
                 </p>
               </li>
               <li>
-                <span>Cartographer:</span>
+                <span style="font-style: italic;">Cartographer:</span>
                 <p style="margin-left: 105px;margin-top: -20px;">
                   <strong>Jan Rykr</strong>
                 </p>

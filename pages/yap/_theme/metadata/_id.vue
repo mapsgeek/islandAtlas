@@ -15,6 +15,7 @@
 import InteractiveMap from '~/apollo/queries/fetchInteractiveMap'
 
 export default {
+  scrollToTop: true,
   data() {
     return {
       url: 'https://islandatlas.org/assets/maps'

@@ -137,7 +137,7 @@ const columns = [
 ];
 
 export default {
-  // scrollToTop: true,
+  scrollToTop: true,
   data: () => {
     return {
       // localStorage.getItem("island") || 'Select island',
@@ -174,7 +174,7 @@ export default {
         },
         getCheckboxProps: record => ({
           props: {
-            disabled: record.file.includes('DO NOT SHARE'), // Column configuration not to be checked
+            disabled: record.file.includes('DO NOT SHARE') || record.filetype === 'Google Earth (KMZ)' && record.island !== 'Pohnpei', // Column configuration not to be checked
             name: record.file,
           },
         }),

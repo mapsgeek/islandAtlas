@@ -19,7 +19,7 @@
                 <nuxt-link :to="`/${island}/${theme}/map/${map.fileName}`" class="ant-dropdown-link">
                   View Map
                 </nuxt-link>
-                <nuxt-link :to="`/${island}/${theme}/interactive/${map.id}`" class="ant-dropdown-link" :disabled="map.interactiveMapURL===null || map.island==='chuuk'">
+                <nuxt-link :to="`/${island}/${theme}/interactive/${map.id}`" class="ant-dropdown-link" :disabled="map.interactiveMapURL===null">
                   View Layers
                 </nuxt-link>
                 <!-- :NOTE temporary -->
@@ -109,7 +109,22 @@
                           </a-tooltip>
                         </a>
                       </span>
-                      <span>
+                      <a-tooltip placement="bottom" v-if="island !== 'pohnpei'">
+                        <template slot="title">
+                          Soon
+                        </template>
+                        <span>
+                          <a :href="`${url}/${island}/${theme}/${map.fileName}.kmz`" :disabled="island !== 'pohnpei'" download>
+                            <a-tooltip placement="bottom">
+                              <template slot="title">
+                                Google Earth File
+                              </template>
+                              <img style="    filter: saturate(0.1);" src="~assets/imgs/kml.png" alt="kml">
+                            </a-tooltip>
+                          </a>
+                        </span>
+                      </a-tooltip>
+                      <span v-if="island === 'pohnpei'">
                         <a :href="`${url}/${island}/${theme}/${map.fileName}.kmz`" download>
                           <a-tooltip placement="bottom">
                             <template slot="title">

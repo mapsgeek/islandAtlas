@@ -107,6 +107,12 @@
                         </p>
                       </li>
                       <li>
+                        <span style="font-style: italic;">Controller:</span>
+                        <p style="margin-left: 105px;margin-top: -20px;">
+                          <strong>Snyther Biza</strong>
+                        </p>
+                      </li>
+                      <li>
                         <span>Advisors:</span>
                         <p style="margin-left: 105px;margin-top: -20px;">
                           <strong>John W. Jenson</strong><br>

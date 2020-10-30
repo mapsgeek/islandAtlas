@@ -16,6 +16,8 @@ import InteractiveMap from '~/apollo/queries/fetchInteractiveMap'
 
 export default {
   // layout: 'SpecialBody',
+  scrollToTop: true,
+
   mounted() {
   },
   data() {

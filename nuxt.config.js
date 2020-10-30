@@ -4,9 +4,9 @@ import webpack from 'webpack'
 export default {
   // mode: "universal",
   target: 'static',
-  router: {
-    base: '/beta/'
-  },
+  // router: {
+  //   base: '/beta/'
+  // },
   /*
 ** Headers of the page
 */
@@ -26,7 +26,7 @@ export default {
   ** Customize the progress-bar color
   */
   loading: {
-    color: 'red', height: '5px'
+    color: 'red', height: '3px'
   },
   /*
   ** Global CSS

@@ -17,6 +17,7 @@ import maps from '~/apollo/queries/fetchMaps'
 import MapItem from '~/components/MapItem'
 
 export default {
+  scrollToTop: true,
   components: {
     MapItem
   },

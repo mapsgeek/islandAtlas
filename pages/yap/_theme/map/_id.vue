@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  scrollToTop: true,
   data() {
     return {
       url: 'https://islandatlas.org/assets/maps'
