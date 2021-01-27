@@ -10,7 +10,9 @@ export default {
   /*
 ** Headers of the page
 */
-
+  generate: {
+    fallback: '404.html'
+  },
   head: {
     title: 'DIGITAL ATLAS OF MICRONESIA',
     meta: [
