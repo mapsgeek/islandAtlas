@@ -4,9 +4,10 @@ import webpack from 'webpack'
 export default {
   // mode: "universal",
   target: 'static',
-  // router: {
-  //   base: '/beta/'
-  // },
+    router: {
+    base:
+      process.env.NODE_ENV === "development" ? process.env.BASE_URL : "/beta/dist/"
+  }, // where <subfolder> is the subfolder!
   /*
 ** Headers of the page
 */

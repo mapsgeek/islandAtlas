@@ -131,13 +131,13 @@
 export default {
   head() {
     return {
-      title: "Cuuk lagoon",
+      title: "Cuuk Lagoon",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
           hid: 'description',
           name: 'description',
-          content: 'Cuuk lagoon main island maps'
+          content: 'Cuuk Lagoon main island maps'
         }
       ]
     }
