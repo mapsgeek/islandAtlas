@@ -1,7 +1,7 @@
 <template>
 	<div id="heroSlider">
-		<a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=800 centerPadding lazyLoad
-			:autoplaySpeed="5000" accessibility>
+		<a-carousel arrows effect="fade" autoplay :pauseOnHover=false :speed=800 centerPadding lazyLoad :autoplaySpeed="5000"
+			accessibility>
 			<div slot="prevArrow" class="custom-slick-arrow" style="left: 10px;zIndex: 1">
 				<a-icon type="left-circle" />
 			</div>
@@ -138,7 +138,7 @@
 		}
 	};
 </script>
-<style  scoped>
+<style scoped>
 	.intro {
 		width: 100%;
 		height: 100vh;
@@ -263,7 +263,7 @@
 	.ant-carousel >>> .slick-slide {
 		position: relative;
 		text-align: center;
-		margin-top: 98px;
+		margin-top: 97px;
 		height: 90vh;
 		background: #364d79;
 		overflow: hidden;
