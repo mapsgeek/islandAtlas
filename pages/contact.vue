@@ -79,7 +79,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:fsmdecem@fsmdecem.fm">
+                  <a href="mailto:decem@decem.gov.fm">
                     <a-icon type="mail" theme="filled" />
                   </a>
                 </li>
