@@ -56,7 +56,7 @@
     </svg>
     <p v-else id="errorText">O-o-oh! Something broke.</p>
     <p id="errorText">O-o-oh! Something broke.</p>
-    <nuxt-link id="errorLink" to="/" style="text-align:center">Home page</nuxt-link>
+    <a id="errorLink" href="/" style="text-align:center">Home page</a>
   </main>
 </template>
 

@@ -1,83 +1,71 @@
 <template>
   <!-- <div class="header"></div> -->
-  <div>
+
+  <div >
+    <base target="_parent">
     <section class="top-mov-obj-frame">
       <div class="bnr-frame">
         <div class="container">
           <div class="row">
             <div class="innr-box col-12">
               <span class="logo"><img src="~assets/images/logo.png" alt=""></span>
-              <h1>Digital Atlas of Micronesia</h1>
+              <h1  style="margin-bottom:35%;">Digital Atlas of Micronesia</h1>
               <h4>Venture across our lands and waters, and through our traditions and culture.</h4>
             </div>
           </div>
         </div>
         <span class="scroll-down-icon">
-          <a href="#" v-scroll-to="{ el: '#islands' , duration: 1000, }"><img src="~assets/images/scroll-down-icon.png" alt=""></a>
+          <a  href="#islands" v-scroll-href="{ el: '#islands' , duration: 1000, }"><img src="~assets/images/scroll-down-icon.png" alt=""></a>
         </span>
 
       </div>
       <div id="islands" class="hover-bnr-frame">
         <div class="layer" data-depth="0.35" id="object1">
-          <nuxt-link class="innr-link" to="/yap" style="transform: translate(5.95417px, 25.6581px); display: inline;">
+          <a  class="innr-link" href="https://beta.islandatlas.org/yap" style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>WAQAB (YAP)</p><span class="link-arrow"><span></span></span>
-          </nuxt-link>
+          </a>
           <span class="img"><img src="~assets/images/object1.png" alt=""></span>
         </div>
         <div class="layer" data-depth="0.25" id="object2">
-          <nuxt-link class="innr-link" to="/chuuk" style="transform: translate(5.95417px, 25.6581px); display: inline;">
+          <a  class="innr-link" href="https://beta.islandatlas.org/chuuk" style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>CHUUK LAGOON</p><span class="link-arrow"><span></span></span>
-          </nuxt-link>
+          </a>
           <span class="img"><img src="~assets/images/object2.svg" alt=""></span>
         </div>
         <div class="layer" data-depth="0.45" id="object3">
-          <nuxt-link class="innr-link" to="/pohnpei" style="transform: translate(5.95417px, 25.6581px); display: inline;">
+          <a  class="innr-link" href="https://beta.islandatlas.org/pohnpei" style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>POHNPEI</p><span class="link-arrow"><span></span></span>
-          </nuxt-link>
+          </a>
           <span class="img"><img src="~assets/images/object3.svg" alt=""></span>
         </div>
         <div class="layer" data-depth="0.25" id="object4">
-          <nuxt-link class="innr-link" to="/kosrae" style="transform: translate(5.95417px, 25.6581px); display: inline;">
+          <a  class="innr-link" href="https://beta.islandatlas.org/kosrae" style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>KOSRAE</p><span class="link-arrow"><span></span></span>
-          </nuxt-link>
+          </a>
           <span class="img"><img src="~assets/images/object4.svg" alt=""></span>
         </div>
 
         <div class="layer" data-depth="0.30" id="object5">
-          <nuxt-link class="innr-link" to="" disabled style="transform: translate(5.95417px, 25.6581px); display: inline;">
+          <a  class="innr-link"  href="https://beta.islandatlas.org/oi-yap"    style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>NEIGHBORING ISLANDS OF YAP</p><span class="link-arrow"><span></span></span>
-          </nuxt-link>
-          <a-tooltip>
-            <template slot="title">
-              Coming soon
-            </template>
-            <span></span>
+          </a>
             <span class="img"><img src="~assets/images/object5.png" alt=""></span>
-          </a-tooltip>
         </div>
         <div class="layer" data-depth="0.20" id="object6">
-          <nuxt-link class="innr-link" to="" disabled style="transform: translate(5.95417px, 25.6581px); display: inline;">
+          <a  class="innr-link" href="https://beta.islandatlas.org/oi-chuuk"  style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>OUTER ISLANDS OF CHUUK</p><span class="link-arrow"><span></span></span>
-          </nuxt-link>
-          <a-tooltip>
-            <template slot="title">
-              Coming soon
-            </template>
-            <span></span>
+          </a>
+
             <span class="img"><img src="~assets/images/object6.svg" alt=""></span>
-          </a-tooltip>
+
         </div>
         <div class="layer" data-depth="0.30" id="object7">
-          <nuxt-link class="innr-link" to="" disabled style="transform: translate(5.95417px, 25.6581px); display: inline;">
+          <a  class="innr-link"  href="https://beta.islandatlas.org/oi-pohnpei"   style="transform: translate(5.95417px, 25.6581px); display: inline;">
             <p>OUTER ISLANDS OF POHNPEI</p><span class="link-arrow"><span></span></span>
-          </nuxt-link>
-          <a-tooltip>
-            <template slot="title">
-              Coming soon
-            </template>
-            <span></span>
+          </a>
+
             <span class="img"><img src="~assets/images/object7.svg" alt=""></span>
-          </a-tooltip>
+
         </div>
 
         <div id="layer"></div>
@@ -141,20 +129,14 @@
                     <span class="img"><img src="~assets/images/card-img-01.jpg" alt=""></span>
                     <div class="text-box">
                       <h3>Yap State</h3>
-                      <ul class="innr-list">
+                      <ul class="innr-list" style="width:200px" >
                         <li>
-                          <nuxt-link to="/yap">WAQAB (YAP PROPER)</nuxt-link>
+                          <a  href="https://beta.islandatlas.org/yap">WAQAB (YAP PROPER)</a>
                         </li>
-                        <li>
-                          <a-tooltip>
-                            <template slot="title">
-                              Coming soon
-                            </template>
-                            <span></span>
-                            <nuxt-link to="" disabled>
+                        <li >
+                            <a  href="https://beta.islandatlas.org/oi-yap" >
                               Neighboring Islands
-                            </nuxt-link>
-                          </a-tooltip>
+                            </a>
                         </li>
                       </ul>
                     </div>
@@ -165,18 +147,12 @@
                       <h3>Chuuk State</h3>
                       <ul class="innr-list">
                         <li>
-                          <nuxt-link to="chuuk">Chuuk Lagoon</nuxt-link>
+                          <a  href="chuuk">Chuuk Lagoon</a>
                         </li>
                         <li>
-                          <a-tooltip>
-                            <template slot="title">
-                              Coming soon
-                            </template>
-                            <span></span>
-                            <nuxt-link to="" disabled>
+                            <a   href="https://beta.islandatlas.org/oi-chuuk" >
                               Outer ISLANDS
-                            </nuxt-link>
-                          </a-tooltip>
+                            </a>
                         </li>
                       </ul>
                     </div>
@@ -187,18 +163,14 @@
                       <h3>Pohnpei State</h3>
                       <ul class="innr-list">
                         <li>
-                          <nuxt-link to="/pohnpei">Pohnpei</nuxt-link>
+                          <a  href="https://beta.islandatlas.org/pohnpei">Pohnpei</a>
                         </li>
                         <li>
-                          <a-tooltip>
-                            <template slot="title">
-                              Coming soon
-                            </template>
-                            <span></span>
-                            <nuxt-link to="" disabled>
+
+                            <a  href="https://beta.islandatlas.org/pohnpei" >
                               Outer ISLANDS
-                            </nuxt-link>
-                          </a-tooltip>
+                            </a>
+
                         </li>
                       </ul>
                     </div>
@@ -209,7 +181,7 @@
                       <h3>Kosrae State</h3>
                       <ul class="innr-list">
                         <li>
-                          <nuxt-link to="/kosrae">Kosrae</nuxt-link>
+                          <a  href="https://beta.islandatlas.org/kosrae">Kosrae</a>
                         </li>
                       </ul>
                     </div>
@@ -240,7 +212,7 @@
                       island will find information they seek about their home, complete with accurate
                       place names in their own languages and spelling systems.</p>
                     <!-- <span class="read-more">
-                      <nuxt-link to="/about">Read More</nuxt-link>
+                      <a  href="https://islandatlas.org/about">Read More</a>
                     </span> -->
                   </div>
 
@@ -258,7 +230,7 @@
                       the FSM Department of Environment, Climate Change &amp; Emergency Management
                       (DECEM). </p>
                     <!-- <span class="read-more">
-                      <nuxt-link to="/about">Read More</nuxt-link>
+                      <a  href="https://islandatlas.org/about">Read More</a>
                     </span> -->
                   </div>
 
@@ -266,9 +238,9 @@
               </ul>
               <div class="btn-box">
                 <span class="show-more-btn">
-                  <nuxt-link to="/about">Read More
+                  <a  href="https://beta.islandatlas.org/about">Read More
                     <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                  </nuxt-link>
+                  </a>
                 </span>
               </div>
             </div>
@@ -459,7 +431,7 @@
             </div>
           </div>
           <div class="btn-box">
-            <span class="book-btn"><a @click="ToggleModal">Acknowledgments and Data Sources<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></span>
+            <span class="book-btn"><a  @click="ToggleModal">Acknowledgments and Data Sources<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></span>
           </div>
         </div>
         <Footer />

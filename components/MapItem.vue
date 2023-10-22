@@ -19,18 +19,18 @@
 							<h2 class="title">{{map.title}}</h2>
 							<p class="description">{{map.decription}}</p>
 							<div class="buttons">
-								<nuxt-link :to="`/${island}/${theme}/map/${map.fileName}`" class="ant-dropdown-link">
+								<a :href="`/${island}/${theme}/map/${map.fileName}`" class="ant-dropdown-link">
 									View Map
-								</nuxt-link>
-								<nuxt-link :to="`/${island}/${theme}/interactive/${map.id}`" class="ant-dropdown-link"
+								</a>
+								<a :href="`/${island}/${theme}/interactive/${map.id}`" class="ant-dropdown-link"
 									:disabled="map.interactiveMapURL===null">
 									View Layers
-								</nuxt-link>
+								</a>
 								<!-- :NOTE temporary -->
-								<nuxt-link :to="`/${island}/${theme}/metadata/${map.id}`" class="ant-dropdown-link"
+								<a :href="`/${island}/${theme}/metadata/${map.id}`" class="ant-dropdown-link"
 									:disabled="map.metaName===null">
 									View Metadata
-								</nuxt-link>
+								</a>
 								<a-dropdown placement="bottomCenter" :trigger="['hover']">
 									<a class="ant-dropdown-link">
 										Download Map

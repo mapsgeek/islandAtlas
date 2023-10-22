@@ -18,12 +18,12 @@
           <div class="subtitle">from the shoreline to the mountaintops
           </div>
           <br>
-          <nuxt-link to="/pohnpei/land">
+          <a href="/pohnpei/land">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="reefs">
@@ -32,12 +32,12 @@
           <div class="subtitle">from the lagoon to the ocean floor
           </div>
           <br>
-          <nuxt-link to="/pohnpei/reefs">
+          <a href="/pohnpei/reefs">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="water">
@@ -46,12 +46,12 @@
           <div class="subtitle">from mist and rain to streams and estuaries
           </div>
           <br>
-          <nuxt-link to="/pohnpei/water">
+          <a href="/pohnpei/water">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="vegetation">
@@ -60,12 +60,12 @@
           <div class="subtitle">from mangrove swamp to upland forest
           </div>
           <br>
-          <nuxt-link to="/pohnpei/vegetation">
+          <a href="/pohnpei/vegetation">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="population">
@@ -74,12 +74,12 @@
           <div class="subtitle">from traditional villages to census indicators
           </div>
           <br>
-          <nuxt-link to="/pohnpei/population">
+          <a href="/pohnpei/population">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="infrastructure">
@@ -88,12 +88,12 @@
           <div class="subtitle"> from ancient trails to modern utilities
           </div>
           <br>
-          <nuxt-link to="/pohnpei/infrastructure">
+          <a href="/pohnpei/infrastructure">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="conservation">
@@ -102,12 +102,12 @@
           <div class="subtitle">from species to ecosystems
           </div>
           <br>
-          <nuxt-link to="/pohnpei/conservation">
+          <a href="/pohnpei/conservation">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="culture">
@@ -116,12 +116,12 @@
           <div class="subtitle">from prehistoric ruins to contemporary life
           </div>
           <br>
-          <nuxt-link to="/pohnpei/culture">
+          <a href="/pohnpei/culture">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </a-carousel>

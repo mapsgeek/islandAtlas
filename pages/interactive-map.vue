@@ -5,15 +5,27 @@
 				<iframe class="iframe" src="https://islandatlas.org/assets/maps/yap/Yapmain/" frameborder="0"
 					seamless="seamless"></iframe>
 			</a-tab-pane>
-			<a-tab-pane key="4" tab="Chuuk" force-render>
+			<a-tab-pane key="2" tab="Neighboring Islands of Yap" force-render>
+				<iframe class="iframe" src="https://experience.arcgis.com/experience/2b603dd7371b409ca3dbc6891c38311e/" frameborder="0"
+					seamless="seamless"></iframe>
+			</a-tab-pane>
+			<a-tab-pane key="3" tab="Chuuk" force-render>
 				<iframe class="iframe" src="https://islandatlas.org/assets/maps/chuuk/ChuukMain/" frameborder="0"
 					seamless="seamless"></iframe>
 			</a-tab-pane>
-			<a-tab-pane key="3" tab="Pohnpei" force-render>
+			<a-tab-pane key="4" tab="Outer Islands of Chuuk" force-render>
+				<iframe class="iframe" src="https://experience.arcgis.com/experience/44c858e25e1842a8b0253cec15417fd6/" frameborder="0"
+					seamless="seamless"></iframe>
+			</a-tab-pane>
+			<a-tab-pane key="5" tab="Pohnpei" force-render>
 				<iframe class="iframe" src="https://islandatlas.org/assets/maps/pohnpei/PohnpeiMain/" frameborder="0"
 					seamless="seamless"></iframe>
 			</a-tab-pane>
-			<a-tab-pane key="2" tab="Kosrae" force-render>
+			<a-tab-pane key="6" tab="Outer Islands of Pohnpei" force-render>
+				<iframe class="iframe" src="https://experience.arcgis.com/experience/3ee7105dbb514b1985e594b22d6e9c92/" frameborder="0"
+					seamless="seamless"></iframe>
+			</a-tab-pane>
+			<a-tab-pane key="7" tab="Kosrae" force-render>
 				<iframe class="iframe" src="https://islandatlas.org/assets/maps/kosrae/kosraemain/" frameborder="0"
 					seamless="seamless"></iframe>
 			</a-tab-pane>
@@ -27,8 +39,7 @@
 			return {
 			}
 		},
-		layout: 'NotFixedNavbar'
-	}
+}
 </script>
 
 <style lang='less' scoped>

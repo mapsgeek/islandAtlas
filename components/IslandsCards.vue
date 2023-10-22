@@ -8,9 +8,9 @@
         </div>
         <h1>Yap State</h1>
         <a-button type="link">
-          <nuxt-link to="/yap" class="button">Waqab
+          <a href="/yap" class="button">Waqab
             <a-icon type="link" />
-          </nuxt-link>
+          </a>
         </a-button>
         <br>
         <a-tooltip>
@@ -19,10 +19,10 @@
           </template>
           <a-button type="link">
             <span></span>
-            <nuxt-link to="/yap-outter" class="button" disabled>
+            <a href="/yap-outter" class="button" disabled>
               Neighboring Islands
               <a-icon type="link" />
-            </nuxt-link>
+            </a>
           </a-button>
         </a-tooltip>
         <div class="flag">
@@ -40,10 +40,10 @@
           </template>
           <a-button type="link">
             <span></span>
-            <nuxt-link to="/chuuk" class="button" disabled>
+            <a href="/chuuk" class="button" disabled>
               Chuuk Lagoon
               <a-icon type="link" />
-            </nuxt-link>
+            </a>
           </a-button>
         </a-tooltip>
         <br>
@@ -53,10 +53,10 @@
           </template>
           <a-button type="link">
             <span></span>
-            <nuxt-link to="/chuuk-outter" class="button" disabled>
+            <a href="/chuuk-outter" class="button" disabled>
               Outer Islands
               <a-icon type="link" />
-            </nuxt-link>
+            </a>
           </a-button>
         </a-tooltip>
         <div class="flag">
@@ -69,9 +69,9 @@
         </div>
         <h1>Pohnpei State</h1>
         <a-button type="link">
-          <nuxt-link to="/pohnpei" class="button">Pohnpei
+          <a href="/pohnpei" class="button">Pohnpei
             <a-icon type="link" />
-          </nuxt-link>
+          </a>
         </a-button>
         <br>
         <a-tooltip>
@@ -80,10 +80,10 @@
           </template>
           <a-button type="link">
             <span></span>
-            <nuxt-link to="/pohnpei-outter" class="button" disabled>
+            <a href="/pohnpei-outter" class="button" disabled>
               Outer Islands
               <a-icon type="link" />
-            </nuxt-link>
+            </a>
           </a-button>
         </a-tooltip>
         <div class="flag">
@@ -96,9 +96,9 @@
         </div>
         <h1>Kosrea State</h1>
         <a-button type="link">
-          <nuxt-link to="/kosrae" class="button">Kosrae
+          <a href="/kosrae" class="button">Kosrae
             <a-icon type="link" />
-          </nuxt-link>
+          </a>
         </a-button>
         <br>
         <a-tooltip>
@@ -107,10 +107,10 @@
           </template>
           <a-button type="link">
             <span></span>
-            <nuxt-link to="/kosrae-outter" class="button" disabled>
+            <a href="/kosrae-outter" class="button" disabled>
               Neighbouring Islands
               <a-icon type="link" />
-            </nuxt-link>
+            </a>
           </a-button>
         </a-tooltip>
         <div class="flag">
@@ -124,10 +124,10 @@
         </div>
         <div class="links">
           <a-button type="link">
-            <nuxt-link to="/yap">Main Island</nuxt-link>
+            <a href="/yap">Main Island</a>
           </a-button>
           <a-button type="link">
-            <nuxt-link to="/yap-outter">Outter Islands</nuxt-link>
+            <a href="/yap-outter">Outter Islands</a>
           </a-button>
         </div>
       </div>
@@ -138,10 +138,10 @@
         </div>
         <div class="links">
           <a-button type="link">
-            <nuxt-link to="/chuuk">Main Island</nuxt-link>
+            <a href="/chuuk">Main Island</a>
           </a-button>
           <a-button type="link">
-            <nuxt-link to="/chuuk-outter">Outter Islands</nuxt-link>
+            <a href="/chuuk-outter">Outter Islands</a>
           </a-button>
         </div>
       </div>
@@ -152,10 +152,10 @@
         </div>
         <div class="links">
           <a-button type="link">
-            <nuxt-link to="/pohnpei">Main Island</nuxt-link>
+            <a href="/pohnpei">Main Island</a>
           </a-button>
           <a-button type="link">
-            <nuxt-link to="/pohnpei-outter">Outter Islands</nuxt-link>
+            <a href="/pohnpei-outter">Outter Islands</a>
           </a-button>
         </div>
       </div>
@@ -166,10 +166,10 @@
         </div>
         <div class="links">
           <a-button type="link">
-            <nuxt-link to="/kosrea">Main Island</nuxt-link>
+            <a href="/kosrea">Main Island</a>
           </a-button>
           <a-button type="link">
-            <nuxt-link to="/kosrea-outter">Outter Islands</nuxt-link>
+            <a href="/kosrea-outter">Outter Islands</a>
           </a-button>
         </div>
       </div> -->

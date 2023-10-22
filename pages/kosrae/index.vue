@@ -19,12 +19,12 @@
           </h1><br>
           <div class="subtitle">from the shoreline to the mountaintops</div>
           <br>
-          <nuxt-link to="/kosrae/land">
+          <a href="/kosrae/land">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="reefs">
@@ -33,12 +33,12 @@
           </h1><br>
           <div class="subtitle"> from the lagoon to the ocean floor</div>
           <br>
-          <nuxt-link to="/kosrae/reefs">
+          <a href="/kosrae/reefs">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="water">
@@ -47,12 +47,12 @@
           </h1><br>
           <div class="subtitle">from mist and rain to streams and estuaries</div>
           <br>
-          <nuxt-link to="/kosrae/water">
+          <a href="/kosrae/water">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="vegetation">
@@ -61,12 +61,12 @@
           </h1><br>
           <div class="subtitle">from mangrove swamp to upland forest</div>
           <br>
-          <nuxt-link to="/kosrae/vegetation">
+          <a href="/kosrae/vegetation">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="population">
@@ -75,12 +75,12 @@
           </h1><br>
           <div class="subtitle">from traditional villages to census indicators</div>
           <br>
-          <nuxt-link to="/kosrae/population">
+          <a href="/kosrae/population">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="infrastructure">
@@ -89,12 +89,12 @@
           </h1><br>
           <div class="subtitle"> from ancient trails to modern utilities </div>
           <br>
-          <nuxt-link to="/kosrae/infrastructure">
+          <a href="/kosrae/infrastructure">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="conservation">
@@ -103,12 +103,12 @@
           </h1><br>
           <div class="subtitle">from species to ecosystems</div>
           <br>
-          <nuxt-link to="/kosrae/conservation">
+          <a href="/kosrae/conservation">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
       <div class="culture">
@@ -117,12 +117,12 @@
           </h1><br>
           <div class="subtitle">from prehistoric ruins to contemporary life</div>
           <br>
-          <nuxt-link to="/kosrae/culture">
+          <a href="/kosrae/culture">
             <a-button>
               Maps
               <a-icon type="right" style="vertical-align: bottom;" />
             </a-button>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </a-carousel>

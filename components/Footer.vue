@@ -13,7 +13,7 @@
           <li class="footerList" @click="() => (disclaimer = true)">Disclaimer</li>
           <li class="footerList" style="border:none" @click="() => (privacy = true)">Privacy Policy</li>
           <!-- <li class="footerList">
-            <nuxt-link style="color: white;padding:3px;" to="/contact"> Contact</nuxt-link>
+            <a style="color: white;padding:3px;" href="/contact"> Contact</a>
           </li> -->
           <!-- <li class="footerList" @click="() => (staff = true)">Project Staff</li> -->
           <!-- <li class="footerList" @click="() => (funding = true)">Funding Sources</li> -->

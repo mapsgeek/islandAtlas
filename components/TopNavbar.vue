@@ -1,14 +1,14 @@
 <template>
 	<div>
 		<!-- 		<div class="logo">
-			<nuxt-link to='/'>
+			<a href='/'>
 				<img src="~assets/imgs/main.png" alt="">
-			</nuxt-link>
+			</a>
 		</div>
 		<div class="rightLogo">
-			<nuxt-link to='/'>
+			<a href='/'>
 				<img src="~assets/imgs/right-logo.png" alt="">
-			</nuxt-link>
+			</a>
 		</div> -->
 		<div class="topNavbar">
 			<a-dropdown class="dropNav" placement="bottomRight">
@@ -18,74 +18,74 @@
 				</a>
 				<a-menu slot="overlay">
 					<a-menu-item>
-						<nuxt-link to="/interactive-map">
+						<a href="/interactive-map">
 							<img class="imgIcon" src="~assets/icons/interactivemapblack.png">
 							Interactive Map
-						</nuxt-link>
+						</a>
 					</a-menu-item>
 					<a-menu-item>
-						<nuxt-link to="/data-repository">
+						<a href="/data-repository">
 							<img class="imgIcon" src="~assets/icons/datarepositoryblack.png">
 							Data Repository
-						</nuxt-link>
+						</a>
 					</a-menu-item>
 					<a-menu-item>
-						<nuxt-link to="/gallery">
+						<a href="/gallery">
 							<img class="imgIcon" src="~assets/icons/galleryblack.png">
 							Gallery
-						</nuxt-link>
+						</a>
 					</a-menu-item>
 					<a-menu-item>
-						<nuxt-link to="/about">
+						<a href="/about">
 							<img class="imgIcon" src="~assets/icons/aboutblack.png">
 							About
-						</nuxt-link>
+						</a>
 					</a-menu-item>
 					<a-menu-item>
-						<nuxt-link to="/contact">
+						<a href="/contact">
 							<img class="imgIcon" src="~assets/icons/contactusblack.png">
 							Contact Us
-						</nuxt-link>
+						</a>
 					</a-menu-item>
 				</a-menu>
 			</a-dropdown>
 
-			<nuxt-link to='/'>
+			<a href='/'>
 				<img class="leftLogo" width="180px" src="~assets/imgs/main.png" alt="">
-			</nuxt-link>
+			</a>
 			<div class="fullLinks">
-				<nuxt-link class="link" :to="{ path: '/', hash:'#islands'}">
+				<a class="link" :href="{ path: '/', hash:'#islands'}">
 					<img class="imgIcon" src="~assets/icons/icons8-browse-folder-32.png">
 					Island Modules
-				</nuxt-link>
-				<nuxt-link class="link" to="/interactive-map">
+				</a>
+				<a class="link" href="/interactive-map">
 					<img class="imgIcon" src="~assets/icons/interactivemapwhite.png">
 					Interactive Map
-				</nuxt-link>
-				<nuxt-link class="link" to="/data-repository">
+				</a>
+				<a class="link" href="/data-repository">
 					<img class="imgIcon" src="~assets/icons/datarepositorywhite.png">
 					Data Repository
-				</nuxt-link>
-				<nuxt-link class="link" to="/gallery">
+				</a>
+				<a class="link" href="/gallery">
 					<img class="imgIcon" src="~assets/icons/gallerywhite.png">
 					Gallery
-				</nuxt-link>
-				<nuxt-link class="link" to="/sitemap">
+				</a>
+				<a class="link" href="/sitemap">
 					<img class="imgIcon" src="~assets/icons/sitemapwhite.png">
 					Site Map
-				</nuxt-link>
-				<nuxt-link class="link" to="/about">
+				</a>
+				<a class="link" href="/about">
 					<img class="imgIcon" src="~assets/icons/aboutwhite.png">
 					About
-				</nuxt-link>
-				<nuxt-link class="link" to="/contact">
+				</a>
+				<a class="link" href="/contact">
 					<img class="imgIcon" src="~assets/icons/contactuswhite.png">
 					Contact Us
-				</nuxt-link>
+				</a>
 			</div>
-			<nuxt-link to='/'>
+			<a href='/'>
 				<img class="rightLogo" src="~assets/imgs/right-logo.png" alt="">
-			</nuxt-link>
+			</a>
 		</div>
 	</div>
 </template>

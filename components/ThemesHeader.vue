@@ -6,34 +6,34 @@
 					<img :src="require(`assets/imgs/normal-${this.island}.png`)">
 					<a-menu slot="overlay" class="flags">
 						<a-menu-item>
-							<nuxt-link to='/yap'>
+							<a href='/yap'>
 								<!-- <img src="https://islandatlas.org/nuxt/imgs/normal-yap.png" onmouseover="this.src='https://islandatlas.org/nuxt/imgs/grey-yap.png';" onmouseout="this.src='https://islandatlas.org/nuxt/imgs/normal-yap.png';"> -->
 								<img width="200px" class="hover08" src="~assets/imgs/normal-yap.png">
-							</nuxt-link>
+							</a>
 						</a-menu-item>
 						<a-menu-item disabled>
 							<img width="200px" class="hover08" src="~assets/imgs/normal-yap-OI.png" alt="">
 						</a-menu-item>
 						<a-menu-item>
-							<nuxt-link to='/chuuk'>
+							<a href='/chuuk'>
 								<img width="200px" class="hover08" src="~assets/imgs/normal-chuuk.png" alt="">
-							</nuxt-link>
+							</a>
 						</a-menu-item>
 						<a-menu-item disabled>
 							<img width="200px" class="hover08" src="~assets/imgs/normal-chuuk-OI.png" alt="">
 						</a-menu-item>
 						<a-menu-item>
-							<nuxt-link to='/pohnpei'>
+							<a href='/pohnpei'>
 								<img width="200px" class="hover08" src="~assets/imgs/normal-pohnpei.png" alt="">
-							</nuxt-link>
+							</a>
 						</a-menu-item>
 						<a-menu-item disabled>
 							<img width="200px" class="hover08" src="~assets/imgs/normal-pohnpei-OI.png" alt="">
 						</a-menu-item>
 						<a-menu-item>
-							<nuxt-link to='/kosrae'>
+							<a href='/kosrae'>
 								<img width="200px" class="hover08" src="~assets/imgs/normal-kosrae.png" alt="">
-							</nuxt-link>
+							</a>
 						</a-menu-item>
 					</a-menu>
 				</a-dropdown>
@@ -47,93 +47,93 @@
 						</a>
 						<a-menu slot="overlay">
 							<a-menu-item>
-								<nuxt-link active-class="land" :to='"/"+this.island+"/land"'>
+								<a active-class="land" :href='"/"+this.island+"/land"'>
 									Land
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 							<a-menu-item>
-								<nuxt-link active-class="reefs" :to='"/"+this.island+"/reefs"'>
+								<a active-class="reefs" :href='"/"+this.island+"/reefs"'>
 									Reefs
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 							<a-menu-item>
-								<nuxt-link active-class="water" :to='"/"+this.island+"/water"'>
+								<a active-class="water" :href='"/"+this.island+"/water"'>
 									Water
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 							<a-menu-item>
-								<nuxt-link active-class="vegetation" :to='"/"+this.island+"/vegetation"'>
+								<a active-class="vegetation" :href='"/"+this.island+"/vegetation"'>
 									Vegetation
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 							<a-menu-item>
-								<nuxt-link active-class="population" :to='"/"+this.island+"/population"'>
+								<a active-class="population" :href='"/"+this.island+"/population"'>
 									Population
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 							<a-menu-item>
-								<nuxt-link active-class="infrastructure" :to='"/"+this.island+"/infrastructure"'>
+								<a active-class="infrastructure" :href='"/"+this.island+"/infrastructure"'>
 									Infrastructure
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 							<a-menu-item>
-								<nuxt-link active-class="conservation" :to='"/"+this.island+"/conservation"'>
+								<a active-class="conservation" :href='"/"+this.island+"/conservation"'>
 									Conservation
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 							<a-menu-item>
-								<nuxt-link active-class="culture" :to='"/"+this.island+"/culture"'>
+								<a active-class="culture" :href='"/"+this.island+"/culture"'>
 									Culture
-								</nuxt-link>
+								</a>
 							</a-menu-item>
 						</a-menu>
 					</a-dropdown>
 					<div class="fullLinks">
 						<ul class="nav navbar-nav themes">
 							<li>
-								<nuxt-link exact-active-class="intro" :to='"/" +this.island'>
+								<a exact-active-class="intro" :href='"/" +this.island'>
 									Intro
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="land" :to='"/"+this.island+"/land"'>
+								<a active-class="land" :href='"/"+this.island+"/land"'>
 									LAND
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="reefs" :to='"/"+this.island+"/reefs"'>
+								<a active-class="reefs" :href='"/"+this.island+"/reefs"'>
 									REEFS
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="water" :to='"/"+this.island+"/water"'>
+								<a active-class="water" :href='"/"+this.island+"/water"'>
 									WATER
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="vegetation" :to='"/"+this.island+"/vegetation"'>
+								<a active-class="vegetation" :href='"/"+this.island+"/vegetation"'>
 									VEGETATION
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="population" :to='"/"+this.island+"/population"'>
+								<a active-class="population" :href='"/"+this.island+"/population"'>
 									POPULATION
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="infrastructure" :to='"/"+this.island+"/infrastructure"'>
+								<a active-class="infrastructure" :href='"/"+this.island+"/infrastructure"'>
 									INFRASTRUCTURE
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="conservation" :to='"/"+this.island+"/conservation"'>
+								<a active-class="conservation" :href='"/"+this.island+"/conservation"'>
 									CONSERVATION
-								</nuxt-link>
+								</a>
 							</li>
 							<li>
-								<nuxt-link active-class="culture" :to='"/"+this.island+"/culture"'>
+								<a active-class="culture" :href='"/"+this.island+"/culture"'>
 									CULTURE
-								</nuxt-link>
+								</a>
 							</li>
 						</ul>
 					</div>

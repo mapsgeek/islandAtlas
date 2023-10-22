@@ -1,8 +1,6 @@
 <template>
   <div>
     <Header />
-    <!-- <IslandsCards /> -->
-    <!-- <Footer /> -->
   </div>
 </template>
 

@@ -5,69 +5,69 @@
         <h1 style="text-align:center;margin-bottom:20px">Site Map</h1>
         <client-only>
           <a-tree :tree-data="treeData" :default-expanded-keys=keys @expand="onExpand" :autoExpandParent="false">
-            <nuxt-link slot="homepage" class="intro atlas" to="/">DIGITAL ATLAS OF MICRONESIA</nuxt-link>
+            <a slot="homepage" class="intro atlas" href="/">DIGITAL ATLAS OF MICRONESIA</a>
             <span slot="islands" style="cursor: default;" class="maplink">Island Modules</span>
             <span slot="pohnpei" class="intro pohnpei">Pohnpei State</span>
 
-            <nuxt-link slot="Main" class="maplinkintro maplink" to="/pohnpei">Pohnpei</nuxt-link>
-            <nuxt-link slot="Interactive" class="maplinkintro maplink" to="/interactive-map">Interactive Map</nuxt-link>
-            <nuxt-link slot="Repo" class="maplinkintro maplink" to="/data-repository">Data Repository</nuxt-link>
-            <nuxt-link slot="Gallery" class="maplinkintro maplink" to="/gallery">Gallery</nuxt-link>
-            <nuxt-link slot="About" class="maplinkintro maplink" to="/about">About</nuxt-link>
-            <nuxt-link slot="Contact" class="maplinkintro maplink" to="/contact">Contact Us</nuxt-link>
-            <nuxt-link slot="Outer" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link>
+            <a slot="Main" class="maplinkintro maplink" href="/pohnpei">Pohnpei</a>
+            <a slot="Interactive" class="maplinkintro maplink" href="/interactive-map">Interactive Map</a>
+            <a slot="Repo" class="maplinkintro maplink" href="/data-repository">Data Repository</a>
+            <a slot="Gallery" class="maplinkintro maplink" href="/gallery">Gallery</a>
+            <a slot="About" class="maplinkintro maplink" href="/about">About</a>
+            <a slot="Contact" class="maplinkintro maplink" href="/contact">Contact Us</a>
+            <a slot="Outer" class="maplinkintro maplink" href="" disabled>Outer Islands (Soon)</a>
 
-            <nuxt-link slot="land" class="maplinkland maplink" to="/pohnpei/land">Land</nuxt-link>
-            <nuxt-link slot="reefs" class="maplinkreefs maplink" to="/pohnpei/reefs">Reefs</nuxt-link>
-            <nuxt-link slot="water" class="maplinkwater maplink" to="/pohnpei/water">Water</nuxt-link>
-            <nuxt-link slot="vegetation" class="maplinkvegetation maplink" to="/pohnpei/vegetation">Vegetation</nuxt-link>
-            <nuxt-link slot="population" class="maplinkpopulation maplink" to="/pohnpei/population">Population</nuxt-link>
-            <nuxt-link slot="infrastructure" class="maplinkinfrastructure maplink" to="/pohnpei/infrastructure">Infrastructure</nuxt-link>
-            <nuxt-link slot="conservation" class="maplinkconservation maplink" to="/pohnpei/conservation">Conservation</nuxt-link>
-            <nuxt-link slot="culture" class="maplinkculture maplink" to="/pohnpei/culture">Culture</nuxt-link>
+            <a slot="land" class="maplinkland maplink" href="/pohnpei/land">Land</a>
+            <a slot="reefs" class="maplinkreefs maplink" href="/pohnpei/reefs">Reefs</a>
+            <a slot="water" class="maplinkwater maplink" href="/pohnpei/water">Water</a>
+            <a slot="vegetation" class="maplinkvegetation maplink" href="/pohnpei/vegetation">Vegetation</a>
+            <a slot="population" class="maplinkpopulation maplink" href="/pohnpei/population">Population</a>
+            <a slot="infrastructure" class="maplinkinfrastructure maplink" href="/pohnpei/infrastructure">Infrastructure</a>
+            <a slot="conservation" class="maplinkconservation maplink" href="/pohnpei/conservation">Conservation</a>
+            <a slot="culture" class="maplinkculture maplink" href="/pohnpei/culture">Culture</a>
 
             <span slot="Yap" class="intro yap">Yap State</span>
-            <nuxt-link slot="yapMain" class="maplinkintro maplink" to="/yap">WAQAB (YAP Proper)</nuxt-link>
+            <a slot="yapMain" class="maplinkintro maplink" href="/yap">WAQAB (YAP Proper)</a>
 
-            <nuxt-link slot="Neighbor" class="maplinkintro maplink" to="" disabled>NEIGHBORING ISLANDS (Soon)</nuxt-link>
+            <a slot="Neighbor" class="maplinkintro maplink" href="oi-yap">NEIGHBORING ISLANDS (Soon)</a>
 
-            <nuxt-link slot="yapland" class="maplinkland maplink" to="/yap/land">Land</nuxt-link>
-            <nuxt-link slot="yapreefs" class="maplinkreefs maplink" to="/yap/reefs">Reefs</nuxt-link>
-            <nuxt-link slot="yapwater" class="maplinkwater maplink" to="/yap/water">Water</nuxt-link>
-            <nuxt-link slot="yapvegetation" class="maplinkvegetation maplink" to="/yap/vegetation">Vegetation</nuxt-link>
-            <nuxt-link slot="yappopulation" class="maplinkpopulation maplink" to="/yap/population">Population</nuxt-link>
-            <nuxt-link slot="yapinfrastructure" class="maplinkinfrastructure maplink" to="/yap/infrastructure">Infrastructure</nuxt-link>
-            <nuxt-link slot="yapconservation" class="maplinkconservation maplink" to="/yap/conservation">Conservation</nuxt-link>
-            <nuxt-link slot="yapculture" class="maplinkculture maplink" to="/yap/culture">Culture</nuxt-link>
+            <a slot="yapland" class="maplinkland maplink" href="/yap/land">Land</a>
+            <a slot="yapreefs" class="maplinkreefs maplink" href="/yap/reefs">Reefs</a>
+            <a slot="yapwater" class="maplinkwater maplink" href="/yap/water">Water</a>
+            <a slot="yapvegetation" class="maplinkvegetation maplink" href="/yap/vegetation">Vegetation</a>
+            <a slot="yappopulation" class="maplinkpopulation maplink" href="/yap/population">Population</a>
+            <a slot="yapinfrastructure" class="maplinkinfrastructure maplink" href="/yap/infrastructure">Infrastructure</a>
+            <a slot="yapconservation" class="maplinkconservation maplink" href="/yap/conservation">Conservation</a>
+            <a slot="yapculture" class="maplinkculture maplink" href="/yap/culture">Culture</a>
 
             <span slot="Kosrae" class="intro kosrae">kosrae state</span>
-            <nuxt-link slot="kosraeMain" class="maplinkintro maplink" to="/kosrae">kosrae</nuxt-link>
-            <!-- <nuxt-link slot="OuterKos" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link> -->
+            <a slot="kosraeMain" class="maplinkintro maplink" href="/kosrae">kosrae</a>
+            <!-- <a slot="OuterKos" class="maplinkintro maplink" href="" disabled>Outer Islands (Soon)</a> -->
 
-            <nuxt-link slot="kosraeland" class="maplinkland maplink" to="/kosrae/land">Land</nuxt-link>
-            <nuxt-link slot="kosraereefs" class="maplinkreefs maplink" to="/kosrae/reefs">Reefs</nuxt-link>
-            <nuxt-link slot="kosraewater" class="maplinkwater maplink" to="/kosrae/water">Water</nuxt-link>
-            <nuxt-link slot="kosraevegetation" class="maplinkvegetation maplink" to="/kosrae/vegetation">Vegetation</nuxt-link>
-            <nuxt-link slot="kosraepopulation" class="maplinkpopulation maplink" to="/kosrae/population">Population</nuxt-link>
-            <nuxt-link slot="kosraeinfrastructure" class="maplinkinfrastructure maplink" to="/kosrae/infrastructure">Infrastructure</nuxt-link>
-            <nuxt-link slot="kosraeconservation" class="maplinkconservation maplink" to="/kosrae/conservation">Conservation</nuxt-link>
-            <nuxt-link slot="kosraeculture" class="maplinkculture maplink" to="/kosrae/culture">Culture</nuxt-link>
+            <a slot="kosraeland" class="maplinkland maplink" href="/kosrae/land">Land</a>
+            <a slot="kosraereefs" class="maplinkreefs maplink" href="/kosrae/reefs">Reefs</a>
+            <a slot="kosraewater" class="maplinkwater maplink" href="/kosrae/water">Water</a>
+            <a slot="kosraevegetation" class="maplinkvegetation maplink" href="/kosrae/vegetation">Vegetation</a>
+            <a slot="kosraepopulation" class="maplinkpopulation maplink" href="/kosrae/population">Population</a>
+            <a slot="kosraeinfrastructure" class="maplinkinfrastructure maplink" href="/kosrae/infrastructure">Infrastructure</a>
+            <a slot="kosraeconservation" class="maplinkconservation maplink" href="/kosrae/conservation">Conservation</a>
+            <a slot="kosraeculture" class="maplinkculture maplink" href="/kosrae/culture">Culture</a>
 
             <span slot="Chuuk lagoon" class="intro chuuk">Chuuk state</span>
-            <nuxt-link slot="chuukMain" class="maplinkintro maplink" to="/chuuk">Chuuk lagoon</nuxt-link>
-            <nuxt-link slot="OuterChuuk" class="maplinkintro maplink" to="" disabled>Outer Islands (Soon)</nuxt-link>
+            <a slot="chuukMain" class="maplinkintro maplink" href="/chuuk">Chuuk lagoon</a>
+            <a slot="OuterChuuk" class="maplinkintro maplink" href="" disabled>Outer Islands (Soon)</a>
 
-            <nuxt-link slot="chuukland" class="maplinkland maplink" to="/chuuk/land">Land</nuxt-link>
-            <nuxt-link slot="chuukreefs" class="maplinkreefs maplink" to="/chuuk/reefs">Reefs</nuxt-link>
-            <nuxt-link slot="chuukwater" class="maplinkwater maplink" to="/chuuk/water">Water</nuxt-link>
-            <nuxt-link slot="chuukvegetation" class="maplinkvegetation maplink" to="/chuuk/vegetation">Vegetation</nuxt-link>
-            <nuxt-link slot="chuukpopulation" class="maplinkpopulation maplink" to="/chuuk/population">Population</nuxt-link>
-            <nuxt-link slot="chuukinfrastructure" class="maplinkinfrastructure maplink" to="/chuuk/infrastructure">Infrastructure</nuxt-link>
-            <nuxt-link slot="chuukconservation" class="maplinkconservation maplink" to="/chuuk/conservation">Conservation</nuxt-link>
-            <nuxt-link slot="chuukculture" class="maplinkculture maplink" to="/chuuk/culture">Culture</nuxt-link>
+            <a slot="chuukland" class="maplinkland maplink" href="/chuuk/land">Land</a>
+            <a slot="chuukreefs" class="maplinkreefs maplink" href="/chuuk/reefs">Reefs</a>
+            <a slot="chuukwater" class="maplinkwater maplink" href="/chuuk/water">Water</a>
+            <a slot="chuukvegetation" class="maplinkvegetation maplink" href="/chuuk/vegetation">Vegetation</a>
+            <a slot="chuukpopulation" class="maplinkpopulation maplink" href="/chuuk/population">Population</a>
+            <a slot="chuukinfrastructure" class="maplinkinfrastructure maplink" href="/chuuk/infrastructure">Infrastructure</a>
+            <a slot="chuukconservation" class="maplinkconservation maplink" href="/chuuk/conservation">Conservation</a>
+            <a slot="chuukculture" class="maplinkculture maplink" href="/chuuk/culture">Culture</a>
 
-            <nuxt-link slot="Acknowledgements" class="maplinkintro maplink" to="/acknowledgements">Acknowledgements</nuxt-link>
-            <nuxt-link slot="Data" class="maplinkintro maplink" to="/data-sources">Data sources</nuxt-link>
+            <a slot="Acknowledgements" class="maplinkintro maplink" href="/acknowledgements">Acknowledgements</a>
+            <a slot="Data" class="maplinkintro maplink" href="/data-sources">Data sources</a>
           </a-tree>
         </client-only>
       </div>
